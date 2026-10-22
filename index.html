@@ -150,9 +150,8 @@ const CONFIG = {
     sleeper: { username: "jamesdpratt" },
     espn: { leagueId: "811300233", leagueName: "i boned joshes mom" }
   },
-  // Weather uses lat/lon. Surf uses surfLat/surfLon, which should sit just offshore of the break.
-  location: { label: "San Francisco", lat: 37.7749, lon: -122.4194, surfName: "Ocean Beach", surfLat: 37.76, surfLon: -122.55 },
-  // The quote changes daily, in order. Swap in your own.
+  // Weather and surf both centered on Ocean Beach, SF.
+  location: { label: "Ocean Beach, SF", lat: 37.768, lon: -122.511, surfName: "Ocean Beach", surfLat: 37.758, surfLon: -122.55 },
   quotes: [
     ["It is not that we have a short time to live, but that we waste much of it.", "Seneca"],
     ["Waste no more time arguing about what a good person should be. Be one.", "Marcus Aurelius"],
@@ -190,6 +189,7 @@ const fmtTime = (d) => d.toLocaleTimeString(undefined, { hour: "numeric", minute
 const cut = (s, n) => (s.length <= n ? s : s.slice(0, n).replace(/\s+\S*$/, "") + "…");
 const dayShort = (iso) => new Date(iso).toLocaleDateString(undefined, { weekday: "short" });
 const cToF = (c) => (Number.isFinite(c) ? (c * 9) / 5 + 32 : NaN);
+const mToFt = (m) => (Number.isFinite(m) ? m * 3.28084 : NaN);
 let lastLoad = 0;
 
 async function getJSON(url) {
@@ -236,14 +236,16 @@ async function loadWeather() {
 async function loadSurf() {
   const L = CONFIG.location;
   try {
-    const m = await getJSON(`https://marine-api.open-meteo.com/v1/marine?latitude=${L.surfLat}&longitude=${L.surfLon}&daily=wave_height_max,wave_height_min,swell_wave_period_max,swell_wave_direction&timezone=auto`);
+    const m = await getJSON(`https://marine-api.open-meteo.com/v1/marine?latitude=${L.surfLat}&longitude=${L.surfLon}&daily=wave_height_max,wave_height_min,swell_wave_period_max,swell_wave_direction&wave_height_unit=ft&timezone=auto`);
     const h = m.daily || {};
     const times = (h.time || []).slice(0, 7);
     const entries = times.map((t, i) => {
-      const max = Number(h.wave_height_max?.[i]);
-      const min = Number(h.wave_height_min?.[i]);
+      const maxRaw = Number(h.wave_height_max?.[i]);
+      const minRaw = Number(h.wave_height_min?.[i]);
       const period = Number(h.swell_wave_period_max?.[i]);
       const dir = Number(h.swell_wave_direction?.[i]);
+      const max = mToFt(maxRaw);
+      const min = mToFt(minRaw);
       if (!Number.isFinite(max) && !Number.isFinite(min)) return null;
       return { date: t, max: Number.isFinite(max) ? max : 0, min: Number.isFinite(min) ? min : max || 0, period, dir };
     }).filter(Boolean);
