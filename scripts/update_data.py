@@ -298,6 +298,43 @@ def parse_events(data):
     return games
 
 
+def pga_events():
+    candidates = [
+        "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard",
+        "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=" + datetime.now(TZ).strftime("%Y%m%d"),
+        "https://site.api.espn.com/apis/site/v2/sports/golf/pga/schedule",
+    ]
+    seen = set()
+    for url in candidates:
+        if url in seen:
+            continue
+        seen.add(url)
+        try:
+            payload = json.loads(fetch(url))
+            items = payload.get("events") or payload.get("items") or []
+            out = []
+            for ev in items[:5]:
+                start = None
+                for key in ("date", "startDate", "endDate"):
+                    if key in ev:
+                        start = parse_date(ev[key])
+                        if start:
+                            break
+                name = ev.get("name") or ev.get("shortName") or ev.get("summary") or (ev.get("tournament") or {}).get("name") or "PGA event"
+                if not name:
+                    continue
+                out.append({
+                    "name": name,
+                    "time": start.astimezone(TZ).strftime("%-I:%M %p") if start else "TBD",
+                    "state": ((ev.get("status") or {}).get("type") or {}).get("state", "pre"),
+                })
+            if out:
+                return out[:3]
+        except Exception as e:
+            print(f"[pga failed] {e}", file=sys.stderr)
+    return []
+
+
 def sports():
     day = datetime.now(TZ).strftime("%Y%m%d")
     out = {"date": day, "nba": None, "nfl": None, "pga": None}
@@ -316,21 +353,9 @@ def sports():
         out["nfl"] = {"count": len(games), "primetime": prime[:3], "all": games[:3]}
     except Exception as e:
         print(f"[nfl failed] {e}", file=sys.stderr)
-    try:
-        pga_url = "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=" + day
-        data = json.loads(fetch(pga_url))
-        events = []
-        for ev in (data.get("events") or [])[:5]:
-            start = parse_utc(ev["date"]).astimezone(TZ)
-            name = ev.get("name") or ev.get("shortName") or "PGA event"
-            events.append({
-                "name": name,
-                "time": start.strftime("%-I:%M %p"),
-                "state": ((ev.get("status") or {}).get("type") or {}).get("state", "pre"),
-            })
-        out["pga"] = {"events": events[:3]}
-    except Exception as e:
-        print(f"[pga failed] {e}", file=sys.stderr)
+    events = pga_events()
+    if events:
+        out["pga"] = {"events": events}
     return out
 
 
