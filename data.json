@@ -1,0 +1,156 @@
+{
+ "generated": "2026-10-21T17:35:52.727550-07:00",
+ "ai": false,
+ "overview": "",
+ "sections": [
+  {
+   "key": "general",
+   "title": "Top news",
+   "items": [
+    {
+     "title": "Trump Asks Supreme Court to Allow Border Wall Construction in Big Bend",
+     "summary": "",
+     "url": "https://www.nytimes.com/2026/10/21/us/politics/trump-supreme-court-border-wall.html",
+     "source": "NYT"
+    },
+    {
+     "title": "Citing 'challenges,' AIPAC halts endorsements and direct contributions to candidates",
+     "summary": "",
+     "url": "https://www.npr.org/2026/10/21/nx-s1-6011531/aipac-campaign-contributions-israel-democrats",
+     "source": "NPR"
+    },
+    {
+     "title": "The real reasons US politicians are getting older",
+     "summary": "",
+     "url": "https://www.bbc.co.uk/news/articles/cmde8rr2d6eno?at_medium=RSS&at_campaign=rss",
+     "source": "BBC"
+    },
+    {
+     "title": "Why a Pillar of Christian Journalism is in Turmoil",
+     "summary": "",
+     "url": "https://www.nytimes.com/2026/10/21/us/christianity-today-magazine-layoffs.html",
+     "source": "NYT"
+    }
+   ]
+  },
+  {
+   "key": "cre",
+   "title": "Commercial real estate",
+   "items": [
+    {
+     "title": "Genting Lands $500M to Refi Mixed-Use Omni Center in Miami",
+     "summary": "",
+     "url": "https://commercialobserver.com/2026/10/genting-miami-omni-center-wells-fargo/",
+     "source": "Commercial Observer"
+    },
+    {
+     "title": "Ken Griffin Seals $3.3B Construction Loan for Manhattan Office Tower",
+     "summary": "",
+     "url": "https://commercialobserver.com/2026/10/ken-griffin-citadel-350-park-manhattan/",
+     "source": "Commercial Observer"
+    },
+    {
+     "title": "Canadian Investor Buys Two Hotels in Palm Beach County for More Than $48M",
+     "summary": "",
+     "url": "https://commercialobserver.com/2026/10/brasswater-hampton-inns-west-palm-beach-boynton-beach-hospitality/",
+     "source": "Commercial Observer"
+    },
+    {
+     "title": "Mexican Eatery Casa Carmen to Open Third Manhattan Location",
+     "summary": "",
+     "url": "https://commercialobserver.com/2026/10/casa-carmen-lease-sage-437-madison-avenue/",
+     "source": "Commercial Observer"
+    }
+   ]
+  },
+  {
+   "key": "sf",
+   "title": "San Francisco",
+   "items": [
+    {
+     "title": "Husband of slain UCSF social worker sues city over ‘woefully inadequate security’",
+     "summary": "",
+     "url": "https://missionlocal.org/2026/10/husband-of-slain-ucsf-social-worker-sues-city/",
+     "source": "Mission Local"
+    },
+    {
+     "title": "Pelosi, other lawmakers get suspicious substance in mail",
+     "summary": "",
+     "url": "https://sfstandard.com/2026/10/21/pelosi-among-lawmakers-to-receive-suspicious-letter/",
+     "source": "SF Standard"
+    },
+    {
+     "title": "Meet the District 8 candidates: Should S.F. expand rent control?",
+     "summary": "",
+     "url": "https://missionlocal.org/2026/10/sf-district-8-supervisor-candidates-rent-control/",
+     "source": "Mission Local"
+    },
+    {
+     "title": "Ken Fulk is selling his beloved ‘Tree House’ for $7.9 million — and moving to a new hill",
+     "summary": "",
+     "url": "https://sfstandard.com/2026/10/21/ken-fulk-tree-house-clarendon-heights-sale/",
+     "source": "SF Standard"
+    }
+   ]
+  },
+  {
+   "key": "hawaii",
+   "title": "Hawaii",
+   "items": [
+    {
+     "title": "Apple says iPhone Duo supply will be limited for Friday launch",
+     "summary": "",
+     "url": "https://www.staradvertiser.com/2026/10/21/breaking-news/apple-says-iphone-duo-supply-will-be-limited-for-friday-launch/",
+     "source": "Star-Advertiser"
+    },
+    {
+     "title": "Word Search: Scary Movies",
+     "summary": "",
+     "url": "https://www.civilbeat.org/2026/10/word-search-scary-movies/",
+     "source": "Civil Beat"
+    },
+    {
+     "title": "Vance defends Ramaswamy’s explosive attack ad in Ohio governor race",
+     "summary": "",
+     "url": "https://www.staradvertiser.com/2026/10/21/breaking-news/vance-defends-ramaswamys-explosive-attack-ad-in-ohio-governor-race/",
+     "source": "Star-Advertiser"
+    },
+    {
+     "title": "Lines Drawn In Princeville Battle: Golf Course Views Vs. Luxury Development",
+     "summary": "",
+     "url": "https://www.civilbeat.org/2026/10/lines-drawn-in-princeville-battle-golf-course-views-vs-luxury-development/",
+     "source": "Civil Beat"
+    }
+   ]
+  }
+ ],
+ "sports": {
+  "date": "20261021",
+  "nba": {
+   "count": 11,
+   "warriors": [
+    {
+     "matchup": "Warriors at Lakers",
+     "time": "7:00 PM",
+     "network": "ESPN",
+     "state": "pre",
+     "start_hour": 19
+    }
+   ],
+   "national": [
+    {
+     "matchup": "Timberwolves at Heat",
+     "time": "4:30 PM",
+     "network": "ESPN",
+     "state": "in",
+     "start_hour": 16
+    }
+   ]
+  },
+  "nfl": {
+   "count": 0,
+   "primetime": [],
+   "all": []
+  }
+ }
+}
