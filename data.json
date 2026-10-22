@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-21T17:35:52.727550-07:00",
+ "generated": "2026-10-21T19:51:30.416329-07:00",
  "ai": false,
  "overview": "",
  "sections": [
@@ -8,27 +8,21 @@
    "title": "Top news",
    "items": [
     {
-     "title": "Trump Asks Supreme Court to Allow Border Wall Construction in Big Bend",
+     "title": "Judge Restricts D.H.S. Field Operations Aimed at Unearthing Voter Fraud",
      "summary": "",
-     "url": "https://www.nytimes.com/2026/10/21/us/politics/trump-supreme-court-border-wall.html",
+     "url": "https://www.nytimes.com/2026/10/21/us/politics/judge-dhs-voter-fraud-elections.html",
      "source": "NYT"
     },
     {
-     "title": "Citing 'challenges,' AIPAC halts endorsements and direct contributions to candidates",
+     "title": "How Mark Zuckerberg Pushed Meta to Shield Him From California’s Proposed Wealth Tax",
      "summary": "",
-     "url": "https://www.npr.org/2026/10/21/nx-s1-6011531/aipac-campaign-contributions-israel-democrats",
-     "source": "NPR"
+     "url": "https://www.nytimes.com/2026/10/21/technology/mark-zuckerberg-meta-california-wealth-tax.html",
+     "source": "NYT"
     },
     {
-     "title": "The real reasons US politicians are getting older",
+     "title": "U.S. and Israel Draw Up Plans for Renewed Strikes on Iran After Elections",
      "summary": "",
-     "url": "https://www.bbc.co.uk/news/articles/cmde8rr2d6eno?at_medium=RSS&at_campaign=rss",
-     "source": "BBC"
-    },
-    {
-     "title": "Why a Pillar of Christian Journalism is in Turmoil",
-     "summary": "",
-     "url": "https://www.nytimes.com/2026/10/21/us/christianity-today-magazine-layoffs.html",
+     "url": "https://www.nytimes.com/2026/10/21/us/politics/us-israel-renewed-iran-strikes.html",
      "source": "NYT"
     }
    ]
@@ -37,12 +31,6 @@
    "key": "cre",
    "title": "Commercial real estate",
    "items": [
-    {
-     "title": "Genting Lands $500M to Refi Mixed-Use Omni Center in Miami",
-     "summary": "",
-     "url": "https://commercialobserver.com/2026/10/genting-miami-omni-center-wells-fargo/",
-     "source": "Commercial Observer"
-    },
     {
      "title": "Ken Griffin Seals $3.3B Construction Loan for Manhattan Office Tower",
      "summary": "",
@@ -60,6 +48,12 @@
      "summary": "",
      "url": "https://commercialobserver.com/2026/10/casa-carmen-lease-sage-437-madison-avenue/",
      "source": "Commercial Observer"
+    },
+    {
+     "title": "L.A. Multifamily Sales Jump 44%",
+     "summary": "",
+     "url": "https://commercialobserver.com/2026/10/la-multifamily-investment-rent-q3/",
+     "source": "Commercial Observer"
     }
    ]
   },
@@ -68,21 +62,15 @@
    "title": "San Francisco",
    "items": [
     {
-     "title": "Husband of slain UCSF social worker sues city over ‘woefully inadequate security’",
+     "title": "How ‘the mayor’s network’ landed a private school kid a commissioner role",
      "summary": "",
-     "url": "https://missionlocal.org/2026/10/husband-of-slain-ucsf-social-worker-sues-city/",
-     "source": "Mission Local"
-    },
-    {
-     "title": "Pelosi, other lawmakers get suspicious substance in mail",
-     "summary": "",
-     "url": "https://sfstandard.com/2026/10/21/pelosi-among-lawmakers-to-receive-suspicious-letter/",
+     "url": "https://sfstandard.com/2026/10/21/power-play-mayor-network-landed-private-school-kid-commissioner-role/",
      "source": "SF Standard"
     },
     {
-     "title": "Meet the District 8 candidates: Should S.F. expand rent control?",
+     "title": "Husband of slain UCSF social worker sues city over ‘woefully inadequate security’",
      "summary": "",
-     "url": "https://missionlocal.org/2026/10/sf-district-8-supervisor-candidates-rent-control/",
+     "url": "https://missionlocal.org/2026/10/husband-of-slain-ucsf-social-worker-sues-city/",
      "source": "Mission Local"
     },
     {
@@ -90,6 +78,12 @@
      "summary": "",
      "url": "https://sfstandard.com/2026/10/21/ken-fulk-tree-house-clarendon-heights-sale/",
      "source": "SF Standard"
+    },
+    {
+     "title": "Meet the District 8 candidates: Should S.F. expand rent control?",
+     "summary": "",
+     "url": "https://missionlocal.org/2026/10/sf-district-8-supervisor-candidates-rent-control/",
+     "source": "Mission Local"
     }
    ]
   },
@@ -98,21 +92,15 @@
    "title": "Hawaii",
    "items": [
     {
-     "title": "Apple says iPhone Duo supply will be limited for Friday launch",
+     "title": "Looks Like OHA Has A New CEO",
      "summary": "",
-     "url": "https://www.staradvertiser.com/2026/10/21/breaking-news/apple-says-iphone-duo-supply-will-be-limited-for-friday-launch/",
-     "source": "Star-Advertiser"
-    },
-    {
-     "title": "Word Search: Scary Movies",
-     "summary": "",
-     "url": "https://www.civilbeat.org/2026/10/word-search-scary-movies/",
+     "url": "https://www.civilbeat.org/2026/10/looks-like-oha-has-a-new-ceo/",
      "source": "Civil Beat"
     },
     {
-     "title": "Vance defends Ramaswamy’s explosive attack ad in Ohio governor race",
+     "title": "CDC ignored request from states to validate new measles test",
      "summary": "",
-     "url": "https://www.staradvertiser.com/2026/10/21/breaking-news/vance-defends-ramaswamys-explosive-attack-ad-in-ohio-governor-race/",
+     "url": "https://www.staradvertiser.com/2026/10/21/breaking-news/cdc-ignored-request-from-states-to-validate-new-measles-test/",
      "source": "Star-Advertiser"
     },
     {
@@ -120,6 +108,12 @@
      "summary": "",
      "url": "https://www.civilbeat.org/2026/10/lines-drawn-in-princeville-battle-golf-course-views-vs-luxury-development/",
      "source": "Civil Beat"
+    },
+    {
+     "title": "Bodyboarder, 32, rescued off Hapuna Beach",
+     "summary": "",
+     "url": "https://www.staradvertiser.com/2026/10/21/breaking-news/bodyboarder-32-rescued-off-hapuna-beach/",
+     "source": "Star-Advertiser"
     }
    ]
   }
@@ -133,7 +127,7 @@
      "matchup": "Warriors at Lakers",
      "time": "7:00 PM",
      "network": "ESPN",
-     "state": "pre",
+     "state": "in",
      "start_hour": 19
     }
    ],
@@ -142,7 +136,7 @@
      "matchup": "Timberwolves at Heat",
      "time": "4:30 PM",
      "network": "ESPN",
-     "state": "in",
+     "state": "post",
      "start_hour": 16
     }
    ]
@@ -151,6 +145,15 @@
    "count": 0,
    "primetime": [],
    "all": []
+  },
+  "pga": {
+   "events": [
+    {
+     "name": "Butterfield Bermuda Championship",
+     "time": "9:00 PM",
+     "state": "pre"
+    }
+   ]
   }
  }
 }
