@@ -337,7 +337,7 @@ def pga_events():
 
 def sports():
     day = datetime.now(TZ).strftime("%Y%m%d")
-    out = {"date": day, "nba": None, "nfl": None, "pga": None}
+    out = {"date": day, "nba": None, "nfl": None, "pga": {"events": []}}
     base = "https://site.api.espn.com/apis/site/v2/sports/{}/{}/scoreboard?dates=" + day
     try:
         games = parse_events(json.loads(fetch(base.format("basketball", "nba"))))
@@ -354,8 +354,7 @@ def sports():
     except Exception as e:
         print(f"[nfl failed] {e}", file=sys.stderr)
     events = pga_events()
-    if events:
-        out["pga"] = {"events": events}
+    out["pga"] = {"events": events}
     return out
 
 
