@@ -60,7 +60,15 @@ button:focus-visible, a:focus-visible { outline: 3px solid var(--accent); outlin
 .card h2 { margin: 0 0 10px; font-size: 1rem; font-weight: 600; color: var(--muted); }
 
 .brief { grid-column: span 12; border-radius: 24px; padding: 28px 30px; }
-.brief .overview { font-family: var(--serif); font-size: clamp(1.25rem, 2.3vw, 1.6rem); line-height: 1.6; margin: 0; max-width: 70ch; }
+.brief .overview {
+  font-family: var(--serif);
+  font-size: clamp(1.05rem, 1.7vw, 1.35rem);
+  line-height: 1.5;
+  margin: 0;
+  max-width: 100%;
+  text-align: justify;
+  text-wrap: pretty;
+}
 .brief .meta { margin: 14px 0 0; font-size: 0.85rem; color: var(--muted); }
 
 .news { grid-column: span 6; border-radius: 16px; }
@@ -205,7 +213,7 @@ function renderQuote() {
 async function loadWeather() {
   const L = CONFIG.location;
   try {
-    const d = await getJSON(`https://api.open-meteo.com/v1/forecast?latitude=${L.lat}&longitude=${L.lon}&current=temperature_2m,apparent_temperature,weather_code,wind_speed_10m,wind_direction_10m&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max,weather_code&temperature_unit=fahrenheit&wind_speed_unit=mph&timezone=auto`);
+    const d = await getJSON(`https://api.open-meteo.com/v1/forecast?latitude=${L.lat}&longitude=${L.lon}&current=temperature_2m,apparent_temperature,weather_code,wind_speed_10m,wind_direction_10m&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max&temperature_unit=fahrenheit&wind_speed_unit=mph&timezone=auto`);
     const c = d.current;
     const daily = d.daily || {};
     const hi = Number(daily.temperature_2m_max?.[0]);
@@ -221,25 +229,32 @@ async function loadWeather() {
   }
 }
 
-/* ---------- surf (small, daily wave size) ---------- */
+/* ---------- surf (small, weekly ocean beach view) ---------- */
 async function loadSurf() {
   const L = CONFIG.location;
   try {
-    const m = await getJSON(`https://marine-api.open-meteo.com/v1/marine?latitude=${L.surfLat}&longitude=${L.surfLon}&daily=wave_height_max,wave_height_min,swell_wave_period_max,swell_wave_direction_dominant&timezone=auto&length_unit=imperial`);
+    const m = await getJSON(`https://marine-api.open-meteo.com/v1/marine?latitude=${L.surfLat}&longitude=${L.surfLon}&daily=wave_height_max,wave_height_min,swell_wave_period_max,swell_wave_direction&timezone=auto`);
     const h = m.daily || {};
-    const values = (h.wave_height_max || []).filter((v) => v != null && Number.isFinite(Number(v)));
-    if (!values.length) throw new Error("no data");
-    const lo = Math.min(...values), hi = Math.max(...values);
-    const week = (h.time || []).slice(0, 7).map((t, i) => {
-      const val = Number(h.wave_height_max?.[i]);
-      return val != null ? `${dayShort(t)} ${val.toFixed(1)}ft` : null;
-    }).filter(Boolean).slice(0, 4).join(" • ");
+    const times = (h.time || []).slice(0, 7);
+    const entries = times.map((t, i) => {
+      const max = Number(h.wave_height_max?.[i]);
+      const min = Number(h.wave_height_min?.[i]);
+      const period = Number(h.swell_wave_period_max?.[i]);
+      const dir = Number(h.swell_wave_direction?.[i]);
+      if (!Number.isFinite(max) && !Number.isFinite(min)) return null;
+      return { date: t, max: Number.isFinite(max) ? max : 0, min: Number.isFinite(min) ? min : max || 0, period, dir };
+    }).filter(Boolean);
+    if (!entries.length) throw new Error("no data");
+    const best = entries.reduce((acc, cur) => (cur.max > acc.max ? cur : acc), entries[0]);
+    const week = entries.slice(0, 5).map((item) => `${dayShort(item.date)} ${item.max.toFixed(1)}ft`).join(" • ");
+    const dirText = Number.isFinite(best.dir) ? ` • ${compass(best.dir)}` : "";
     $("surf").innerHTML = `
       <h2>Surf, ${esc(L.surfName)}</h2>
-      <p class="big">${lo.toFixed(1)} to ${hi.toFixed(1)} ft</p>
+      <p class="big">${best.min.toFixed(1)}–${best.max.toFixed(1)} ft</p>
+      <p class="muted">Best window: ${esc(dayShort(best.date))}${dirText}</p>
       <p class="muted">Week outlook: ${esc(week || "Checking the next days.")}</p>`;
   } catch (e) {
-    $("surf").innerHTML = `<h2>Surf</h2><p class="err">No wave data right now.</p>`;
+    $("surf").innerHTML = `<h2>Surf</h2><p class="err">No wave forecast right now.</p>`;
   }
 }
 
@@ -273,7 +288,8 @@ function gameLine(g) {
 
 function eventLine(g) {
   const when = g.state === "in" ? "live" : g.state === "post" ? "final" : g.time + " PT";
-  return `${esc(g.name)}, ${esc(when)}`;
+  const label = g.label ? ` • ${esc(g.label)}` : "";
+  return `${esc(g.name)}${label}, ${esc(when)}`;
 }
 
 function renderSports(s) {
@@ -295,9 +311,11 @@ function renderSports(s) {
     const list = (s.nfl.all || []).slice(0, 3).length ? (s.nfl.all || []).slice(0, 3) : (s.nfl.primetime || []).slice(0, 3);
     h += list.map((g) => `<p><b>${(s.nfl.all || []).slice(0, 3).length ? "Game" : "Primetime"}:</b> ${gameLine(g)}</p>`).join("");
   }
-  if (s.pga && s.pga.events && s.pga.events.length) {
-    h += `<h3>PGA</h3>`;
-    h += s.pga.events.slice(0, 3).map((g) => `<p><b>${esc(g.name)}:</b> ${eventLine(g)}</p>`).join("");
+  h += `<h3>PGA</h3>`;
+  if (!(s.pga && Array.isArray(s.pga.events) && s.pga.events.length)) {
+    h += `<p class="muted">No active events.</p>`;
+  } else {
+    h += (s.pga.events || []).slice(0, 3).map((g) => `<p>${eventLine(g)}</p>`).join("");
   }
   $("sports").innerHTML = h;
 }
