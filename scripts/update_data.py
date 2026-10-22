@@ -42,6 +42,35 @@ ITEMS_PER_FEED = 6          # most recent items kept from each feed
 MAX_AGE_HOURS = 40          # ignore anything older than this
 PICKS_PER_SECTION = 4       # stories shown per section
 
+SECTION_KEYWORDS = {
+    "general": [
+        "commercial real estate", "real estate", "san francisco", "sf", "bay area",
+        "hawaii", "kauai", "housing", "economy", "california", "business"
+    ],
+    "cre": [
+        "commercial real estate", "office", "industrial", "retail", "multifamily",
+        "apartment", "development", "lease", "rent", "property", "real estate",
+        "office market", "capital markets", "buildings"
+    ],
+    "sf": [
+        "san francisco", "sf", "bay area", "oakland", "city hall", "california",
+        "housing", "transit", "bart", "muni", "police", "school", "mayor"
+    ],
+    "hawaii": [
+        "hawaii", "kauai", "oahu", "maui", "honolulu", "big island", "state",
+        "tourism", "housing", "beach", "weather", "wildfire", "coast", "water",
+        "school", "economy", "surf"
+    ],
+}
+SECTION_EXCLUSIONS = {
+    "hawaii": [
+        "scary movie", "movie", "movies", "film", "vance", "ramaswamy", "ramaswamy",
+        "trump", "election", "president", "meme", "podcast", "renovation"
+    ],
+    "sf": ["movie", "film", "entertainment", "celebrity"],
+    "general": ["word search"],
+}
+
 TEAM = "Warriors"                                           # always shown when they play
 NBA_NATIONAL = ["ESPN", "ABC", "NBC", "Peacock", "Prime Video"]   # "primetime" NBA = on one of these
 NFL_PRIMETIME_START_HOUR_PT = 17                            # NFL games starting at or after 5pm PT
@@ -77,6 +106,19 @@ def parse_date(text):
     if dt.tzinfo is None:
         dt = dt.replace(tzinfo=timezone.utc)
     return dt
+
+
+def matches_topic(title, desc, key):
+    text = f"{title or ''} {desc or ''}".lower()
+    keywords = SECTION_KEYWORDS.get(key, [])
+    if not keywords:
+        return True
+    if not any(kw in text for kw in keywords):
+        return False
+    ex = SECTION_EXCLUSIONS.get(key, [])
+    if any(term in text for term in ex):
+        return False
+    return True
 
 
 def parse_feed(xml_bytes, source):
@@ -116,6 +158,8 @@ def collect_news():
         for source, url in feeds:
             try:
                 for it in parse_feed(fetch(url), source):
+                    if not matches_topic(it["title"], it["desc"], key):
+                        continue
                     k = it["title"].lower()
                     if k not in seen:
                         seen.add(k)
@@ -133,13 +177,13 @@ def collect_news():
 PROMPT_HEAD = """You write a short morning news briefing for one reader: a commercial real estate valuation analyst based in San Francisco with family ties to Kauai, Hawaii.
 
 Below are today's headlines grouped by section. Each line is: id | source | headline | snippet.
-Use ONLY these items. Do not add facts that are not in them. Do not speculate.
+Use ONLY these items. Do not add facts that are not in them. Do not speculate. Prefer stories that directly match each section's topic; skip generic or off-topic items.
 
 Return JSON in exactly this shape:
 {"overview": "...", "sections": {"general": [{"id": "general-0", "summary": "..."}], "cre": [], "sf": [], "hawaii": []}}
 
 Rules:
-- "overview": 4 to 6 plain sentences, no bullets or markdown, leading with the most important stories across all sections. Mention commercial real estate, San Francisco, or Hawaii only if the items contain real news about them.
+- "overview": 4 to 6 plain sentences, no bullets or markdown, leading with the most important stories across all sections. Mention commercial real estate, San Francisco, or Hawaii only if the item is actually relevant.
 - For each section choose the 3 or 4 most important items and give each a one-sentence "summary" of at most 25 words, restating what the item says.
 - Use only ids that appear below. If a section has no items, return an empty list for it.
 
@@ -256,22 +300,37 @@ def parse_events(data):
 
 def sports():
     day = datetime.now(TZ).strftime("%Y%m%d")
-    out = {"date": day, "nba": None, "nfl": None}
+    out = {"date": day, "nba": None, "nfl": None, "pga": None}
     base = "https://site.api.espn.com/apis/site/v2/sports/{}/{}/scoreboard?dates=" + day
     try:
         games = parse_events(json.loads(fetch(base.format("basketball", "nba"))))
         warriors = [g for g in games if TEAM.lower() in g["matchup"].lower()]
         national = [g for g in games if g not in warriors
                     and any(n.lower() in g["network"].lower() for n in NBA_NATIONAL)]
-        out["nba"] = {"count": len(games), "warriors": warriors, "national": national}
+        out["nba"] = {"count": len(games), "warriors": warriors[:2], "national": national[:2]}
     except Exception as e:
         print(f"[nba failed] {e}", file=sys.stderr)
     try:
         games = parse_events(json.loads(fetch(base.format("football", "nfl"))))
         prime = [g for g in games if g["start_hour"] >= NFL_PRIMETIME_START_HOUR_PT]
-        out["nfl"] = {"count": len(games), "primetime": prime, "all": games if len(games) <= 3 else []}
+        out["nfl"] = {"count": len(games), "primetime": prime[:3], "all": games[:3]}
     except Exception as e:
         print(f"[nfl failed] {e}", file=sys.stderr)
+    try:
+        pga_url = "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=" + day
+        data = json.loads(fetch(pga_url))
+        events = []
+        for ev in (data.get("events") or [])[:5]:
+            start = parse_utc(ev["date"]).astimezone(TZ)
+            name = ev.get("name") or ev.get("shortName") or "PGA event"
+            events.append({
+                "name": name,
+                "time": start.strftime("%-I:%M %p"),
+                "state": ((ev.get("status") or {}).get("type") or {}).get("state", "pre"),
+            })
+        out["pga"] = {"events": events[:3]}
+    except Exception as e:
+        print(f"[pga failed] {e}", file=sys.stderr)
     return out
 
 
