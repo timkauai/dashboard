@@ -49,8 +49,10 @@ SECTION_KEYWORDS = {
     ],
     "cre": [
         "commercial real estate", "office", "industrial", "retail", "multifamily",
-        "apartment", "development", "lease", "rent", "property", "real estate",
-        "office market", "capital markets", "buildings"
+        "apartment", "development", "market", "markets", "demand", "vacancy",
+        "rents", "rent", "rates", "capital markets", "property", "real estate",
+        "office market", "investing", "investment", "valuation", "economy",
+        "housing", "supply", "pricing", "outlook", "sales volume"
     ],
     "sf": [
         "san francisco", "sf", "bay area", "oakland", "city hall", "california",
@@ -69,6 +71,12 @@ SECTION_EXCLUSIONS = {
     ],
     "sf": ["movie", "film", "entertainment", "celebrity"],
     "general": ["word search"],
+    "cre": [
+        "deal", "deals", "deal flow", "transaction", "transactions", "acquisition",
+        "acquisitions", "buyout", "buyer", "seller", "sale", "sales", "lease",
+        "leases", "lease-up", "condo", "condos", "tower", "buildings",
+        "loan", "loans", "bridge loan"
+    ],
 }
 
 TEAM = "Warriors"                                           # always shown when they play
@@ -183,7 +191,7 @@ Return JSON in exactly this shape:
 {"overview": "...", "sections": {"general": [{"id": "general-0", "summary": "..."}], "cre": [], "sf": [], "hawaii": []}}
 
 Rules:
-- "overview": 4 to 6 plain sentences, no bullets or markdown, leading with the most important stories across all sections. Mention commercial real estate, San Francisco, or Hawaii only if the item is actually relevant.
+- "overview": 4 to 6 plain sentences, no bullets or markdown, leading with the most important stories across all sections. Mention commercial real estate, San Francisco, or Hawaii only if the item is actually in the headlines. Keep it macro and readable, not a list of deal details.
 - For each section choose the 3 or 4 most important items and give each a one-sentence "summary" of at most 25 words, restating what the item says.
 - Use only ids that appear below. If a section has no items, return an empty list for it.
 
@@ -323,10 +331,18 @@ def pga_events():
                 name = ev.get("name") or ev.get("shortName") or ev.get("summary") or (ev.get("tournament") or {}).get("name") or "PGA event"
                 if not name:
                     continue
+                label = ""
+                status = ev.get("status") or {}
+                type_info = status.get("type") or {}
+                for candidate in (type_info.get("detail"), type_info.get("description"), status.get("detail"), status.get("description"), type_info.get("state")):
+                    if isinstance(candidate, str) and candidate.strip():
+                        label = candidate.strip()
+                        break
                 out.append({
                     "name": name,
                     "time": start.astimezone(TZ).strftime("%-I:%M %p") if start else "TBD",
                     "state": ((ev.get("status") or {}).get("type") or {}).get("state", "pre"),
+                    "label": label[:40],
                 })
             if out:
                 return out[:3]
