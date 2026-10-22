@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-21T19:51:30.416329-07:00",
+ "generated": "2026-10-21T20:03:05.192496-07:00",
  "ai": false,
  "overview": "",
  "sections": [
@@ -92,6 +92,12 @@
    "title": "Hawaii",
    "items": [
     {
+     "title": "Hawaii’s 10th case of travel-related dengue confirmed on Maui",
+     "summary": "",
+     "url": "https://www.staradvertiser.com/2026/10/21/breaking-news/hawaiis-10th-case-of-travel-related-dengue-confirmed-on-maui/",
+     "source": "Star-Advertiser"
+    },
+    {
      "title": "Looks Like OHA Has A New CEO",
      "summary": "",
      "url": "https://www.civilbeat.org/2026/10/looks-like-oha-has-a-new-ceo/",
@@ -108,12 +114,6 @@
      "summary": "",
      "url": "https://www.civilbeat.org/2026/10/lines-drawn-in-princeville-battle-golf-course-views-vs-luxury-development/",
      "source": "Civil Beat"
-    },
-    {
-     "title": "Bodyboarder, 32, rescued off Hapuna Beach",
-     "summary": "",
-     "url": "https://www.staradvertiser.com/2026/10/21/breaking-news/bodyboarder-32-rescued-off-hapuna-beach/",
-     "source": "Star-Advertiser"
     }
    ]
   }
