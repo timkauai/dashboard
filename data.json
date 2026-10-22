@@ -1,82 +1,33 @@
 {
- "generated": "2026-10-21T20:33:56.633130-07:00",
+ "generated": "2026-10-22T10:55:09.349864-07:00",
  "ai": true,
- "overview": "A federal judge has issued a ruling restricting homeland security field operations aimed at unearthing voter fraud across multiple states including California. In commercial real estate news, Ken Griffin secured a massive construction loan for a Manhattan office tower, while Los Angeles multifamily sales saw a notable jump. Locally in San Francisco, the husband of a slain UCSF social worker is suing the city over inadequate security at the hospital. Meanwhile, developments in Hawaii include a board vote for a new Office of Hawaiian Affairs CEO and a community battle over a luxury housing proposal in Princeville.",
+ "overview": "A federal judge ordered President Trump to sit for a deposition in his defamation lawsuit against the BBC. The U.S. Embassy in Canada alleged potential election interference following tariff disputes. Meanwhile, a 152-unit housing project in San Francisco's Mission District is finally breaking ground with reduced community benefits. In Hawaii, the Honolulu Police Department is reassigning officers amid hundreds of vacancies, and residents served by a storm-damaged private water system seek to take it over.",
  "sections": [
   {
    "key": "general",
    "title": "Top news",
    "items": [
     {
-     "title": "Judge Restricts D.H.S. Field Operations Aimed at Unearthing Voter Fraud",
-     "summary": "A judge blocked homeland security agents from conducting field interviews in nine states, including California, regarding noncitizen voter registration.",
-     "url": "https://www.nytimes.com/2026/10/21/us/politics/judge-dhs-voter-fraud-elections.html",
-     "source": "NYT"
-    },
-    {
-     "title": "How Mark Zuckerberg Pushed Meta to Shield Him From California’s Proposed Wealth Tax",
-     "summary": "Mark Zuckerberg told Meta's board he planned to sell his Silicon Valley home to avoid a proposed California wealth tax, prompting a stock structure change.",
-     "url": "https://www.nytimes.com/2026/10/21/technology/mark-zuckerberg-meta-california-wealth-tax.html",
-     "source": "NYT"
-    },
-    {
-     "title": "U.S. and Israel Draw Up Plans for Renewed Strikes on Iran After Elections",
-     "summary": "The United States and Israel are drawing up plans for renewed strikes on Iran following elections.",
-     "url": "https://www.nytimes.com/2026/10/21/us/politics/us-israel-renewed-iran-strikes.html",
-     "source": "NYT"
+     "title": "Trump ordered to sit for deposition in $10 billion BBC lawsuit",
+     "summary": "A federal judge ordered President Trump to sit for a Dec. 11 deposition in his $10 billion defamation lawsuit against the BBC.",
+     "url": "https://www.axios.com/2026/10/22/trump-bbc-lawsuit-december-deposition-deadline",
+     "source": "Axios"
     }
    ]
   },
   {
    "key": "cre",
    "title": "Commercial real estate",
-   "items": [
-    {
-     "title": "Ken Griffin Seals $3.3B Construction Loan for Manhattan Office Tower",
-     "summary": "Ken Griffin secured a 3.3 billion dollar construction loan for a Midtown Manhattan office tower as part of a joint venture.",
-     "url": "https://commercialobserver.com/2026/10/ken-griffin-citadel-350-park-manhattan/",
-     "source": "Commercial Observer"
-    },
-    {
-     "title": "Canadian Investor Buys Two Hotels in Palm Beach County for More Than $48M",
-     "summary": "Canadian investor Brasswater purchased two Hampton Inns hotels in Palm Beach County for more than 48 million dollars.",
-     "url": "https://commercialobserver.com/2026/10/brasswater-hampton-inns-west-palm-beach-boynton-beach-hospitality/",
-     "source": "Commercial Observer"
-    },
-    {
-     "title": "Mexican Eatery Casa Carmen to Open Third Manhattan Location",
-     "summary": "Mexican eatery Casa Carmen signed a 15-year lease for its third Manhattan location in Midtown East.",
-     "url": "https://commercialobserver.com/2026/10/casa-carmen-lease-sage-437-madison-avenue/",
-     "source": "Commercial Observer"
-    },
-    {
-     "title": "L.A. Multifamily Sales Jump 44%",
-     "summary": "Los Angeles County multifamily investment sales increased after the third quarter while rents and occupancy remained stuck in neutral.",
-     "url": "https://commercialobserver.com/2026/10/la-multifamily-investment-rent-q3/",
-     "source": "Commercial Observer"
-    }
-   ]
+   "items": []
   },
   {
    "key": "sf",
    "title": "San Francisco",
    "items": [
     {
-     "title": "Husband of slain UCSF social worker sues city over ‘woefully inadequate security’",
-     "summary": "The husband of a slain UCSF social worker is suing San Francisco over woefully inadequate security at S.F. General.",
-     "url": "https://missionlocal.org/2026/10/husband-of-slain-ucsf-social-worker-sues-city/",
-     "source": "Mission Local"
-    },
-    {
-     "title": "Ken Fulk is selling his beloved ‘Tree House’ for $7.9 million — and moving to a new hill",
-     "summary": "Designer Ken Fulk is selling his Clarendon Heights redwood midcentury home for 7.9 million dollars and moving across the city.",
-     "url": "https://sfstandard.com/2026/10/21/ken-fulk-tree-house-clarendon-heights-sale/",
-     "source": "SF Standard"
-    },
-    {
-     "title": "Meet the District 8 candidates: Should S.F. expand rent control?",
-     "summary": "District 8 supervisor candidates in San Francisco are sharing their thoughts on whether to expand rent control.",
-     "url": "https://missionlocal.org/2026/10/sf-district-8-supervisor-candidates-rent-control/",
+     "title": "152-unit Mission District project to break ground—with shrunken promises",
+     "summary": "A developer is breaking ground on a 152-unit housing project in the Mission District after previous agreements for community benefits expired.",
+     "url": "https://missionlocal.org/2026/10/san-francisco-mission-district-321-florida-housing-project/",
      "source": "Mission Local"
     }
    ]
@@ -86,66 +37,76 @@
    "title": "Hawaii",
    "items": [
     {
-     "title": "Looks Like OHA Has A New CEO",
-     "summary": "A vote finalizing Todd Apo's appointment as the new CEO of the Office of Hawaiian Affairs is expected on Thursday.",
-     "url": "https://www.civilbeat.org/2026/10/looks-like-oha-has-a-new-ceo/",
-     "source": "Civil Beat"
-    },
-    {
-     "title": "Bodyboarder, 32, rescued off Hapuna Beach",
-     "summary": "Hawaii County firefighters rescued a 32-year-old bodyboarder after strong currents swept him more than a mile offshore from Hapuna Beach.",
-     "url": "https://www.staradvertiser.com/2026/10/21/breaking-news/bodyboarder-32-rescued-off-hapuna-beach/",
+     "title": "HPD staffing reassignments come amid 453 officer vacancies",
+     "summary": "The Honolulu Police Department is reassigning officers to patrol districts while working to fill 453 uniformed and 182 civilian vacancies.",
+     "url": "https://www.staradvertiser.com/2026/10/22/hawaii-news/hpd-staffing-reassignments-come-amid-453-officer-vacancies/",
      "source": "Star-Advertiser"
     },
     {
-     "title": "Lines Drawn In Princeville Battle: Golf Course Views Vs. Luxury Development",
-     "summary": "Lawsuits have been filed and police called as a global investment company pushes a luxury housing proposal in Princeville.",
-     "url": "https://www.civilbeat.org/2026/10/lines-drawn-in-princeville-battle-golf-course-views-vs-luxury-development/",
+     "title": "With Their Taps Dry For 9 Weeks And Counting, They Want To Take Over",
+     "summary": "Residents in Punalu'u want to take over a private water system whose taps have been dry for nine weeks following Hurricane Lala.",
+     "url": "https://www.civilbeat.org/2026/10/with-their-taps-dry-for-9-weeks-and-counting-they-want-to-take-over/",
      "source": "Civil Beat"
     },
     {
-     "title": "So What’s With All These Charter And Constitutional Amendments?",
-     "summary": "Voters are evaluating charter amendments for Honolulu, Hawaiʻi, Maui, and Kauaʻi counties alongside state constitutional amendments.",
-     "url": "https://www.civilbeat.org/2026/10/list-hawaiis-2026-charter-and-constitutional-amendments/",
+     "title": "‘Sadistic’ Cult: Hilo High Schooler Preyed On Girls Online",
+     "summary": "Federal investigators report that a Hilo high schooler targeted vulnerable young girls online amid a rise in violent extremism.",
+     "url": "https://www.civilbeat.org/2026/10/sadistic-cult-hilo-high-schooler-preyed-on-girls-online/",
      "source": "Civil Beat"
     }
    ]
   }
  ],
  "sports": {
-  "date": "20261021",
+  "date": "20261022",
   "nba": {
-   "count": 11,
-   "warriors": [
-    {
-     "matchup": "Warriors at Lakers",
-     "time": "7:00 PM",
-     "network": "ESPN",
-     "state": "in",
-     "start_hour": 19
-    }
-   ],
+   "count": 2,
+   "warriors": [],
    "national": [
     {
-     "matchup": "Timberwolves at Heat",
-     "time": "4:30 PM",
+     "matchup": "Cavaliers at 76ers",
+     "time": "4:00 PM",
      "network": "ESPN",
-     "state": "post",
+     "state": "pre",
      "start_hour": 16
+    },
+    {
+     "matchup": "Nuggets at Thunder",
+     "time": "6:30 PM",
+     "network": "ESPN",
+     "state": "pre",
+     "start_hour": 18
     }
    ]
   },
   "nfl": {
-   "count": 0,
-   "primetime": [],
-   "all": []
+   "count": 1,
+   "primetime": [
+    {
+     "matchup": "Patriots at Bears",
+     "time": "5:15 PM",
+     "network": "Prime Video",
+     "state": "pre",
+     "start_hour": 17
+    }
+   ],
+   "all": [
+    {
+     "matchup": "Patriots at Bears",
+     "time": "5:15 PM",
+     "network": "Prime Video",
+     "state": "pre",
+     "start_hour": 17
+    }
+   ]
   },
   "pga": {
    "events": [
     {
      "name": "Butterfield Bermuda Championship",
      "time": "9:00 PM",
-     "state": "pre"
+     "state": "in",
+     "label": "In Progress"
     }
    ]
   }
