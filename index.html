@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Morning">
+<meta name="theme-color" content="#0b1b2b" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#dfe9e6" media="(prefers-color-scheme: light)">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<title>Morning</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #dfe9e6; --card: #f6faf8; --ink: #12303a; --muted: #5b7580; --line: #c2d3d0;
+  --accent: #2a4bd7; --accent-dim: #a9b9e8; --sun: #c98f00;
+  --sans: "Bricolage Grotesque", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0b1b2b; --card: #11263a; --ink: #e6eef2; --muted: #8aa3b3; --line: #1d3a52;
+    --accent: #7fb2ff; --accent-dim: #2b4a6b; --sun: #f2c230;
+  }
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; background: var(--bg); color: var(--ink); }
+body {
+  font-family: var(--sans); font-size: 16px; line-height: 1.45;
+  padding: max(20px, env(safe-area-inset-top)) max(20px, env(safe-area-inset-right))
+           max(24px, env(safe-area-inset-bottom)) max(20px, env(safe-area-inset-left));
+}
+.wrap { max-width: 1180px; margin: 0 auto; }
+
+header { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 12px 24px; margin-bottom: 18px; }
+header h1 { margin: 0; font-size: clamp(1.9rem, 4vw, 2.8rem); font-weight: 800; letter-spacing: -0.02em; line-height: 1.05; }
+header .date { margin: 4px 0 0; color: var(--muted); font-size: 1.05rem; }
+.controls { display: flex; align-items: center; gap: 8px; }
+.controls .stamp { color: var(--muted); font-size: 0.85rem; margin-right: 6px; }
+button {
+  font: inherit; font-size: 0.95rem; color: var(--ink); background: transparent;
+  border: 1.5px solid var(--line); border-radius: 999px; padding: 9px 16px; min-height: 44px; cursor: pointer;
+}
+button[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+button:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+
+.grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 14px; }
+.card { background: var(--card); border: 1px solid var(--line); padding: 22px; min-width: 0; }
+.card h2 { margin: 0 0 12px; font-size: 1rem; font-weight: 600; color: var(--muted); }
+.muted { color: var(--muted); }
+.err { color: var(--muted); font-style: italic; }
+
+.wx { grid-column: span 5; grid-row: span 2; border-radius: 28px; padding: 28px; }
+.surf { grid-column: span 7; border-radius: 20px; }
+.wiki { grid-column: span 4; border-radius: 14px; }
+.quote { grid-column: span 3; border-radius: 14px; display: flex; flex-direction: column; justify-content: space-between; }
+.soon { grid-column: span 3; border-radius: 12px; background: transparent; border: 1.5px dashed var(--line); padding: 16px 18px; }
+.soon h2 { margin-bottom: 4px; }
+.soon p { margin: 0; font-size: 0.9rem; color: var(--muted); }
+
+.temp { font-size: clamp(5rem, 11vw, 8.5rem); font-weight: 800; line-height: 0.9; letter-spacing: -0.04em; margin: 4px 0 6px; }
+.temp sup { font-size: 0.35em; font-weight: 600; vertical-align: top; position: relative; top: 0.25em; margin-left: 4px; color: var(--sun); }
+.cond { font-size: 1.4rem; font-weight: 600; margin: 0; }
+.facts { margin: 6px 0 18px; color: var(--muted); }
+.days { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
+.days li { display: grid; grid-template-columns: 3.2rem 1fr auto; gap: 10px; align-items: baseline; padding: 10px 0; border-bottom: 1px solid var(--line); }
+.days li:last-child { border-bottom: 0; }
+.days .d { font-weight: 600; }
+.days .c { color: var(--muted); }
+.days .t { font-variant-numeric: tabular-nums; }
+
+.swell { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 16px; }
+.swell .big { font-size: clamp(3rem, 7vw, 4.6rem); font-weight: 800; letter-spacing: -0.03em; line-height: 1; }
+.swell .big small { font-size: 0.4em; font-weight: 600; color: var(--muted); margin-left: 4px; }
+.swell .desc { font-size: 1.1rem; }
+.bars { display: grid; grid-template-columns: repeat(24, 1fr); gap: 3px; align-items: end; height: 120px; margin-top: 18px; }
+.bar { background: var(--accent-dim); border-radius: 4px 4px 0 0; transform-origin: bottom; animation: rise 0.7s ease-out both; }
+.bar.now { background: var(--accent); }
+.ticks { display: grid; grid-template-columns: repeat(24, 1fr); gap: 3px; margin-top: 6px; font-size: 0.78rem; color: var(--muted); }
+.ticks span { white-space: nowrap; }
+.note { margin: 14px 0 0; font-size: 0.85rem; color: var(--muted); }
+@keyframes rise { from { transform: scaleY(0.05); } to { transform: scaleY(1); } }
+@media (prefers-reduced-motion: reduce) { .bar { animation: none; } }
+
+.wiki h3 { margin: 0 0 6px; font-size: 1.25rem; font-weight: 600; line-height: 1.2; }
+.wiki .thumb { width: 100%; max-height: 150px; object-fit: cover; border-radius: 8px; margin-bottom: 12px; display: block; }
+.wiki p { font-family: var(--serif); font-size: 1rem; line-height: 1.55; margin: 0 0 10px; max-width: 62ch; }
+.wiki a { color: var(--accent); }
+.otd { margin: 12px 0 0; padding: 12px 0 0; border-top: 1px solid var(--line); font-size: 0.9rem; color: var(--muted); }
+.otd b { color: var(--ink); font-weight: 600; }
+
+.quote blockquote { margin: 0; font-family: var(--serif); font-style: italic; font-size: 1.3rem; line-height: 1.4; }
+.quote .who { margin: 14px 0 0; color: var(--muted); font-size: 0.95rem; }
+
+@media (max-width: 900px) {
+  .wx, .surf, .wiki, .quote { grid-column: span 12; grid-row: auto; }
+  .soon { grid-column: span 6; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div>
+      <h1 id="greeting">Good morning</h1>
+      <p class="date" id="date"></p>
+    </div>
+    <div class="controls">
+      <span class="stamp" id="stamp"></span>
+      <span id="locButtons" role="group" aria-label="Location"></span>
+      <button id="refresh" type="button">Refresh</button>
+    </div>
+  </header>
+
+  <main class="grid">
+    <section class="card wx" id="wx" aria-live="polite"><h2>Weather</h2><p class="muted">Loading</p></section>
+    <section class="card surf" id="surf" aria-live="polite"><h2>Surf</h2><p class="muted">Loading</p></section>
+    <section class="card wiki" id="wiki" aria-live="polite"><h2>Wikipedia featured article</h2><p class="muted">Loading</p></section>
+    <section class="card quote" id="quote"></section>
+
+    <section class="card soon"><h2>Calendar</h2><p>Phase 3: Google sign-in</p></section>
+    <section class="card soon"><h2>Gmail</h2><p>Phase 3: Google sign-in</p></section>
+    <section class="card soon"><h2>News and new releases</h2><p>Phase 2: daily data feed</p></section>
+    <section class="card soon"><h2>Sports and TV</h2><p>Phase 2: daily data feed</p></section>
+  </main>
+</div>
+
+<script>
+/* ============ EDIT ME ============ */
+const CONFIG = {
+  name: "James",
+  refreshMinutes: 30,
+  // lat/lon drive the weather card. surfLat/surfLon should sit just offshore of your break.
+  locations: [
+    { id: "sf",    label: "San Francisco", lat: 37.7749, lon: -122.4194, surfName: "Ocean Beach", surfLat: 37.76, surfLon: -122.55 },
+    { id: "kauai", label: "Kauai",         lat: 21.9811, lon: -159.3711, surfName: "North Shore", surfLat: 22.30, surfLon: -159.55 }
+  ],
+  // The quote changes daily, in order. Swap in your own.
+  quotes: [
+    ["It is not that we have a short time to live, but that we waste much of it.", "Seneca"],
+    ["Waste no more time arguing about what a good person should be. Be one.", "Marcus Aurelius"],
+    ["The unexamined life is not worth living.", "Socrates"],
+    ["The journey of a thousand miles begins with a single step.", "Laozi"],
+    ["Fall seven times, stand up eight.", "Japanese proverb"],
+    ["Slow is smooth, smooth is fast.", "Proverb"],
+    ["A smooth sea never made a skilled sailor.", "Proverb"],
+    ["Knowing is not enough; we must apply. Willing is not enough; we must do.", "Goethe"],
+    ["The only way to do great work is to love what you do.", "Steve Jobs"],
+    ["ʻAʻohe pau ka ʻike i ka hālau hoʻokahi. All knowledge is not taught in the same school.", "ʻŌlelo Noʻeau"],
+    ["He who has a why to live can bear almost any how.", "Nietzsche"],
+    ["The obstacle is the path.", "Zen proverb"],
+    ["Do what you can, with what you have, where you are.", "Attributed to Theodore Roosevelt"],
+    ["Well begun is half done.", "Proverb"],
+    ["Perfection is achieved when there is nothing left to take away.", "Antoine de Saint-Exupéry"],
+    ["We suffer more often in imagination than in reality.", "Seneca"]
+  ]
+};
+/* =================================== */
+
+const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const compass = (deg) => ["N","NNE","NE","ENE","E","ESE","SE","SSE","S","SSW","SW","WSW","W","WNW","NW","NNW"][Math.round((deg % 360) / 22.5) % 16];
+const WMO = {
+  0:"Clear", 1:"Mostly clear", 2:"Partly cloudy", 3:"Overcast", 45:"Fog", 48:"Freezing fog",
+  51:"Light drizzle", 53:"Drizzle", 55:"Heavy drizzle", 56:"Freezing drizzle", 57:"Freezing drizzle",
+  61:"Light rain", 63:"Rain", 65:"Heavy rain", 66:"Freezing rain", 67:"Freezing rain",
+  71:"Light snow", 73:"Snow", 75:"Heavy snow", 77:"Snow grains", 80:"Showers", 81:"Showers", 82:"Heavy showers",
+  85:"Snow showers", 86:"Snow showers", 95:"Thunderstorm", 96:"Thunderstorm, hail", 99:"Thunderstorm, hail"
+};
+const fmtHour = (iso) => { const h = parseInt(iso.slice(11, 13), 10); return (h % 12 || 12) + (h < 12 ? "a" : "p"); };
+const fmtDay = (iso, i) => i === 0 ? "Today" : new Date(iso + "T12:00:00").toLocaleDateString(undefined, { weekday: "short" });
+
+let current = CONFIG.locations[0];
+try { current = CONFIG.locations.find((l) => l.id === localStorage.getItem("loc")) || current; } catch (e) {}
+let lastLoad = 0;
+
+function renderHeader() {
+  const now = new Date(), h = now.getHours();
+  $("greeting").textContent = (h < 12 ? "Good morning" : h < 18 ? "Good afternoon" : "Good evening") + ", " + CONFIG.name;
+  $("date").textContent = now.toLocaleDateString(undefined, { weekday: "long", month: "long", day: "numeric" });
+}
+
+function renderLocButtons() {
+  $("locButtons").innerHTML = CONFIG.locations.map((l) =>
+    `<button type="button" data-id="${esc(l.id)}" aria-pressed="${l.id === current.id}">${esc(l.label)}</button>`).join(" ");
+  $("locButtons").querySelectorAll("button").forEach((b) => b.addEventListener("click", () => {
+    current = CONFIG.locations.find((l) => l.id === b.dataset.id);
+    try { localStorage.setItem("loc", current.id); } catch (e) {}
+    renderLocButtons(); loadWeatherAndSurf();
+  }));
+}
+
+function renderQuote() {
+  const start = new Date(new Date().getFullYear(), 0, 0);
+  const day = Math.floor((new Date() - start) / 864e5);
+  const [text, who] = CONFIG.quotes[day % CONFIG.quotes.length];
+  $("quote").innerHTML = `<blockquote>${esc(text)}</blockquote><p class="who">${esc(who)}</p>`;
+}
+
+function renderWeather(d) {
+  const c = d.current, dy = d.daily;
+  $("wx").innerHTML = `
+    <h2>${esc(current.label)}</h2>
+    <p class="temp">${Math.round(c.temperature_2m)}<sup>°F</sup></p>
+    <p class="cond">${esc(WMO[c.weather_code] || "")}</p>
+    <p class="facts">Feels like ${Math.round(c.apparent_temperature)}°. Wind ${Math.round(c.wind_speed_10m)} mph from ${compass(c.wind_direction_10m)}.
+      High ${Math.round(dy.temperature_2m_max[0])}°, low ${Math.round(dy.temperature_2m_min[0])}°, ${dy.precipitation_probability_max[0] ?? 0}% chance of rain.</p>
+    <ul class="days">${dy.time.map((t, i) => `
+      <li><span class="d">${fmtDay(t, i)}</span><span class="c">${esc(WMO[dy.weather_code[i]] || "")}</span>
+      <span class="t">${Math.round(dy.temperature_2m_max[i])}° / ${Math.round(dy.temperature_2m_min[i])}°</span></li>`).join("")}</ul>`;
+}
+
+function renderSurf(m, w) {
+  const c = m.current, hr = m.hourly;
+  if (!c || c.swell_wave_height == null) {
+    $("surf").innerHTML = `<h2>Surf, ${esc(current.surfName)}</h2><p class="err">No marine data for this spot. Move surfLat and surfLon a little further offshore.</p>`;
+    return;
+  }
+  let i0 = hr.time.indexOf(c.time.slice(0, 13) + ":00"); if (i0 < 0) i0 = 0;
+  const vals = hr.wave_height.slice(i0, i0 + 24), times = hr.time.slice(i0, i0 + 24);
+  const max = Math.max(1, ...vals.filter((v) => v != null));
+  const bars = vals.map((v, i) => `<div class="bar${i === 0 ? " now" : ""}" style="height:${Math.max(4, ((v || 0) / max) * 100)}%;animation-delay:${i * 18}ms"></div>`).join("");
+  const ticks = times.map((t, i) => `<span>${i === 0 ? "Now" : i % 6 === 0 ? fmtHour(t) : ""}</span>`).join("");
+  const wind = w ? ` Wind ${Math.round(w.current.wind_speed_10m)} mph from ${compass(w.current.wind_direction_10m)}.` : "";
+  $("surf").innerHTML = `
+    <h2>Surf, ${esc(current.surfName)}</h2>
+    <div class="swell">
+      <span class="big">${c.swell_wave_height.toFixed(1)}<small>ft swell</small></span>
+      <span class="desc">${Math.round(c.swell_wave_period)} s from ${compass(c.swell_wave_direction)}. Total wave height ${c.wave_height.toFixed(1)} ft.${wind}</span>
+    </div>
+    <div class="bars" role="img" aria-label="Wave height over the next 24 hours">${bars}</div>
+    <div class="ticks">${ticks}</div>
+    <p class="note">Wave height over the next 24 hours, from an offshore model. Check a local cam before you paddle out.</p>`;
+}
+
+async function getJSON(url) {
+  const r = await fetch(url);
+  if (!r.ok) throw new Error(r.status);
+  return r.json();
+}
+
+async function loadWeatherAndSurf() {
+  const loc = current;
+  const wUrl = `https://api.open-meteo.com/v1/forecast?latitude=${loc.lat}&longitude=${loc.lon}&current=temperature_2m,apparent_temperature,weather_code,wind_speed_10m,wind_direction_10m&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max&temperature_unit=fahrenheit&wind_speed_unit=mph&timezone=auto&forecast_days=5`;
+  const mUrl = `https://marine-api.open-meteo.com/v1/marine?latitude=${loc.surfLat}&longitude=${loc.surfLon}&current=wave_height,wave_period,wave_direction,swell_wave_height,swell_wave_period,swell_wave_direction&hourly=wave_height&length_unit=imperial&timezone=auto&forecast_days=2`;
+  const [w, m] = await Promise.allSettled([getJSON(wUrl), getJSON(mUrl)]);
+  if (loc !== current) return; // user switched location while loading
+  if (w.status === "fulfilled") renderWeather(w.value);
+  else $("wx").innerHTML = `<h2>Weather</h2><p class="err">Couldn’t load the forecast. Tap Refresh to try again.</p>`;
+  if (m.status === "fulfilled") renderSurf(m.value, w.status === "fulfilled" ? w.value : null);
+  else $("surf").innerHTML = `<h2>Surf</h2><p class="err">Couldn’t load surf data. Tap Refresh to try again.</p>`;
+}
+
+async function loadWiki() {
+  const n = new Date(), p = (x) => String(x).padStart(2, "0");
+  try {
+    const d = await getJSON(`https://en.wikipedia.org/api/rest_v1/feed/featured/${n.getFullYear()}/${p(n.getMonth() + 1)}/${p(n.getDate())}`);
+    const t = d.tfa;
+    if (!t) throw new Error("no featured article");
+    const otd = (d.onthisday || []).slice(0, 2).map((e) => `<b>${esc(e.year)}</b> ${esc(e.text)}`).join("<br><br>");
+    $("wiki").innerHTML = `
+      <h2>Wikipedia featured article</h2>
+      ${t.thumbnail ? `<img class="thumb" src="${esc(t.thumbnail.source)}" alt="">` : ""}
+      <h3>${esc(t.titles?.normalized || t.title)}</h3>
+      <p>${esc(t.extract)}</p>
+      <p><a href="${esc(t.content_urls?.desktop?.page)}" target="_blank" rel="noopener">Read the full article</a></p>
+      ${otd ? `<div class="otd">${otd}</div>` : ""}`;
+  } catch (e) {
+    $("wiki").innerHTML = `<h2>Wikipedia featured article</h2><p class="err">Couldn’t load today’s article. Tap Refresh to try again.</p>`;
+  }
+}
+
+function loadAll() {
+  lastLoad = Date.now();
+  renderHeader();
+  loadWeatherAndSurf();
+  loadWiki();
+  $("stamp").textContent = "Updated " + new Date().toLocaleTimeString(undefined, { hour: "numeric", minute: "2-digit" });
+}
+
+$("refresh").addEventListener("click", loadAll);
+document.addEventListener("visibilitychange", () => {
+  if (!document.hidden && Date.now() - lastLoad > 10 * 60 * 1000) loadAll();
+});
+setInterval(loadAll, CONFIG.refreshMinutes * 60 * 1000);
+
+renderLocButtons();
+renderQuote();
+loadAll();
+</script>
+</body>
+</html>
