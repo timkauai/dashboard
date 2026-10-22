@@ -34,70 +34,70 @@ body {
            max(24px, env(safe-area-inset-bottom)) max(20px, env(safe-area-inset-left));
 }
 .wrap { max-width: 1180px; margin: 0 auto; }
+a { color: var(--accent); text-underline-offset: 3px; }
+.muted { color: var(--muted); }
+.err { color: var(--muted); font-style: italic; margin: 0; }
 
-header { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 12px 24px; margin-bottom: 18px; }
-header h1 { margin: 0; font-size: clamp(1.9rem, 4vw, 2.8rem); font-weight: 800; letter-spacing: -0.02em; line-height: 1.05; }
-header .date { margin: 4px 0 0; color: var(--muted); font-size: 1.05rem; }
-.controls { display: flex; align-items: center; gap: 8px; }
-.controls .stamp { color: var(--muted); font-size: 0.85rem; margin-right: 6px; }
+header { display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: space-between; gap: 12px 24px; margin-bottom: 18px; }
+.wx { margin-bottom: 14px; min-height: 3.2rem; }
+.wx .row { display: flex; align-items: baseline; gap: 10px; }
+.wx .t { font-size: 2.2rem; font-weight: 800; letter-spacing: -0.03em; line-height: 1; }
+.wx .t sup { font-size: 0.45em; font-weight: 600; color: var(--sun); margin-left: 2px; }
+.wx .c { font-size: 1rem; font-weight: 600; }
+.wx .f { margin: 3px 0 0; font-size: 0.82rem; color: var(--muted); }
+header h1 { margin: 0; font-size: clamp(1.7rem, 3.6vw, 2.4rem); font-weight: 800; letter-spacing: -0.02em; line-height: 1.05; }
+header .date { margin: 4px 0 0; color: var(--muted); }
+.controls { display: flex; align-items: center; gap: 10px; }
+.controls .stamp { color: var(--muted); font-size: 0.85rem; }
 button {
   font: inherit; font-size: 0.95rem; color: var(--ink); background: transparent;
   border: 1.5px solid var(--line); border-radius: 999px; padding: 9px 16px; min-height: 44px; cursor: pointer;
 }
-button[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
-button:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+button:focus-visible, a:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
 
 .grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 14px; }
-.card { background: var(--card); border: 1px solid var(--line); padding: 22px; min-width: 0; }
-.card h2 { margin: 0 0 12px; font-size: 1rem; font-weight: 600; color: var(--muted); }
-.muted { color: var(--muted); }
-.err { color: var(--muted); font-style: italic; }
+.card { background: var(--card); border: 1px solid var(--line); padding: 20px; min-width: 0; }
+.card h2 { margin: 0 0 10px; font-size: 1rem; font-weight: 600; color: var(--muted); }
 
-.wx { grid-column: span 5; grid-row: span 2; border-radius: 28px; padding: 28px; }
-.surf { grid-column: span 7; border-radius: 20px; }
-.wiki { grid-column: span 4; border-radius: 14px; }
-.quote { grid-column: span 3; border-radius: 14px; display: flex; flex-direction: column; justify-content: space-between; }
-.soon { grid-column: span 3; border-radius: 12px; background: transparent; border: 1.5px dashed var(--line); padding: 16px 18px; }
+.brief { grid-column: span 12; border-radius: 24px; padding: 28px 30px; }
+.brief .overview { font-family: var(--serif); font-size: clamp(1.25rem, 2.3vw, 1.6rem); line-height: 1.6; margin: 0; max-width: 70ch; }
+.brief .meta { margin: 14px 0 0; font-size: 0.85rem; color: var(--muted); }
+
+.news { grid-column: span 6; border-radius: 16px; }
+.news ul { list-style: none; margin: 0; padding: 0; }
+.news li { padding: 11px 0; border-top: 1px solid var(--line); }
+.news li:first-child { border-top: 0; padding-top: 0; }
+.news li a { color: var(--ink); font-weight: 600; text-decoration-color: var(--accent-dim); }
+.news .src { color: var(--muted); font-size: 0.85rem; margin-left: 6px; }
+.news li p { margin: 4px 0 0; font-size: 0.95rem; }
+
+.sports { grid-column: span 5; border-radius: 14px; }
+.sports h3 { margin: 14px 0 4px; font-size: 0.95rem; font-weight: 600; }
+.sports h3:first-of-type { margin-top: 0; }
+.sports p { margin: 0 0 4px; font-size: 0.95rem; }
+
+.wiki { grid-column: span 4; border-radius: 12px; padding: 16px 18px; }
+.wiki h3 { margin: 0 0 4px; font-size: 1.05rem; font-weight: 600; line-height: 1.25; }
+.wiki h3 a { color: var(--ink); }
+.wiki p { font-family: var(--serif); font-size: 0.92rem; line-height: 1.5; margin: 0 0 8px; }
+.wiki .otd { margin-top: 10px; padding-top: 10px; border-top: 1px solid var(--line); font-size: 0.85rem; }
+.wiki .otd p { font-family: var(--sans); font-size: 0.85rem; margin: 0 0 6px; }
+
+.side { grid-column: span 3; display: grid; gap: 14px; align-content: start; }
+.surf { border-radius: 10px; padding: 14px 16px; }
+.surf p { margin: 0; font-size: 0.9rem; }
+.surf .big { font-size: 1.15rem; font-weight: 600; }
+.quote { border-radius: 14px; padding: 18px; }
+.quote blockquote { margin: 0; font-family: var(--serif); font-style: italic; font-size: 1.1rem; line-height: 1.45; }
+.quote .who { margin: 10px 0 0; color: var(--muted); font-size: 0.9rem; }
+
+.soon { grid-column: span 4; border-radius: 12px; background: transparent; border: 1.5px dashed var(--line); padding: 16px 18px; }
 .soon h2 { margin-bottom: 4px; }
 .soon p { margin: 0; font-size: 0.9rem; color: var(--muted); }
 
-.temp { font-size: clamp(5rem, 11vw, 8.5rem); font-weight: 800; line-height: 0.9; letter-spacing: -0.04em; margin: 4px 0 6px; }
-.temp sup { font-size: 0.35em; font-weight: 600; vertical-align: top; position: relative; top: 0.25em; margin-left: 4px; color: var(--sun); }
-.cond { font-size: 1.4rem; font-weight: 600; margin: 0; }
-.facts { margin: 6px 0 18px; color: var(--muted); }
-.days { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
-.days li { display: grid; grid-template-columns: 3.2rem 1fr auto; gap: 10px; align-items: baseline; padding: 10px 0; border-bottom: 1px solid var(--line); }
-.days li:last-child { border-bottom: 0; }
-.days .d { font-weight: 600; }
-.days .c { color: var(--muted); }
-.days .t { font-variant-numeric: tabular-nums; }
-
-.swell { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 16px; }
-.swell .big { font-size: clamp(3rem, 7vw, 4.6rem); font-weight: 800; letter-spacing: -0.03em; line-height: 1; }
-.swell .big small { font-size: 0.4em; font-weight: 600; color: var(--muted); margin-left: 4px; }
-.swell .desc { font-size: 1.1rem; }
-.bars { display: grid; grid-template-columns: repeat(24, 1fr); gap: 3px; align-items: end; height: 120px; margin-top: 18px; }
-.bar { background: var(--accent-dim); border-radius: 4px 4px 0 0; transform-origin: bottom; animation: rise 0.7s ease-out both; }
-.bar.now { background: var(--accent); }
-.ticks { display: grid; grid-template-columns: repeat(24, 1fr); gap: 3px; margin-top: 6px; font-size: 0.78rem; color: var(--muted); }
-.ticks span { white-space: nowrap; }
-.note { margin: 14px 0 0; font-size: 0.85rem; color: var(--muted); }
-@keyframes rise { from { transform: scaleY(0.05); } to { transform: scaleY(1); } }
-@media (prefers-reduced-motion: reduce) { .bar { animation: none; } }
-
-.wiki h3 { margin: 0 0 6px; font-size: 1.25rem; font-weight: 600; line-height: 1.2; }
-.wiki .thumb { width: 100%; max-height: 150px; object-fit: cover; border-radius: 8px; margin-bottom: 12px; display: block; }
-.wiki p { font-family: var(--serif); font-size: 1rem; line-height: 1.55; margin: 0 0 10px; max-width: 62ch; }
-.wiki a { color: var(--accent); }
-.otd { margin: 12px 0 0; padding: 12px 0 0; border-top: 1px solid var(--line); font-size: 0.9rem; color: var(--muted); }
-.otd b { color: var(--ink); font-weight: 600; }
-
-.quote blockquote { margin: 0; font-family: var(--serif); font-style: italic; font-size: 1.3rem; line-height: 1.4; }
-.quote .who { margin: 14px 0 0; color: var(--muted); font-size: 0.95rem; }
-
 @media (max-width: 900px) {
-  .wx, .surf, .wiki, .quote { grid-column: span 12; grid-row: auto; }
-  .soon { grid-column: span 6; }
+  .brief, .news, .sports, .wiki, .side { grid-column: span 12; }
+  .soon { grid-column: span 12; }
 }
 </style>
 </head>
@@ -105,26 +105,30 @@ button:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
 <div class="wrap">
   <header>
     <div>
+      <div class="wx" id="wx" aria-live="polite"></div>
       <h1 id="greeting">Good morning</h1>
       <p class="date" id="date"></p>
     </div>
     <div class="controls">
       <span class="stamp" id="stamp"></span>
-      <span id="locButtons" role="group" aria-label="Location"></span>
       <button id="refresh" type="button">Refresh</button>
     </div>
   </header>
 
   <main class="grid">
-    <section class="card wx" id="wx" aria-live="polite"><h2>Weather</h2><p class="muted">Loading</p></section>
-    <section class="card surf" id="surf" aria-live="polite"><h2>Surf</h2><p class="muted">Loading</p></section>
-    <section class="card wiki" id="wiki" aria-live="polite"><h2>Wikipedia featured article</h2><p class="muted">Loading</p></section>
-    <section class="card quote" id="quote"></section>
+    <section class="card brief" id="brief" aria-live="polite"><p class="muted">Loading the briefing</p></section>
+    <div id="newsMount" style="display: contents"></div>
 
-    <section class="card soon"><h2>Calendar</h2><p>Phase 3: Google sign-in</p></section>
-    <section class="card soon"><h2>Gmail</h2><p>Phase 3: Google sign-in</p></section>
-    <section class="card soon"><h2>News and new releases</h2><p>Phase 2: daily data feed</p></section>
-    <section class="card soon"><h2>Sports and TV</h2><p>Phase 2: daily data feed</p></section>
+    <section class="card sports" id="sports"><h2>Sports today</h2><p class="muted">Loading</p></section>
+    <section class="card wiki" id="wiki"><h2>Wikipedia featured article</h2><p class="muted">Loading</p></section>
+    <div class="side">
+      <section class="card surf" id="surf"><h2>Surf</h2><p class="muted">Loading</p></section>
+      <section class="card quote" id="quote"></section>
+    </div>
+
+    <section class="card soon"><h2>Calendar</h2><p>Next: Google sign-in</p></section>
+    <section class="card soon"><h2>Gmail</h2><p>Next: Google sign-in</p></section>
+    <section class="card soon"><h2>Fantasy football</h2><p>Waiting on which platform you use</p></section>
   </main>
 </div>
 
@@ -133,11 +137,8 @@ button:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
 const CONFIG = {
   name: "James",
   refreshMinutes: 30,
-  // lat/lon drive the weather card. surfLat/surfLon should sit just offshore of your break.
-  locations: [
-    { id: "sf",    label: "San Francisco", lat: 37.7749, lon: -122.4194, surfName: "Ocean Beach", surfLat: 37.76, surfLon: -122.55 },
-    { id: "kauai", label: "Kauai",         lat: 21.9811, lon: -159.3711, surfName: "North Shore", surfLat: 22.30, surfLon: -159.55 }
-  ],
+  // Weather uses lat/lon. Surf uses surfLat/surfLon, which should sit just offshore of the break.
+  location: { label: "San Francisco", lat: 37.7749, lon: -122.4194, surfName: "Ocean Beach", surfLat: 37.76, surfLon: -122.55 },
   // The quote changes daily, in order. Swap in your own.
   quotes: [
     ["It is not that we have a short time to live, but that we waste much of it.", "Seneca"],
@@ -162,6 +163,8 @@ const CONFIG = {
 
 const $ = (id) => document.getElementById(id);
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const safeUrl = (u) => (/^https?:\/\//i.test(u || "") ? esc(u) : "");
+const link = (url, text) => (safeUrl(url) ? `<a href="${safeUrl(url)}" target="_blank" rel="noopener">${esc(text)}</a>` : esc(text));
 const compass = (deg) => ["N","NNE","NE","ENE","E","ESE","SE","SSE","S","SSW","SW","WSW","W","WNW","NW","NNW"][Math.round((deg % 360) / 22.5) % 16];
 const WMO = {
   0:"Clear", 1:"Mostly clear", 2:"Partly cloudy", 3:"Overcast", 45:"Fog", 48:"Freezing fog",
@@ -170,27 +173,20 @@ const WMO = {
   71:"Light snow", 73:"Snow", 75:"Heavy snow", 77:"Snow grains", 80:"Showers", 81:"Showers", 82:"Heavy showers",
   85:"Snow showers", 86:"Snow showers", 95:"Thunderstorm", 96:"Thunderstorm, hail", 99:"Thunderstorm, hail"
 };
-const fmtHour = (iso) => { const h = parseInt(iso.slice(11, 13), 10); return (h % 12 || 12) + (h < 12 ? "a" : "p"); };
-const fmtDay = (iso, i) => i === 0 ? "Today" : new Date(iso + "T12:00:00").toLocaleDateString(undefined, { weekday: "short" });
-
-let current = CONFIG.locations[0];
-try { current = CONFIG.locations.find((l) => l.id === localStorage.getItem("loc")) || current; } catch (e) {}
+const fmtTime = (d) => d.toLocaleTimeString(undefined, { hour: "numeric", minute: "2-digit" });
+const cut = (s, n) => (s.length <= n ? s : s.slice(0, n).replace(/\s+\S*$/, "") + "…");
 let lastLoad = 0;
+
+async function getJSON(url) {
+  const r = await fetch(url);
+  if (!r.ok) throw new Error(r.status);
+  return r.json();
+}
 
 function renderHeader() {
   const now = new Date(), h = now.getHours();
   $("greeting").textContent = (h < 12 ? "Good morning" : h < 18 ? "Good afternoon" : "Good evening") + ", " + CONFIG.name;
   $("date").textContent = now.toLocaleDateString(undefined, { weekday: "long", month: "long", day: "numeric" });
-}
-
-function renderLocButtons() {
-  $("locButtons").innerHTML = CONFIG.locations.map((l) =>
-    `<button type="button" data-id="${esc(l.id)}" aria-pressed="${l.id === current.id}">${esc(l.label)}</button>`).join(" ");
-  $("locButtons").querySelectorAll("button").forEach((b) => b.addEventListener("click", () => {
-    current = CONFIG.locations.find((l) => l.id === b.dataset.id);
-    try { localStorage.setItem("loc", current.id); } catch (e) {}
-    renderLocButtons(); loadWeatherAndSurf();
-  }));
 }
 
 function renderQuote() {
@@ -200,85 +196,122 @@ function renderQuote() {
   $("quote").innerHTML = `<blockquote>${esc(text)}</blockquote><p class="who">${esc(who)}</p>`;
 }
 
-function renderWeather(d) {
-  const c = d.current, dy = d.daily;
-  $("wx").innerHTML = `
-    <h2>${esc(current.label)}</h2>
-    <p class="temp">${Math.round(c.temperature_2m)}<sup>°F</sup></p>
-    <p class="cond">${esc(WMO[c.weather_code] || "")}</p>
-    <p class="facts">Feels like ${Math.round(c.apparent_temperature)}°. Wind ${Math.round(c.wind_speed_10m)} mph from ${compass(c.wind_direction_10m)}.
-      High ${Math.round(dy.temperature_2m_max[0])}°, low ${Math.round(dy.temperature_2m_min[0])}°, ${dy.precipitation_probability_max[0] ?? 0}% chance of rain.</p>
-    <ul class="days">${dy.time.map((t, i) => `
-      <li><span class="d">${fmtDay(t, i)}</span><span class="c">${esc(WMO[dy.weather_code[i]] || "")}</span>
-      <span class="t">${Math.round(dy.temperature_2m_max[i])}° / ${Math.round(dy.temperature_2m_min[i])}°</span></li>`).join("")}</ul>`;
-}
-
-function renderSurf(m, w) {
-  const c = m.current, hr = m.hourly;
-  if (!c || c.swell_wave_height == null) {
-    $("surf").innerHTML = `<h2>Surf, ${esc(current.surfName)}</h2><p class="err">No marine data for this spot. Move surfLat and surfLon a little further offshore.</p>`;
-    return;
+/* ---------- weather (small, top left) ---------- */
+async function loadWeather() {
+  const L = CONFIG.location;
+  try {
+    const d = await getJSON(`https://api.open-meteo.com/v1/forecast?latitude=${L.lat}&longitude=${L.lon}&current=temperature_2m,apparent_temperature,weather_code,wind_speed_10m,wind_direction_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&timezone=auto`);
+    const c = d.current;
+    $("wx").innerHTML = `
+      <div class="row"><span class="t">${Math.round(c.temperature_2m)}<sup>°F</sup></span><span class="c">${esc(WMO[c.weather_code] || "")}</span></div>
+      <p class="f">${esc(L.label)}. Feels like ${Math.round(c.apparent_temperature)}°, wind ${Math.round(c.wind_speed_10m)} mph from ${compass(c.wind_direction_10m)}.</p>`;
+  } catch (e) {
+    $("wx").innerHTML = `<p class="err">Couldn’t load the weather.</p>`;
   }
-  let i0 = hr.time.indexOf(c.time.slice(0, 13) + ":00"); if (i0 < 0) i0 = 0;
-  const vals = hr.wave_height.slice(i0, i0 + 24), times = hr.time.slice(i0, i0 + 24);
-  const max = Math.max(1, ...vals.filter((v) => v != null));
-  const bars = vals.map((v, i) => `<div class="bar${i === 0 ? " now" : ""}" style="height:${Math.max(4, ((v || 0) / max) * 100)}%;animation-delay:${i * 18}ms"></div>`).join("");
-  const ticks = times.map((t, i) => `<span>${i === 0 ? "Now" : i % 6 === 0 ? fmtHour(t) : ""}</span>`).join("");
-  const wind = w ? ` Wind ${Math.round(w.current.wind_speed_10m)} mph from ${compass(w.current.wind_direction_10m)}.` : "";
-  $("surf").innerHTML = `
-    <h2>Surf, ${esc(current.surfName)}</h2>
-    <div class="swell">
-      <span class="big">${c.swell_wave_height.toFixed(1)}<small>ft swell</small></span>
-      <span class="desc">${Math.round(c.swell_wave_period)} s from ${compass(c.swell_wave_direction)}. Total wave height ${c.wave_height.toFixed(1)} ft.${wind}</span>
-    </div>
-    <div class="bars" role="img" aria-label="Wave height over the next 24 hours">${bars}</div>
-    <div class="ticks">${ticks}</div>
-    <p class="note">Wave height over the next 24 hours, from an offshore model. Check a local cam before you paddle out.</p>`;
 }
 
-async function getJSON(url) {
-  const r = await fetch(url);
-  if (!r.ok) throw new Error(r.status);
-  return r.json();
+/* ---------- surf (small, daily wave size) ---------- */
+async function loadSurf() {
+  const L = CONFIG.location;
+  try {
+    const m = await getJSON(`https://marine-api.open-meteo.com/v1/marine?latitude=${L.surfLat}&longitude=${L.surfLon}&hourly=wave_height,swell_wave_period,swell_wave_direction&length_unit=imperial&timezone=auto&forecast_days=1`);
+    const h = m.hourly, idx = [];
+    h.time.forEach((t, i) => { const hr = parseInt(t.slice(11, 13), 10); if (hr >= 6 && hr <= 18 && h.wave_height[i] != null) idx.push(i); });
+    if (!idx.length) throw new Error("no data");
+    const vals = idx.map((i) => h.wave_height[i]);
+    const lo = Math.min(...vals), hi = Math.max(...vals);
+    const mid = idx.find((i) => h.time[i].slice(11, 13) === "12") ?? idx[Math.floor(idx.length / 2)];
+    const per = h.swell_wave_period[mid], dir = h.swell_wave_direction[mid];
+    $("surf").innerHTML = `
+      <h2>Surf, ${esc(L.surfName)}</h2>
+      <p class="big">${lo.toFixed(1)} to ${hi.toFixed(1)} ft</p>
+      <p class="muted">Daytime waves today${per != null && dir != null ? `, ${Math.round(per)} s swell from ${compass(dir)}` : ""}.</p>`;
+  } catch (e) {
+    $("surf").innerHTML = `<h2>Surf</h2><p class="err">No wave data right now.</p>`;
+  }
 }
 
-async function loadWeatherAndSurf() {
-  const loc = current;
-  const wUrl = `https://api.open-meteo.com/v1/forecast?latitude=${loc.lat}&longitude=${loc.lon}&current=temperature_2m,apparent_temperature,weather_code,wind_speed_10m,wind_direction_10m&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max&temperature_unit=fahrenheit&wind_speed_unit=mph&timezone=auto&forecast_days=5`;
-  const mUrl = `https://marine-api.open-meteo.com/v1/marine?latitude=${loc.surfLat}&longitude=${loc.surfLon}&current=wave_height,wave_period,wave_direction,swell_wave_height,swell_wave_period,swell_wave_direction&hourly=wave_height&length_unit=imperial&timezone=auto&forecast_days=2`;
-  const [w, m] = await Promise.allSettled([getJSON(wUrl), getJSON(mUrl)]);
-  if (loc !== current) return; // user switched location while loading
-  if (w.status === "fulfilled") renderWeather(w.value);
-  else $("wx").innerHTML = `<h2>Weather</h2><p class="err">Couldn’t load the forecast. Tap Refresh to try again.</p>`;
-  if (m.status === "fulfilled") renderSurf(m.value, w.status === "fulfilled" ? w.value : null);
-  else $("surf").innerHTML = `<h2>Surf</h2><p class="err">Couldn’t load surf data. Tap Refresh to try again.</p>`;
-}
-
+/* ---------- Wikipedia (small, all linked) ---------- */
 async function loadWiki() {
   const n = new Date(), p = (x) => String(x).padStart(2, "0");
   try {
     const d = await getJSON(`https://en.wikipedia.org/api/rest_v1/feed/featured/${n.getFullYear()}/${p(n.getMonth() + 1)}/${p(n.getDate())}`);
     const t = d.tfa;
     if (!t) throw new Error("no featured article");
-    const otd = (d.onthisday || []).slice(0, 2).map((e) => `<b>${esc(e.year)}</b> ${esc(e.text)}`).join("<br><br>");
+    const otd = (d.onthisday || []).slice(0, 2).map((e) => {
+      const url = e.pages && e.pages[0] && e.pages[0].content_urls && e.pages[0].content_urls.desktop && e.pages[0].content_urls.desktop.page;
+      return `<p><b>${esc(e.year)}</b> ${link(url, cut(e.text, 110))}</p>`;
+    }).join("");
+    const url = t.content_urls && t.content_urls.desktop && t.content_urls.desktop.page;
     $("wiki").innerHTML = `
       <h2>Wikipedia featured article</h2>
-      ${t.thumbnail ? `<img class="thumb" src="${esc(t.thumbnail.source)}" alt="">` : ""}
-      <h3>${esc(t.titles?.normalized || t.title)}</h3>
-      <p>${esc(t.extract)}</p>
-      <p><a href="${esc(t.content_urls?.desktop?.page)}" target="_blank" rel="noopener">Read the full article</a></p>
+      <h3>${link(url, (t.titles && t.titles.normalized) || t.title)}</h3>
+      <p>${esc(cut(t.extract || "", 230))}</p>
       ${otd ? `<div class="otd">${otd}</div>` : ""}`;
   } catch (e) {
-    $("wiki").innerHTML = `<h2>Wikipedia featured article</h2><p class="err">Couldn’t load today’s article. Tap Refresh to try again.</p>`;
+    $("wiki").innerHTML = `<h2>Wikipedia featured article</h2><p class="err">Couldn’t load today’s article.</p>`;
+  }
+}
+
+/* ---------- briefing + sports (from data.json, built daily by GitHub Actions) ---------- */
+function gameLine(g) {
+  const when = g.state === "in" ? "live" : g.state === "post" ? "final" : g.time + " PT";
+  return `${esc(g.matchup)}, ${esc(when)}${g.network ? ", " + esc(g.network) : ""}`;
+}
+
+function renderSports(s) {
+  if (!s) { $("sports").innerHTML = `<h2>Sports today</h2><p class="err">No sports data yet.</p>`; return; }
+  let h = `<h2>Sports today</h2>`;
+  h += `<h3>NBA</h3>`;
+  if (!s.nba) h += `<p class="err">Couldn’t load the NBA schedule.</p>`;
+  else {
+    h += s.nba.warriors.length ? s.nba.warriors.map((g) => `<p><b>Warriors:</b> ${gameLine(g)}</p>`).join("") : `<p class="muted">No Warriors game today.</p>`;
+    if (s.nba.national.length) h += s.nba.national.map((g) => `<p><b>National TV:</b> ${gameLine(g)}</p>`).join("");
+  }
+  h += `<h3>NFL</h3>`;
+  if (!s.nfl) h += `<p class="err">Couldn’t load the NFL schedule.</p>`;
+  else if (!s.nfl.count) h += `<p class="muted">No NFL games today.</p>`;
+  else {
+    h += `<p>${s.nfl.count} game${s.nfl.count === 1 ? "" : "s"} today.</p>`;
+    const list = s.nfl.all.length ? s.nfl.all : s.nfl.primetime;
+    h += list.map((g) => `<p><b>${s.nfl.all.length ? "Game" : "Primetime"}:</b> ${gameLine(g)}</p>`).join("");
+  }
+  $("sports").innerHTML = h;
+}
+
+function renderBrief(d) {
+  const made = new Date(d.generated);
+  const stale = Date.now() - made.getTime() > 36 * 3600 * 1000;
+  const when = made.toLocaleString(undefined, { weekday: "short", hour: "numeric", minute: "2-digit" });
+  $("brief").innerHTML = d.ai
+    ? `<p class="overview">${esc(d.overview)}</p><p class="meta">Summarized by AI from the headlines below. Written ${esc(when)}.${stale ? " This is more than a day old, so the daily update may have stopped." : ""}</p>`
+    : `<p class="overview muted">Headlines only. Add a Gemini key to get a written summary.</p><p class="meta">Updated ${esc(when)}.${stale ? " This is more than a day old, so the daily update may have stopped." : ""}</p>`;
+  $("newsMount").innerHTML = d.sections.map((s) => `
+    <section class="card news">
+      <h2>${esc(s.title)}</h2>
+      ${s.items.length ? `<ul>${s.items.map((it) => `
+        <li><a href="${safeUrl(it.url)}" target="_blank" rel="noopener">${esc(it.title)}</a><span class="src">${esc(it.source)}</span>
+        ${it.summary ? `<p>${esc(it.summary)}</p>` : ""}</li>`).join("")}</ul>` : `<p class="muted">Nothing new from these sources.</p>`}
+    </section>`).join("");
+}
+
+async function loadData() {
+  try {
+    const d = await getJSON("data.json?t=" + Date.now());
+    renderBrief(d);
+    renderSports(d.sports);
+  } catch (e) {
+    $("brief").innerHTML = `<p class="overview muted">The daily briefing isn’t set up yet.</p><p class="meta">It appears once the GitHub Action has run and created data.json.</p>`;
+    $("newsMount").innerHTML = "";
+    renderSports(null);
   }
 }
 
 function loadAll() {
   lastLoad = Date.now();
   renderHeader();
-  loadWeatherAndSurf();
-  loadWiki();
-  $("stamp").textContent = "Updated " + new Date().toLocaleTimeString(undefined, { hour: "numeric", minute: "2-digit" });
+  loadWeather(); loadSurf(); loadWiki(); loadData();
+  $("stamp").textContent = "Checked " + fmtTime(new Date());
 }
 
 $("refresh").addEventListener("click", loadAll);
@@ -287,7 +320,6 @@ document.addEventListener("visibilitychange", () => {
 });
 setInterval(loadAll, CONFIG.refreshMinutes * 60 * 1000);
 
-renderLocButtons();
 renderQuote();
 loadAll();
 </script>
