@@ -20,20 +20,27 @@ UA = "Mozilla/5.0 (compatible; morning-dashboard/1.0; personal use)"
 # A feed that fails is skipped, so a wrong or dead URL won't break the run.
 FEEDS = {
     "general": ("Top news", [
+        ("Wall Street Journal", "https://feeds.a.dj.com/rss/RSSWorldNews.xml"),
+        ("Reuters", "https://feeds.reuters.com/reuters/topNews"),
+        ("The Economist", "https://www.economist.com/the-world-this-week/rss.xml"),
+        ("Bloomberg", "https://feeds.bloomberg.com/markets/news.rss"),
+        ("Axios", "https://api.axios.com/feed/"),
         ("NPR", "https://feeds.npr.org/1001/rss.xml"),
-        ("BBC", "https://feeds.bbci.co.uk/news/world/rss.xml"),
-        ("NYT", "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml"),
     ]),
     "cre": ("Commercial real estate", [
+        ("CBRE", "https://www.cbre.com/insights"),
+        ("Newmark", "https://www.nmrk.com/insights"),
+        ("CoStar", "https://www.costar.com/news"),
+        ("Green Street", "https://www.greenstreet.com/insights/"),
         ("The Real Deal", "https://therealdeal.com/feed/"),
-        ("GlobeSt", "https://www.globest.com/feed/"),
-        ("Commercial Observer", "https://commercialobserver.com/feed/"),
     ]),
     "sf": ("San Francisco", [
+        ("San Francisco Business Times", "https://www.bizjournals.com/sanfrancisco/rss"),
+        ("San Francisco Chronicle", "https://www.sfchronicle.com/default/feed/rss/category/news/"),
         ("Mission Local", "https://missionlocal.org/feed/"),
-        ("SF Standard", "https://sfstandard.com/feed/"),
     ]),
     "hawaii": ("Hawaii", [
+        ("Pacific Business News", "https://www.bizjournals.com/pacific/rss"),
         ("Civil Beat", "https://www.civilbeat.org/feed/"),
         ("Star-Advertiser", "https://www.staradvertiser.com/feed/"),
     ]),
@@ -191,7 +198,7 @@ Return JSON in exactly this shape:
 {"overview": "...", "sections": {"general": [{"id": "general-0", "summary": "..."}], "cre": [], "sf": [], "hawaii": []}}
 
 Rules:
-- "overview": 4 to 6 plain sentences, no bullets or markdown, leading with the most important stories across all sections. Mention commercial real estate, San Francisco, or Hawaii only if the item is actually in the headlines. Keep it macro and readable, not a list of deal details.
+- "overview": 4 to 6 plain sentences, no bullets or markdown, leading with the most important stories across all sections. Mention commercial real estate, San Francisco, or Hawaii only if the item is [...]
 - For each section choose the 3 or 4 most important items and give each a one-sentence "summary" of at most 25 words, restating what the item says.
 - Use only ids that appear below. If a section has no items, return an empty list for it.
 
@@ -214,7 +221,7 @@ def gemini(prompt):
         print("[ai skipped] GEMINI_API_KEY is not set", file=sys.stderr)
         return None
     models = [os.environ.get("GEMINI_MODEL", "").strip(), "gemini-2.5-flash", "gemini-2.5-flash-lite"]
-    for model in dict.fromkeys(m for m in models if m):
+    for model in dict.fromkeys(g for g in models if g):
         url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
         body = {
             "contents": [{"parts": [{"text": prompt}]}],
@@ -402,3 +409,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
