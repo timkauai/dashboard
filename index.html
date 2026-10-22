@@ -137,6 +137,10 @@ button:focus-visible, a:focus-visible { outline: 3px solid var(--accent); outlin
 const CONFIG = {
   name: "James",
   refreshMinutes: 30,
+  fantasy: {
+    sleeper: { username: "jamesdpratt" },
+    espn: { leagueId: "811300233", leagueName: "i boned joshes mom" }
+  },
   // Weather uses lat/lon. Surf uses surfLat/surfLon, which should sit just offshore of the break.
   location: { label: "San Francisco", lat: 37.7749, lon: -122.4194, surfName: "Ocean Beach", surfLat: 37.76, surfLon: -122.55 },
   // The quote changes daily, in order. Swap in your own.
@@ -162,7 +166,7 @@ const CONFIG = {
 /* =================================== */
 
 const $ = (id) => document.getElementById(id);
-const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const esc = (s) => String(s ?? "").replace(/[&<>\"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 const safeUrl = (u) => (/^https?:\/\//i.test(u || "") ? esc(u) : "");
 const link = (url, text) => (safeUrl(url) ? `<a href="${safeUrl(url)}" target="_blank" rel="noopener">${esc(text)}</a>` : esc(text));
 const compass = (deg) => ["N","NNE","NE","ENE","E","ESE","SE","SSE","S","SSW","SW","WSW","W","WNW","NW","NNW"][Math.round((deg % 360) / 22.5) % 16];
@@ -175,6 +179,7 @@ const WMO = {
 };
 const fmtTime = (d) => d.toLocaleTimeString(undefined, { hour: "numeric", minute: "2-digit" });
 const cut = (s, n) => (s.length <= n ? s : s.slice(0, n).replace(/\s+\S*$/, "") + "…");
+const dayShort = (iso) => new Date(iso).toLocaleDateString(undefined, { weekday: "short" });
 let lastLoad = 0;
 
 async function getJSON(url) {
@@ -200,11 +205,17 @@ function renderQuote() {
 async function loadWeather() {
   const L = CONFIG.location;
   try {
-    const d = await getJSON(`https://api.open-meteo.com/v1/forecast?latitude=${L.lat}&longitude=${L.lon}&current=temperature_2m,apparent_temperature,weather_code,wind_speed_10m,wind_direction_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&timezone=auto`);
+    const d = await getJSON(`https://api.open-meteo.com/v1/forecast?latitude=${L.lat}&longitude=${L.lon}&current=temperature_2m,apparent_temperature,weather_code,wind_speed_10m,wind_direction_10m&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max,weather_code&temperature_unit=fahrenheit&wind_speed_unit=mph&timezone=auto`);
     const c = d.current;
+    const daily = d.daily || {};
+    const hi = Number(daily.temperature_2m_max?.[0]);
+    const lo = Number(daily.temperature_2m_min?.[0]);
+    const rain = Number(daily.precipitation_probability_max?.[0]);
+    const cond = WMO[c.weather_code] || "";
+    const rainText = Number.isFinite(rain) ? `${Math.round(rain)}% rain chance` : "No rain data";
     $("wx").innerHTML = `
-      <div class="row"><span class="t">${Math.round(c.temperature_2m)}<sup>°F</sup></span><span class="c">${esc(WMO[c.weather_code] || "")}</span></div>
-      <p class="f">${esc(L.label)}. Feels like ${Math.round(c.apparent_temperature)}°, wind ${Math.round(c.wind_speed_10m)} mph from ${compass(c.wind_direction_10m)}.</p>`;
+      <div class="row"><span class="t">${Math.round(c.temperature_2m)}<sup>°F</sup></span><span class="c">${esc(cond)}</span></div>
+      <p class="f">Hi ${Number.isFinite(hi) ? Math.round(hi) : "?"}° / Lo ${Number.isFinite(lo) ? Math.round(lo) : "?"}° • ${esc(rainText)} • ${esc(L.label)}.</p>`;
   } catch (e) {
     $("wx").innerHTML = `<p class="err">Couldn’t load the weather.</p>`;
   }
@@ -214,18 +225,19 @@ async function loadWeather() {
 async function loadSurf() {
   const L = CONFIG.location;
   try {
-    const m = await getJSON(`https://marine-api.open-meteo.com/v1/marine?latitude=${L.surfLat}&longitude=${L.surfLon}&hourly=wave_height,swell_wave_period,swell_wave_direction&length_unit=imperial&timezone=auto&forecast_days=1`);
-    const h = m.hourly, idx = [];
-    h.time.forEach((t, i) => { const hr = parseInt(t.slice(11, 13), 10); if (hr >= 6 && hr <= 18 && h.wave_height[i] != null) idx.push(i); });
-    if (!idx.length) throw new Error("no data");
-    const vals = idx.map((i) => h.wave_height[i]);
-    const lo = Math.min(...vals), hi = Math.max(...vals);
-    const mid = idx.find((i) => h.time[i].slice(11, 13) === "12") ?? idx[Math.floor(idx.length / 2)];
-    const per = h.swell_wave_period[mid], dir = h.swell_wave_direction[mid];
+    const m = await getJSON(`https://marine-api.open-meteo.com/v1/marine?latitude=${L.surfLat}&longitude=${L.surfLon}&daily=wave_height_max,wave_height_min,swell_wave_period_max,swell_wave_direction_dominant&timezone=auto&length_unit=imperial`);
+    const h = m.daily || {};
+    const values = (h.wave_height_max || []).filter((v) => v != null && Number.isFinite(Number(v)));
+    if (!values.length) throw new Error("no data");
+    const lo = Math.min(...values), hi = Math.max(...values);
+    const week = (h.time || []).slice(0, 7).map((t, i) => {
+      const val = Number(h.wave_height_max?.[i]);
+      return val != null ? `${dayShort(t)} ${val.toFixed(1)}ft` : null;
+    }).filter(Boolean).slice(0, 4).join(" • ");
     $("surf").innerHTML = `
       <h2>Surf, ${esc(L.surfName)}</h2>
       <p class="big">${lo.toFixed(1)} to ${hi.toFixed(1)} ft</p>
-      <p class="muted">Daytime waves today${per != null && dir != null ? `, ${Math.round(per)} s swell from ${compass(dir)}` : ""}.</p>`;
+      <p class="muted">Week outlook: ${esc(week || "Checking the next days.")}</p>`;
   } catch (e) {
     $("surf").innerHTML = `<h2>Surf</h2><p class="err">No wave data right now.</p>`;
   }
@@ -259,22 +271,33 @@ function gameLine(g) {
   return `${esc(g.matchup)}, ${esc(when)}${g.network ? ", " + esc(g.network) : ""}`;
 }
 
+function eventLine(g) {
+  const when = g.state === "in" ? "live" : g.state === "post" ? "final" : g.time + " PT";
+  return `${esc(g.name)}, ${esc(when)}`;
+}
+
 function renderSports(s) {
   if (!s) { $("sports").innerHTML = `<h2>Sports today</h2><p class="err">No sports data yet.</p>`; return; }
   let h = `<h2>Sports today</h2>`;
   h += `<h3>NBA</h3>`;
   if (!s.nba) h += `<p class="err">Couldn’t load the NBA schedule.</p>`;
   else {
-    h += s.nba.warriors.length ? s.nba.warriors.map((g) => `<p><b>Warriors:</b> ${gameLine(g)}</p>`).join("") : `<p class="muted">No Warriors game today.</p>`;
-    if (s.nba.national.length) h += s.nba.national.map((g) => `<p><b>National TV:</b> ${gameLine(g)}</p>`).join("");
+    const warriors = (s.nba.warriors || []).slice(0, 2);
+    const national = (s.nba.national || []).slice(0, 2);
+    h += warriors.length ? warriors.map((g) => `<p><b>Warriors:</b> ${gameLine(g)}</p>`).join("") : `<p class="muted">No Warriors game today.</p>`;
+    if (national.length) h += national.map((g) => `<p><b>National TV:</b> ${gameLine(g)}</p>`).join("");
   }
   h += `<h3>NFL</h3>`;
   if (!s.nfl) h += `<p class="err">Couldn’t load the NFL schedule.</p>`;
   else if (!s.nfl.count) h += `<p class="muted">No NFL games today.</p>`;
   else {
     h += `<p>${s.nfl.count} game${s.nfl.count === 1 ? "" : "s"} today.</p>`;
-    const list = s.nfl.all.length ? s.nfl.all : s.nfl.primetime;
-    h += list.map((g) => `<p><b>${s.nfl.all.length ? "Game" : "Primetime"}:</b> ${gameLine(g)}</p>`).join("");
+    const list = (s.nfl.all || []).slice(0, 3).length ? (s.nfl.all || []).slice(0, 3) : (s.nfl.primetime || []).slice(0, 3);
+    h += list.map((g) => `<p><b>${(s.nfl.all || []).slice(0, 3).length ? "Game" : "Primetime"}:</b> ${gameLine(g)}</p>`).join("");
+  }
+  if (s.pga && s.pga.events && s.pga.events.length) {
+    h += `<h3>PGA</h3>`;
+    h += s.pga.events.slice(0, 3).map((g) => `<p><b>${esc(g.name)}:</b> ${eventLine(g)}</p>`).join("");
   }
   $("sports").innerHTML = h;
 }
@@ -284,8 +307,8 @@ function renderBrief(d) {
   const stale = Date.now() - made.getTime() > 36 * 3600 * 1000;
   const when = made.toLocaleString(undefined, { weekday: "short", hour: "numeric", minute: "2-digit" });
   $("brief").innerHTML = d.ai
-    ? `<p class="overview">${esc(d.overview)}</p><p class="meta">Summarized by AI from the headlines below. Written ${esc(when)}.${stale ? " This is more than a day old, so the daily update may have stopped." : ""}</p>`
-    : `<p class="overview muted">Headlines only. Add a Gemini key to get a written summary.</p><p class="meta">Updated ${esc(when)}.${stale ? " This is more than a day old, so the daily update may have stopped." : ""}</p>`;
+    ? `<p class="overview">${esc(d.overview)}</p><p class="meta">Summarized by AI from the headlines below. Written ${esc(when)}.${stale ? " This is more than a day old, so the daily update may have drifted." : ""}</p>`
+    : `<p class="overview muted">Headlines only. Add a Gemini key to get a written summary.</p><p class="meta">Updated ${esc(when)}.${stale ? " This is more than a day old, so the daily update may have drifted." : ""}</p>`;
   $("newsMount").innerHTML = d.sections.map((s) => `
     <section class="card news">
       <h2>${esc(s.title)}</h2>
