@@ -1,7 +1,7 @@
 {
- "generated": "2026-10-21T20:18:34.298975-07:00",
- "ai": false,
- "overview": "",
+ "generated": "2026-10-21T20:33:56.633130-07:00",
+ "ai": true,
+ "overview": "A federal judge has issued a ruling restricting homeland security field operations aimed at unearthing voter fraud across multiple states including California. In commercial real estate news, Ken Griffin secured a massive construction loan for a Manhattan office tower, while Los Angeles multifamily sales saw a notable jump. Locally in San Francisco, the husband of a slain UCSF social worker is suing the city over inadequate security at the hospital. Meanwhile, developments in Hawaii include a board vote for a new Office of Hawaiian Affairs CEO and a community battle over a luxury housing proposal in Princeville.",
  "sections": [
   {
    "key": "general",
@@ -9,19 +9,19 @@
    "items": [
     {
      "title": "Judge Restricts D.H.S. Field Operations Aimed at Unearthing Voter Fraud",
-     "summary": "",
+     "summary": "A judge blocked homeland security agents from conducting field interviews in nine states, including California, regarding noncitizen voter registration.",
      "url": "https://www.nytimes.com/2026/10/21/us/politics/judge-dhs-voter-fraud-elections.html",
      "source": "NYT"
     },
     {
      "title": "How Mark Zuckerberg Pushed Meta to Shield Him From California’s Proposed Wealth Tax",
-     "summary": "",
+     "summary": "Mark Zuckerberg told Meta's board he planned to sell his Silicon Valley home to avoid a proposed California wealth tax, prompting a stock structure change.",
      "url": "https://www.nytimes.com/2026/10/21/technology/mark-zuckerberg-meta-california-wealth-tax.html",
      "source": "NYT"
     },
     {
      "title": "U.S. and Israel Draw Up Plans for Renewed Strikes on Iran After Elections",
-     "summary": "",
+     "summary": "The United States and Israel are drawing up plans for renewed strikes on Iran following elections.",
      "url": "https://www.nytimes.com/2026/10/21/us/politics/us-israel-renewed-iran-strikes.html",
      "source": "NYT"
     }
@@ -33,25 +33,25 @@
    "items": [
     {
      "title": "Ken Griffin Seals $3.3B Construction Loan for Manhattan Office Tower",
-     "summary": "",
+     "summary": "Ken Griffin secured a 3.3 billion dollar construction loan for a Midtown Manhattan office tower as part of a joint venture.",
      "url": "https://commercialobserver.com/2026/10/ken-griffin-citadel-350-park-manhattan/",
      "source": "Commercial Observer"
     },
     {
      "title": "Canadian Investor Buys Two Hotels in Palm Beach County for More Than $48M",
-     "summary": "",
+     "summary": "Canadian investor Brasswater purchased two Hampton Inns hotels in Palm Beach County for more than 48 million dollars.",
      "url": "https://commercialobserver.com/2026/10/brasswater-hampton-inns-west-palm-beach-boynton-beach-hospitality/",
      "source": "Commercial Observer"
     },
     {
      "title": "Mexican Eatery Casa Carmen to Open Third Manhattan Location",
-     "summary": "",
+     "summary": "Mexican eatery Casa Carmen signed a 15-year lease for its third Manhattan location in Midtown East.",
      "url": "https://commercialobserver.com/2026/10/casa-carmen-lease-sage-437-madison-avenue/",
      "source": "Commercial Observer"
     },
     {
      "title": "L.A. Multifamily Sales Jump 44%",
-     "summary": "",
+     "summary": "Los Angeles County multifamily investment sales increased after the third quarter while rents and occupancy remained stuck in neutral.",
      "url": "https://commercialobserver.com/2026/10/la-multifamily-investment-rent-q3/",
      "source": "Commercial Observer"
     }
@@ -62,26 +62,20 @@
    "title": "San Francisco",
    "items": [
     {
-     "title": "How ‘the mayor’s network’ landed a private school kid a commissioner role",
-     "summary": "",
-     "url": "https://sfstandard.com/2026/10/21/power-play-mayor-network-landed-private-school-kid-commissioner-role/",
-     "source": "SF Standard"
-    },
-    {
      "title": "Husband of slain UCSF social worker sues city over ‘woefully inadequate security’",
-     "summary": "",
+     "summary": "The husband of a slain UCSF social worker is suing San Francisco over woefully inadequate security at S.F. General.",
      "url": "https://missionlocal.org/2026/10/husband-of-slain-ucsf-social-worker-sues-city/",
      "source": "Mission Local"
     },
     {
      "title": "Ken Fulk is selling his beloved ‘Tree House’ for $7.9 million — and moving to a new hill",
-     "summary": "",
+     "summary": "Designer Ken Fulk is selling his Clarendon Heights redwood midcentury home for 7.9 million dollars and moving across the city.",
      "url": "https://sfstandard.com/2026/10/21/ken-fulk-tree-house-clarendon-heights-sale/",
      "source": "SF Standard"
     },
     {
      "title": "Meet the District 8 candidates: Should S.F. expand rent control?",
-     "summary": "",
+     "summary": "District 8 supervisor candidates in San Francisco are sharing their thoughts on whether to expand rent control.",
      "url": "https://missionlocal.org/2026/10/sf-district-8-supervisor-candidates-rent-control/",
      "source": "Mission Local"
     }
@@ -92,27 +86,27 @@
    "title": "Hawaii",
    "items": [
     {
-     "title": "Hawaii’s 10th case of travel-related dengue confirmed on Maui",
-     "summary": "",
-     "url": "https://www.staradvertiser.com/2026/10/21/breaking-news/hawaiis-10th-case-of-travel-related-dengue-confirmed-on-maui/",
-     "source": "Star-Advertiser"
-    },
-    {
      "title": "Looks Like OHA Has A New CEO",
-     "summary": "",
+     "summary": "A vote finalizing Todd Apo's appointment as the new CEO of the Office of Hawaiian Affairs is expected on Thursday.",
      "url": "https://www.civilbeat.org/2026/10/looks-like-oha-has-a-new-ceo/",
      "source": "Civil Beat"
     },
     {
-     "title": "CDC ignored request from states to validate new measles test",
-     "summary": "",
-     "url": "https://www.staradvertiser.com/2026/10/21/breaking-news/cdc-ignored-request-from-states-to-validate-new-measles-test/",
+     "title": "Bodyboarder, 32, rescued off Hapuna Beach",
+     "summary": "Hawaii County firefighters rescued a 32-year-old bodyboarder after strong currents swept him more than a mile offshore from Hapuna Beach.",
+     "url": "https://www.staradvertiser.com/2026/10/21/breaking-news/bodyboarder-32-rescued-off-hapuna-beach/",
      "source": "Star-Advertiser"
     },
     {
      "title": "Lines Drawn In Princeville Battle: Golf Course Views Vs. Luxury Development",
-     "summary": "",
+     "summary": "Lawsuits have been filed and police called as a global investment company pushes a luxury housing proposal in Princeville.",
      "url": "https://www.civilbeat.org/2026/10/lines-drawn-in-princeville-battle-golf-course-views-vs-luxury-development/",
+     "source": "Civil Beat"
+    },
+    {
+     "title": "So What’s With All These Charter And Constitutional Amendments?",
+     "summary": "Voters are evaluating charter amendments for Honolulu, Hawaiʻi, Maui, and Kauaʻi counties alongside state constitutional amendments.",
+     "url": "https://www.civilbeat.org/2026/10/list-hawaiis-2026-charter-and-constitutional-amendments/",
      "source": "Civil Beat"
     }
    ]
