@@ -1,16 +1,28 @@
 {
- "generated": "2026-10-22T10:55:09.349864-07:00",
+ "generated": "2026-10-23T10:49:32.223653-07:00",
  "ai": true,
- "overview": "A federal judge ordered President Trump to sit for a deposition in his defamation lawsuit against the BBC. The U.S. Embassy in Canada alleged potential election interference following tariff disputes. Meanwhile, a 152-unit housing project in San Francisco's Mission District is finally breaking ground with reduced community benefits. In Hawaii, the Honolulu Police Department is reassigning officers amid hundreds of vacancies, and residents served by a storm-damaged private water system seek to take it over.",
+ "overview": "Federal agents recently observed a mysterious flying triangle near a secure U.S. facility. Wall Street and major banks are preparing for artificial intelligence worst-case scenarios and its aftermath. Meanwhile, soaring prices have not broken America's entrenched diesel habit. In San Francisco, local elections feature discussions on props aimed at cleaning up City Hall and early state senate bids. In Hawaii, news covers a new plan for the Honolulu rail line, a massive Kalihi redevelopment project, and a false claims law.",
  "sections": [
   {
    "key": "general",
    "title": "Top news",
    "items": [
     {
-     "title": "Trump ordered to sit for deposition in $10 billion BBC lawsuit",
-     "summary": "A federal judge ordered President Trump to sit for a Dec. 11 deposition in his $10 billion defamation lawsuit against the BBC.",
-     "url": "https://www.axios.com/2026/10/22/trump-bbc-lawsuit-december-deposition-deadline",
+     "title": "Mysterious \"flying triangle\" sighting leads new government release of UFO documents",
+     "summary": "Federal agents near a secure facility sighted an unidentified matte black triangle that moved quickly and made no sound.",
+     "url": "https://www.axios.com/2026/10/23/new-ufo-documents-flying-triangle",
+     "source": "Axios"
+    },
+    {
+     "title": "Wall Street prepares for AI's \"day after\"",
+     "summary": "Major banks and financial institutions are collaborating with AI companies to prepare for potential catastrophe scenarios.",
+     "url": "https://www.axios.com/2026/10/23/ai-catastrophe-wall-street",
+     "source": "Axios"
+    },
+    {
+     "title": "Why soaring prices aren't breaking America's diesel habit",
+     "summary": "Despite historically high prices, diesel remains deeply entrenched in farming, trucking, and other industries.",
+     "url": "https://www.axios.com/2026/10/23/soaring-prices-diesel-habit",
      "source": "Axios"
     }
    ]
@@ -25,9 +37,15 @@
    "title": "San Francisco",
    "items": [
     {
-     "title": "152-unit Mission District project to break ground—with shrunken promises",
-     "summary": "A developer is breaking ground on a 152-unit housing project in the Mission District after previous agreements for community benefits expired.",
-     "url": "https://missionlocal.org/2026/10/san-francisco-mission-district-321-florida-housing-project/",
+     "title": "Election ad fact-check: Will Props. D, E, and F really ‘Clean up City Hall’?",
+     "summary": "Mission Local investigates the dire warnings and big promises made in advertisements for Props D, E, and F.",
+     "url": "https://missionlocal.org/2026/10/san-francisco-election-ad-fact-check-propositions-charter-reform/",
+     "source": "Mission Local"
+    },
+    {
+     "title": "Election Extra! Matt Haney gets started early for state senate bid",
+     "summary": "Matt Haney announced endorsements from 52 fellow California Assembly members for his bid for a state senate seat.",
+     "url": "https://missionlocal.org/2026/10/matt-haney-state-senate-bid/",
      "source": "Mission Local"
     }
    ]
@@ -37,68 +55,60 @@
    "title": "Hawaii",
    "items": [
     {
-     "title": "HPD staffing reassignments come amid 453 officer vacancies",
-     "summary": "The Honolulu Police Department is reassigning officers to patrol districts while working to fill 453 uniformed and 182 civilian vacancies.",
-     "url": "https://www.staradvertiser.com/2026/10/22/hawaii-news/hpd-staffing-reassignments-come-amid-453-officer-vacancies/",
-     "source": "Star-Advertiser"
-    },
-    {
-     "title": "With Their Taps Dry For 9 Weeks And Counting, They Want To Take Over",
-     "summary": "Residents in Punalu'u want to take over a private water system whose taps have been dry for nine weeks following Hurricane Lala.",
-     "url": "https://www.civilbeat.org/2026/10/with-their-taps-dry-for-9-weeks-and-counting-they-want-to-take-over/",
+     "title": "New Plan Aims To Extend Honolulu Rail Line For An Extra $4 Billion",
+     "summary": "A subcommittee tentatively endorsed extending the Honolulu rail line system to Ala Moana Center and Kapolei for $4 billion.",
+     "url": "https://www.civilbeat.org/2026/10/new-plan-to-extend-honolulu-rail-line-extra-4-billion/",
      "source": "Civil Beat"
     },
     {
-     "title": "‘Sadistic’ Cult: Hilo High Schooler Preyed On Girls Online",
-     "summary": "Federal investigators report that a Hilo high schooler targeted vulnerable young girls online amid a rise in violent extremism.",
-     "url": "https://www.civilbeat.org/2026/10/sadistic-cult-hilo-high-schooler-preyed-on-girls-online/",
+     "title": "10-tower redevelopment project takes shape in Kalihi",
+     "summary": "A new 10-tower redevelopment project is taking shape in Kalihi, offering a chance for residents to move back.",
+     "url": "https://www.staradvertiser.com/2026/10/23/hawaii-news/10-tower-redevelopment-project-takes-shape-in-kalihi/",
+     "source": "Star-Advertiser"
+    },
+    {
+     "title": "Hawaiʻi Citizens Have A Powerful Law On The Books To Combat Fraud",
+     "summary": "Hawaiʻi citizens have the State False Claims Act available to prosecute companies and individuals profiting from lax oversight.",
+     "url": "https://www.civilbeat.org/2026/10/hawaii-powerful-law-combat-fraud/",
      "source": "Civil Beat"
     }
    ]
   }
  ],
  "sports": {
-  "date": "20261022",
+  "date": "20261023",
   "nba": {
-   "count": 2,
-   "warriors": [],
+   "count": 12,
+   "warriors": [
+    {
+     "matchup": "Grizzlies at Warriors",
+     "time": "7:00 PM",
+     "network": "NBA League Pass",
+     "state": "pre",
+     "start_hour": 19
+    }
+   ],
    "national": [
     {
-     "matchup": "Cavaliers at 76ers",
+     "matchup": "Knicks at Celtics",
      "time": "4:00 PM",
-     "network": "ESPN",
+     "network": "Prime Video",
      "state": "pre",
      "start_hour": 16
     },
     {
-     "matchup": "Nuggets at Thunder",
+     "matchup": "Rockets at Spurs",
      "time": "6:30 PM",
-     "network": "ESPN",
+     "network": "Prime Video",
      "state": "pre",
      "start_hour": 18
     }
    ]
   },
   "nfl": {
-   "count": 1,
-   "primetime": [
-    {
-     "matchup": "Patriots at Bears",
-     "time": "5:15 PM",
-     "network": "Prime Video",
-     "state": "pre",
-     "start_hour": 17
-    }
-   ],
-   "all": [
-    {
-     "matchup": "Patriots at Bears",
-     "time": "5:15 PM",
-     "network": "Prime Video",
-     "state": "pre",
-     "start_hour": 17
-    }
-   ]
+   "count": 0,
+   "primetime": [],
+   "all": []
   },
   "pga": {
    "events": [
