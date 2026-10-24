@@ -1,28 +1,28 @@
 {
- "generated": "2026-10-23T10:49:32.223653-07:00",
+ "generated": "2026-10-24T09:31:13.210054-07:00",
  "ai": true,
- "overview": "Federal agents recently observed a mysterious flying triangle near a secure U.S. facility. Wall Street and major banks are preparing for artificial intelligence worst-case scenarios and its aftermath. Meanwhile, soaring prices have not broken America's entrenched diesel habit. In San Francisco, local elections feature discussions on props aimed at cleaning up City Hall and early state senate bids. In Hawaii, news covers a new plan for the Honolulu rail line, a massive Kalihi redevelopment project, and a false claims law.",
+ "overview": "Washington officials and intelligence memos reveal growing concerns regarding AI leaders and advanced Iranian plots targeting American officials. President Trump's advisers see potential opportunities beyond Netanyahu as the Israeli election looms. In San Francisco, Governor Newsom endorsed Mayor Lurie's city charter changes, while the community mourns the slain former SFPD deputy chief Ann Mannix and her daughter. Meanwhile in Hawaii, a new plan aims to extend the Honolulu rail line, and citizens discuss using the State False Claims Act to combat fraud.",
  "sections": [
   {
    "key": "general",
    "title": "Top news",
    "items": [
     {
-     "title": "Mysterious \"flying triangle\" sighting leads new government release of UFO documents",
-     "summary": "Federal agents near a secure facility sighted an unidentified matte black triangle that moved quickly and made no sound.",
-     "url": "https://www.axios.com/2026/10/23/new-ufo-documents-flying-triangle",
+     "title": "As Israeli election looms, Trump advisers see opportunity beyond Netanyahu",
+     "summary": "President Trump endorsed Benjamin Netanyahu in the upcoming Israeli election, though some advisers see potential for his Middle East agenda under different leadership.",
+     "url": "https://www.axios.com/2026/10/24/israel-election-trump-netanyahu-advisers",
      "source": "Axios"
     },
     {
-     "title": "Wall Street prepares for AI's \"day after\"",
-     "summary": "Major banks and financial institutions are collaborating with AI companies to prepare for potential catastrophe scenarios.",
-     "url": "https://www.axios.com/2026/10/23/ai-catastrophe-wall-street",
+     "title": "Washington's message to AI execs: please shut up",
+     "summary": "Lawmakers and White House advisers view the current crop of AI leaders as a monumental political liability.",
+     "url": "https://www.axios.com/2026/10/24/ai-ceos-washington-political-liability",
      "source": "Axios"
     },
     {
-     "title": "Why soaring prices aren't breaking America's diesel habit",
-     "summary": "Despite historically high prices, diesel remains deeply entrenched in farming, trucking, and other industries.",
-     "url": "https://www.axios.com/2026/10/23/soaring-prices-diesel-habit",
+     "title": "Scoop: U.S. intel memo warns of \"advanced\" Iranian plots to kill officials abroad",
+     "summary": "A U.S. intelligence memo warns that Iran has substantially increased advanced lethal plots targeting American diplomats and officials.",
+     "url": "https://www.axios.com/2026/10/24/iran-war-us-embassies-evacuations-threat",
      "source": "Axios"
     }
    ]
@@ -37,15 +37,15 @@
    "title": "San Francisco",
    "items": [
     {
-     "title": "Election ad fact-check: Will Props. D, E, and F really ‘Clean up City Hall’?",
-     "summary": "Mission Local investigates the dire warnings and big promises made in advertisements for Props D, E, and F.",
-     "url": "https://missionlocal.org/2026/10/san-francisco-election-ad-fact-check-propositions-charter-reform/",
+     "title": "Slain former SFPD deputy chief Ann Mannix, daughter Katie celebrated as kind people ‘gone too soon’",
+     "summary": "Slain former SFPD deputy chief Ann Mannix and her daughter Katie are remembered and celebrated as kind people gone too soon.",
+     "url": "https://missionlocal.org/2026/10/slain-formersfpd-deputy-chief-ann-mannix-and-daughter-katie-celebrated-as-kind-people-gone-too-soon/",
      "source": "Mission Local"
     },
     {
-     "title": "Election Extra! Matt Haney gets started early for state senate bid",
-     "summary": "Matt Haney announced endorsements from 52 fellow California Assembly members for his bid for a state senate seat.",
-     "url": "https://missionlocal.org/2026/10/matt-haney-state-senate-bid/",
+     "title": "Election Extra! Gov. Newsom endorses Mayor Lurie’s city charter changes",
+     "summary": "Governor Newsom endorsed Mayor Lurie's city charter changes just days before the November 3 election.",
+     "url": "https://missionlocal.org/2026/10/san-francisco-newsom-lurie-charter-congress-endorsement/",
      "source": "Mission Local"
     }
    ]
@@ -55,55 +55,34 @@
    "title": "Hawaii",
    "items": [
     {
-     "title": "New Plan Aims To Extend Honolulu Rail Line For An Extra $4 Billion",
-     "summary": "A subcommittee tentatively endorsed extending the Honolulu rail line system to Ala Moana Center and Kapolei for $4 billion.",
-     "url": "https://www.civilbeat.org/2026/10/new-plan-to-extend-honolulu-rail-line-extra-4-billion/",
+     "title": "Hawaiʻi Citizens Have A Powerful Law On The Books To Combat Fraud",
+     "summary": "The State False Claims Act serves as a powerful law for Hawaii citizens to combat fraud and prosecute those profiting from lax government oversight.",
+     "url": "https://www.civilbeat.org/2026/10/hawaii-powerful-law-combat-fraud/",
      "source": "Civil Beat"
     },
     {
-     "title": "10-tower redevelopment project takes shape in Kalihi",
-     "summary": "A new 10-tower redevelopment project is taking shape in Kalihi, offering a chance for residents to move back.",
-     "url": "https://www.staradvertiser.com/2026/10/23/hawaii-news/10-tower-redevelopment-project-takes-shape-in-kalihi/",
-     "source": "Star-Advertiser"
-    },
-    {
-     "title": "Hawaiʻi Citizens Have A Powerful Law On The Books To Combat Fraud",
-     "summary": "Hawaiʻi citizens have the State False Claims Act available to prosecute companies and individuals profiting from lax oversight.",
-     "url": "https://www.civilbeat.org/2026/10/hawaii-powerful-law-combat-fraud/",
+     "title": "New Plan Aims To Extend Honolulu Rail Line For An Extra $4 Billion",
+     "summary": "A HART subcommittee tentatively endorsed a new plan aiming to extend the Honolulu rail line for an extra four billion dollars.",
+     "url": "https://www.civilbeat.org/2026/10/new-plan-to-extend-honolulu-rail-line-extra-4-billion/",
      "source": "Civil Beat"
     }
    ]
   }
  ],
  "sports": {
-  "date": "20261023",
+  "date": "20261024",
   "nba": {
-   "count": 12,
+   "count": 8,
    "warriors": [
     {
-     "matchup": "Grizzlies at Warriors",
+     "matchup": "Warriors at Suns",
      "time": "7:00 PM",
-     "network": "NBA League Pass",
+     "network": "NBA TV, Suns Live, Arizona's Family CBS5",
      "state": "pre",
      "start_hour": 19
     }
    ],
-   "national": [
-    {
-     "matchup": "Knicks at Celtics",
-     "time": "4:00 PM",
-     "network": "Prime Video",
-     "state": "pre",
-     "start_hour": 16
-    },
-    {
-     "matchup": "Rockets at Spurs",
-     "time": "6:30 PM",
-     "network": "Prime Video",
-     "state": "pre",
-     "start_hour": 18
-    }
-   ]
+   "national": []
   },
   "nfl": {
    "count": 0,
