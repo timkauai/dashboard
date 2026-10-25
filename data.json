@@ -1,28 +1,28 @@
 {
- "generated": "2026-10-24T09:31:13.210054-07:00",
+ "generated": "2026-10-25T10:00:54.620626-07:00",
  "ai": true,
- "overview": "Washington officials and intelligence memos reveal growing concerns regarding AI leaders and advanced Iranian plots targeting American officials. President Trump's advisers see potential opportunities beyond Netanyahu as the Israeli election looms. In San Francisco, Governor Newsom endorsed Mayor Lurie's city charter changes, while the community mourns the slain former SFPD deputy chief Ann Mannix and her daughter. Meanwhile in Hawaii, a new plan aims to extend the Honolulu rail line, and citizens discuss using the State False Claims Act to combat fraud.",
+ "overview": "President Javier Milei has brought inflation down and opened Argentina to more investment, fueling a boom in energy and other export industries while small businesses and manufacturing struggle. The Trump administration is escalating lawsuits, raids, and arrests with just nine days until the midterms. Washington lawmakers and White House advisers view the current crop of AI leaders as a monumental political liability. In local news, a car drove into the Muni tunnel at the Embarcadero on Saturday afternoon, shutting down the Market Street subway for the night. Meanwhile, North Shore residents are bringing heavy machinery to Paukauila Stream to clear debris and mangroves ahead of the next major storm, and the University of Hawaii football team routed the Huskies 56-21 on the road.",
  "sections": [
   {
    "key": "general",
    "title": "Top news",
    "items": [
     {
-     "title": "As Israeli election looms, Trump advisers see opportunity beyond Netanyahu",
-     "summary": "President Trump endorsed Benjamin Netanyahu in the upcoming Israeli election, though some advisers see potential for his Middle East agenda under different leadership.",
-     "url": "https://www.axios.com/2026/10/24/israel-election-trump-netanyahu-advisers",
+     "title": "Inside The Two Argentinas Under Javier Milei",
+     "summary": "President Javier Milei has brought inflation down and fueled an energy export boom, though manufacturing, retail, and small businesses continue to struggle.",
+     "url": "https://www.bloomberg.com/news/videos/2026-10-25/inside-the-two-argentinas-under-javier-milei-video",
+     "source": "Bloomberg"
+    },
+    {
+     "title": "Trump's DOJ barrels into midterms with lawsuits, raids and arrests",
+     "summary": "The Trump administration is escalating its assault on DOJ guardrails of independence and restraint with lawsuits, raids, and arrests just nine days before midterms.",
+     "url": "https://www.axios.com/2026/10/25/trump-doj-midterms-interference",
      "source": "Axios"
     },
     {
      "title": "Washington's message to AI execs: please shut up",
-     "summary": "Lawmakers and White House advisers view the current crop of AI leaders as a monumental political liability.",
+     "summary": "Lawmakers and White House advisers state that the current crop of AI leaders is becoming a monumental political liability for Washington.",
      "url": "https://www.axios.com/2026/10/24/ai-ceos-washington-political-liability",
-     "source": "Axios"
-    },
-    {
-     "title": "Scoop: U.S. intel memo warns of \"advanced\" Iranian plots to kill officials abroad",
-     "summary": "A U.S. intelligence memo warns that Iran has substantially increased advanced lethal plots targeting American diplomats and officials.",
-     "url": "https://www.axios.com/2026/10/24/iran-war-us-embassies-evacuations-threat",
      "source": "Axios"
     }
    ]
@@ -37,15 +37,9 @@
    "title": "San Francisco",
    "items": [
     {
-     "title": "Slain former SFPD deputy chief Ann Mannix, daughter Katie celebrated as kind people ‘gone too soon’",
-     "summary": "Slain former SFPD deputy chief Ann Mannix and her daughter Katie are remembered and celebrated as kind people gone too soon.",
-     "url": "https://missionlocal.org/2026/10/slain-formersfpd-deputy-chief-ann-mannix-and-daughter-katie-celebrated-as-kind-people-gone-too-soon/",
-     "source": "Mission Local"
-    },
-    {
-     "title": "Election Extra! Gov. Newsom endorses Mayor Lurie’s city charter changes",
-     "summary": "Governor Newsom endorsed Mayor Lurie's city charter changes just days before the November 3 election.",
-     "url": "https://missionlocal.org/2026/10/san-francisco-newsom-lurie-charter-congress-endorsement/",
+     "title": "Car drives into Muni tunnel, shutting down Market St. subway for night",
+     "summary": "A car drove into the Muni tunnel at the Embarcadero on Saturday afternoon, disrupting service and shutting down the Market Street subway for the night.",
+     "url": "https://missionlocal.org/2026/10/car-drives-into-s-f-subway-tunnel-disrupting-service/",
      "source": "Mission Local"
     }
    ]
@@ -55,39 +49,67 @@
    "title": "Hawaii",
    "items": [
     {
-     "title": "Hawaiʻi Citizens Have A Powerful Law On The Books To Combat Fraud",
-     "summary": "The State False Claims Act serves as a powerful law for Hawaii citizens to combat fraud and prosecute those profiting from lax government oversight.",
-     "url": "https://www.civilbeat.org/2026/10/hawaii-powerful-law-combat-fraud/",
-     "source": "Civil Beat"
+     "title": "‘Bows rout Huskies 56-21 on the road",
+     "summary": "The University of Hawaii football team routed the Huskies 56-21 on the road in DeKalb, Illinois.",
+     "url": "https://www.staradvertiser.com/2026/10/25/sports/bows-rout-huskies-56-21-on-the-road/",
+     "source": "Star-Advertiser"
     },
     {
-     "title": "New Plan Aims To Extend Honolulu Rail Line For An Extra $4 Billion",
-     "summary": "A HART subcommittee tentatively endorsed a new plan aiming to extend the Honolulu rail line for an extra four billion dollars.",
-     "url": "https://www.civilbeat.org/2026/10/new-plan-to-extend-honolulu-rail-line-extra-4-billion/",
-     "source": "Civil Beat"
+     "title": "Residents on Oahu’s North Shore take on dredging as lawsuits seek accountability",
+     "summary": "Oahu North Shore residents are spending the weekend bringing heavy machinery to Paukauila Stream to cut back mangroves and clear debris.",
+     "url": "https://www.staradvertiser.com/2026/10/25/hawaii-news/residents-on-oahus-north-shore-take-on-dredging-as-lawsuits-seek-accountability/",
+     "source": "Star-Advertiser"
+    },
+    {
+     "title": "Local advocate Cheryl Dickerson dies at 86",
+     "summary": "Cheryl Lynn Dickerson, a well-known Waikiki volunteer, hostess, and community advocate, has died at the age of 86.",
+     "url": "https://www.staradvertiser.com/2026/10/25/hawaii-news/local-advocate-cheryl-dickerson-dies-at-86/",
+     "source": "Star-Advertiser"
     }
    ]
   }
  ],
  "sports": {
-  "date": "20261024",
+  "date": "20261025",
   "nba": {
-   "count": 8,
-   "warriors": [
-    {
-     "matchup": "Warriors at Suns",
-     "time": "7:00 PM",
-     "network": "NBA TV, Suns Live, Arizona's Family CBS5",
-     "state": "pre",
-     "start_hour": 19
-    }
-   ],
+   "count": 7,
+   "warriors": [],
    "national": []
   },
   "nfl": {
-   "count": 0,
-   "primetime": [],
-   "all": []
+   "count": 12,
+   "primetime": [
+    {
+     "matchup": "Chiefs at Seahawks",
+     "time": "5:20 PM",
+     "network": "NBC",
+     "state": "pre",
+     "start_hour": 17
+    }
+   ],
+   "all": [
+    {
+     "matchup": "Steelers at Saints",
+     "time": "6:30 AM",
+     "network": "NFL Net",
+     "state": "post",
+     "start_hour": 6
+    },
+    {
+     "matchup": "49ers at Falcons",
+     "time": "10:00 AM",
+     "network": "Fox",
+     "state": "pre",
+     "start_hour": 10
+    },
+    {
+     "matchup": "Browns at Titans",
+     "time": "10:00 AM",
+     "network": "CBS",
+     "state": "pre",
+     "start_hour": 10
+    }
+   ]
   },
   "pga": {
    "events": [
