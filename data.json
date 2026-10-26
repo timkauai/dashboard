@@ -1,28 +1,28 @@
 {
- "generated": "2026-10-25T10:00:54.620626-07:00",
+ "generated": "2026-10-26T12:07:30.883992-07:00",
  "ai": true,
- "overview": "President Javier Milei has brought inflation down and opened Argentina to more investment, fueling a boom in energy and other export industries while small businesses and manufacturing struggle. The Trump administration is escalating lawsuits, raids, and arrests with just nine days until the midterms. Washington lawmakers and White House advisers view the current crop of AI leaders as a monumental political liability. In local news, a car drove into the Muni tunnel at the Embarcadero on Saturday afternoon, shutting down the Market Street subway for the night. Meanwhile, North Shore residents are bringing heavy machinery to Paukauila Stream to clear debris and mangroves ahead of the next major storm, and the University of Hawaii football team routed the Huskies 56-21 on the road.",
+ "overview": "Global political developments saw Trump allies lose ground in recent elections in Brazil and Serbia. Anthropic filed for an IPO featuring extensive risk warnings regarding artificial intelligence, while economic policy veterans highlighted risks in AI overreliance. San Francisco experienced local election developments alongside police arrests for a Tenderloin hit-and-run and an abandoned vehicle in a Muni tunnel. Meanwhile, Hawaii faces a looming heavy rain flood watch, dropping resident support for tourism, and reports on federal regulations crippling local farmers.",
  "sections": [
   {
    "key": "general",
    "title": "Top news",
    "items": [
     {
-     "title": "Inside The Two Argentinas Under Javier Milei",
-     "summary": "President Javier Milei has brought inflation down and fueled an energy export boom, though manufacturing, retail, and small businesses continue to struggle.",
-     "url": "https://www.bloomberg.com/news/videos/2026-10-25/inside-the-two-argentinas-under-javier-milei-video",
-     "source": "Bloomberg"
-    },
-    {
-     "title": "Trump's DOJ barrels into midterms with lawsuits, raids and arrests",
-     "summary": "The Trump administration is escalating its assault on DOJ guardrails of independence and restraint with lawsuits, raids, and arrests just nine days before midterms.",
-     "url": "https://www.axios.com/2026/10/25/trump-doj-midterms-interference",
+     "title": "Trump allies fall in two elections as Netanyahu faces next test",
+     "summary": "Trump allies took a double blow as Brazil rejected a Bolsonaro comeback and Serbia toppled a ruling party.",
+     "url": "https://www.axios.com/2026/10/26/trump-allies-brazil-serbia-elections-netanyahu-israel",
      "source": "Axios"
     },
     {
-     "title": "Washington's message to AI execs: please shut up",
-     "summary": "Lawmakers and White House advisers state that the current crop of AI leaders is becoming a monumental political liability for Washington.",
-     "url": "https://www.axios.com/2026/10/24/ai-ceos-washington-political-liability",
+     "title": "Economic policy vets see risks in AI overreliance",
+     "summary": "Economic policy experts warned about the potential risks of relying too heavily on artificial intelligence tools.",
+     "url": "https://www.axios.com/2026/10/26/ai-economists-furman-policy",
+     "source": "Axios"
+    },
+    {
+     "title": "Anthropic's IPO outlines AI's extraordinary risks",
+     "summary": "Anthropic's IPO filing includes an extensive list of extreme risk warnings regarding the potential dangers of its technology.",
+     "url": "https://www.axios.com/2026/10/26/anthropic-ipo-risk-factors-humanity",
      "source": "Axios"
     }
    ]
@@ -37,9 +37,21 @@
    "title": "San Francisco",
    "items": [
     {
-     "title": "Car drives into Muni tunnel, shutting down Market St. subway for night",
-     "summary": "A car drove into the Muni tunnel at the Embarcadero on Saturday afternoon, disrupting service and shutting down the Market Street subway for the night.",
-     "url": "https://missionlocal.org/2026/10/car-drives-into-s-f-subway-tunnel-disrupting-service/",
+     "title": "Orwellian arguments, fuzzy math and a hippie cult: This is the dawning of the S.F. midterm election",
+     "summary": "The dawning of the San Francisco midterm election features debate over Mayor Lurie's arguments and math.",
+     "url": "https://missionlocal.org/2026/10/daniel-lurie-san-francisco-elections/",
+     "source": "Mission Local"
+    },
+    {
+     "title": "S.F. police arrest woman for fatal Tenderloin hit-and-run",
+     "summary": "San Francisco police arrested a woman on Treasure Island in connection with a fatal Tenderloin hit-and-run.",
+     "url": "https://missionlocal.org/2026/10/tenderloin-fatal-hit-and-run-arrest/",
+     "source": "Mission Local"
+    },
+    {
+     "title": "Driver abandoned vehicle inside Muni tunnel in ‘hit and run,’ S.F. police say",
+     "summary": "San Francisco police reported that a driver abandoned a damaged vehicle inside a Muni tunnel after a hit-and-run.",
+     "url": "https://missionlocal.org/2026/10/driver-abandoned-vehicle-inside-muni-tunnel/",
      "source": "Mission Local"
     }
    ]
@@ -49,65 +61,59 @@
    "title": "Hawaii",
    "items": [
     {
-     "title": "‘Bows rout Huskies 56-21 on the road",
-     "summary": "The University of Hawaii football team routed the Huskies 56-21 on the road in DeKalb, Illinois.",
-     "url": "https://www.staradvertiser.com/2026/10/25/sports/bows-rout-huskies-56-21-on-the-road/",
+     "title": "Looming heavy rain prompts flood watch for Hawaii",
+     "summary": "All Hawaiian islands are under a statewide flood watch due to a slow-moving weather system bringing heavy rain and tropical moisture.",
+     "url": "https://www.staradvertiser.com/2026/10/26/breaking-news/looming-heavy-rain-prompts-flood-watch-for-hawaii/",
      "source": "Star-Advertiser"
     },
     {
-     "title": "Residents on Oahu’s North Shore take on dredging as lawsuits seek accountability",
-     "summary": "Oahu North Shore residents are spending the weekend bringing heavy machinery to Paukauila Stream to cut back mangroves and clear debris.",
-     "url": "https://www.staradvertiser.com/2026/10/25/hawaii-news/residents-on-oahus-north-shore-take-on-dredging-as-lawsuits-seek-accountability/",
+     "title": "Hawaii resident support for tourism falls near record low",
+     "summary": "Hawaii resident support for tourism has fallen near a record low amid growing concerns over visitor disrespect.",
+     "url": "https://www.staradvertiser.com/2026/10/26/hawaii-news/resident-support-for-tourism-falls-near-record-low/",
      "source": "Star-Advertiser"
     },
     {
-     "title": "Local advocate Cheryl Dickerson dies at 86",
-     "summary": "Cheryl Lynn Dickerson, a well-known Waikiki volunteer, hostess, and community advocate, has died at the age of 86.",
-     "url": "https://www.staradvertiser.com/2026/10/25/hawaii-news/local-advocate-cheryl-dickerson-dies-at-86/",
-     "source": "Star-Advertiser"
+     "title": "Federal Regulations Are Crippling Hawaiʻi Farmers, Report Says",
+     "summary": "A new report states that burdensome federal biosecurity processes are crippling Hawaii farmers and limiting the agricultural industry.",
+     "url": "https://www.civilbeat.org/2026/10/federal-regulations-are-crippling-hawai%ca%bbi-farmers-report-says/",
+     "source": "Civil Beat"
     }
    ]
   }
  ],
  "sports": {
-  "date": "20261025",
+  "date": "20261026",
   "nba": {
-   "count": 7,
-   "warriors": [],
+   "count": 9,
+   "warriors": [
+    {
+     "matchup": "Warriors at Nuggets",
+     "time": "7:00 PM",
+     "network": "NBCSN",
+     "state": "pre",
+     "start_hour": 19
+    }
+   ],
    "national": []
   },
   "nfl": {
-   "count": 12,
+   "count": 1,
    "primetime": [
     {
-     "matchup": "Chiefs at Seahawks",
-     "time": "5:20 PM",
-     "network": "NBC",
+     "matchup": "Cowboys at Eagles",
+     "time": "5:15 PM",
+     "network": "ESPN, ABC, Disney+",
      "state": "pre",
      "start_hour": 17
     }
    ],
    "all": [
     {
-     "matchup": "Steelers at Saints",
-     "time": "6:30 AM",
-     "network": "NFL Net",
-     "state": "post",
-     "start_hour": 6
-    },
-    {
-     "matchup": "49ers at Falcons",
-     "time": "10:00 AM",
-     "network": "Fox",
+     "matchup": "Cowboys at Eagles",
+     "time": "5:15 PM",
+     "network": "ESPN, ABC, Disney+",
      "state": "pre",
-     "start_hour": 10
-    },
-    {
-     "matchup": "Browns at Titans",
-     "time": "10:00 AM",
-     "network": "CBS",
-     "state": "pre",
-     "start_hour": 10
+     "start_hour": 17
     }
    ]
   },
@@ -116,8 +122,8 @@
     {
      "name": "Butterfield Bermuda Championship",
      "time": "9:00 PM",
-     "state": "in",
-     "label": "In Progress"
+     "state": "post",
+     "label": "Final"
     }
    ]
   }
