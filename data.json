@@ -1,28 +1,28 @@
 {
- "generated": "2026-10-26T12:07:30.883992-07:00",
+ "generated": "2026-10-27T11:37:40.465031-07:00",
  "ai": true,
- "overview": "Global political developments saw Trump allies lose ground in recent elections in Brazil and Serbia. Anthropic filed for an IPO featuring extensive risk warnings regarding artificial intelligence, while economic policy veterans highlighted risks in AI overreliance. San Francisco experienced local election developments alongside police arrests for a Tenderloin hit-and-run and an abandoned vehicle in a Muni tunnel. Meanwhile, Hawaii faces a looming heavy rain flood watch, dropping resident support for tourism, and reports on federal regulations crippling local farmers.",
+ "overview": "Global and domestic developments unfold today alongside significant local news across various regions. Israel braces for a high-stakes election as rival camps warn of ruin. Anthropic filed for what could be the biggest IPO ever, leading a massive wave of AI dealmaking. Meanwhile, San Francisco's mayor spent millions on signature-gatherers while facing softening poll numbers, and Kauai stories include a flood watch and a shrimp company seeking a state bailout.",
  "sections": [
   {
    "key": "general",
    "title": "Top news",
    "items": [
     {
-     "title": "Trump allies fall in two elections as Netanyahu faces next test",
-     "summary": "Trump allies took a double blow as Brazil rejected a Bolsonaro comeback and Serbia toppled a ruling party.",
-     "url": "https://www.axios.com/2026/10/26/trump-allies-brazil-serbia-elections-netanyahu-israel",
+     "title": "Socialist civil war engulfs Los Angeles mayor race",
+     "summary": "A fight over Israel is fracturing the socialist movement just as it nears a potential victory in the Los Angeles mayor's race.",
+     "url": "https://www.axios.com/2026/10/27/dsa-socialists-la-mayor-race-israel-raman-bass",
      "source": "Axios"
     },
     {
-     "title": "Economic policy vets see risks in AI overreliance",
-     "summary": "Economic policy experts warned about the potential risks of relying too heavily on artificial intelligence tools.",
-     "url": "https://www.axios.com/2026/10/26/ai-economists-furman-policy",
+     "title": "Israel braces for an election each side warns could bring ruin",
+     "summary": "Israelis head to the polls today for a consequential election where rival camps warn victory for the other brings ruin.",
+     "url": "https://www.axios.com/2026/10/27/israel-election-netanyahu-eisenkot",
      "source": "Axios"
     },
     {
-     "title": "Anthropic's IPO outlines AI's extraordinary risks",
-     "summary": "Anthropic's IPO filing includes an extensive list of extreme risk warnings regarding the potential dangers of its technology.",
-     "url": "https://www.axios.com/2026/10/26/anthropic-ipo-risk-factors-humanity",
+     "title": "Anthropic IPO leads AI's $235 billion dealmaking blitz",
+     "summary": "Anthropic filed for a potentially record-breaking IPO, capping a massive day of artificial intelligence dealmaking that nearly equals one percent of U.S. GDP.",
+     "url": "https://www.axios.com/2026/10/27/anthropic-ipo-meta-spacex-ai-deals",
      "source": "Axios"
     }
    ]
@@ -37,21 +37,21 @@
    "title": "San Francisco",
    "items": [
     {
-     "title": "Orwellian arguments, fuzzy math and a hippie cult: This is the dawning of the S.F. midterm election",
-     "summary": "The dawning of the San Francisco midterm election features debate over Mayor Lurie's arguments and math.",
-     "url": "https://missionlocal.org/2026/10/daniel-lurie-san-francisco-elections/",
+     "title": "Oakland, S.F. mayors both want more power. They took opposite roads to get there.",
+     "summary": "Oakland and San Francisco mayors both want more power but took opposite roads, with San Francisco spending millions on signature-gatherers.",
+     "url": "https://missionlocal.org/2026/10/daniel-lurie-barbara-lee-oakland-san-francisco-charter-reform/",
      "source": "Mission Local"
     },
     {
-     "title": "S.F. police arrest woman for fatal Tenderloin hit-and-run",
-     "summary": "San Francisco police arrested a woman on Treasure Island in connection with a fatal Tenderloin hit-and-run.",
-     "url": "https://missionlocal.org/2026/10/tenderloin-fatal-hit-and-run-arrest/",
+     "title": "Mayor Lurie’s popularity is high, but has softened, latest polls show",
+     "summary": "New polls show San Francisco Mayor Daniel Lurie's popularity remains high but has softened by about 10 percentage points from its recent high.",
+     "url": "https://missionlocal.org/2026/10/daniel-lurie-san-francisco-popularity-polls/",
      "source": "Mission Local"
     },
     {
-     "title": "Driver abandoned vehicle inside Muni tunnel in ‘hit and run,’ S.F. police say",
-     "summary": "San Francisco police reported that a driver abandoned a damaged vehicle inside a Muni tunnel after a hit-and-run.",
-     "url": "https://missionlocal.org/2026/10/driver-abandoned-vehicle-inside-muni-tunnel/",
+     "title": "The contrail blues",
+     "summary": "A photo feature captures the contrail blues on 24th Street in San Francisco.",
+     "url": "https://missionlocal.org/2026/10/the-contrail-blues/",
      "source": "Mission Local"
     }
    ]
@@ -61,69 +61,60 @@
    "title": "Hawaii",
    "items": [
     {
-     "title": "Looming heavy rain prompts flood watch for Hawaii",
-     "summary": "All Hawaiian islands are under a statewide flood watch due to a slow-moving weather system bringing heavy rain and tropical moisture.",
-     "url": "https://www.staradvertiser.com/2026/10/26/breaking-news/looming-heavy-rain-prompts-flood-watch-for-hawaii/",
+     "title": "Flood watch in effect for Hawaii through Wednesday night",
+     "summary": "A flood watch remains in effect for Hawaii through Wednesday night.",
+     "url": "https://www.staradvertiser.com/2026/10/27/breaking-news/flood-watch-in-effect-for-hawaii-through-wednesday-night/",
      "source": "Star-Advertiser"
     },
     {
-     "title": "Hawaii resident support for tourism falls near record low",
-     "summary": "Hawaii resident support for tourism has fallen near a record low amid growing concerns over visitor disrespect.",
-     "url": "https://www.staradvertiser.com/2026/10/26/hawaii-news/resident-support-for-tourism-falls-near-record-low/",
+     "title": "Hawaii justices consider compensation for Schweitzer brothers",
+     "summary": "Hawaii justices are considering whether two brothers wrongly convicted of a 1991 murder can receive compensation for wrongful imprisonment.",
+     "url": "https://www.staradvertiser.com/2026/10/27/hawaii-news/hawaii-justices-consider-compensation-for-schweitzer-brothers/",
      "source": "Star-Advertiser"
     },
     {
-     "title": "Federal Regulations Are Crippling Hawaiʻi Farmers, Report Says",
-     "summary": "A new report states that burdensome federal biosecurity processes are crippling Hawaii farmers and limiting the agricultural industry.",
-     "url": "https://www.civilbeat.org/2026/10/federal-regulations-are-crippling-hawai%ca%bbi-farmers-report-says/",
+     "title": "Construction Of Military Data Center On Maui Alarms Residents",
+     "summary": "Residents are alarmed by the construction of a nearly $100 million military data center on Maui that will work with Haleakala telescopes.",
+     "url": "https://www.civilbeat.org/2026/10/construction-of-military-data-center-on-maui-alarms-residents/",
      "source": "Civil Beat"
     }
    ]
   }
  ],
  "sports": {
-  "date": "20261026",
+  "date": "20261027",
   "nba": {
-   "count": 9,
-   "warriors": [
+   "count": 4,
+   "warriors": [],
+   "national": [
     {
-     "matchup": "Warriors at Nuggets",
-     "time": "7:00 PM",
-     "network": "NBCSN",
-     "state": "pre",
-     "start_hour": 19
-    }
-   ],
-   "national": []
-  },
-  "nfl": {
-   "count": 1,
-   "primetime": [
-    {
-     "matchup": "Cowboys at Eagles",
-     "time": "5:15 PM",
-     "network": "ESPN, ABC, Disney+",
+     "matchup": "Pistons at Knicks",
+     "time": "5:00 PM",
+     "network": "NBC",
      "state": "pre",
      "start_hour": 17
-    }
-   ],
-   "all": [
+    },
     {
-     "matchup": "Cowboys at Eagles",
-     "time": "5:15 PM",
-     "network": "ESPN, ABC, Disney+",
+     "matchup": "Trail Blazers at Lakers",
+     "time": "8:00 PM",
+     "network": "Peacock, NBC, Spectrum Sports Net, Spectrum Sports Net +",
      "state": "pre",
-     "start_hour": 17
+     "start_hour": 20
     }
    ]
+  },
+  "nfl": {
+   "count": 0,
+   "primetime": [],
+   "all": []
   },
   "pga": {
    "events": [
     {
-     "name": "Butterfield Bermuda Championship",
+     "name": "VidantaWorld Mexico Open",
      "time": "9:00 PM",
-     "state": "post",
-     "label": "Final"
+     "state": "pre",
+     "label": "Scheduled"
     }
    ]
   }
