@@ -1,28 +1,34 @@
 {
- "generated": "2026-10-27T11:37:40.465031-07:00",
- "ai": true,
- "overview": "Global and domestic developments unfold today alongside significant local news across various regions. Israel braces for a high-stakes election as rival camps warn of ruin. Anthropic filed for what could be the biggest IPO ever, leading a massive wave of AI dealmaking. Meanwhile, San Francisco's mayor spent millions on signature-gatherers while facing softening poll numbers, and Kauai stories include a flood watch and a shrimp company seeking a state bailout.",
+ "generated": "2026-10-28T11:44:39.048608-07:00",
+ "ai": false,
+ "overview": "",
  "sections": [
   {
    "key": "general",
    "title": "Top news",
    "items": [
     {
-     "title": "Socialist civil war engulfs Los Angeles mayor race",
-     "summary": "A fight over Israel is fracturing the socialist movement just as it nears a potential victory in the Los Angeles mayor's race.",
-     "url": "https://www.axios.com/2026/10/27/dsa-socialists-la-mayor-race-israel-raman-bass",
+     "title": "Iran pressed to make nuke concessions as massive post-midterms strikes loom",
+     "summary": "",
+     "url": "https://www.axios.com/2026/10/28/iran-war-arab-mediators-war-post-midterms",
      "source": "Axios"
     },
     {
-     "title": "Israel braces for an election each side warns could bring ruin",
-     "summary": "Israelis head to the polls today for a consequential election where rival camps warn victory for the other brings ruin.",
-     "url": "https://www.axios.com/2026/10/27/israel-election-netanyahu-eisenkot",
+     "title": "DFW’s $12 Billion Transformation",
+     "summary": "",
+     "url": "https://www.bloomberg.com/news/videos/2026-10-28/dfw-s-12-billion-transformation-video",
+     "source": "Bloomberg"
+    },
+    {
+     "title": "Dolores Huerta, pioneering labor activist, dies at 96",
+     "summary": "",
+     "url": "https://www.axios.com/2026/10/28/dolores-huerta-dies-96-united-farm-workers",
      "source": "Axios"
     },
     {
-     "title": "Anthropic IPO leads AI's $235 billion dealmaking blitz",
-     "summary": "Anthropic filed for a potentially record-breaking IPO, capping a massive day of artificial intelligence dealmaking that nearly equals one percent of U.S. GDP.",
-     "url": "https://www.axios.com/2026/10/27/anthropic-ipo-meta-spacex-ai-deals",
+     "title": "Private equity's political problem",
+     "summary": "",
+     "url": "https://www.axios.com/2026/10/28/private-equity-democrats-election-elizabeth-warren",
      "source": "Axios"
     }
    ]
@@ -37,21 +43,21 @@
    "title": "San Francisco",
    "items": [
     {
-     "title": "Oakland, S.F. mayors both want more power. They took opposite roads to get there.",
-     "summary": "Oakland and San Francisco mayors both want more power but took opposite roads, with San Francisco spending millions on signature-gatherers.",
-     "url": "https://missionlocal.org/2026/10/daniel-lurie-barbara-lee-oakland-san-francisco-charter-reform/",
+     "title": "Steve Adami, controversial S.F. abstinence advocate, tapped to lead city’s new ‘Department of Recovery’",
+     "summary": "",
+     "url": "https://missionlocal.org/2026/10/san-francisco-recovery-department-steve-adami/",
      "source": "Mission Local"
     },
     {
-     "title": "Mayor Lurie’s popularity is high, but has softened, latest polls show",
-     "summary": "New polls show San Francisco Mayor Daniel Lurie's popularity remains high but has softened by about 10 percentage points from its recent high.",
-     "url": "https://missionlocal.org/2026/10/daniel-lurie-san-francisco-popularity-polls/",
+     "title": "Dolores Huerta, California farmworker icon, dies at 96",
+     "summary": "",
+     "url": "https://missionlocal.org/2026/10/dolores-huerta-death-united-farm-workers/",
      "source": "Mission Local"
     },
     {
-     "title": "The contrail blues",
-     "summary": "A photo feature captures the contrail blues on 24th Street in San Francisco.",
-     "url": "https://missionlocal.org/2026/10/the-contrail-blues/",
+     "title": "See how they run: There’s a high chance J.R. Eppler is coming to a doorstep near you",
+     "summary": "",
+     "url": "https://missionlocal.org/2026/10/san-francisco-jr-eppler-district-10-supervisor-race/",
      "source": "Mission Local"
     }
    ]
@@ -61,45 +67,59 @@
    "title": "Hawaii",
    "items": [
     {
-     "title": "Flood watch in effect for Hawaii through Wednesday night",
-     "summary": "A flood watch remains in effect for Hawaii through Wednesday night.",
-     "url": "https://www.staradvertiser.com/2026/10/27/breaking-news/flood-watch-in-effect-for-hawaii-through-wednesday-night/",
+     "title": "Flood advisory for Molokai as flood watch continues statewide",
+     "summary": "",
+     "url": "https://www.staradvertiser.com/2026/10/28/breaking-news/flood-advisory-for-molokai-as-flood-watch-continues-statewide/",
      "source": "Star-Advertiser"
     },
     {
-     "title": "Hawaii justices consider compensation for Schweitzer brothers",
-     "summary": "Hawaii justices are considering whether two brothers wrongly convicted of a 1991 murder can receive compensation for wrongful imprisonment.",
-     "url": "https://www.staradvertiser.com/2026/10/27/hawaii-news/hawaii-justices-consider-compensation-for-schweitzer-brothers/",
+     "title": "Mission Unclear: A $1 Million Contract Involving Invasive Species",
+     "summary": "",
+     "url": "https://www.civilbeat.org/2026/10/mission-unclear-a-1-million-contract-involving-invasive-species/",
+     "source": "Civil Beat"
+    },
+    {
+     "title": "Egami, Amaral-Boyd help Kaiser top HBA in D-II state volleyball",
+     "summary": "",
+     "url": "https://www.staradvertiser.com/2026/10/28/sports/hawaii-prep-world/egami-amaral-boyd-help-kaiser-top-hba-in-d-ii-state-volleyball/",
      "source": "Star-Advertiser"
     },
     {
-     "title": "Construction Of Military Data Center On Maui Alarms Residents",
-     "summary": "Residents are alarmed by the construction of a nearly $100 million military data center on Maui that will work with Haleakala telescopes.",
-     "url": "https://www.civilbeat.org/2026/10/construction-of-military-data-center-on-maui-alarms-residents/",
+     "title": "‘HNL Swindler’: California Man Accused Of Scams On Oʻahu",
+     "summary": "",
+     "url": "https://www.civilbeat.org/2026/10/hnl-swindler-man-accused-of-more-scams-on-oahu/",
      "source": "Civil Beat"
     }
    ]
   }
  ],
  "sports": {
-  "date": "20261027",
+  "date": "20261028",
   "nba": {
-   "count": 4,
-   "warriors": [],
-   "national": [
+   "count": 12,
+   "warriors": [
     {
-     "matchup": "Pistons at Knicks",
+     "matchup": "Warriors at Timberwolves",
      "time": "5:00 PM",
-     "network": "NBC",
+     "network": "NBA League Pass",
      "state": "pre",
      "start_hour": 17
+    }
+   ],
+   "national": [
+    {
+     "matchup": "76ers at Pacers",
+     "time": "4:00 PM",
+     "network": "ESPN, DAZN IND",
+     "state": "pre",
+     "start_hour": 16
     },
     {
-     "matchup": "Trail Blazers at Lakers",
-     "time": "8:00 PM",
-     "network": "Peacock, NBC, Spectrum Sports Net, Spectrum Sports Net +",
+     "matchup": "Thunder at Mavericks",
+     "time": "6:30 PM",
+     "network": "ESPN, KSBI, Thunder App, KFAA-TV, MavsTV",
      "state": "pre",
-     "start_hour": 20
+     "start_hour": 18
     }
    ]
   },
