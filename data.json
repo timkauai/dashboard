@@ -1,64 +1,57 @@
 {
- "generated": "2026-10-28T11:44:39.048608-07:00",
- "ai": false,
- "overview": "",
+ "generated": "2026-10-28T20:16:43.750348-07:00",
+ "ai": true,
+ "ai_status": {
+  "state": "ok",
+  "detail": "gemini-3.5-flash-lite"
+ },
+ "overview": "National and global headlines highlight shifting political dynamics, international diplomacy, and ongoing policy battles, while commercial real estate markets navigate interest rate pauses and preparations for future borrowing costs. In San Francisco, local developments include sunny-day flooding concerns tied to El Niño, downtown retail acquisitions, and housing finance actions. Meanwhile, Hawaii politics sees campaign spending surges in mayoral contests across Kauai and Maui, alongside questions over invasive species contract spending. Readers will find targeted updates spanning financial markets, local policy, and regional governance.",
  "sections": [
   {
    "key": "general",
    "title": "Top news",
    "items": [
     {
-     "title": "Iran pressed to make nuke concessions as massive post-midterms strikes loom",
-     "summary": "",
-     "url": "https://www.axios.com/2026/10/28/iran-war-arab-mediators-war-post-midterms",
-     "source": "Axios"
-    },
-    {
-     "title": "DFW’s $12 Billion Transformation",
-     "summary": "",
-     "url": "https://www.bloomberg.com/news/videos/2026-10-28/dfw-s-12-billion-transformation-video",
-     "source": "Bloomberg"
-    },
-    {
-     "title": "Dolores Huerta, pioneering labor activist, dies at 96",
-     "summary": "",
-     "url": "https://www.axios.com/2026/10/28/dolores-huerta-dies-96-united-farm-workers",
-     "source": "Axios"
-    },
-    {
-     "title": "Private equity's political problem",
-     "summary": "",
-     "url": "https://www.axios.com/2026/10/28/private-equity-democrats-election-elizabeth-warren",
-     "source": "Axios"
+     "title": "In Her Final Months, Dolores Huerta Was Lauded for Revealing a Deep Secret",
+     "summary": "Labor and civil rights leader Dolores Huerta was lauded in her final months for revealing a deep secret before passing away.",
+     "url": "https://www.nytimes.com/2026/10/28/us/dolores-huerta-california-legacy.html",
+     "source": "NYT"
     }
    ]
   },
   {
    "key": "cre",
    "title": "Commercial real estate",
-   "items": []
+   "items": [
+    {
+     "title": "Fed Pauses Interest Rates as CRE Market Preps for December Hike",
+     "summary": "The Federal Reserve paused interest rates, giving the commercial real estate industry a brief reprieve while markets brace for a December hike.",
+     "url": "https://commercialobserver.com/2026/10/fed-interest-rate-pause-kevin-warsh/",
+     "source": "Commercial Observer"
+    }
+   ]
   },
   {
    "key": "sf",
    "title": "San Francisco",
    "items": [
     {
-     "title": "Steve Adami, controversial S.F. abstinence advocate, tapped to lead city’s new ‘Department of Recovery’",
-     "summary": "",
-     "url": "https://missionlocal.org/2026/10/san-francisco-recovery-department-steve-adami/",
+     "title": "SF is already flooding on sunny days. El Niño could make it far worse",
+     "summary": "San Francisco experts warn that winter El Niño storms combined with rising seas and high tides could worsen sunny-day flooding.",
+     "url": "https://sfstandard.com/2026/10/28/embarcadero-flooding-el-nino-tides/",
+     "source": "SF Standard"
+    },
+    {
+     "title": "S.F. supervisors advance $22.2 million MEDA housing deal amid financial scrutiny",
+     "summary": "San Francisco supervisors advanced a $22.2 million housing financing agreement for MEDA despite financial scrutiny and a controller watch list.",
+     "url": "https://missionlocal.org/2026/10/supervisors-advance-22-million-meda-housing-deal-amid-financial-scrutiny/",
      "source": "Mission Local"
     },
     {
-     "title": "Dolores Huerta, California farmworker icon, dies at 96",
-     "summary": "",
-     "url": "https://missionlocal.org/2026/10/dolores-huerta-death-united-farm-workers/",
-     "source": "Mission Local"
-    },
-    {
-     "title": "See how they run: There’s a high chance J.R. Eppler is coming to a doorstep near you",
-     "summary": "",
-     "url": "https://missionlocal.org/2026/10/san-francisco-jr-eppler-district-10-supervisor-race/",
-     "source": "Mission Local"
+     "title": "These two investors are quietly buying up Union Square, one building at a time",
+     "summary": "Two investors behind Project Uris have spent tens of millions quietly acquiring buildings across five retail corridors in Union Square.",
+     "url": "https://sfstandard.com/2026/10/28/project-uris-union-square-building-purchases/",
+     "source": "SF Standard"
     }
    ]
   },
@@ -67,27 +60,15 @@
    "title": "Hawaii",
    "items": [
     {
-     "title": "Flood advisory for Molokai as flood watch continues statewide",
-     "summary": "",
-     "url": "https://www.staradvertiser.com/2026/10/28/breaking-news/flood-advisory-for-molokai-as-flood-watch-continues-statewide/",
-     "source": "Star-Advertiser"
-    },
-    {
      "title": "Mission Unclear: A $1 Million Contract Involving Invasive Species",
-     "summary": "",
+     "summary": "Hawaii's allocation of tens of millions to fight invasive species faces serious concerns over the choice of contractors and a $1 million contract.",
      "url": "https://www.civilbeat.org/2026/10/mission-unclear-a-1-million-contract-involving-invasive-species/",
      "source": "Civil Beat"
     },
     {
-     "title": "Egami, Amaral-Boyd help Kaiser top HBA in D-II state volleyball",
-     "summary": "",
-     "url": "https://www.staradvertiser.com/2026/10/28/sports/hawaii-prep-world/egami-amaral-boyd-help-kaiser-top-hba-in-d-ii-state-volleyball/",
-     "source": "Star-Advertiser"
-    },
-    {
-     "title": "‘HNL Swindler’: California Man Accused Of Scams On Oʻahu",
-     "summary": "",
-     "url": "https://www.civilbeat.org/2026/10/hnl-swindler-man-accused-of-more-scams-on-oahu/",
+     "title": "Big Money Continues To Flow In Hawaiʻi Politics As Election Nears",
+     "summary": "Campaign spending reports show big money flowing into Hawaii politics as the election nears, including mayoral contests on Kauai and Maui.",
+     "url": "https://www.civilbeat.org/2026/10/big-money-continues-to-flow-in-hawaii-politics-as-election-nears/",
      "source": "Civil Beat"
     }
    ]
@@ -102,8 +83,7 @@
      "matchup": "Warriors at Timberwolves",
      "time": "5:00 PM",
      "network": "NBA League Pass",
-     "state": "pre",
-     "start_hour": 17
+     "state": "post"
     }
    ],
    "national": [
@@ -111,15 +91,13 @@
      "matchup": "76ers at Pacers",
      "time": "4:00 PM",
      "network": "ESPN, DAZN IND",
-     "state": "pre",
-     "start_hour": 16
+     "state": "post"
     },
     {
      "matchup": "Thunder at Mavericks",
      "time": "6:30 PM",
      "network": "ESPN, KSBI, Thunder App, KFAA-TV, MavsTV",
-     "state": "pre",
-     "start_hour": 18
+     "state": "in"
     }
    ]
   },
@@ -128,15 +106,35 @@
    "primetime": [],
    "all": []
   },
-  "pga": {
-   "events": [
-    {
-     "name": "VidantaWorld Mexico Open",
-     "time": "9:00 PM",
-     "state": "pre",
-     "label": "Scheduled"
-    }
-   ]
+  "golf": {
+   "none": false,
+   "name": "VidantaWorld Mexico Open",
+   "state": "pre",
+   "detail": "",
+   "start": "Wed Oct 28",
+   "leaders": []
   }
+ },
+ "wiki": {
+  "title": "Chimacum Creek",
+  "url": "https://en.wikipedia.org/wiki/Chimacum_Creek",
+  "extract": "Chimacum Creek is a stream in Jefferson County, Washington, United States. Located on the base of the Quimper Peninsula in the northeast of the larger Olympic Peninsula, the main stem originates from a series of springs and ponds in the forested hills south of Discovery Bay. It flows south from its source before turning east and eventually north, taking in many small tributaries before it enters the broad Chimacum Valley, an agricultural region where the stream has been extensively channelized. After taking in its largest tributary, the East Fork Chimacum, near the community of Chimacum, it enters a tight ravine where it meets the sea in the community of Port Hadlock-Irondale, creating a small estuary and an area of intertidal wetland as it enters Port Townsend Bay.",
+  "otd": [
+   {
+    "year": 2013,
+    "text": "The first phase of the Marmaray project opened with an undersea rail tunnel (train pictured) across the Bosphorus strait.",
+    "url": "https://en.wikipedia.org/wiki/Marmaray"
+   },
+   {
+    "year": 2012,
+    "text": "Hurricane Sandy, the largest Atlantic hurricane on record, made landfall in New Jersey and caused nearly $75 billion in damages, becoming the second-most destructive storm in U.S. history.",
+    "url": "https://en.wikipedia.org/wiki/Hurricane_Sandy"
+   }
+  ]
+ },
+ "fantasy": {
+  "configured": false,
+  "players": [],
+  "errors": []
  }
 }
