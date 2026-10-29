@@ -1,20 +1,20 @@
 {
- "generated": "2026-10-28T20:16:43.750348-07:00",
+ "generated": "2026-10-29T11:54:11.960000-07:00",
  "ai": true,
  "ai_status": {
   "state": "ok",
   "detail": "gemini-3.5-flash-lite"
  },
- "overview": "National and global headlines highlight shifting political dynamics, international diplomacy, and ongoing policy battles, while commercial real estate markets navigate interest rate pauses and preparations for future borrowing costs. In San Francisco, local developments include sunny-day flooding concerns tied to El Niño, downtown retail acquisitions, and housing finance actions. Meanwhile, Hawaii politics sees campaign spending surges in mayoral contests across Kauai and Maui, alongside questions over invasive species contract spending. Readers will find targeted updates spanning financial markets, local policy, and regional governance.",
+ "overview": "Federal Reserve officials are expected to restart rate increases in December as inflation concerns persist, impacting broader economic markets. In commercial real estate, Blackstone Mortgage Trust reported a massive third-quarter loss while cutting older office loans. San Francisco real estate interests have raised millions to defeat a local social housing ballot measure, alongside other regional developments. Meanwhile, low-income tenants on Kauaʻi await critical home repairs months after storm damage, and Maui faces ongoing flood advisories.",
  "sections": [
   {
    "key": "general",
    "title": "Top news",
    "items": [
     {
-     "title": "In Her Final Months, Dolores Huerta Was Lauded for Revealing a Deep Secret",
-     "summary": "Labor and civil rights leader Dolores Huerta was lauded in her final months for revealing a deep secret before passing away.",
-     "url": "https://www.nytimes.com/2026/10/28/us/dolores-huerta-california-legacy.html",
+     "title": "The Fed Risks Falling Behind in its Inflation Fight",
+     "summary": "Federal Reserve officials are expected to restart interest rate increases in December, though future moves will depend closely on incoming economic data.",
+     "url": "https://www.nytimes.com/2026/10/29/business/economy/federal-reserve-interest-rates.html",
      "source": "NYT"
     }
    ]
@@ -24,9 +24,15 @@
    "title": "Commercial real estate",
    "items": [
     {
-     "title": "Fed Pauses Interest Rates as CRE Market Preps for December Hike",
-     "summary": "The Federal Reserve paused interest rates, giving the commercial real estate industry a brief reprieve while markets brace for a December hike.",
-     "url": "https://commercialobserver.com/2026/10/fed-interest-rate-pause-kevin-warsh/",
+     "title": "Blackstone Mortgage Trust Reports $327.6M Loss as It Cuts Older Office Loans",
+     "summary": "Blackstone Mortgage Trust reported a third-quarter net loss of $327.6 million as the firm cut exposure to older office loans.",
+     "url": "https://commercialobserver.com/2026/10/blackstone-mortgage-trust-q3-earnings-office-loans/",
+     "source": "Commercial Observer"
+    },
+    {
+     "title": "Equinix Raises Outlook Again as Data Center Bookings Hit Record in Q3",
+     "summary": "Equinix raised its 2026 financial outlook after booking record data center demand driven by artificial intelligence and cloud infrastructure growth.",
+     "url": "https://commercialobserver.com/2026/10/equinix-data-center-ai-q3/",
      "source": "Commercial Observer"
     }
    ]
@@ -36,22 +42,16 @@
    "title": "San Francisco",
    "items": [
     {
-     "title": "SF is already flooding on sunny days. El Niño could make it far worse",
-     "summary": "San Francisco experts warn that winter El Niño storms combined with rising seas and high tides could worsen sunny-day flooding.",
-     "url": "https://sfstandard.com/2026/10/28/embarcadero-flooding-el-nino-tides/",
-     "source": "SF Standard"
-    },
-    {
-     "title": "S.F. supervisors advance $22.2 million MEDA housing deal amid financial scrutiny",
-     "summary": "San Francisco supervisors advanced a $22.2 million housing financing agreement for MEDA despite financial scrutiny and a controller watch list.",
-     "url": "https://missionlocal.org/2026/10/supervisors-advance-22-million-meda-housing-deal-amid-financial-scrutiny/",
+     "title": "Real-estate money floods fight against San Francisco ‘social housing’ measure",
+     "summary": "San Francisco real estate stakeholders have raised over $2.7 million to defeat an upcoming local affordable housing ballot measure.",
+     "url": "https://missionlocal.org/2026/10/san-francisco-proposition-i-affordable-social-housing/",
      "source": "Mission Local"
     },
     {
-     "title": "These two investors are quietly buying up Union Square, one building at a time",
-     "summary": "Two investors behind Project Uris have spent tens of millions quietly acquiring buildings across five retail corridors in Union Square.",
-     "url": "https://sfstandard.com/2026/10/28/project-uris-union-square-building-purchases/",
-     "source": "SF Standard"
+     "title": "Bilal Mahmood can’t quit cheap groceries: S.F. supervisor hatches new produce-buyers club",
+     "summary": "San Francisco Supervisor Bilal Mahmood has launched a new produce-buyers club partnering with local grocers to lower wholesale and retail food prices.",
+     "url": "https://missionlocal.org/2026/10/bilal-mahmood-groceries-san-francisco-affordability-plan/",
+     "source": "Mission Local"
     }
    ]
   },
@@ -60,59 +60,72 @@
    "title": "Hawaii",
    "items": [
     {
-     "title": "Mission Unclear: A $1 Million Contract Involving Invasive Species",
-     "summary": "Hawaii's allocation of tens of millions to fight invasive species faces serious concerns over the choice of contractors and a $1 million contract.",
-     "url": "https://www.civilbeat.org/2026/10/mission-unclear-a-1-million-contract-involving-invasive-species/",
+     "title": "Two Months After Lowell, Kauaʻi’s Low-Income Tenants Await Repairs",
+     "summary": "Low-income tenants on Kauaʻi are still waiting for vital apartment repairs months after storm damage, leaving them vulnerable to heavy rains.",
+     "url": "https://www.civilbeat.org/2026/10/two-months-after-lowell-kauais-low-income-tenants-await-repairs/",
      "source": "Civil Beat"
     },
     {
-     "title": "Big Money Continues To Flow In Hawaiʻi Politics As Election Nears",
-     "summary": "Campaign spending reports show big money flowing into Hawaii politics as the election nears, including mayoral contests on Kauai and Maui.",
-     "url": "https://www.civilbeat.org/2026/10/big-money-continues-to-flow-in-hawaii-politics-as-election-nears/",
-     "source": "Civil Beat"
+     "title": "Flood advisories posted for parts of Maui as rain soaks Valley Isle",
+     "summary": "Flood advisories were posted for parts of Maui as heavy rain continued to drench ground already soaked by days of wet weather.",
+     "url": "https://www.staradvertiser.com/2026/10/29/breaking-news/flood-advisories-posted-for-parts-of-maui-as-rain-soaks-valley-isle/",
+     "source": "Star-Advertiser"
+    },
+    {
+     "title": "Shopping-cart bill draws criticism over impact on homeless",
+     "summary": "Honolulu officials are debating a shopping-cart bill that aims to address public safety concerns but faces criticism for unfairly targeting the homeless.",
+     "url": "https://www.staradvertiser.com/2026/10/29/hawaii-news/shopping-cart-bill-draws-criticism-over-impact-on-homeless/",
+     "source": "Star-Advertiser"
     }
    ]
   }
  ],
  "sports": {
-  "date": "20261028",
+  "date": "20261029",
   "nba": {
-   "count": 12,
-   "warriors": [
-    {
-     "matchup": "Warriors at Timberwolves",
-     "time": "5:00 PM",
-     "network": "NBA League Pass",
-     "state": "post"
-    }
-   ],
-   "national": [
-    {
-     "matchup": "76ers at Pacers",
-     "time": "4:00 PM",
-     "network": "ESPN, DAZN IND",
-     "state": "post"
-    },
-    {
-     "matchup": "Thunder at Mavericks",
-     "time": "6:30 PM",
-     "network": "ESPN, KSBI, Thunder App, KFAA-TV, MavsTV",
-     "state": "in"
-    }
-   ]
+   "count": 3,
+   "warriors": [],
+   "national": []
   },
   "nfl": {
-   "count": 0,
-   "primetime": [],
-   "all": []
+   "count": 1,
+   "primetime": [
+    {
+     "matchup": "Panthers at Packers",
+     "time": "5:15 PM",
+     "network": "Prime Video",
+     "state": "pre"
+    }
+   ],
+   "all": [
+    {
+     "matchup": "Panthers at Packers",
+     "time": "5:15 PM",
+     "network": "Prime Video",
+     "state": "pre"
+    }
+   ]
   },
   "golf": {
    "none": false,
    "name": "VidantaWorld Mexico Open",
-   "state": "pre",
+   "state": "in",
    "detail": "",
    "start": "Wed Oct 28",
-   "leaders": []
+   "leaders": [
+    {
+     "name": "Ben Griffin",
+     "score": "-7"
+    },
+    {
+     "name": "Kensei Hirata",
+     "score": "-7"
+    },
+    {
+     "name": "Max Homa",
+     "score": "-5"
+    }
+   ]
   }
  },
  "wiki": {
