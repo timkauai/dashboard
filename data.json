@@ -1,20 +1,38 @@
 {
- "generated": "2026-10-29T11:54:11.960000-07:00",
+ "generated": "2026-10-30T11:31:12.320344-07:00",
  "ai": true,
  "ai_status": {
   "state": "ok",
   "detail": "gemini-3.5-flash-lite"
  },
- "overview": "Federal Reserve officials are expected to restart rate increases in December as inflation concerns persist, impacting broader economic markets. In commercial real estate, Blackstone Mortgage Trust reported a massive third-quarter loss while cutting older office loans. San Francisco real estate interests have raised millions to defeat a local social housing ballot measure, alongside other regional developments. Meanwhile, low-income tenants on Kauaʻi await critical home repairs months after storm damage, and Maui faces ongoing flood advisories.",
+ "overview": "Financial markets face pressure as tech stocks tumble alongside ongoing concerns over massive artificial intelligence spending and a massive cryptocurrency hack. In commercial real estate news, property owners and developers continue to secure major refinancing and leasing deals across various markets. Locally in San Francisco, observers highlight the parallels between the current artificial intelligence funding boom and past corporate fraud. Meanwhile, Kauai's tourism sector has taken a significant hit following disruptions from recent hurricanes.",
  "sections": [
   {
    "key": "general",
    "title": "Top news",
    "items": [
     {
-     "title": "The Fed Risks Falling Behind in its Inflation Fight",
-     "summary": "Federal Reserve officials are expected to restart interest rate increases in December, though future moves will depend closely on incoming economic data.",
-     "url": "https://www.nytimes.com/2026/10/29/business/economy/federal-reserve-interest-rates.html",
+     "title": "Tech Stocks Tumble, Putting Pressure on Broader Market",
+     "summary": "The S&P 500 faces a small loss for October as tech stocks slide, pressured by heavy losses in artificial intelligence shares.",
+     "url": "https://www.nytimes.com/2026/10/30/business/stock-market-october-ai.html",
+     "source": "NYT"
+    },
+    {
+     "title": "Binance’s $6.3 Billion Hack Is Just the Start of a Risky New Era",
+     "summary": "Binance suffered a $6.3 billion hack as attackers increasingly use artificial intelligence and advanced techniques to steal and launder cryptocurrency.",
+     "url": "https://www.nytimes.com/2026/10/30/technology/binance-hack-ai-north-korea.html",
+     "source": "NYT"
+    },
+    {
+     "title": "US tech stocks see sharp falls as AI spending nears $1tn",
+     "summary": "US tech stocks fell sharply with the Nasdaq opening at its lowest level in over two months as AI spending nears $1 trillion.",
+     "url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo?at_medium=RSS&at_campaign=rss",
+     "source": "BBC"
+    },
+    {
+     "title": "Why the Markets Don’t Care About the Midterms",
+     "summary": "Market analysts note that factors like inflation, interest rates, AI, and the war with Iran matter far more to markets than midterms.",
+     "url": "https://www.nytimes.com/2026/10/30/business/midterms-stock-bond-markets.html",
      "source": "NYT"
     }
    ]
@@ -24,15 +42,27 @@
    "title": "Commercial real estate",
    "items": [
     {
-     "title": "Blackstone Mortgage Trust Reports $327.6M Loss as It Cuts Older Office Loans",
-     "summary": "Blackstone Mortgage Trust reported a third-quarter net loss of $327.6 million as the firm cut exposure to older office loans.",
-     "url": "https://commercialobserver.com/2026/10/blackstone-mortgage-trust-q3-earnings-office-loans/",
+     "title": "Grassroots Analytics Doubles D.C. Footprint With 25K-SF Office Lease",
+     "summary": "Grassroots Analytics signed a nearly 25,000-square-foot office lease at Arch Square in Washington, D.C., doubling its local footprint.",
+     "url": "https://commercialobserver.com/2026/10/grassroots-analytics-doubles-d-c-footprint-with-25k-sf-office-lease/",
      "source": "Commercial Observer"
     },
     {
-     "title": "Equinix Raises Outlook Again as Data Center Bookings Hit Record in Q3",
-     "summary": "Equinix raised its 2026 financial outlook after booking record data center demand driven by artificial intelligence and cloud infrastructure growth.",
-     "url": "https://commercialobserver.com/2026/10/equinix-data-center-ai-q3/",
+     "title": "Juda Chetrit Seals $55M Recap for 1384 Broadway",
+     "summary": "The Chetrit Organization secured a $55 million loan from Maxim Capital Group to recapitalize an 80 percent occupied office building on Broadway.",
+     "url": "https://commercialobserver.com/2026/10/chetrit-1384-broadway/",
+     "source": "Commercial Observer"
+    },
+    {
+     "title": "Greystone Refis Hollywood, Fla., Apartments With $109M Loan",
+     "summary": "A joint venture secured a $109 million Freddie Mac-backed loan through Greystone to refinance a multifamily asset in Hollywood, Florida.",
+     "url": "https://commercialobserver.com/2026/10/greystone-hollywood-florida-apartments-bread-factory/",
+     "source": "Commercial Observer"
+    },
+    {
+     "title": "Lightstone Capital Provides $29.5M Loan for Orange, N.J., Multifamily Development",
+     "summary": "Peek Capital secured a $29.5 million bridge loan from Lightstone Capital for its recently completed multifamily development in Orange, New Jersey.",
+     "url": "https://commercialobserver.com/2026/10/lightstone-capital-peek-capital-bridge-loan-orange/",
      "source": "Commercial Observer"
     }
    ]
@@ -42,15 +72,21 @@
    "title": "San Francisco",
    "items": [
     {
-     "title": "Real-estate money floods fight against San Francisco ‘social housing’ measure",
-     "summary": "San Francisco real estate stakeholders have raised over $2.7 million to defeat an upcoming local affordable housing ballot measure.",
-     "url": "https://missionlocal.org/2026/10/san-francisco-proposition-i-affordable-social-housing/",
-     "source": "Mission Local"
+     "title": "The man who exposed Elizabeth Holmes has a warning about AI",
+     "summary": "Whistleblower Tyler Shultz warns that the current artificial intelligence money boom provides the perfect setup for the next Theranos-style fraud.",
+     "url": "https://sfstandard.com/pacific-standard-time/2026/10/30/-pst-theranos-whistleblower-tyler-shultz-elizabeth-holmes-ai/",
+     "source": "SF Standard"
     },
     {
-     "title": "Bilal Mahmood can’t quit cheap groceries: S.F. supervisor hatches new produce-buyers club",
-     "summary": "San Francisco Supervisor Bilal Mahmood has launched a new produce-buyers club partnering with local grocers to lower wholesale and retail food prices.",
-     "url": "https://missionlocal.org/2026/10/bilal-mahmood-groceries-san-francisco-affordability-plan/",
+     "title": "‘We were blindsided’: Popular Mediterranean restaurant forced out by landlord",
+     "summary": "Popular Mediterranean restaurant Oasis Grill was forced to close its 1st Street location after losing its lease.",
+     "url": "https://sfstandard.com/2026/10/30/oasis-grill-forced-out-landlord/",
+     "source": "SF Standard"
+    },
+    {
+     "title": "Mayor’s ‘strong’ policies leave SFPD with Flock data longer than other Bay Area cities",
+     "summary": "San Francisco police are retaining Flock data longer than other Bay Area cities due to a strict 2023 city ordinance.",
+     "url": "https://missionlocal.org/2026/10/police-flock-photos-bay-area/",
      "source": "Mission Local"
     }
    ]
@@ -60,51 +96,51 @@
    "title": "Hawaii",
    "items": [
     {
-     "title": "Two Months After Lowell, Kauaʻi’s Low-Income Tenants Await Repairs",
-     "summary": "Low-income tenants on Kauaʻi are still waiting for vital apartment repairs months after storm damage, leaving them vulnerable to heavy rains.",
-     "url": "https://www.civilbeat.org/2026/10/two-months-after-lowell-kauais-low-income-tenants-await-repairs/",
+     "title": "Hurricane fallout batters Kauai tourism, weighs on statewide visitor numbers",
+     "summary": "September visitor numbers dropped across Hawaii as hurricanes disrupted travel and dealt a major blow to Kauai's tourism sector.",
+     "url": "https://www.staradvertiser.com/2026/10/30/hawaii-news/hurricane-fallout-batters-kauai-tourism-weighs-on-statewide-visitor-numbers/",
+     "source": "Star-Advertiser"
+    },
+    {
+     "title": "Taxpayers To Fund Mainland TV Host’s ‘Hidden Hawaiʻi’ Show",
+     "summary": "A mainland travel show hosted by Peter Greenberg will receive up to $584,000 in taxpayer funding through a no-bid contract.",
+     "url": "https://www.civilbeat.org/2026/10/taxpayers-to-fund-mainland-tv-hosts-hidden-hawaii-show/",
      "source": "Civil Beat"
     },
     {
-     "title": "Flood advisories posted for parts of Maui as rain soaks Valley Isle",
-     "summary": "Flood advisories were posted for parts of Maui as heavy rain continued to drench ground already soaked by days of wet weather.",
-     "url": "https://www.staradvertiser.com/2026/10/29/breaking-news/flood-advisories-posted-for-parts-of-maui-as-rain-soaks-valley-isle/",
-     "source": "Star-Advertiser"
-    },
-    {
-     "title": "Shopping-cart bill draws criticism over impact on homeless",
-     "summary": "Honolulu officials are debating a shopping-cart bill that aims to address public safety concerns but faces criticism for unfairly targeting the homeless.",
-     "url": "https://www.staradvertiser.com/2026/10/29/hawaii-news/shopping-cart-bill-draws-criticism-over-impact-on-homeless/",
-     "source": "Star-Advertiser"
+     "title": "Maui Prosecutor To Hire Investigator Focused On Post-Wildfire Contractor Fraud",
+     "summary": "The Maui prosecutor's office is hiring an investigator specifically focused on post-wildfire contractor fraud following recent investigative reports.",
+     "url": "https://www.civilbeat.org/2026/10/maui-plans-to-hire-investigator-focused-on-post-wildfire-contractor-fraud/",
+     "source": "Civil Beat"
     }
    ]
   }
  ],
  "sports": {
-  "date": "20261029",
+  "date": "20261030",
   "nba": {
-   "count": 3,
-   "warriors": [],
-   "national": []
-  },
-  "nfl": {
-   "count": 1,
-   "primetime": [
+   "count": 10,
+   "warriors": [
     {
-     "matchup": "Panthers at Packers",
-     "time": "5:15 PM",
+     "matchup": "Lakers at Warriors",
+     "time": "7:00 PM",
      "network": "Prime Video",
      "state": "pre"
     }
    ],
-   "all": [
+   "national": [
     {
-     "matchup": "Panthers at Packers",
-     "time": "5:15 PM",
+     "matchup": "Knicks at 76ers",
+     "time": "4:30 PM",
      "network": "Prime Video",
      "state": "pre"
     }
    ]
+  },
+  "nfl": {
+   "count": 0,
+   "primetime": [],
+   "all": []
   },
   "golf": {
    "none": false,
@@ -114,34 +150,34 @@
    "start": "Wed Oct 28",
    "leaders": [
     {
-     "name": "Ben Griffin",
-     "score": "-7"
+     "name": "Adrien Dumont de Chassart",
+     "score": "-12"
     },
     {
-     "name": "Kensei Hirata",
-     "score": "-7"
+     "name": "Matthieu Pavon",
+     "score": "-11"
     },
     {
-     "name": "Max Homa",
-     "score": "-5"
+     "name": "Mackenzie Hughes",
+     "score": "-10"
     }
    ]
   }
  },
  "wiki": {
-  "title": "Chimacum Creek",
-  "url": "https://en.wikipedia.org/wiki/Chimacum_Creek",
-  "extract": "Chimacum Creek is a stream in Jefferson County, Washington, United States. Located on the base of the Quimper Peninsula in the northeast of the larger Olympic Peninsula, the main stem originates from a series of springs and ponds in the forested hills south of Discovery Bay. It flows south from its source before turning east and eventually north, taking in many small tributaries before it enters the broad Chimacum Valley, an agricultural region where the stream has been extensively channelized. After taking in its largest tributary, the East Fork Chimacum, near the community of Chimacum, it enters a tight ravine where it meets the sea in the community of Port Hadlock-Irondale, creating a small estuary and an area of intertidal wetland as it enters Port Townsend Bay.",
+  "title": "John Adams",
+  "url": "https://en.wikipedia.org/wiki/John_Adams",
+  "extract": "John Adams was a Founding Father and the second president of the United States from 1797 to 1801. Before his presidency, he was a leader of the American Revolution that achieved independence from Great Britain. During the latter part of the Revolutionary War and in the early years of the new nation, he served the Continental Congress of the United States as a senior diplomat in Europe. Adams was the first vice president of the United States, serving from 1789 to 1797. He was a dedicated diarist and regularly corresponded with contemporaries, including his wife and advisor Abigail Adams and his friend and rival Thomas Jefferson.",
   "otd": [
    {
-    "year": 2013,
-    "text": "The first phase of the Marmaray project opened with an undersea rail tunnel (train pictured) across the Bosphorus strait.",
-    "url": "https://en.wikipedia.org/wiki/Marmaray"
+    "year": 2020,
+    "text": "A magnitude-7.0 earthquake occurred in the Aegean Sea between Greece and Turkey, triggering a tsunami and causing 119 deaths.",
+    "url": "https://en.wikipedia.org/wiki/2020_Aegean_Sea_earthquake"
    },
    {
-    "year": 2012,
-    "text": "Hurricane Sandy, the largest Atlantic hurricane on record, made landfall in New Jersey and caused nearly $75 billion in damages, becoming the second-most destructive storm in U.S. history.",
-    "url": "https://en.wikipedia.org/wiki/Hurricane_Sandy"
+    "year": 2010,
+    "text": "American comedians Jon Stewart and Stephen Colbert hosted the Rally to Restore Sanity and/or Fear in Washington, D.C.",
+    "url": "https://en.wikipedia.org/wiki/Jon_Stewart"
    }
   ]
  },
