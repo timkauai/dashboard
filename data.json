@@ -1,39 +1,21 @@
 {
- "generated": "2026-10-30T11:31:12.320344-07:00",
+ "generated": "2026-10-31T10:36:29.197866-07:00",
  "ai": true,
  "ai_status": {
   "state": "ok",
   "detail": "gemini-3.5-flash-lite"
  },
- "overview": "Financial markets face pressure as tech stocks tumble alongside ongoing concerns over massive artificial intelligence spending and a massive cryptocurrency hack. In commercial real estate news, property owners and developers continue to secure major refinancing and leasing deals across various markets. Locally in San Francisco, observers highlight the parallels between the current artificial intelligence funding boom and past corporate fraud. Meanwhile, Kauai's tourism sector has taken a significant hit following disruptions from recent hurricanes.",
+ "overview": "Today's briefing covers key developments across global policy, commercial real estate markets, San Francisco local affairs, and Hawaii governance. In commercial real estate, new analyses examine whether policy adjustments can accelerate California's slow construction pace alongside major national property financings. San Francisco updates focus on municipal policy challenges, local elections, and housing development barriers. Meanwhile, Hawaii reports on key state government actions, including a Supreme Court order regarding the Elections Commission and discussions surrounding state correctional facilities.",
  "sections": [
   {
    "key": "general",
    "title": "Top news",
    "items": [
     {
-     "title": "Tech Stocks Tumble, Putting Pressure on Broader Market",
-     "summary": "The S&P 500 faces a small loss for October as tech stocks slide, pressured by heavy losses in artificial intelligence shares.",
-     "url": "https://www.nytimes.com/2026/10/30/business/stock-market-october-ai.html",
-     "source": "NYT"
-    },
-    {
-     "title": "Binance’s $6.3 Billion Hack Is Just the Start of a Risky New Era",
-     "summary": "Binance suffered a $6.3 billion hack as attackers increasingly use artificial intelligence and advanced techniques to steal and launder cryptocurrency.",
-     "url": "https://www.nytimes.com/2026/10/30/technology/binance-hack-ai-north-korea.html",
-     "source": "NYT"
-    },
-    {
-     "title": "US tech stocks see sharp falls as AI spending nears $1tn",
-     "summary": "US tech stocks fell sharply with the Nasdaq opening at its lowest level in over two months as AI spending nears $1 trillion.",
-     "url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo?at_medium=RSS&at_campaign=rss",
+     "title": "US approves sale of 500 Patriot missiles to Ukraine",
+     "summary": "The United States has approved the sale of 500 Patriot missiles to Ukraine to help counter ballistic missile attacks.",
+     "url": "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo?at_medium=RSS&at_campaign=rss",
      "source": "BBC"
-    },
-    {
-     "title": "Why the Markets Don’t Care About the Midterms",
-     "summary": "Market analysts note that factors like inflation, interest rates, AI, and the war with Iran matter far more to markets than midterms.",
-     "url": "https://www.nytimes.com/2026/10/30/business/midterms-stock-bond-markets.html",
-     "source": "NYT"
     }
    ]
   },
@@ -42,27 +24,15 @@
    "title": "Commercial real estate",
    "items": [
     {
-     "title": "Grassroots Analytics Doubles D.C. Footprint With 25K-SF Office Lease",
-     "summary": "Grassroots Analytics signed a nearly 25,000-square-foot office lease at Arch Square in Washington, D.C., doubling its local footprint.",
-     "url": "https://commercialobserver.com/2026/10/grassroots-analytics-doubles-d-c-footprint-with-25k-sf-office-lease/",
+     "title": "Irvine Company Secures $157M Multifamily Refi in L.A.’s Playa Vista",
+     "summary": "Irvine Company secured a $157.2 million refinancing loan from Capital One for a 309-unit luxury apartment property in Los Angeles' Playa Vista.",
+     "url": "https://commercialobserver.com/2026/10/irvine-company-multifamily-refi-la-playa-vista/",
      "source": "Commercial Observer"
     },
     {
-     "title": "Juda Chetrit Seals $55M Recap for 1384 Broadway",
-     "summary": "The Chetrit Organization secured a $55 million loan from Maxim Capital Group to recapitalize an 80 percent occupied office building on Broadway.",
-     "url": "https://commercialobserver.com/2026/10/chetrit-1384-broadway/",
-     "source": "Commercial Observer"
-    },
-    {
-     "title": "Greystone Refis Hollywood, Fla., Apartments With $109M Loan",
-     "summary": "A joint venture secured a $109 million Freddie Mac-backed loan through Greystone to refinance a multifamily asset in Hollywood, Florida.",
-     "url": "https://commercialobserver.com/2026/10/greystone-hollywood-florida-apartments-bread-factory/",
-     "source": "Commercial Observer"
-    },
-    {
-     "title": "Lightstone Capital Provides $29.5M Loan for Orange, N.J., Multifamily Development",
-     "summary": "Peek Capital secured a $29.5 million bridge loan from Lightstone Capital for its recently completed multifamily development in Orange, New Jersey.",
-     "url": "https://commercialobserver.com/2026/10/lightstone-capital-peek-capital-bridge-loan-orange/",
+     "title": "Is Prop 45 a Quick Fix to California’s Slow Construction Pace?",
+     "summary": "Commercial real estate observers question whether Prop 45 can serve as a quick fix to California's notoriously slow construction and housing production pace.",
+     "url": "https://commercialobserver.com/2026/10/calif-prop-45-construction-infrastructure-data-centers/",
      "source": "Commercial Observer"
     }
    ]
@@ -72,21 +42,15 @@
    "title": "San Francisco",
    "items": [
     {
-     "title": "The man who exposed Elizabeth Holmes has a warning about AI",
-     "summary": "Whistleblower Tyler Shultz warns that the current artificial intelligence money boom provides the perfect setup for the next Theranos-style fraud.",
-     "url": "https://sfstandard.com/pacific-standard-time/2026/10/30/-pst-theranos-whistleblower-tyler-shultz-elizabeth-holmes-ai/",
+     "title": "Why nothing gets built in San Francisco",
+     "summary": "San Francisco continues to grapple with high housing development costs that prevent new residential projects from penciling out.",
+     "url": "https://sfstandard.com/2026/10/31/san-francisco-housing-construction-math/",
      "source": "SF Standard"
     },
     {
-     "title": "‘We were blindsided’: Popular Mediterranean restaurant forced out by landlord",
-     "summary": "Popular Mediterranean restaurant Oasis Grill was forced to close its 1st Street location after losing its lease.",
-     "url": "https://sfstandard.com/2026/10/30/oasis-grill-forced-out-landlord/",
-     "source": "SF Standard"
-    },
-    {
-     "title": "Mayor’s ‘strong’ policies leave SFPD with Flock data longer than other Bay Area cities",
-     "summary": "San Francisco police are retaining Flock data longer than other Bay Area cities due to a strict 2023 city ordinance.",
-     "url": "https://missionlocal.org/2026/10/police-flock-photos-bay-area/",
+     "title": "ICE vehicles parking in San Francisco-owned garage, possible violation of sanctuary law",
+     "summary": "SFMTA confirmed that ICE vehicles have been assigned parking spaces inside a city-owned garage, raising potential sanctuary law violations.",
+     "url": "https://missionlocal.org/2026/10/ice-san-francisco-parking-garage-sanctuary-city-law/",
      "source": "Mission Local"
     }
    ]
@@ -96,46 +60,26 @@
    "title": "Hawaii",
    "items": [
     {
-     "title": "Hurricane fallout batters Kauai tourism, weighs on statewide visitor numbers",
-     "summary": "September visitor numbers dropped across Hawaii as hurricanes disrupted travel and dealt a major blow to Kauai's tourism sector.",
-     "url": "https://www.staradvertiser.com/2026/10/30/hawaii-news/hurricane-fallout-batters-kauai-tourism-weighs-on-statewide-visitor-numbers/",
-     "source": "Star-Advertiser"
-    },
-    {
-     "title": "Taxpayers To Fund Mainland TV Host’s ‘Hidden Hawaiʻi’ Show",
-     "summary": "A mainland travel show hosted by Peter Greenberg will receive up to $584,000 in taxpayer funding through a no-bid contract.",
-     "url": "https://www.civilbeat.org/2026/10/taxpayers-to-fund-mainland-tv-hosts-hidden-hawaii-show/",
+     "title": "Supreme Court Orders Hawaiʻi Elections Commission Back To Work",
+     "summary": "The Hawaii Supreme Court ordered the Elections Commission back to work, ending a five-month impasse just before the general election.",
+     "url": "https://www.civilbeat.org/2026/10/supreme-court-orders-hawaii-elections-commission-back-to-work/",
      "source": "Civil Beat"
     },
     {
-     "title": "Maui Prosecutor To Hire Investigator Focused On Post-Wildfire Contractor Fraud",
-     "summary": "The Maui prosecutor's office is hiring an investigator specifically focused on post-wildfire contractor fraud following recent investigative reports.",
-     "url": "https://www.civilbeat.org/2026/10/maui-plans-to-hire-investigator-focused-on-post-wildfire-contractor-fraud/",
+     "title": "Plans For New Jail To Include Community-Based Treatment",
+     "summary": "State officials advancing plans for a new jail intend to include community-based treatment alternatives to replace the overcrowded Oahu facility.",
+     "url": "https://www.civilbeat.org/2026/10/plans-to-replace-hawaiis-largest-jail-are-coupled-with-treatment/",
      "source": "Civil Beat"
     }
    ]
   }
  ],
  "sports": {
-  "date": "20261030",
+  "date": "20261031",
   "nba": {
-   "count": 10,
-   "warriors": [
-    {
-     "matchup": "Lakers at Warriors",
-     "time": "7:00 PM",
-     "network": "Prime Video",
-     "state": "pre"
-    }
-   ],
-   "national": [
-    {
-     "matchup": "Knicks at 76ers",
-     "time": "4:30 PM",
-     "network": "Prime Video",
-     "state": "pre"
-    }
-   ]
+   "count": 7,
+   "warriors": [],
+   "national": []
   },
   "nfl": {
    "count": 0,
@@ -150,34 +94,34 @@
    "start": "Wed Oct 28",
    "leaders": [
     {
-     "name": "Adrien Dumont de Chassart",
-     "score": "-12"
+     "name": "Andrew Novak",
+     "score": "-14"
+    },
+    {
+     "name": "Kihei Akina",
+     "score": "-11"
     },
     {
      "name": "Matthieu Pavon",
      "score": "-11"
-    },
-    {
-     "name": "Mackenzie Hughes",
-     "score": "-10"
     }
    ]
   }
  },
  "wiki": {
-  "title": "John Adams",
-  "url": "https://en.wikipedia.org/wiki/John_Adams",
-  "extract": "John Adams was a Founding Father and the second president of the United States from 1797 to 1801. Before his presidency, he was a leader of the American Revolution that achieved independence from Great Britain. During the latter part of the Revolutionary War and in the early years of the new nation, he served the Continental Congress of the United States as a senior diplomat in Europe. Adams was the first vice president of the United States, serving from 1789 to 1797. He was a dedicated diarist and regularly corresponded with contemporaries, including his wife and advisor Abigail Adams and his friend and rival Thomas Jefferson.",
+  "title": "Zombie Nightmare",
+  "url": "https://en.wikipedia.org/wiki/Zombie_Nightmare",
+  "extract": "Zombie Nightmare is a 1987 Canadian zombie film produced and directed by Jack Bravman, written by John Fasano, and starring Adam West, Jon Mikl Thor, Tia Carrere, Frank Dietz, and Linda Singer. The film centres on a baseball player who is killed by a group of teenagers and resurrected as a zombie by a voodoo priestess. The zombie goes on to kill the teenagers, whose deaths are investigated by the police. The film was shot in the suburbs of Montreal. It was originally written to star mostly black actors, but at the request of investors, the characters' names were changed to more typically white names. While Bravman was credited as director, Fasano directed the majority of the film; problems occurred between Fasano and the production crew, who believed him to be the assistant director and ignored his instructions.",
   "otd": [
    {
-    "year": 2020,
-    "text": "A magnitude-7.0 earthquake occurred in the Aegean Sea between Greece and Turkey, triggering a tsunami and causing 119 deaths.",
-    "url": "https://en.wikipedia.org/wiki/2020_Aegean_Sea_earthquake"
+    "year": 2017,
+    "text": "An Uzbek immigrant drove a rented truck into cyclists and runners in Lower Manhattan, New York City, killing eight people.",
+    "url": "https://en.wikipedia.org/wiki/2017_New_York_City_truck_attack"
    },
    {
-    "year": 2010,
-    "text": "American comedians Jon Stewart and Stephen Colbert hosted the Rally to Restore Sanity and/or Fear in Washington, D.C.",
-    "url": "https://en.wikipedia.org/wiki/Jon_Stewart"
+    "year": 2005,
+    "text": "The discovery of the Plutonian moons Nix and Hydra, based on photographs taken by the Hubble Space Telescope nearly five months earlier, was announced.",
+    "url": "https://en.wikipedia.org/wiki/Moons_of_Pluto"
    }
   ]
  },
