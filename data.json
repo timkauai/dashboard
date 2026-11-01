@@ -1,57 +1,62 @@
 {
- "generated": "2026-10-31T10:36:29.197866-07:00",
+ "generated": "2026-11-01T10:21:27.102532-08:00",
  "ai": true,
  "ai_status": {
   "state": "ok",
   "detail": "gemini-3.5-flash-lite"
  },
- "overview": "Today's briefing covers key developments across global policy, commercial real estate markets, San Francisco local affairs, and Hawaii governance. In commercial real estate, new analyses examine whether policy adjustments can accelerate California's slow construction pace alongside major national property financings. San Francisco updates focus on municipal policy challenges, local elections, and housing development barriers. Meanwhile, Hawaii reports on key state government actions, including a Supreme Court order regarding the Elections Commission and discussions surrounding state correctional facilities.",
+ "overview": "Today's briefing covers national midterm political developments and global conflict updates, alongside local developments in San Francisco and Hawaii. In San Francisco, a downtown rental at the Millennium Tower reached ten thousand dollars, and the city is preparing a parade for the WNBA champion Valkyries. Meanwhile, Hawaii news includes proposed election tiebreaker rules featuring a lauhala basket and ongoing discussions regarding public information and Lahaina. No major commercial real estate specific items were reported today outside of broader political commentary touching on data centers.",
  "sections": [
   {
    "key": "general",
    "title": "Top news",
    "items": [
     {
-     "title": "US approves sale of 500 Patriot missiles to Ukraine",
-     "summary": "The United States has approved the sale of 500 Patriot missiles to Ukraine to help counter ballistic missile attacks.",
-     "url": "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo?at_medium=RSS&at_campaign=rss",
+     "title": "A Midterm Campaign Dominated by Concerns Over High Prices Nears Its End",
+     "summary": "As the midterm campaign nears its end, many voters across the country have linked President Trump's policies directly to inflation and high prices.",
+     "url": "https://www.nytimes.com/2026/11/01/us/politics/election-mood-affordability.html",
+     "source": "NYT"
+    },
+    {
+     "title": "Israeli strikes in Gaza kill eight including child, hospitals say",
+     "summary": "Israeli strikes in Gaza have killed eight people, including a child, according to hospital officials in Khan Younis and Gaza City.",
+     "url": "https://www.bbc.co.uk/news/articles/cmqln14rrzxvo?at_medium=RSS&at_campaign=rss",
      "source": "BBC"
+    },
+    {
+     "title": "Judge tosses Trump's attempt to block Alaska Senate results if GOP incumbent loses",
+     "summary": "A federal judge dismissed a Trump administration lawsuit attempting to block Alaska Senate election results if the Republican incumbent lost.",
+     "url": "https://www.npr.org/2026/11/01/nx-s1-6023766/doj-alaska-lawsuit-senate-race-dan-sullivan",
+     "source": "NPR"
     }
    ]
   },
   {
    "key": "cre",
    "title": "Commercial real estate",
-   "items": [
-    {
-     "title": "Irvine Company Secures $157M Multifamily Refi in L.A.’s Playa Vista",
-     "summary": "Irvine Company secured a $157.2 million refinancing loan from Capital One for a 309-unit luxury apartment property in Los Angeles' Playa Vista.",
-     "url": "https://commercialobserver.com/2026/10/irvine-company-multifamily-refi-la-playa-vista/",
-     "source": "Commercial Observer"
-    },
-    {
-     "title": "Is Prop 45 a Quick Fix to California’s Slow Construction Pace?",
-     "summary": "Commercial real estate observers question whether Prop 45 can serve as a quick fix to California's notoriously slow construction and housing production pace.",
-     "url": "https://commercialobserver.com/2026/10/calif-prop-45-construction-infrastructure-data-centers/",
-     "source": "Commercial Observer"
-    }
-   ]
+   "items": []
   },
   {
    "key": "sf",
    "title": "San Francisco",
    "items": [
     {
-     "title": "Why nothing gets built in San Francisco",
-     "summary": "San Francisco continues to grapple with high housing development costs that prevent new residential projects from penciling out.",
-     "url": "https://sfstandard.com/2026/10/31/san-francisco-housing-construction-math/",
+     "title": "Rents at the once-sinking Millennium Tower just hit $10K for a one-bedroom",
+     "summary": "A one-bedroom rental at the Millennium Tower in downtown San Francisco hit ten thousand dollars as an AI employee secured a home near the office.",
+     "url": "https://sfstandard.com/2026/11/01/millennium-tower-one-bedroom-10k-rent/",
      "source": "SF Standard"
     },
     {
-     "title": "ICE vehicles parking in San Francisco-owned garage, possible violation of sanctuary law",
-     "summary": "SFMTA confirmed that ICE vehicles have been assigned parking spaces inside a city-owned garage, raising potential sanctuary law violations.",
-     "url": "https://missionlocal.org/2026/10/ice-san-francisco-parking-garage-sanctuary-city-law/",
-     "source": "Mission Local"
+     "title": "SF will throw the WNBA champion Valkyries a parade Wednesday. Here’s what to know",
+     "summary": "San Francisco will host a parade on Wednesday for the WNBA champion Valkyries, featuring a march from the Ferry Building toward Oracle Park.",
+     "url": "https://sfstandard.com/2026/11/01/valkyries-championship-parade-embarcadero-route-street-closures/",
+     "source": "SF Standard"
+    },
+    {
+     "title": "To fight the Marina Safeway project, NIMBYs reach for a law written to stop the Klan",
+     "summary": "Neighbors trying to block the Marina Safeway project used a civil rights law, and the developer is now asking for the claim to be tossed.",
+     "url": "https://sfstandard.com/2026/11/01/marina-safeway-nimby-civil-rights-lawsuit/",
+     "source": "SF Standard"
     }
    ]
   },
@@ -60,30 +65,44 @@
    "title": "Hawaii",
    "items": [
     {
-     "title": "Supreme Court Orders Hawaiʻi Elections Commission Back To Work",
-     "summary": "The Hawaii Supreme Court ordered the Elections Commission back to work, ending a five-month impasse just before the general election.",
-     "url": "https://www.civilbeat.org/2026/10/supreme-court-orders-hawaii-elections-commission-back-to-work/",
+     "title": "Lauhala Basket Is Back In Proposed Election Tiebreaker Rules",
+     "summary": "Proposed election tiebreaker rules in Hawaii could still utilize a traditional lauhala basket and plastic capsules to determine winners by random lot.",
+     "url": "https://www.civilbeat.org/2026/11/lauhala-basket-is-back-in-hawaii-election-tiebreaker-rules/",
      "source": "Civil Beat"
     },
     {
-     "title": "Plans For New Jail To Include Community-Based Treatment",
-     "summary": "State officials advancing plans for a new jail intend to include community-based treatment alternatives to replace the overcrowded Oahu facility.",
-     "url": "https://www.civilbeat.org/2026/10/plans-to-replace-hawaiis-largest-jail-are-coupled-with-treatment/",
+     "title": "The Sunshine Blog: This AI Agent Has A Story To Tell About Lahaina",
+     "summary": "An AI agent tells a story regarding Lahaina within the context of public information, government accountability, and ethical leadership in Hawaii.",
+     "url": "https://www.civilbeat.org/2026/11/the-sunshine-blog-this-ai-agent-has-a-story-to-tell-about-lahaina/",
      "source": "Civil Beat"
     }
    ]
   }
  ],
  "sports": {
-  "date": "20261031",
+  "date": "20261101",
   "nba": {
-   "count": 7,
-   "warriors": [],
+   "count": 4,
+   "warriors": [
+    {
+     "matchup": "Clippers at Warriors",
+     "time": "5:30 PM",
+     "network": "NBA League Pass, ClipperVision",
+     "state": "pre"
+    }
+   ],
    "national": []
   },
   "nfl": {
-   "count": 0,
-   "primetime": [],
+   "count": 12,
+   "primetime": [
+    {
+     "matchup": "Eagles at Commanders",
+     "time": "5:20 PM",
+     "network": "NBC",
+     "state": "pre"
+    }
+   ],
    "all": []
   },
   "golf": {
@@ -95,33 +114,33 @@
    "leaders": [
     {
      "name": "Andrew Novak",
-     "score": "-14"
+     "score": "-23"
     },
     {
-     "name": "Kihei Akina",
-     "score": "-11"
+     "name": "Doug Ghim",
+     "score": "-17"
     },
     {
      "name": "Matthieu Pavon",
-     "score": "-11"
+     "score": "-17"
     }
    ]
   }
  },
  "wiki": {
-  "title": "Zombie Nightmare",
-  "url": "https://en.wikipedia.org/wiki/Zombie_Nightmare",
-  "extract": "Zombie Nightmare is a 1987 Canadian zombie film produced and directed by Jack Bravman, written by John Fasano, and starring Adam West, Jon Mikl Thor, Tia Carrere, Frank Dietz, and Linda Singer. The film centres on a baseball player who is killed by a group of teenagers and resurrected as a zombie by a voodoo priestess. The zombie goes on to kill the teenagers, whose deaths are investigated by the police. The film was shot in the suburbs of Montreal. It was originally written to star mostly black actors, but at the request of investors, the characters' names were changed to more typically white names. While Bravman was credited as director, Fasano directed the majority of the film; problems occurred between Fasano and the production crew, who believed him to be the assistant director and ignored his instructions.",
+  "title": "Europejara",
+  "url": "https://en.wikipedia.org/wiki/Europejara",
+  "extract": "Europejara is a genus of tapejarid pterosaur, a flying reptile that lived during the Barremian age of the Early Cretaceous epoch in what is now Spain. The only known specimen was found at the Las Hoyas site of Cuenca, a location noted for its exceptional Konservat-Lagerstätte preservation. In 2012, the new genus and species Europejara olcadesorum was named based on it. The generic name refers to Europe, where it was found, and to the related genus Tapejara from Brazil, while the specific name refers to the Olcades, an ancient people that lived in the region. The holotype specimen consists of an incomplete, crushed skull; the bones of the postorbital region are displaced while the mandible is almost complete.",
   "otd": [
    {
-    "year": 2017,
-    "text": "An Uzbek immigrant drove a rented truck into cyclists and runners in Lower Manhattan, New York City, killing eight people.",
-    "url": "https://en.wikipedia.org/wiki/2017_New_York_City_truck_attack"
+    "year": 1998,
+    "text": "Karl Bushby set off from Punta Arenas, Chile, beginning his attempt to walk around the world towards England, a journey that remains ongoing.",
+    "url": "https://en.wikipedia.org/wiki/Karl_Bushby"
    },
    {
-    "year": 2005,
-    "text": "The discovery of the Plutonian moons Nix and Hydra, based on photographs taken by the Hubble Space Telescope nearly five months earlier, was announced.",
-    "url": "https://en.wikipedia.org/wiki/Moons_of_Pluto"
+    "year": 1981,
+    "text": "The Associated State of Antigua gained independence from the United Kingdom as Antigua and Barbuda.",
+    "url": "https://en.wikipedia.org/wiki/Associated_State_of_Antigua"
    }
   ]
  },
