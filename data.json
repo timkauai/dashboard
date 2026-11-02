@@ -1,32 +1,32 @@
 {
- "generated": "2026-11-01T10:21:27.102532-08:00",
+ "generated": "2026-11-02T14:15:08.692027-08:00",
  "ai": true,
  "ai_status": {
   "state": "ok",
   "detail": "gemini-3.5-flash-lite"
  },
- "overview": "Today's briefing covers national midterm political developments and global conflict updates, alongside local developments in San Francisco and Hawaii. In San Francisco, a downtown rental at the Millennium Tower reached ten thousand dollars, and the city is preparing a parade for the WNBA champion Valkyries. Meanwhile, Hawaii news includes proposed election tiebreaker rules featuring a lauhala basket and ongoing discussions regarding public information and Lahaina. No major commercial real estate specific items were reported today outside of broader political commentary touching on data centers.",
+ "overview": "Global tensions and domestic political milestones headline today's news alongside notable commercial real estate financing transactions and regional developments. In the commercial real estate sector, major lenders are backing significant retail portfolio acquisitions and multi-family construction conversions. San Francisco voters are evaluating critical local policy directions and political campaigns. Meanwhile, Hawaii stories highlight council debates over short-term rentals and community infrastructure challenges.",
  "sections": [
   {
    "key": "general",
    "title": "Top news",
    "items": [
     {
-     "title": "A Midterm Campaign Dominated by Concerns Over High Prices Nears Its End",
-     "summary": "As the midterm campaign nears its end, many voters across the country have linked President Trump's policies directly to inflation and high prices.",
-     "url": "https://www.nytimes.com/2026/11/01/us/politics/election-mood-affordability.html",
-     "source": "NYT"
-    },
-    {
-     "title": "Israeli strikes in Gaza kill eight including child, hospitals say",
-     "summary": "Israeli strikes in Gaza have killed eight people, including a child, according to hospital officials in Khan Younis and Gaza City.",
-     "url": "https://www.bbc.co.uk/news/articles/cmqln14rrzxvo?at_medium=RSS&at_campaign=rss",
+     "title": "Russian bombing kills 26 people at Ukraine aid centre, Kyiv says",
+     "summary": "A Russian bombing attack killed 26 people at a southern Ukrainian village aid center, according to local officials.",
+     "url": "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&at_campaign=rss",
      "source": "BBC"
     },
     {
-     "title": "Judge tosses Trump's attempt to block Alaska Senate results if GOP incumbent loses",
-     "summary": "A federal judge dismissed a Trump administration lawsuit attempting to block Alaska Senate election results if the Republican incumbent lost.",
-     "url": "https://www.npr.org/2026/11/01/nx-s1-6023766/doj-alaska-lawsuit-senate-race-dan-sullivan",
+     "title": "US midterms campaign 'shattering' spending records to be most expensive ever",
+     "summary": "The 2026 US midterms campaign is on track to be the most expensive ever, projected to cost nearly $12 billion.",
+     "url": "https://www.bbc.co.uk/news/articles/cqkgk64z7p58o?at_medium=RSS&at_campaign=rss",
+     "source": "BBC"
+    },
+    {
+     "title": "AI chatbots are becoming political advisers. Their answers can mislead voters",
+     "summary": "Millions of Americans turning to AI chatbots for election information face misleading answers and unauthorized candidate recommendations.",
+     "url": "https://www.npr.org/2026/11/02/nx-s1-6025407/chatbots-midterms-voting-advice",
      "source": "NPR"
     }
    ]
@@ -34,29 +34,42 @@
   {
    "key": "cre",
    "title": "Commercial real estate",
-   "items": []
+   "items": [
+    {
+     "title": "Northwind Provides $231M Construction Loan to Convert 675 Third Avenue",
+     "summary": "David Werner Real Estate Investments and Metroloft secured a $231 million construction loan to convert a Midtown Manhattan office into multifamily residential.",
+     "url": "https://commercialobserver.com/2026/11/northwind-metroloft-david-wener-675-third-avenue/",
+     "source": "Commercial Observer"
+    },
+    {
+     "title": "Nuveen Acquires $445M Retail Portfolio Across Three Western States",
+     "summary": "Nuveen Real Estate acquired a 13-property retail portfolio across California, Colorado, and Washington for $445.5 million.",
+     "url": "https://commercialobserver.com/2026/11/nuveen-acquires-445m-retail-portfolio-across-three-western-states/",
+     "source": "Commercial Observer"
+    }
+   ]
   },
   {
    "key": "sf",
    "title": "San Francisco",
    "items": [
     {
-     "title": "Rents at the once-sinking Millennium Tower just hit $10K for a one-bedroom",
-     "summary": "A one-bedroom rental at the Millennium Tower in downtown San Francisco hit ten thousand dollars as an AI employee secured a home near the office.",
-     "url": "https://sfstandard.com/2026/11/01/millennium-tower-one-bedroom-10k-rent/",
+     "title": "Final push: Scott Wiener defends lead as field army knocks on 311,000th door",
+     "summary": "Scott Wiener's congressional campaign and an allied super PAC executed one of San Francisco's largest canvassing operations.",
+     "url": "https://sfstandard.com/2026/11/02/final-push-scott-wiener-defends-lead-as-field-army-knocks-311-000th-door/",
      "source": "SF Standard"
     },
     {
-     "title": "SF will throw the WNBA champion Valkyries a parade Wednesday. Here’s what to know",
-     "summary": "San Francisco will host a parade on Wednesday for the WNBA champion Valkyries, featuring a march from the Ferry Building toward Oracle Park.",
-     "url": "https://sfstandard.com/2026/11/01/valkyries-championship-parade-embarcadero-route-street-closures/",
-     "source": "SF Standard"
+     "title": "The U.S. midterms could be a big swing left. San Francisco is poised to double down on its gilded age.",
+     "summary": "San Francisco voters appear poised to approve a suite of policy measures reflecting the city's wealthy donor class priorities.",
+     "url": "https://missionlocal.org/2026/11/the-u-s-midterms-could-be-a-huge-swing-left-san-francisco-is-poised-to-double-down-on-its-gilded-age/",
+     "source": "Mission Local"
     },
     {
-     "title": "To fight the Marina Safeway project, NIMBYs reach for a law written to stop the Klan",
-     "summary": "Neighbors trying to block the Marina Safeway project used a civil rights law, and the developer is now asking for the claim to be tossed.",
-     "url": "https://sfstandard.com/2026/11/01/marina-safeway-nimby-civil-rights-lawsuit/",
-     "source": "SF Standard"
+     "title": "We asked every S.F. politician and major candidate: How would you fix housing affordability?",
+     "summary": "San Francisco politicians and major candidates shared their specific proposed plans for addressing local housing affordability.",
+     "url": "https://missionlocal.org/2026/11/san-francisco-housing-affordability-plans/",
+     "source": "Mission Local"
     }
    ]
   },
@@ -65,82 +78,102 @@
    "title": "Hawaii",
    "items": [
     {
-     "title": "Lauhala Basket Is Back In Proposed Election Tiebreaker Rules",
-     "summary": "Proposed election tiebreaker rules in Hawaii could still utilize a traditional lauhala basket and plastic capsules to determine winners by random lot.",
-     "url": "https://www.civilbeat.org/2026/11/lauhala-basket-is-back-in-hawaii-election-tiebreaker-rules/",
+     "title": "Hilo tsunami museum is ‘back full-time’ after financial woes",
+     "summary": "The Pacific Tsunami Museum in downtown Hilo has reopened seven days a week with paid staff following past financial struggles.",
+     "url": "https://www.staradvertiser.com/2026/11/02/hawaii-news/hilo-tsunami-museum-is-back-full-time-after-financial-woes/",
+     "source": "Star-Advertiser"
+    },
+    {
+     "title": "A 6-Month Vacation? Hawaiʻi Council Deadlocked On Short-Term Rental Bill",
+     "summary": "A Hawaii council deadlocked on a short-term rental bill that would expand vacation rental zones and lengthen the short-term threshold to 180 days.",
+     "url": "https://www.civilbeat.org/2026/11/hawaii-council-deadlocked-on-short-term-rental-bill/",
      "source": "Civil Beat"
     },
     {
-     "title": "The Sunshine Blog: This AI Agent Has A Story To Tell About Lahaina",
-     "summary": "An AI agent tells a story regarding Lahaina within the context of public information, government accountability, and ethical leadership in Hawaii.",
-     "url": "https://www.civilbeat.org/2026/11/the-sunshine-blog-this-ai-agent-has-a-story-to-tell-about-lahaina/",
+     "title": "She’s Famous As The Shark Whisperer. These Divers Recall A Toxic Boss",
+     "summary": "More than a dozen former workers reported workplace abuses at One Ocean Diving, which operates cageless shark tours on the North Shore.",
+     "url": "https://www.civilbeat.org/2026/11/shes-famous-shark-whisperer-these-divers-recall-a-toxic-boss/",
      "source": "Civil Beat"
     }
    ]
   }
  ],
  "sports": {
-  "date": "20261101",
+  "date": "20261102",
   "nba": {
-   "count": 4,
+   "count": 15,
    "warriors": [
     {
-     "matchup": "Clippers at Warriors",
-     "time": "5:30 PM",
-     "network": "NBA League Pass, ClipperVision",
+     "matchup": "Suns at Warriors",
+     "time": "7:00 PM",
+     "network": "NBA League Pass, Suns Live, Arizona's Family 3TV",
      "state": "pre"
     }
    ],
-   "national": []
+   "national": [
+    {
+     "matchup": "Thunder at Cavaliers",
+     "time": "4:00 PM",
+     "network": "NBCSN",
+     "state": "pre"
+    }
+   ]
   },
   "nfl": {
-   "count": 12,
+   "count": 1,
    "primetime": [
     {
-     "matchup": "Eagles at Commanders",
-     "time": "5:20 PM",
-     "network": "NBC",
+     "matchup": "Bears at Seahawks",
+     "time": "5:15 PM",
+     "network": "ESPN",
      "state": "pre"
     }
    ],
-   "all": []
+   "all": [
+    {
+     "matchup": "Bears at Seahawks",
+     "time": "5:15 PM",
+     "network": "ESPN",
+     "state": "pre"
+    }
+   ]
   },
   "golf": {
    "none": false,
    "name": "VidantaWorld Mexico Open",
-   "state": "in",
+   "state": "post",
    "detail": "",
    "start": "Wed Oct 28",
    "leaders": [
     {
      "name": "Andrew Novak",
-     "score": "-23"
+     "score": "-25"
     },
     {
-     "name": "Doug Ghim",
-     "score": "-17"
+     "name": "Kristoffer Ventura",
+     "score": "-20"
     },
     {
-     "name": "Matthieu Pavon",
-     "score": "-17"
+     "name": "Steven Fisk",
+     "score": "-20"
     }
    ]
   }
  },
  "wiki": {
-  "title": "Europejara",
-  "url": "https://en.wikipedia.org/wiki/Europejara",
-  "extract": "Europejara is a genus of tapejarid pterosaur, a flying reptile that lived during the Barremian age of the Early Cretaceous epoch in what is now Spain. The only known specimen was found at the Las Hoyas site of Cuenca, a location noted for its exceptional Konservat-Lagerstätte preservation. In 2012, the new genus and species Europejara olcadesorum was named based on it. The generic name refers to Europe, where it was found, and to the related genus Tapejara from Brazil, while the specific name refers to the Olcades, an ancient people that lived in the region. The holotype specimen consists of an incomplete, crushed skull; the bones of the postorbital region are displaced while the mandible is almost complete.",
+  "title": "Sovetsky Soyuz-class battleship",
+  "url": "https://en.wikipedia.org/wiki/Sovetsky_Soyuz-class_battleship",
+  "extract": "The Sovetsky Soyuz-class battleships were a class of battleships begun by the Soviet Union in the late 1930s but never brought into service.",
   "otd": [
    {
-    "year": 1998,
-    "text": "Karl Bushby set off from Punta Arenas, Chile, beginning his attempt to walk around the world towards England, a journey that remains ongoing.",
-    "url": "https://en.wikipedia.org/wiki/Karl_Bushby"
+    "year": 2008,
+    "text": "Lewis Hamilton overtook Timo Glock in the final corners of the Brazilian Grand Prix to become the Formula One World Drivers' Champion by one point.",
+    "url": "https://en.wikipedia.org/wiki/Lewis_Hamilton"
    },
    {
-    "year": 1981,
-    "text": "The Associated State of Antigua gained independence from the United Kingdom as Antigua and Barbuda.",
-    "url": "https://en.wikipedia.org/wiki/Associated_State_of_Antigua"
+    "year": 2000,
+    "text": "As members of Expedition 1, American astronaut William Shepherd and Russian cosmonauts Sergei Krikalev and Yuri Gidzenko (all pictured) became the first resident crew to arrive at the International Space Station.",
+    "url": "https://en.wikipedia.org/wiki/Expedition_1"
    }
   ]
  },
