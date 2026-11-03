@@ -1,33 +1,27 @@
 {
- "generated": "2026-11-02T14:15:08.692027-08:00",
+ "generated": "2026-11-03T12:01:59.267218-08:00",
  "ai": true,
  "ai_status": {
   "state": "ok",
   "detail": "gemini-3.5-flash-lite"
  },
- "overview": "Global tensions and domestic political milestones headline today's news alongside notable commercial real estate financing transactions and regional developments. In the commercial real estate sector, major lenders are backing significant retail portfolio acquisitions and multi-family construction conversions. San Francisco voters are evaluating critical local policy directions and political campaigns. Meanwhile, Hawaii stories highlight council debates over short-term rentals and community infrastructure challenges.",
+ "overview": "Global developments include rising security concerns in Europe and ongoing conflicts, while domestic markets focus on key election outcomes and administrative shifts. In commercial real estate, major firms are reporting solid quarterly earnings, active leasing activity, and strategic property transactions. San Francisco voters head to the polls for consequential local elections and decisions regarding major regional public transit funding. Meanwhile, Hawaii residents monitor important state governance reports, ongoing land lease discussions, and housing affordability pressures.",
  "sections": [
   {
    "key": "general",
    "title": "Top news",
    "items": [
     {
-     "title": "Russian bombing kills 26 people at Ukraine aid centre, Kyiv says",
-     "summary": "A Russian bombing attack killed 26 people at a southern Ukrainian village aid center, according to local officials.",
-     "url": "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&at_campaign=rss",
-     "source": "BBC"
+     "title": "Poland Beefs Up Security at Border With Russia",
+     "summary": "Polish Prime Minister Donald Tusk reported disturbing military movements in the Russian region of Kaliningrad, prompting increased border security.",
+     "url": "https://www.nytimes.com/2026/11/03/world/europe/poland-russia-kaliningrad.html",
+     "source": "NYT"
     },
     {
-     "title": "US midterms campaign 'shattering' spending records to be most expensive ever",
-     "summary": "The 2026 US midterms campaign is on track to be the most expensive ever, projected to cost nearly $12 billion.",
-     "url": "https://www.bbc.co.uk/news/articles/cqkgk64z7p58o?at_medium=RSS&at_campaign=rss",
+     "title": "Death toll rises in Ukraine after Russia attacks aid centre, hospice and hospital",
+     "summary": "Russian attacks across Ukraine hit an aid center, hospice, and hospital, raising the death toll by at least 38 people within 24 hours.",
+     "url": "https://www.bbc.co.uk/news/articles/c65ynez5y599o?at_medium=RSS&at_campaign=rss",
      "source": "BBC"
-    },
-    {
-     "title": "AI chatbots are becoming political advisers. Their answers can mislead voters",
-     "summary": "Millions of Americans turning to AI chatbots for election information face misleading answers and unauthorized candidate recommendations.",
-     "url": "https://www.npr.org/2026/11/02/nx-s1-6025407/chatbots-midterms-voting-advice",
-     "source": "NPR"
     }
    ]
   },
@@ -36,15 +30,15 @@
    "title": "Commercial real estate",
    "items": [
     {
-     "title": "Northwind Provides $231M Construction Loan to Convert 675 Third Avenue",
-     "summary": "David Werner Real Estate Investments and Metroloft secured a $231 million construction loan to convert a Midtown Manhattan office into multifamily residential.",
-     "url": "https://commercialobserver.com/2026/11/northwind-metroloft-david-wener-675-third-avenue/",
+     "title": "Vornado Reports Strong Q3 Cash Flow, Revenue Behind Brisk Office Leasing",
+     "summary": "Vornado Realty Trust reported strong third-quarter cash flow and revenue driven by brisk office leasing and robust capital markets metrics.",
+     "url": "https://commercialobserver.com/2026/11/vornado-q3-2026-earnings/",
      "source": "Commercial Observer"
     },
     {
-     "title": "Nuveen Acquires $445M Retail Portfolio Across Three Western States",
-     "summary": "Nuveen Real Estate acquired a 13-property retail portfolio across California, Colorado, and Washington for $445.5 million.",
-     "url": "https://commercialobserver.com/2026/11/nuveen-acquires-445m-retail-portfolio-across-three-western-states/",
+     "title": "BKM Capital Buys Orange County, Calif., Industrial Park for $62M",
+     "summary": "BKM Capital Partners acquired a fully leased, 231,000-square-foot industrial business park in Orange County, California, for $62 million.",
+     "url": "https://commercialobserver.com/2026/11/bkm-orange-county-calif-industrial/",
      "source": "Commercial Observer"
     }
    ]
@@ -54,22 +48,16 @@
    "title": "San Francisco",
    "items": [
     {
-     "title": "Final push: Scott Wiener defends lead as field army knocks on 311,000th door",
-     "summary": "Scott Wiener's congressional campaign and an allied super PAC executed one of San Francisco's largest canvassing operations.",
-     "url": "https://sfstandard.com/2026/11/02/final-push-scott-wiener-defends-lead-as-field-army-knocks-311-000th-door/",
+     "title": "Election Day: Big money, high stakes, and key contests to watch",
+     "summary": "San Francisco voters face high-stakes contests on Election Day involving supervisors, congressional seats, a billionaire tax, and CEQA reform.",
+     "url": "https://sfstandard.com/2026/11/03/election-day-california-san-francisco-key-races-billionaire-tax-pelosi/",
      "source": "SF Standard"
     },
     {
-     "title": "The U.S. midterms could be a big swing left. San Francisco is poised to double down on its gilded age.",
-     "summary": "San Francisco voters appear poised to approve a suite of policy measures reflecting the city's wealthy donor class priorities.",
-     "url": "https://missionlocal.org/2026/11/the-u-s-midterms-could-be-a-huge-swing-left-san-francisco-is-poised-to-double-down-on-its-gilded-age/",
-     "source": "Mission Local"
-    },
-    {
-     "title": "We asked every S.F. politician and major candidate: How would you fix housing affordability?",
-     "summary": "San Francisco politicians and major candidates shared their specific proposed plans for addressing local housing affordability.",
-     "url": "https://missionlocal.org/2026/11/san-francisco-housing-affordability-plans/",
-     "source": "Mission Local"
+     "title": "This is the biggest election for Bay Area public transit since 1962",
+     "summary": "BART and Caltrain face potential service cuts unless they secure additional funding from a major new regional transit tax measure.",
+     "url": "https://sfstandard.com/2026/11/03/bay-area-transit-tax-bart-caltrain/",
+     "source": "SF Standard"
     }
    ]
   },
@@ -78,102 +66,55 @@
    "title": "Hawaii",
    "items": [
     {
-     "title": "Hilo tsunami museum is ‘back full-time’ after financial woes",
-     "summary": "The Pacific Tsunami Museum in downtown Hilo has reopened seven days a week with paid staff following past financial struggles.",
-     "url": "https://www.staradvertiser.com/2026/11/02/hawaii-news/hilo-tsunami-museum-is-back-full-time-after-financial-woes/",
+     "title": "Army proposes ending leases on state lands ahead of expiration",
+     "summary": "The Army has proposed officially terminating its leases on several parcels of state land ahead of expiration, including in Makua Valley.",
+     "url": "https://www.staradvertiser.com/2026/11/03/hawaii-news/army-proposes-ending-leases-on-lands-ahead-of-expiration/",
      "source": "Star-Advertiser"
     },
     {
-     "title": "A 6-Month Vacation? Hawaiʻi Council Deadlocked On Short-Term Rental Bill",
-     "summary": "A Hawaii council deadlocked on a short-term rental bill that would expand vacation rental zones and lengthen the short-term threshold to 180 days.",
-     "url": "https://www.civilbeat.org/2026/11/hawaii-council-deadlocked-on-short-term-rental-bill/",
-     "source": "Civil Beat"
-    },
-    {
-     "title": "She’s Famous As The Shark Whisperer. These Divers Recall A Toxic Boss",
-     "summary": "More than a dozen former workers reported workplace abuses at One Ocean Diving, which operates cageless shark tours on the North Shore.",
-     "url": "https://www.civilbeat.org/2026/11/shes-famous-shark-whisperer-these-divers-recall-a-toxic-boss/",
+     "title": "Mortgage Payments Soar, Locking Many Out Of Housing Market",
+     "summary": "Rising mortgage payments and costs are locking many buyers out of the housing market, causing homes to sit longer for sale.",
+     "url": "https://www.civilbeat.org/2026/11/mortgage-payments-soar-locking-many-out-of-housing-market/",
      "source": "Civil Beat"
     }
    ]
   }
  ],
  "sports": {
-  "date": "20261102",
+  "date": "20261103",
   "nba": {
-   "count": 15,
-   "warriors": [
-    {
-     "matchup": "Suns at Warriors",
-     "time": "7:00 PM",
-     "network": "NBA League Pass, Suns Live, Arizona's Family 3TV",
-     "state": "pre"
-    }
-   ],
-   "national": [
-    {
-     "matchup": "Thunder at Cavaliers",
-     "time": "4:00 PM",
-     "network": "NBCSN",
-     "state": "pre"
-    }
-   ]
+   "count": 0,
+   "warriors": [],
+   "national": []
   },
   "nfl": {
-   "count": 1,
-   "primetime": [
-    {
-     "matchup": "Bears at Seahawks",
-     "time": "5:15 PM",
-     "network": "ESPN",
-     "state": "pre"
-    }
-   ],
-   "all": [
-    {
-     "matchup": "Bears at Seahawks",
-     "time": "5:15 PM",
-     "network": "ESPN",
-     "state": "pre"
-    }
-   ]
+   "count": 0,
+   "primetime": [],
+   "all": []
   },
   "golf": {
    "none": false,
-   "name": "VidantaWorld Mexico Open",
-   "state": "post",
+   "name": "World Wide Technology Championship",
+   "state": "pre",
    "detail": "",
-   "start": "Wed Oct 28",
-   "leaders": [
-    {
-     "name": "Andrew Novak",
-     "score": "-25"
-    },
-    {
-     "name": "Kristoffer Ventura",
-     "score": "-20"
-    },
-    {
-     "name": "Steven Fisk",
-     "score": "-20"
-    }
-   ]
+   "start": "Wed Nov 4",
+   "leaders": []
   }
  },
  "wiki": {
-  "title": "Sovetsky Soyuz-class battleship",
-  "url": "https://en.wikipedia.org/wiki/Sovetsky_Soyuz-class_battleship",
-  "extract": "The Sovetsky Soyuz-class battleships were a class of battleships begun by the Soviet Union in the late 1930s but never brought into service.",
+  "title": "Ich geh und suche mit Verlangen, BWV 49",
+  "url": "https://en.wikipedia.org/wiki/Ich_geh_und_suche_mit_Verlangen%2C_BWV_49",
+  "extract": "Johann Sebastian Bach composed the church cantata Ich geh und suche mit Verlangen, BWV 49, in Leipzig for the twentieth Sunday after Trinity Sunday and first performed it on 3 November 1726. It is a solo cantata, a dialogue for soprano and bass.",
   "otd": [
    {
-    "year": 2008,
-    "text": "Lewis Hamilton overtook Timo Glock in the final corners of the Brazilian Grand Prix to become the Formula One World Drivers' Champion by one point.",
-    "url": "https://en.wikipedia.org/wiki/Lewis_Hamilton"
+    "year": 2002,
+    "text": "A CIA drone strike kills six militants in Yemen, constituting the first targeted killing of the war on terror.",
+    "url": "https://en.wikipedia.org/wiki/2002_Marib_airstrike"
    },
    {
-    "year": 2000,
-    "text": "As members of Expedition 1, American astronaut William Shepherd and Russian cosmonauts Sergei Krikalev and Yuri Gidzenko (all pictured) became the first resident crew to arrive at the International Space Station.",
-    "url": "https://en.wikipedia.org/wiki/Expedition_1"
+    "year": 1996,
+    "text": "Abdullah Çatlı, a leader of the ultra-nationalist Grey Wolves, was killed in a car crash near Susurluk, Turkey, sparking a scandal that exposed the depth of the state's complicity in organized crime.",
+    "url": "https://en.wikipedia.org/wiki/Abdullah_%C3%87atl%C4%B1"
    }
   ]
  },
