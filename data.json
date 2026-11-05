@@ -1,21 +1,33 @@
 {
- "generated": "2026-11-04T12:22:26.980089-08:00",
- "ai": true,
+ "generated": "2026-11-05T12:33:08.684792-08:00",
+ "ai": false,
  "ai_status": {
-  "state": "ok",
-  "detail": "gemini-3.5-flash-lite"
+  "state": "failed",
+  "detail": "gemini-3.5-flash-lite: HTTP 503 {   \"error\": {     \"code\": 503,     \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",     \"status\": \"UNAVAILABLE\"   } }  | gemini-2.5-flash: HTTP 404 {   \"error\": {     \"code\": 404,     \"message\": \"This model models/gemini-2.5-flash is no longer available to new users. Please update your c"
  },
- "overview": "Following nationwide midterm results, Democrats have flipped control of Congress, sending stock markets higher as investors anticipate political gridlock. In commercial real estate news, an energy management platform announced the return of its co-founder as CEO to lead a new storage battery business. Locally in San Francisco, political races point to shifting council dynamics alongside cultural celebrations like the Valkyries victory parade. Meanwhile, in Hawaii, election results show significant political updates including mayoral victories in Maui and Kauai alongside gubernatorial success for Gov. Josh Green.",
+ "overview": "",
  "sections": [
   {
    "key": "general",
    "title": "Top news",
    "items": [
     {
-     "title": "Stocks Rise as Democrats Flip Control of Congress",
-     "summary": "Stock markets traded higher as investors anticipated gridlock in Washington after Democrats flipped control of Congress.",
-     "url": "https://www.nytimes.com/2026/11/04/business/midterm-elections-stock-market.html",
+     "title": "California governor commutes death sentences for all 548 people on death row",
+     "summary": "",
+     "url": "https://www.bbc.co.uk/news/articles/cqrkyyd2j8mvo?at_medium=RSS&at_campaign=rss",
+     "source": "BBC"
+    },
+    {
+     "title": "How Colom Changed a Long Shot in Mississippi Into a Race Too Close to Call",
+     "summary": "",
+     "url": "https://www.nytimes.com/2026/11/05/us/politics/mississippi-senate-race-democrat-colom-hyde-smith.html",
      "source": "NYT"
+    },
+    {
+     "title": "Paraguay's president is impeached minutes after resigning following a bank collapse",
+     "summary": "",
+     "url": "https://www.npr.org/2026/11/05/nx-s1-6030842/paraguay-president-impeached-bank-collapse",
+     "source": "NPR"
     }
    ]
   },
@@ -24,9 +36,21 @@
    "title": "Commercial real estate",
    "items": [
     {
-     "title": "GridPoint Co-Founder Adrian De Luca Returns as CEO to Power New Battery Product",
-     "summary": "GridPoint announced that co-founder Adrian De Luca has returned as CEO to lead the rollout of its new storage battery business.",
-     "url": "https://commercialobserver.com/2026/11/gridpoint-adrian-de-luca-batteries/",
+     "title": "Artemis Real Estate Buys Newport Beach, Calif., Senior Living Community From Ventas",
+     "summary": "",
+     "url": "https://commercialobserver.com/2026/11/artemis-newport-beach-calif-senior-living-ventas/",
+     "source": "Commercial Observer"
+    },
+    {
+     "title": "Welltower Pays at Least $49M for Broward, Fla., Rehab and Nursing Home",
+     "summary": "",
+     "url": "https://commercialobserver.com/2026/11/welltower-glades-west-rehab-nursing-center/",
+     "source": "Commercial Observer"
+    },
+    {
+     "title": "Blackstone Provides $310M Bridge Loan for Nashville Mixed-Use Tower",
+     "summary": "",
+     "url": "https://commercialobserver.com/2026/11/blackstone-bridge-loan-nashville-peabody-union/",
      "source": "Commercial Observer"
     }
    ]
@@ -36,9 +60,21 @@
    "title": "San Francisco",
    "items": [
     {
-     "title": "How Scott Wiener built a lead over Connie Chan she’s unlikely to reverse",
-     "summary": "Scott Wiener built a lead over Connie Chan by securing support in neighborhoods that traditionally vote for progressives.",
-     "url": "https://sfstandard.com/2026/11/04/scott-wiener-built-lead-connie-chan-s-unlikely-reverse/",
+     "title": "Newsom plans to commute all California death sentences",
+     "summary": "",
+     "url": "https://sfstandard.com/2026/11/05/newsom-commute-death-sentencescalifornia/",
+     "source": "SF Standard"
+    },
+    {
+     "title": "Hello",
+     "summary": "",
+     "url": "https://missionlocal.org/2026/11/hello/",
+     "source": "Mission Local"
+    },
+    {
+     "title": "Harmeet Dhillon, San Francisco’s anti-woke crusader, leaves the Trump administration",
+     "summary": "",
+     "url": "https://sfstandard.com/2026/11/05/harmeet-dhillon-san-francisco-s-anti-woke-crusader-leaves-trump-administration/",
      "source": "SF Standard"
     }
    ]
@@ -48,68 +84,95 @@
    "title": "Hawaii",
    "items": [
     {
-     "title": "Gov. Josh Green secures 2nd term in Hawaii’s largest gubernatorial victory ever",
-     "summary": "Gov. Josh Green won a resounding reelection victory alongside running mate and outgoing Kauai Mayor Derek Kawakami.",
-     "url": "https://www.staradvertiser.com/2026/11/04/hawaii-news/gov-josh-green-secures-2nd-term-in-hawaiis-largest-gubernatorial-victory-ever/",
+     "title": "Suspect arrested in knifepoint Waikiki carjacking of family",
+     "summary": "",
+     "url": "https://www.staradvertiser.com/2026/11/05/breaking-news/suspect-arrested-in-knifepoint-waikiki-carjacking-of-family/",
      "source": "Star-Advertiser"
     },
     {
-     "title": "Bissen, Rapozo winners in Maui and Kauai mayoral races",
-     "summary": "Maui County Mayor Richard Bissen and Kauai winner Rapozo secured mayoral victories in Tuesday's election.",
-     "url": "https://www.staradvertiser.com/2026/11/04/hawaii-news/bissen-rapozo-winners-in-maui-and-kauai-mayoral-races/",
+     "title": "Olin Lagon: David And Goliath On A Hawaiʻi Basketball Court",
+     "summary": "",
+     "url": "https://www.civilbeat.org/2026/11/david-and-goliath-hawaii-basketball-court/",
+     "source": "Civil Beat"
+    },
+    {
+     "title": "Oahu election results hold firm after 25K more ballots counted",
+     "summary": "",
+     "url": "https://www.staradvertiser.com/2026/11/05/breaking-news/oahu-election-results-hold-firm-after-25k-more-ballots-counted/",
      "source": "Star-Advertiser"
     }
    ]
   }
  ],
  "sports": {
-  "date": "20261104",
+  "date": "20261105",
   "nba": {
-   "count": 14,
-   "warriors": [],
-   "national": [
+   "count": 2,
+   "warriors": [
     {
-     "matchup": "76ers at Pistons",
-     "time": "4:00 PM",
-     "network": "ESPN",
+     "matchup": "Heat at Warriors",
+     "time": "7:00 PM",
+     "network": "NBA TV",
      "state": "pre"
-    },
+    }
+   ],
+   "national": []
+  },
+  "nfl": {
+   "count": 1,
+   "primetime": [
     {
-     "matchup": "Mavericks at Spurs",
-     "time": "6:30 PM",
-     "network": "ESPN",
+     "matchup": "Jaguars at Ravens",
+     "time": "5:15 PM",
+     "network": "Prime Video",
+     "state": "pre"
+    }
+   ],
+   "all": [
+    {
+     "matchup": "Jaguars at Ravens",
+     "time": "5:15 PM",
+     "network": "Prime Video",
      "state": "pre"
     }
    ]
   },
-  "nfl": {
-   "count": 0,
-   "primetime": [],
-   "all": []
-  },
   "golf": {
    "none": false,
    "name": "World Wide Technology Championship",
-   "state": "pre",
+   "state": "in",
    "detail": "",
    "start": "Wed Nov 4",
-   "leaders": []
+   "leaders": [
+    {
+     "name": "Chris Kirk",
+     "score": "-9"
+    },
+    {
+     "name": "Nick Dunlap",
+     "score": "-8"
+    },
+    {
+     "name": "Matthieu Pavon",
+     "score": "-7"
+    }
+   ]
   }
  },
  "wiki": {
-  "title": "Eunos MRT station",
-  "url": "https://en.wikipedia.org/wiki/Eunos_MRT_station",
-  "extract": "Eunos MRT station is an elevated Mass Rapid Transit (MRT) station on the East–West Line in Geylang, Singapore. Operated by SMRT Trains, the station is connected to the Eunos Bus Interchange. It also provides access to other surrounding landmarks such as the Masjid Darul Aman, Eunos Crescent Market and Food Centre, and Mangala Vihara Buddhist Temple.",
+  "title": "Nikolai Kulikovsky",
+  "url": "https://en.wikipedia.org/wiki/Nikolai_Kulikovsky",
+  "extract": "Nikolai Alexandrovich Kulikovsky was the second husband of Grand Duchess Olga Alexandrovna of Russia, the sister of Tsar Nicholas II and daughter of Tsar Alexander III. He was born into a military landowning family from the south of the Russian Empire, and followed the family tradition by entering the army. In 1903, he was noticed by Grand Duchess Olga during a military review, and they became close friends. Olga wanted to divorce her first husband, Duke Peter Alexandrovich of Oldenburg, and marry Kulikovsky, but neither her husband nor her brother, the Tsar, would allow it.",
   "otd": [
    {
-    "year": 2025,
-    "text": "A UPS Airlines plane crashed in Louisville, Kentucky, killing at least twelve people.",
-    "url": "https://en.wikipedia.org/wiki/UPS_Airlines"
+    "year": 2013,
+    "text": "The Indian Space Research Organisation launched the Mars Orbiter Mission, India's first interplanetary probe.",
+    "url": "https://en.wikipedia.org/wiki/ISRO"
    },
    {
-    "year": 2016,
-    "text": "The Paris Agreement, under the United Nations Framework Convention on Climate Change, came into effect.",
-    "url": "https://en.wikipedia.org/wiki/Paris_Agreement"
+    "year": 2009,
+    "text": "U.S. Army major Nidal Hasan went on a shooting rampage at Fort Hood, Texas, the worst shooting ever to take place on an American military base, killing 13.",
+    "url": "https://en.wikipedia.org/wiki/United_States_Army"
    }
   ]
  },
