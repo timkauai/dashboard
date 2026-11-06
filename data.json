@@ -1,81 +1,62 @@
 {
- "generated": "2026-11-05T12:33:08.684792-08:00",
- "ai": false,
+ "generated": "2026-11-06T11:54:50.111244-08:00",
+ "ai": true,
  "ai_status": {
-  "state": "failed",
-  "detail": "gemini-3.5-flash-lite: HTTP 503 {   \"error\": {     \"code\": 503,     \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",     \"status\": \"UNAVAILABLE\"   } }  | gemini-2.5-flash: HTTP 404 {   \"error\": {     \"code\": 404,     \"message\": \"This model models/gemini-2.5-flash is no longer available to new users. Please update your c"
+  "state": "ok",
+  "detail": "gemini-3.5-flash-lite"
  },
- "overview": "",
+ "overview": "Markets reacted to political shifts as AI stocks climbed following a Democrat election victory, while defense secretary Pete Hegseth faced mounting bipartisan scrutiny and a potential impeachment effort. In commercial real estate, Bushburg Properties entered a contract to buy 60 Wall Street at a steep discount, and Starwood Property Trust reported a heavy third-quarter loss. Locally, San Francisco Mayor Lurie consolidated power, and the city secured a significant funding gift to improve Mission BART plazas. Meanwhile, Hawaii made leadership news with the decision not to reappoint the state attorney general who led a major pandemic-era corruption probe.",
  "sections": [
   {
    "key": "general",
    "title": "Top news",
    "items": [
     {
-     "title": "California governor commutes death sentences for all 548 people on death row",
-     "summary": "",
-     "url": "https://www.bbc.co.uk/news/articles/cqrkyyd2j8mvo?at_medium=RSS&at_campaign=rss",
+     "title": "AI stocks climb after trillions wiped from market values",
+     "summary": "Investors sold off tech shares over concerns about slower AI development before stocks climbed following a Democrat election victory.",
+     "url": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss",
      "source": "BBC"
     },
     {
-     "title": "How Colom Changed a Long Shot in Mississippi Into a Race Too Close to Call",
-     "summary": "",
-     "url": "https://www.nytimes.com/2026/11/05/us/politics/mississippi-senate-race-democrat-colom-hyde-smith.html",
+     "title": "Hegseth Faces Impeachment Effort and Bipartisan Scrutiny After Midterm Elections",
+     "summary": "President Trump’s defense secretary faces a looming impeachment push and bipartisan scrutiny following midterm elections.",
+     "url": "https://www.nytimes.com/2026/11/06/us/politics/hegseth-trump-iran-war.html",
      "source": "NYT"
-    },
-    {
-     "title": "Paraguay's president is impeached minutes after resigning following a bank collapse",
-     "summary": "",
-     "url": "https://www.npr.org/2026/11/05/nx-s1-6030842/paraguay-president-impeached-bank-collapse",
-     "source": "NPR"
     }
    ]
   },
   {
    "key": "cre",
    "title": "Commercial real estate",
-   "items": [
-    {
-     "title": "Artemis Real Estate Buys Newport Beach, Calif., Senior Living Community From Ventas",
-     "summary": "",
-     "url": "https://commercialobserver.com/2026/11/artemis-newport-beach-calif-senior-living-ventas/",
-     "source": "Commercial Observer"
-    },
-    {
-     "title": "Welltower Pays at Least $49M for Broward, Fla., Rehab and Nursing Home",
-     "summary": "",
-     "url": "https://commercialobserver.com/2026/11/welltower-glades-west-rehab-nursing-center/",
-     "source": "Commercial Observer"
-    },
-    {
-     "title": "Blackstone Provides $310M Bridge Loan for Nashville Mixed-Use Tower",
-     "summary": "",
-     "url": "https://commercialobserver.com/2026/11/blackstone-bridge-loan-nashville-peabody-union/",
-     "source": "Commercial Observer"
-    }
-   ]
+   "items": []
   },
   {
    "key": "sf",
    "title": "San Francisco",
    "items": [
     {
-     "title": "Newsom plans to commute all California death sentences",
-     "summary": "",
-     "url": "https://sfstandard.com/2026/11/05/newsom-commute-death-sentencescalifornia/",
+     "title": "Scott Wiener endorses Matt Haney in state Senate race against Pelosi’s daughter",
+     "summary": "Scott Wiener endorsed Matt Haney in the state Senate race against Nancy Pelosi’s daughter ahead of an upcoming special election.",
+     "url": "https://sfstandard.com/2026/11/06/scott-wiener-endorses-matt-haney-state-senate-race-pelosi-daughter/",
      "source": "SF Standard"
     },
     {
-     "title": "Hello",
-     "summary": "",
-     "url": "https://missionlocal.org/2026/11/hello/",
+     "title": "Lurie has more power than ever. Who’s left to challenge him?",
+     "summary": "Mayor Lurie holds newfound power at City Hall, raising questions about who remains to challenge his administration.",
+     "url": "https://sfstandard.com/2026/11/06/mayor-lurie-power-charter-reform/",
+     "source": "SF Standard"
+    },
+    {
+     "title": "S.F. to get $9.25 million gift to tackle conditions at Mission BART plazas",
+     "summary": "San Francisco received a $9.25 million gift from the Crankstart Foundation to fund improvements at the Mission BART plazas.",
+     "url": "https://missionlocal.org/2026/11/san-francisco-mission-bart-plazas-crankstart-gift/",
      "source": "Mission Local"
     },
     {
-     "title": "Harmeet Dhillon, San Francisco’s anti-woke crusader, leaves the Trump administration",
-     "summary": "",
-     "url": "https://sfstandard.com/2026/11/05/harmeet-dhillon-san-francisco-s-anti-woke-crusader-leaves-trump-administration/",
-     "source": "SF Standard"
+     "title": "Citywide count shows number of S.F. homeless children increased 27% in 2 years",
+     "summary": "A citywide count revealed that the number of homeless children and families in San Francisco increased by 27% over two years.",
+     "url": "https://missionlocal.org/2026/11/san-francisco-homeless-point-in-time-count-children/",
+     "source": "Mission Local"
     }
    ]
   },
@@ -84,58 +65,38 @@
    "title": "Hawaii",
    "items": [
     {
-     "title": "Suspect arrested in knifepoint Waikiki carjacking of family",
-     "summary": "",
-     "url": "https://www.staradvertiser.com/2026/11/05/breaking-news/suspect-arrested-in-knifepoint-waikiki-carjacking-of-family/",
-     "source": "Star-Advertiser"
-    },
-    {
-     "title": "Olin Lagon: David And Goliath On A Hawaiʻi Basketball Court",
-     "summary": "",
-     "url": "https://www.civilbeat.org/2026/11/david-and-goliath-hawaii-basketball-court/",
-     "source": "Civil Beat"
-    },
-    {
-     "title": "Oahu election results hold firm after 25K more ballots counted",
-     "summary": "",
-     "url": "https://www.staradvertiser.com/2026/11/05/breaking-news/oahu-election-results-hold-firm-after-25k-more-ballots-counted/",
+     "title": "Hawaii Attorney General who led corruption probe is not reappointed",
+     "summary": "The Hawaii Attorney General who led an investigation into a pandemic-era bribery conspiracy will not be reappointed.",
+     "url": "https://www.staradvertiser.com/2026/11/06/hawaii-news/ag-who-led-corruption-probe-is-not-reappointed/",
      "source": "Star-Advertiser"
     }
    ]
   }
  ],
  "sports": {
-  "date": "20261105",
+  "date": "20261106",
   "nba": {
-   "count": 2,
-   "warriors": [
+   "count": 9,
+   "warriors": [],
+   "national": [
     {
-     "matchup": "Heat at Warriors",
+     "matchup": "76ers at Cavaliers",
+     "time": "4:30 PM",
+     "network": "Prime Video, ERADM",
+     "state": "pre"
+    },
+    {
+     "matchup": "Trail Blazers at Lakers",
      "time": "7:00 PM",
-     "network": "NBA TV",
-     "state": "pre"
-    }
-   ],
-   "national": []
-  },
-  "nfl": {
-   "count": 1,
-   "primetime": [
-    {
-     "matchup": "Jaguars at Ravens",
-     "time": "5:15 PM",
-     "network": "Prime Video",
-     "state": "pre"
-    }
-   ],
-   "all": [
-    {
-     "matchup": "Jaguars at Ravens",
-     "time": "5:15 PM",
-     "network": "Prime Video",
+     "network": "Prime Video, Spectrum Sports Net, Spectrum Sports Net +",
      "state": "pre"
     }
    ]
+  },
+  "nfl": {
+   "count": 0,
+   "primetime": [],
+   "all": []
   },
   "golf": {
    "none": false,
@@ -145,34 +106,34 @@
    "start": "Wed Nov 4",
    "leaders": [
     {
-     "name": "Chris Kirk",
-     "score": "-9"
+     "name": "Ben James",
+     "score": "-15"
     },
     {
-     "name": "Nick Dunlap",
-     "score": "-8"
+     "name": "Zac Blair",
+     "score": "-12"
     },
     {
-     "name": "Matthieu Pavon",
-     "score": "-7"
+     "name": "Stephan Jaeger",
+     "score": "-11"
     }
    ]
   }
  },
  "wiki": {
-  "title": "Nikolai Kulikovsky",
-  "url": "https://en.wikipedia.org/wiki/Nikolai_Kulikovsky",
-  "extract": "Nikolai Alexandrovich Kulikovsky was the second husband of Grand Duchess Olga Alexandrovna of Russia, the sister of Tsar Nicholas II and daughter of Tsar Alexander III. He was born into a military landowning family from the south of the Russian Empire, and followed the family tradition by entering the army. In 1903, he was noticed by Grand Duchess Olga during a military review, and they became close friends. Olga wanted to divorce her first husband, Duke Peter Alexandrovich of Oldenburg, and marry Kulikovsky, but neither her husband nor her brother, the Tsar, would allow it.",
+  "title": "Bill Madden (soldier)",
+  "url": "https://en.wikipedia.org/wiki/Bill_Madden_(soldier)",
+  "extract": "Horace William Madden was an Australian Army soldier who was posthumously awarded the George Cross, the highest award for extraordinary acts of gallantry away from the field of battle that could be awarded to a member of the Australian armed forces at the time. The citation for his award highlighted his \"undaunted\" resistance and \"outstanding heroism\" while a prisoner of war of the Chinese forces during the Korean War, which was \"an inspiration to all his fellow prisoners\". It was the highest decoration awarded to an Australian during the Korean War.",
   "otd": [
    {
-    "year": 2013,
-    "text": "The Indian Space Research Organisation launched the Mars Orbiter Mission, India's first interplanetary probe.",
-    "url": "https://en.wikipedia.org/wiki/ISRO"
+    "year": 2016,
+    "text": "Syrian civil war: The Syrian Democratic Forces launched a successful military campaign to isolate and eventually capture Raqqa, the Islamic State's capital.",
+    "url": "https://en.wikipedia.org/wiki/Syrian_civil_war"
    },
    {
-    "year": 2009,
-    "text": "U.S. Army major Nidal Hasan went on a shooting rampage at Fort Hood, Texas, the worst shooting ever to take place on an American military base, killing 13.",
-    "url": "https://en.wikipedia.org/wiki/United_States_Army"
+    "year": 2012,
+    "text": "Tammy Baldwin became the first openly gay politician to be elected to the United States Senate.",
+    "url": "https://en.wikipedia.org/wiki/Tammy_Baldwin"
    }
   ]
  },
