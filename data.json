@@ -1,61 +1,62 @@
 {
- "generated": "2026-11-06T11:54:50.111244-08:00",
+ "generated": "2026-11-07T09:58:59.309512-08:00",
  "ai": true,
  "ai_status": {
   "state": "ok",
   "detail": "gemini-3.5-flash-lite"
  },
- "overview": "Markets reacted to political shifts as AI stocks climbed following a Democrat election victory, while defense secretary Pete Hegseth faced mounting bipartisan scrutiny and a potential impeachment effort. In commercial real estate, Bushburg Properties entered a contract to buy 60 Wall Street at a steep discount, and Starwood Property Trust reported a heavy third-quarter loss. Locally, San Francisco Mayor Lurie consolidated power, and the city secured a significant funding gift to improve Mission BART plazas. Meanwhile, Hawaii made leadership news with the decision not to reappoint the state attorney general who led a major pandemic-era corruption probe.",
+ "overview": "Global political developments include international diplomatic talks and leadership shifts across multiple countries. In commercial real estate, Starwood Property Trust reported a significant third-quarter loss, while other firms saw notable activity. San Francisco local news features new mayoral authority following recent elections and ongoing municipal developments. In Hawaii, Tyler Dos Santos-Tam was elected Honolulu Council Chair, and local legal proceedings involving county agencies continue to advance.",
  "sections": [
   {
    "key": "general",
    "title": "Top news",
    "items": [
     {
-     "title": "AI stocks climb after trillions wiped from market values",
-     "summary": "Investors sold off tech shares over concerns about slower AI development before stocks climbed following a Democrat election victory.",
-     "url": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss",
-     "source": "BBC"
+     "title": "Ousted Paraguayan president appears before prosecutors",
+     "summary": "Paraguayan President Santiago Peña was removed from office and placed under house arrest following a Senate impeachment vote.",
+     "url": "https://www.npr.org/2026/11/07/nx-s1-6033373/paraguay-president-ousted-bank-collapse",
+     "source": "NPR"
     },
     {
-     "title": "Hegseth Faces Impeachment Effort and Bipartisan Scrutiny After Midterm Elections",
-     "summary": "President Trump’s defense secretary faces a looming impeachment push and bipartisan scrutiny following midterm elections.",
-     "url": "https://www.nytimes.com/2026/11/06/us/politics/hegseth-trump-iran-war.html",
-     "source": "NYT"
+     "title": "Russian strikes wound nine and damage Ukraine's power network ahead of talks",
+     "summary": "Russian strikes wounded nine people and damaged Ukraine's power network ahead of scheduled trilateral talks in Abu Dhabi.",
+     "url": "https://www.bbc.co.uk/news/articles/cm4g1nq8158po?at_medium=RSS&at_campaign=rss",
+     "source": "BBC"
     }
    ]
   },
   {
    "key": "cre",
    "title": "Commercial real estate",
-   "items": []
+   "items": [
+    {
+     "title": "Bushburg in Contract to Buy 60 Wall Street at Jaw-Dropping Discount",
+     "summary": "Bushburg Properties is in contract to purchase the 1.6 million-square-foot office tower at 60 Wall Street at a steep discount.",
+     "url": "https://commercialobserver.com/2026/11/bushburg-sale-60-wall-street-gic/",
+     "source": "Commercial Observer"
+    },
+    {
+     "title": "Starwood Property Trust Reports $390M Q3 Loss, but Sternlicht Remains Resolute",
+     "summary": "Starwood Property Trust reported a $390 million loss in the third quarter of 2026 amid ongoing market pressures.",
+     "url": "https://commercialobserver.com/2026/11/starwood-property-trust-reports-390m-q3-loss-sternlicht/",
+     "source": "Commercial Observer"
+    }
+   ]
   },
   {
    "key": "sf",
    "title": "San Francisco",
    "items": [
     {
-     "title": "Scott Wiener endorses Matt Haney in state Senate race against Pelosi’s daughter",
-     "summary": "Scott Wiener endorsed Matt Haney in the state Senate race against Nancy Pelosi’s daughter ahead of an upcoming special election.",
-     "url": "https://sfstandard.com/2026/11/06/scott-wiener-endorses-matt-haney-state-senate-race-pelosi-daughter/",
-     "source": "SF Standard"
-    },
-    {
-     "title": "Lurie has more power than ever. Who’s left to challenge him?",
-     "summary": "Mayor Lurie holds newfound power at City Hall, raising questions about who remains to challenge his administration.",
-     "url": "https://sfstandard.com/2026/11/06/mayor-lurie-power-charter-reform/",
-     "source": "SF Standard"
-    },
-    {
-     "title": "S.F. to get $9.25 million gift to tackle conditions at Mission BART plazas",
-     "summary": "San Francisco received a $9.25 million gift from the Crankstart Foundation to fund improvements at the Mission BART plazas.",
-     "url": "https://missionlocal.org/2026/11/san-francisco-mission-bart-plazas-crankstart-gift/",
+     "title": "Mayor Daniel Lurie gains power — and loses excuses",
+     "summary": "Voters have granted San Francisco Mayor Daniel Lurie increased power, leaving him with fewer excuses for bureaucratic delays.",
+     "url": "https://missionlocal.org/2026/11/daniel-lurie-election-city-hall-power/",
      "source": "Mission Local"
     },
     {
-     "title": "Citywide count shows number of S.F. homeless children increased 27% in 2 years",
-     "summary": "A citywide count revealed that the number of homeless children and families in San Francisco increased by 27% over two years.",
-     "url": "https://missionlocal.org/2026/11/san-francisco-homeless-point-in-time-count-children/",
+     "title": "Ripple Labs giving SFPD surveillance unit another 5 years of free rent, worth $5.5M",
+     "summary": "Ripple Labs is providing the SFPD surveillance unit with another five years of free rent for its downtown sublease.",
+     "url": "https://missionlocal.org/2026/11/ripple-labs-giving-sfpd-surveillance-unit-another-5-years-of-free-rent-worth-5-5m/",
      "source": "Mission Local"
     }
    ]
@@ -65,33 +66,33 @@
    "title": "Hawaii",
    "items": [
     {
-     "title": "Hawaii Attorney General who led corruption probe is not reappointed",
-     "summary": "The Hawaii Attorney General who led an investigation into a pandemic-era bribery conspiracy will not be reappointed.",
-     "url": "https://www.staradvertiser.com/2026/11/06/hawaii-news/ag-who-led-corruption-probe-is-not-reappointed/",
+     "title": "Tyler Dos Santos-Tam Elected Honolulu Council Chair",
+     "summary": "Tyler Dos Santos-Tam, representing Chinatown, has been elected as the new Honolulu Council Chair.",
+     "url": "https://www.civilbeat.org/2026/11/tyler-dos-santos-tam-elected-honolulu-council-chair/",
+     "source": "Civil Beat"
+    },
+    {
+     "title": "Volunteer firefighter’s lawsuit against Hawaii County proceeds",
+     "summary": "A lawsuit filed by a volunteer firefighter severely burned while fighting a brushfire in Kau is proceeding against Hawaii County.",
+     "url": "https://www.staradvertiser.com/2026/11/07/hawaii-news/volunteer-firefighters-lawsuit-against-hawaii-county-proceeds/",
      "source": "Star-Advertiser"
     }
    ]
   }
  ],
  "sports": {
-  "date": "20261106",
+  "date": "20261107",
   "nba": {
-   "count": 9,
-   "warriors": [],
-   "national": [
+   "count": 7,
+   "warriors": [
     {
-     "matchup": "76ers at Cavaliers",
-     "time": "4:30 PM",
-     "network": "Prime Video, ERADM",
-     "state": "pre"
-    },
-    {
-     "matchup": "Trail Blazers at Lakers",
-     "time": "7:00 PM",
-     "network": "Prime Video, Spectrum Sports Net, Spectrum Sports Net +",
+     "matchup": "Magic at Warriors",
+     "time": "5:30 PM",
+     "network": "",
      "state": "pre"
     }
-   ]
+   ],
+   "national": []
   },
   "nfl": {
    "count": 0,
@@ -110,30 +111,30 @@
      "score": "-15"
     },
     {
-     "name": "Zac Blair",
-     "score": "-12"
+     "name": "Keith Mitchell",
+     "score": "-14"
     },
     {
-     "name": "Stephan Jaeger",
-     "score": "-11"
+     "name": "Blades Brown",
+     "score": "-14"
     }
    ]
   }
  },
  "wiki": {
-  "title": "Bill Madden (soldier)",
-  "url": "https://en.wikipedia.org/wiki/Bill_Madden_(soldier)",
-  "extract": "Horace William Madden was an Australian Army soldier who was posthumously awarded the George Cross, the highest award for extraordinary acts of gallantry away from the field of battle that could be awarded to a member of the Australian armed forces at the time. The citation for his award highlighted his \"undaunted\" resistance and \"outstanding heroism\" while a prisoner of war of the Chinese forces during the Korean War, which was \"an inspiration to all his fellow prisoners\". It was the highest decoration awarded to an Australian during the Korean War.",
+  "title": "Premise",
+  "url": "https://en.wikipedia.org/wiki/Premise",
+  "extract": "A premise is a proposition offered to support a conclusion. Premises are true or false statements that act as the starting points of arguments by presenting reasons to substantiate or refute assertions. Each argument is made up of a set of premises together with a conclusion. For example, the premises \"all men are mortal\" and \"Socrates is a man\" lead to the conclusion \"Socrates is mortal.\" In ordinary language, premises can appear in the middle of a passage, often marked by indicator words, such as since and because. In formal logic, a common approach is to write each premise on a separate line, known as standard form.",
   "otd": [
    {
-    "year": 2016,
-    "text": "Syrian civil war: The Syrian Democratic Forces launched a successful military campaign to isolate and eventually capture Raqqa, the Islamic State's capital.",
-    "url": "https://en.wikipedia.org/wiki/Syrian_civil_war"
+    "year": 2000,
+    "text": "Hillary Clinton was elected as a US senator from New York, the first time a first lady had been elected to public office.",
+    "url": "https://en.wikipedia.org/wiki/Hillary_Clinton"
    },
    {
-    "year": 2012,
-    "text": "Tammy Baldwin became the first openly gay politician to be elected to the United States Senate.",
-    "url": "https://en.wikipedia.org/wiki/Tammy_Baldwin"
+    "year": 1996,
+    "text": "NASA launched Mars Global Surveyor from the Kennedy Space Center at Cape Canaveral, Florida.",
+    "url": "https://en.wikipedia.org/wiki/NASA"
    }
   ]
  },
