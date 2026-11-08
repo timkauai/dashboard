@@ -1,62 +1,73 @@
 {
- "generated": "2026-11-07T09:58:59.309512-08:00",
+ "generated": "2026-11-08T10:17:39.169110-08:00",
  "ai": true,
  "ai_status": {
   "state": "ok",
   "detail": "gemini-3.5-flash-lite"
  },
- "overview": "Global political developments include international diplomatic talks and leadership shifts across multiple countries. In commercial real estate, Starwood Property Trust reported a significant third-quarter loss, while other firms saw notable activity. San Francisco local news features new mayoral authority following recent elections and ongoing municipal developments. In Hawaii, Tyler Dos Santos-Tam was elected Honolulu Council Chair, and local legal proceedings involving county agencies continue to advance.",
+ "overview": "Global developments include election outcomes, political transitions, and legal cases following recent voting and trials. In San Francisco, local governance shifts as the mayor gains power and city departments experience significant staff changes. Meanwhile, Hawaii continues to address its ongoing affordability crisis and local government changes across neighbor island councils. No direct commercial real estate valuation updates were reported today.",
  "sections": [
   {
    "key": "general",
    "title": "Top news",
    "items": [
     {
-     "title": "Ousted Paraguayan president appears before prosecutors",
-     "summary": "Paraguayan President Santiago Peña was removed from office and placed under house arrest following a Senate impeachment vote.",
-     "url": "https://www.npr.org/2026/11/07/nx-s1-6033373/paraguay-president-ousted-bank-collapse",
+     "title": "Who Is Gadi Eisenkot, Israel’s Opposition Leader?",
+     "summary": "Israel's opposition leader Gadi Eisenkot has up to six weeks to form a coalition.",
+     "url": "https://www.nytimes.com/2026/11/08/world/middleeast/israel-eisenkot-netanyahu-what-to-know.html",
+     "source": "NYT"
+    },
+    {
+     "title": "No clear winner in New Zealand election, as leaders prepare for weeks of talks",
+     "summary": "New Zealand faces weeks of talks with no clear winner in the election as leaders prepare to negotiate.",
+     "url": "https://www.npr.org/2026/11/08/nx-s1-6033999/no-clear-winner-in-new-zealand-election-as-leaders-prepare-for-weeks-of-talks",
      "source": "NPR"
     },
     {
-     "title": "Russian strikes wound nine and damage Ukraine's power network ahead of talks",
-     "summary": "Russian strikes wounded nine people and damaged Ukraine's power network ahead of scheduled trilateral talks in Abu Dhabi.",
-     "url": "https://www.bbc.co.uk/news/articles/cm4g1nq8158po?at_medium=RSS&at_campaign=rss",
-     "source": "BBC"
+     "title": "For Trump and America, a Clear Election Verdict but a Murky Future",
+     "summary": "Americans face a murky future as they absorb a clear election verdict regarding the presidency.",
+     "url": "https://www.nytimes.com/2026/11/08/us/politics/trump-midterm-election-america-future.html",
+     "source": "NYT"
+    },
+    {
+     "title": "Russell Brand to learn sentence after being found guilty of rape and sexual assault",
+     "summary": "Comedian Russell Brand is set to learn his sentence after being found guilty of rape and sexual assault.",
+     "url": "https://www.npr.org/2026/11/08/nx-s1-6033957/russell-brand-learn-sentence-found-guilty-rape-sexual-assault",
+     "source": "NPR"
     }
    ]
   },
   {
    "key": "cre",
    "title": "Commercial real estate",
-   "items": [
-    {
-     "title": "Bushburg in Contract to Buy 60 Wall Street at Jaw-Dropping Discount",
-     "summary": "Bushburg Properties is in contract to purchase the 1.6 million-square-foot office tower at 60 Wall Street at a steep discount.",
-     "url": "https://commercialobserver.com/2026/11/bushburg-sale-60-wall-street-gic/",
-     "source": "Commercial Observer"
-    },
-    {
-     "title": "Starwood Property Trust Reports $390M Q3 Loss, but Sternlicht Remains Resolute",
-     "summary": "Starwood Property Trust reported a $390 million loss in the third quarter of 2026 amid ongoing market pressures.",
-     "url": "https://commercialobserver.com/2026/11/starwood-property-trust-reports-390m-q3-loss-sternlicht/",
-     "source": "Commercial Observer"
-    }
-   ]
+   "items": []
   },
   {
    "key": "sf",
    "title": "San Francisco",
    "items": [
     {
+     "title": "SF got $7M to expand its innovation team. Lurie just fired most of it",
+     "summary": "San Francisco lost its innovation team's director, chief, and most of its staff after Mayor Lurie fired them.",
+     "url": "https://sfstandard.com/2026/11/07/lurie-fires-innovation-office-staff-bloomberg-grant/",
+     "source": "SF Standard"
+    },
+    {
      "title": "Mayor Daniel Lurie gains power — and loses excuses",
-     "summary": "Voters have granted San Francisco Mayor Daniel Lurie increased power, leaving him with fewer excuses for bureaucratic delays.",
+     "summary": "Political analysts agree that the passage of three measures promising a cleaned-up City Hall increases power and risks for Mayor Daniel Lurie.",
      "url": "https://missionlocal.org/2026/11/daniel-lurie-election-city-hall-power/",
      "source": "Mission Local"
     },
     {
-     "title": "Ripple Labs giving SFPD surveillance unit another 5 years of free rent, worth $5.5M",
-     "summary": "Ripple Labs is providing the SFPD surveillance unit with another five years of free rent for its downtown sublease.",
-     "url": "https://missionlocal.org/2026/11/ripple-labs-giving-sfpd-surveillance-unit-another-5-years-of-free-rent-worth-5-5m/",
+     "title": "Gov. Newsom taps ex-spokesperson Nate Ballard, sentenced for domestic violence, for state commission",
+     "summary": "Gov. Newsom tapped ex-spokesperson Nate Ballard for a state commission following his domestic violence sentencing.",
+     "url": "https://missionlocal.org/2026/11/gavin-newsom-nathan-ballard-state-historical-commission/",
+     "source": "Mission Local"
+    },
+    {
+     "title": "S.F. retains ‘sole discretion’ to end contract that facilitates ICE use of city-owned garage",
+     "summary": "San Francisco retains sole discretion to end a contract facilitating ICE use of a city-owned garage.",
+     "url": "https://missionlocal.org/2026/11/ice-garage-contract/",
      "source": "Mission Local"
     }
    ]
@@ -66,37 +77,49 @@
    "title": "Hawaii",
    "items": [
     {
-     "title": "Tyler Dos Santos-Tam Elected Honolulu Council Chair",
-     "summary": "Tyler Dos Santos-Tam, representing Chinatown, has been elected as the new Honolulu Council Chair.",
-     "url": "https://www.civilbeat.org/2026/11/tyler-dos-santos-tam-elected-honolulu-council-chair/",
+     "title": "Tropical Storm Pena begins passing well south of Hawaii",
+     "summary": "Tropical Storm Pena has started passing far south of Hawaii, bringing gusty tradewinds to the islands.",
+     "url": "https://www.staradvertiser.com/2026/11/08/breaking-news/tropical-storm-pena-begins-passing-well-south-of-hawaii/",
+     "source": "Star-Advertiser"
+    },
+    {
+     "title": "Addressing Hawaiʻi’s High Cost Of Living",
+     "summary": "Hawaii continues to face an ongoing affordability crisis amid rising prices and high costs of living.",
+     "url": "https://www.civilbeat.org/2026/11/addressing-hawaiis-high-cost-of-living/",
      "source": "Civil Beat"
     },
     {
-     "title": "Volunteer firefighter’s lawsuit against Hawaii County proceeds",
-     "summary": "A lawsuit filed by a volunteer firefighter severely burned while fighting a brushfire in Kau is proceeding against Hawaii County.",
-     "url": "https://www.staradvertiser.com/2026/11/07/hawaii-news/volunteer-firefighters-lawsuit-against-hawaii-county-proceeds/",
-     "source": "Star-Advertiser"
+     "title": "The Scientists Fighting To Help Wildfire Survivors Heal",
+     "summary": "A wildfire exposure study on Maui created a new blueprint for public health research and support after disasters.",
+     "url": "https://www.civilbeat.org/2026/11/the-scientists-fighting-to-help-wildfire-survivors-heal/",
+     "source": "Civil Beat"
+    },
+    {
+     "title": "Voters Bring On New Faces To Tackle Old Issues In Neighbor Island Councils",
+     "summary": "Kauaʻi, Maui, and Hawaiʻi county councils will feature fresh perspectives following voter turnout for new faces.",
+     "url": "https://www.civilbeat.org/2026/11/voters-bring-on-new-faces-to-tackle-old-issues-in-neighbor-island-councils/",
+     "source": "Civil Beat"
     }
    ]
   }
  ],
  "sports": {
-  "date": "20261107",
+  "date": "20261108",
   "nba": {
    "count": 7,
-   "warriors": [
-    {
-     "matchup": "Magic at Warriors",
-     "time": "5:30 PM",
-     "network": "",
-     "state": "pre"
-    }
-   ],
+   "warriors": [],
    "national": []
   },
   "nfl": {
-   "count": 0,
-   "primetime": [],
+   "count": 13,
+   "primetime": [
+    {
+     "matchup": "Buccaneers at Bears",
+     "time": "5:20 PM",
+     "network": "NBC",
+     "state": "pre"
+    }
+   ],
    "all": []
   },
   "golf": {
@@ -108,33 +131,33 @@
    "leaders": [
     {
      "name": "Ben James",
-     "score": "-15"
+     "score": "-22"
     },
     {
-     "name": "Keith Mitchell",
-     "score": "-14"
+     "name": "Ryan Gerard",
+     "score": "-18"
     },
     {
-     "name": "Blades Brown",
-     "score": "-14"
+     "name": "Kensei Hirata",
+     "score": "-17"
     }
    ]
   }
  },
  "wiki": {
-  "title": "Premise",
-  "url": "https://en.wikipedia.org/wiki/Premise",
-  "extract": "A premise is a proposition offered to support a conclusion. Premises are true or false statements that act as the starting points of arguments by presenting reasons to substantiate or refute assertions. Each argument is made up of a set of premises together with a conclusion. For example, the premises \"all men are mortal\" and \"Socrates is a man\" lead to the conclusion \"Socrates is mortal.\" In ordinary language, premises can appear in the middle of a passage, often marked by indicator words, such as since and because. In formal logic, a common approach is to write each premise on a separate line, known as standard form.",
+  "title": "Formula, Vol. 1",
+  "url": "https://en.wikipedia.org/wiki/Formula%2C_Vol._1",
+  "extract": "Fórmula, Vol. 1 is the debut studio album by American singer Romeo Santos, released on November 8, 2011, by Sony Music Latin. It is Santos's first album as a solo artist following the break-up of American bachata group Aventura, of which he was the lead singer. The record contains fifteen tracks, most of which were composed by Santos and co-produced with Ivan Chevere. The album experiments with the sound of bachata and other genres including R&B and flamenco. It features several Anglophone and Hispanophone guest artists including Usher, Tomatito, Mario Domm, and Lil Wayne. Recording for the album took place in 2011 at The Castle, Fight Klub, and EMG Studios in New York City. A deluxe edition of the album containing five extra tracks was released exclusively in Walmart retail stores in the United States.",
   "otd": [
    {
-    "year": 2000,
-    "text": "Hillary Clinton was elected as a US senator from New York, the first time a first lady had been elected to public office.",
-    "url": "https://en.wikipedia.org/wiki/Hillary_Clinton"
+    "year": 2020,
+    "text": "Second Nagorno-Karabakh War: Azerbaijani forces defeated the self-proclaimed Republic of Artsakh at the Battle of Shusha, reclaiming the town of Shusha after 28 years.",
+    "url": "https://en.wikipedia.org/wiki/Second_Nagorno-Karabakh_War"
    },
    {
-    "year": 1996,
-    "text": "NASA launched Mars Global Surveyor from the Kennedy Space Center at Cape Canaveral, Florida.",
-    "url": "https://en.wikipedia.org/wiki/NASA"
+    "year": 2017,
+    "text": "The Louvre Abu Dhabi was inaugurated by the French president Emmanuel Macron and then-crown prince of Abu Dhabi Mohamed bin Zayed Al Nahyan.",
+    "url": "https://en.wikipedia.org/wiki/Louvre_Abu_Dhabi"
    }
   ]
  },
