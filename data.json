@@ -1,209 +1,113 @@
 {
- "generated": "2026-11-09T14:56:31.602409-08:00",
+ "generated": "2026-11-10T12:23:17.356839-08:00",
  "ai": true,
  "ai_status": {
   "state": "ok",
   "detail": "gemini-3.5-flash-lite"
  },
- "overview": "Global markets and corporate governance face turbulence following an investigation into Nvidia CEO Jensen Huang over an alleged affair, causing the chip maker's shares to drop. In commercial real estate, U.S. office leasing rose in the third quarter as tenant footprints stabilized, while California voters rejected a measure that would have streamlined housing and development construction. San Francisco's local developments include the approval of the city's first-ever public bank measure and out-of-state investors targeting downtown office purchases. Meanwhile in Hawaii, Hawaiian Electric's parent company sustained profits despite financial hits from recent storms, and Maui families continue the arduous process of wildfire recovery three years later.",
+ "overview": "Global developments include House Republicans picking Jim Jordan as their next leader and new FDA warnings ordered for popular weight-loss drugs. In San Francisco, Mayor Lurie and the city administrator introduced new rules to fight corruption in the city's contracting system following voter-approved powers. Meanwhile, Honolulu’s affordable rental housing program has fallen short of its goals, according to a new report.",
  "sections": [
   {
    "key": "general",
    "title": "Top news",
    "items": [
     {
-     "title": "Zoe Kleinman: Nvidia CEO's affair will cause ripples across US and beyond",
-     "summary": "Nvidia CEO Jensen Huang is facing an internal company investigation regarding an extramarital affair with a woman alleged to be a Chinese spy.",
-     "url": "https://www.bbc.co.uk/news/articles/cj3vqv3nee72o?at_medium=RSS&at_campaign=rss",
-     "source": "BBC"
-    },
-    {
-     "title": "Nvidia’s Stock Price Drops After Investigation Into CEO Jensen Huang",
-     "summary": "Nvidia shares fell sharply following the disclosure of an investigation into CEO Jensen Huang regarding a relationship with a suspected Chinese spy.",
-     "url": "https://www.nytimes.com/2026/11/09/business/nvidia-stock-price-jensen-huang-ceo.html",
+     "title": "House Republicans Pick Jim Jordan, a Close Trump Ally, as Their Next Leader",
+     "summary": "House Republicans chose Jim Jordan as their next leader over Representative Steve Scalise, signaling a desire for fresh leadership.",
+     "url": "https://www.nytimes.com/2026/11/10/us/politics/republican-house-leader-scalise-jordan.html",
      "source": "NYT"
     },
     {
-     "title": "France accuses Iran of cyber 'sabotage' in fridge attacks",
-     "summary": "France accused Iranian military hackers of cyber sabotage after refrigeration controllers at 700 retail sites were manipulated to spoil millions in food.",
-     "url": "https://www.npr.org/2026/11/09/g-s1-152724/france-iran-cyber-sabotage-fridge-attacks",
-     "source": "NPR"
-    },
-    {
-     "title": "Supreme Court says border wall construction can continue in west Texas",
-     "summary": "The Supreme Court ruled that border wall construction may continue in west Texas while a related lawsuit moves forward.",
-     "url": "https://www.npr.org/2026/11/09/nx-s1-6019424/border-wall-big-bend-texas-trump",
-     "source": "NPR"
+     "title": "Makers of GLP-1 drugs ordered to add warnings about rare eye condition that can lead to blindness",
+     "summary": "The US FDA ordered makers of GLP-1 weight-loss drugs like Ozempic and Wegovy to add warnings about a rare eye condition called NAION.",
+     "url": "https://www.bbc.co.uk/news/articles/crwydyde0lp3o?at_medium=RSS&at_campaign=rss",
+     "source": "BBC"
     }
    ]
   },
   {
    "key": "cre",
    "title": "Commercial real estate",
-   "items": [
-    {
-     "title": "Stabilizing Footprints, Demand Shifts Drive U.S. Office Leasing to 62M SF in Q3",
-     "summary": "U.S. office leasing volume reached 62 million square feet in the third quarter of 2026 as tenant footprints stabilized and demand shifted.",
-     "url": "https://commercialobserver.com/2026/11/footprint-demand-us-office-leasing-q3/",
-     "source": "Commercial Observer"
-    },
-    {
-     "title": "California Rejects Construction Fast-Track Measure, Approves Billions for Housing",
-     "summary": "California voters rejected Proposition 45, which would have streamlined environmental reviews for housing and other development projects.",
-     "url": "https://commercialobserver.com/2026/11/california-rejects-construction-fast-track-measure-approves-billions-for-housing/",
-     "source": "Commercial Observer"
-    },
-    {
-     "title": "Truist, Capital One Provide $474M Refi for U.S. Industrial Portfolio",
-     "summary": "Faropoint secured a $474 million refinancing package from Truist Bank and Capital One for a portfolio of 85 industrial buildings nationwide.",
-     "url": "https://commercialobserver.com/2026/11/truist-capital-one-faropoint-industrial-portfolio/",
-     "source": "Commercial Observer"
-    },
-    {
-     "title": "KKR’s Profit Grows as Fee-Related Earnings Hits Record",
-     "summary": "KKR posted growing quarterly profit and record fee-related earnings in the third quarter of 2026 amid increased asset sales.",
-     "url": "https://commercialobserver.com/2026/11/kkr-q3-2026/",
-     "source": "Commercial Observer"
-    }
-   ]
+   "items": []
   },
   {
    "key": "sf",
    "title": "San Francisco",
-   "items": [
-    {
-     "title": "This Florida firm wants to go on an SF office shopping spree",
-     "summary": "San Francisco's office market is showing new signs of vitality as out-of-state investors pursue their first downtown property purchases.",
-     "url": "https://sfstandard.com/2026/11/09/1754-buys-40-jessie-st-plots-sf-portfolio/",
-     "source": "SF Standard"
-    },
-    {
-     "title": "San Francisco can now create a public bank — measure declares victory",
-     "summary": "San Francisco voters approved Proposition B, authorizing the creation of the city's first-ever public bank.",
-     "url": "https://missionlocal.org/2026/11/san-francisco-prop-b-public-bank-victory/",
-     "source": "Mission Local"
-    },
-    {
-     "title": "SF guarantees eviction lawyers for tenants. Good luck getting one",
-     "summary": "San Francisco's tenant right-to-counsel program is facing strain as eviction cases outpace the system's intended capacity.",
-     "url": "https://sfstandard.com/2026/11/09/tenant-right-to-counsel-program-stretched-rental-eviction-crisis/",
-     "source": "SF Standard"
-    },
-    {
-     "title": "SFUSD’s struggle to recover from COVID, explained in 5 charts",
-     "summary": "Data shows San Francisco Unified School District's academic recovery from COVID-19 lags behind the rest of the state, especially in high-poverty schools.",
-     "url": "https://sfstandard.com/2026/11/09/sfusd-s-struggle-recover-covid-explained-5-charts/",
-     "source": "SF Standard"
-    }
-   ]
+   "items": []
   },
   {
    "key": "hawaii",
    "title": "Hawaii",
    "items": [
     {
-     "title": "Recent storms damaged HEI finances, but company sustains profit",
-     "summary": "The parent company of Hawaiian Electric sustained a profit despite financial damages caused by recent storms brushing the state.",
-     "url": "https://www.staradvertiser.com/2026/11/09/hawaii-news/recent-storms-damaged-hei-finances-but-company-sustains-profit/",
+     "title": "Honolulu’s Bill 7 housing program falling short of goals, report finds",
+     "summary": "A University of Hawai‘i report found that Honolulu’s Bill 7 affordable rental housing program has produced only a fraction of its envisioned units.",
+     "url": "https://www.staradvertiser.com/2026/11/10/hawaii-news/citys-bill-7-housing-program-falling-short-of-goals-report-finds/",
      "source": "Star-Advertiser"
     },
     {
-     "title": "The Unrelenting Ordeal Of Wildfire Recovery",
-     "summary": "A Maui family is laying the foundation for a new home three years after it was destroyed by the devastating wildfires.",
-     "url": "https://www.civilbeat.org/2026/11/the-unrelenting-ordeal-of-wildfire-recovery/",
+     "title": "Honolulu Council Sued Over Secret Zippy’s Meeting",
+     "summary": "A lawsuit was filed against the Honolulu Council over a secret Zippy’s meeting, seeking to ban involved members from leadership positions.",
+     "url": "https://www.civilbeat.org/2026/11/honolulu-council-sued-over-secret-zippys-meeting/",
      "source": "Civil Beat"
     },
     {
-     "title": "Kona’s Kailua Park getting major upgrades",
-     "summary": "Hawaii County officials have officially launched a major construction project to upgrade Kailua Park in Kona.",
-     "url": "https://www.staradvertiser.com/2026/11/09/hawaii-news/konas-kailua-park-getting-major-upgrades/",
-     "source": "Star-Advertiser"
-    },
-    {
-     "title": "Hawaiʻi Agriculture And Biosecurity Director Resigns",
-     "summary": "Sharon Hurd, the longtime director of Hawaii Agriculture and Biosecurity, has resigned, leaving another vacancy in Gov. Josh Green's Cabinet.",
-     "url": "https://www.civilbeat.org/2026/11/hawai%ca%bbi-agriculture-and-biosecurity-director-resigns/",
+     "title": "Green Picks AG To Replace Lopez, Makes Other Cabinet Changes",
+     "summary": "Governor Green appointed Matthew Dvonch as Hawaiʻi attorney general to replace Anne Lopez alongside other cabinet changes.",
+     "url": "https://www.civilbeat.org/2026/11/green-picks-ag-to-replace-lopez-makes-other-cabinet-changes/",
      "source": "Civil Beat"
     }
    ]
   }
  ],
  "sports": {
-  "date": "20261109",
+  "date": "20261110",
   "nba": {
-   "count": 8,
-   "warriors": [
-    {
-     "matchup": "Pelicans at Warriors",
-     "time": "7:00 PM",
-     "network": "NBA TV, GCSEN, Pelicans.com",
-     "state": "pre"
-    }
-   ],
+   "count": 6,
+   "warriors": [],
    "national": [
     {
-     "matchup": "Wizards at Pistons",
-     "time": "4:00 PM",
-     "network": "NBCSN",
+     "matchup": "Celtics at 76ers",
+     "time": "5:00 PM",
+     "network": "NBC",
+     "state": "pre"
+    },
+    {
+     "matchup": "Thunder at Trail Blazers",
+     "time": "8:00 PM",
+     "network": "NBC, KSBI, Thunder App",
      "state": "pre"
     }
    ]
   },
   "nfl": {
-   "count": 1,
-   "primetime": [
-    {
-     "matchup": "Bills at Vikings",
-     "time": "5:15 PM",
-     "network": "ESPN, ABC",
-     "state": "pre"
-    }
-   ],
-   "all": [
-    {
-     "matchup": "Bills at Vikings",
-     "time": "5:15 PM",
-     "network": "ESPN, ABC",
-     "state": "pre"
-    }
-   ]
+   "count": 0,
+   "primetime": [],
+   "all": []
   },
   "golf": {
    "none": false,
-   "name": "World Wide Technology Championship",
-   "state": "post",
+   "name": "Austin Championship pres. by Compliance Solutions",
+   "state": "pre",
    "detail": "",
-   "start": "Wed Nov 4",
-   "leaders": [
-    {
-     "name": "Blades Brown",
-     "score": "-25"
-    },
-    {
-     "name": "Ben James",
-     "score": "-24"
-    },
-    {
-     "name": "Michael Kim",
-     "score": "-22"
-    }
-   ]
+   "start": "Wed Nov 11",
+   "leaders": []
   }
  },
  "wiki": {
-  "title": "SoHo Weekly News",
-  "url": "https://en.wikipedia.org/wiki/SoHo_Weekly_News",
-  "extract": "The SoHo Weekly News (SWN) was a weekly alternative newspaper founded by American music publicist Michael Goldstein and published in New York City from 1973 to 1982. Goldstein positioned the paper as a competitor to The Village Voice, an established alternative newspaper, but it struggled financially. SWN was acquired by Associated Newspaper Group in 1979 and ceased publication three years later after the company was unable to make it profitable.",
+  "title": "Regulus (Turner)",
+  "url": "https://en.wikipedia.org/wiki/Regulus_(Turner)",
+  "extract": "Regulus is an oil painting by the English artist J. M. W. Turner, currently housed in Tate Britain, London. It was initially painted in 1828 and overpainted twice, first between 1829 and 1837, and again in 1837. The painting is based on a legend about the Roman consul and general Marcus Atilius Regulus, in which he was captured by Carthaginian forces and executed after refusing a prisoner exchange. Many accounts add that he was tortured by being forced to stare at the sun, blinding him. The painting depicts a harbour in either Rome or Carthage, with ships and buildings surrounding the ocean. It is dominated by the large white sun in the centre.",
   "otd": [
    {
-    "year": 2019,
-    "text": "The Alabama Crimson Tide and LSU Tigers football teams, both with undefeated records thus far that season, played in a \"Game of the Century\".",
-    "url": "https://en.wikipedia.org/wiki/Alabama_Crimson_Tide_football"
+    "year": 2020,
+    "text": "The British government announced that it had removed the last land mine from the Falkland Islands, laid by Argentine forces during the 1982 Falklands War.",
+    "url": "https://en.wikipedia.org/wiki/Land_mines_in_the_Falkland_Islands"
    },
    {
-    "year": 2019,
-    "text": "Pakistani prime minister Imran Khan inaugurated the Kartarpur Corridor, a visa-free border crossing connecting the Gurdwara Darbar Sahib to the India–Pakistan border.",
-    "url": "https://en.wikipedia.org/wiki/Imran_Khan"
+    "year": 2009,
+    "text": "A skirmish occurred between South Korean and North Korean naval ships off Daecheong Island in the Yellow Sea.",
+    "url": "https://en.wikipedia.org/wiki/Daecheong_incident"
    }
   ]
  },
