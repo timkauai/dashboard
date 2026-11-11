@@ -1,26 +1,32 @@
 {
- "generated": "2026-11-10T12:23:17.356839-08:00",
+ "generated": "2026-11-11T12:06:06.076724-08:00",
  "ai": true,
  "ai_status": {
   "state": "ok",
   "detail": "gemini-3.5-flash-lite"
  },
- "overview": "Global developments include House Republicans picking Jim Jordan as their next leader and new FDA warnings ordered for popular weight-loss drugs. In San Francisco, Mayor Lurie and the city administrator introduced new rules to fight corruption in the city's contracting system following voter-approved powers. Meanwhile, Honolulu’s affordable rental housing program has fallen short of its goals, according to a new report.",
+ "overview": "Today's briefing covers key national and international developments alongside targeted updates for the commercial real estate, San Francisco, and Hawaii sectors. General news features stories on housing protests in Spain, international diplomatic talks, and a historic ocean liner's final voyage. Commercial real estate markets continue to see active financing and asset transactions across the country. San Francisco news highlights local policy changes regarding home restaurants and rising legal demand driven by local tech trends. In Hawaii, important updates include commercial recovery milestones in Maui and legal developments on Kauai.",
  "sections": [
   {
    "key": "general",
    "title": "Top news",
    "items": [
     {
-     "title": "House Republicans Pick Jim Jordan, a Close Trump Ally, as Their Next Leader",
-     "summary": "House Republicans chose Jim Jordan as their next leader over Representative Steve Scalise, signaling a desire for fresh leadership.",
-     "url": "https://www.nytimes.com/2026/11/10/us/politics/republican-house-leader-scalise-jordan.html",
+     "title": "Clashes in Barcelona as thousands join Spain general strike",
+     "summary": "Tens of thousands of people joined a general strike in Spain called by main unions over housing and the high cost of living.",
+     "url": "https://www.bbc.co.uk/news/articles/cwvg25nypmrvo?at_medium=RSS&at_campaign=rss",
+     "source": "BBC"
+    },
+    {
+     "title": "The S.S. United States, a Historic Supership, Heads to the Ocean Floor",
+     "summary": "The 20th-century ocean liner S.S. United States is heading to the ocean floor to become an artificial reef.",
+     "url": "https://www.nytimes.com/2026/11/11/climate/ss-united-states-ship-sinking-artificial-reef-florida.html",
      "source": "NYT"
     },
     {
-     "title": "Makers of GLP-1 drugs ordered to add warnings about rare eye condition that can lead to blindness",
-     "summary": "The US FDA ordered makers of GLP-1 weight-loss drugs like Ozempic and Wegovy to add warnings about a rare eye condition called NAION.",
-     "url": "https://www.bbc.co.uk/news/articles/crwydyde0lp3o?at_medium=RSS&at_campaign=rss",
+     "title": "Russia-Ukraine talks turn to post-war security but end without breakthrough",
+     "summary": "Russia-Ukraine talks in Abu Dhabi centered around Europe's security framework but ended without a breakthrough.",
+     "url": "https://www.bbc.co.uk/news/articles/ck792we7zrz4o?at_medium=RSS&at_campaign=rss",
      "source": "BBC"
     }
    ]
@@ -28,54 +34,81 @@
   {
    "key": "cre",
    "title": "Commercial real estate",
-   "items": []
+   "items": [
+    {
+     "title": "CP Group-Led JV Lands $272M for Mixed-Use Boca Raton Campus",
+     "summary": "A CP Group-led joint venture secured $271.5 million in financing from a Blackstone affiliate for the Mizner Park complex in Boca Raton.",
+     "url": "https://commercialobserver.com/2026/11/cp-mizner-park-boca-raton-blackstone-florida/",
+     "source": "Commercial Observer"
+    },
+    {
+     "title": "Goodman Capital Leads $31M Condo Inventory Loan on Seattle-Area Resi Tower",
+     "summary": "Create World Real Estate nabbed $30.6 million of condominium inventory financing for a luxury residential tower east of Seattle.",
+     "url": "https://commercialobserver.com/2026/11/goodman-capital-condos-bellevue-seattle/",
+     "source": "Commercial Observer"
+    },
+    {
+     "title": "RFR Seals $101M Refi on Downtown Miami Office Building",
+     "summary": "RFR sealed a $101 million loan provided by Derby Lane Partners and Axonic Capital to refinance a Downtown Miami office building.",
+     "url": "https://commercialobserver.com/2026/11/rfr-miami-office-refi/",
+     "source": "Commercial Observer"
+    }
+   ]
   },
   {
    "key": "sf",
    "title": "San Francisco",
-   "items": []
+   "items": [
+    {
+     "title": "Lawyers are seeing a ‘stunning’ rise in prenups this year — and more postnups too",
+     "summary": "San Francisco family lawyers report a stunning rise in prenups and postnups driven by the AI boom and looming IPOs.",
+     "url": "https://sfstandard.com/2026/11/11/lawyers-rise-in-prenups-ai-/",
+     "source": "SF Standard"
+    },
+    {
+     "title": "San Francisco legalizes home restaurants, a win for city’s street vendors",
+     "summary": "San Francisco legalized home restaurants, allowing vendors to prepare food at home and sell it directly or via carts and stands.",
+     "url": "https://missionlocal.org/2026/11/san-francisco-legalizes-home-restaurants/",
+     "source": "Mission Local"
+    }
+   ]
   },
   {
    "key": "hawaii",
    "title": "Hawaii",
    "items": [
     {
-     "title": "Honolulu’s Bill 7 housing program falling short of goals, report finds",
-     "summary": "A University of Hawai‘i report found that Honolulu’s Bill 7 affordable rental housing program has produced only a fraction of its envisioned units.",
-     "url": "https://www.staradvertiser.com/2026/11/10/hawaii-news/citys-bill-7-housing-program-falling-short-of-goals-report-finds/",
+     "title": "New Lahaina marketplace restores businesses by Front Street",
+     "summary": "The 'Ulu o Lele Marketplace opened on the former Outlets of Maui site, marking a major milestone in Lahaina's commercial recovery.",
+     "url": "https://www.staradvertiser.com/2026/11/11/hawaii-news/new-lahaina-marketplace-restores-businesses-by-front-street/",
      "source": "Star-Advertiser"
     },
     {
-     "title": "Honolulu Council Sued Over Secret Zippy’s Meeting",
-     "summary": "A lawsuit was filed against the Honolulu Council over a secret Zippy’s meeting, seeking to ban involved members from leadership positions.",
-     "url": "https://www.civilbeat.org/2026/11/honolulu-council-sued-over-secret-zippys-meeting/",
-     "source": "Civil Beat"
-    },
-    {
-     "title": "Green Picks AG To Replace Lopez, Makes Other Cabinet Changes",
-     "summary": "Governor Green appointed Matthew Dvonch as Hawaiʻi attorney general to replace Anne Lopez alongside other cabinet changes.",
-     "url": "https://www.civilbeat.org/2026/11/green-picks-ag-to-replace-lopez-makes-other-cabinet-changes/",
+     "title": "‘Free Palestine’ Stickers Get Librarian Criminally Convicted On Kauaʻi",
+     "summary": "A Kauai librarian received a criminal conviction after placing a pro-Palestine sticker at a local falafel business.",
+     "url": "https://www.civilbeat.org/2026/11/pro-palestine-stickers-get-librarian-criminally-convicted-on-kauai/",
      "source": "Civil Beat"
     }
    ]
   }
  ],
  "sports": {
-  "date": "20261110",
+  "date": "20261111",
   "nba": {
-   "count": 6,
-   "warriors": [],
+   "count": 10,
+   "warriors": [
+    {
+     "matchup": "Warriors at Rockets",
+     "time": "6:30 PM",
+     "network": "ESPN",
+     "state": "pre"
+    }
+   ],
    "national": [
     {
-     "matchup": "Celtics at 76ers",
-     "time": "5:00 PM",
-     "network": "NBC",
-     "state": "pre"
-    },
-    {
-     "matchup": "Thunder at Trail Blazers",
-     "time": "8:00 PM",
-     "network": "NBC, KSBI, Thunder App",
+     "matchup": "Cavaliers at Knicks",
+     "time": "4:00 PM",
+     "network": "ESPN",
      "state": "pre"
     }
    ]
@@ -95,19 +128,19 @@
   }
  },
  "wiki": {
-  "title": "Regulus (Turner)",
-  "url": "https://en.wikipedia.org/wiki/Regulus_(Turner)",
-  "extract": "Regulus is an oil painting by the English artist J. M. W. Turner, currently housed in Tate Britain, London. It was initially painted in 1828 and overpainted twice, first between 1829 and 1837, and again in 1837. The painting is based on a legend about the Roman consul and general Marcus Atilius Regulus, in which he was captured by Carthaginian forces and executed after refusing a prisoner exchange. Many accounts add that he was tortured by being forced to stare at the sun, blinding him. The painting depicts a harbour in either Rome or Carthage, with ships and buildings surrounding the ocean. It is dominated by the large white sun in the centre.",
+  "title": "U.S. Route 101",
+  "url": "https://en.wikipedia.org/wiki/U.S._Route_101",
+  "extract": "U.S. Route 101, or U.S. Highway 101 (US 101), is a major north–south highway that traverses the states of California, Oregon, and Washington on the West Coast of the United States. It is part of the United States Numbered Highway System and runs for over 1,500 miles (2,400 km) along the Pacific Ocean. The highway is also known by various names, including El Camino Real in parts of California, the Oregon Coast Highway, and the Olympic Highway in Washington. Despite its three-digit number, normally used for spur routes, US 101 is classified as a primary route with 10 as its \"first digit\".",
   "otd": [
    {
-    "year": 2020,
-    "text": "The British government announced that it had removed the last land mine from the Falkland Islands, laid by Argentine forces during the 1982 Falklands War.",
-    "url": "https://en.wikipedia.org/wiki/Land_mines_in_the_Falkland_Islands"
+    "year": 2008,
+    "text": "After 30 years in power, Maumoon Abdul Gayoom was succeeded by Mohamed Nasheed as the president of the Maldives.",
+    "url": "https://en.wikipedia.org/wiki/Maumoon_Abdul_Gayoom"
    },
    {
-    "year": 2009,
-    "text": "A skirmish occurred between South Korean and North Korean naval ships off Daecheong Island in the Yellow Sea.",
-    "url": "https://en.wikipedia.org/wiki/Daecheong_incident"
+    "year": 1999,
+    "text": "The House of Lords Act was given royal assent, removing most hereditary peers from the British House of Lords.",
+    "url": "https://en.wikipedia.org/wiki/House_of_Lords_Act_1999"
    }
   ]
  },
