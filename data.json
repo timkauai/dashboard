@@ -1,33 +1,33 @@
 {
- "generated": "2026-11-12T12:43:46.420557-08:00",
- "ai": false,
+ "generated": "2026-11-13T12:25:10.835512-08:00",
+ "ai": true,
  "ai_status": {
-  "state": "failed",
-  "detail": "gemini-3.5-flash-lite: HTTP 503 {   \"error\": {     \"code\": 503,     \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",     \"status\": \"UNAVAILABLE\"   } }  | gemini-2.5-flash: HTTP 404 {   \"error\": {     \"code\": 404,     \"message\": \"This model models/gemini-2.5-flash is no longer available to new users. Please update your c"
+  "state": "ok",
+  "detail": "gemini-3.5-flash-lite"
  },
- "overview": "",
+ "overview": "Global markets and national politics saw notable developments, including leadership maneuvers in Congress and high-level fallout surrounding technology export controls and corporate leadership. In commercial real estate, major investment and leasing activity continued across regional markets. San Francisco experienced significant local business news as prominent figures reinforced their commitment to the city alongside municipal developments. Meanwhile, Hawaii lawmakers probed state-funded programs while regional management and leadership updates moved forward.",
  "sections": [
   {
    "key": "general",
    "title": "Top news",
    "items": [
     {
-     "title": "US envoys head to meet Zelensky after talks with Putin in Moscow",
-     "summary": "",
-     "url": "https://www.bbc.co.uk/news/articles/cwrkgmymk55zo?at_medium=RSS&at_campaign=rss",
-     "source": "BBC"
-    },
-    {
-     "title": "Why 2026 Midterm Polls Underestimated Democratic Support",
-     "summary": "",
-     "url": "https://www.nytimes.com/2026/11/12/us/politics/poll-error-democrats-midterms.html",
+     "title": "Hakeem Jeffries Pushes to Lock Down House Speakership, With No Challenger Emerging",
+     "summary": "Hakeem Jeffries is seeking to secure a unanimous vote for House speakership with support from key coalitions as no challenger emerges.",
+     "url": "https://www.nytimes.com/2026/11/13/us/politics/jeffries-house-speaker-democrats.html",
      "source": "NYT"
     },
     {
-     "title": "'Punch in the gut': Homes sales fall to their lowest in 16 years",
-     "summary": "",
-     "url": "https://www.npr.org/2026/11/12/nx-s1-6038940/punch-in-the-gut-homes-sales-fall-to-their-lowest-in-16-years",
-     "source": "NPR"
+     "title": "Nvidia scandal fallout widens as Trump's treasury secretary blames cabinet colleague",
+     "summary": "Trump's treasury secretary blamed the commerce department for failing to ban exports of Nvidia chips to a firm with reported links to China.",
+     "url": "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro?at_medium=RSS&at_campaign=rss",
+     "source": "BBC"
+    },
+    {
+     "title": "Microsoft’s Global Outage and Fixes: What We Know",
+     "summary": "Microsoft reported encouraging progress on overcoming a second day of global disruptions to email, messaging, and other services.",
+     "url": "https://www.nytimes.com/2026/11/13/technology/microsoft-outage-what-to-know.html",
+     "source": "NYT"
     }
    ]
   },
@@ -36,21 +36,27 @@
    "title": "Commercial real estate",
    "items": [
     {
-     "title": "Nuveen Green Capital Breaks Texas Record With $228M C-PACE Loan for Austin Office Campus",
-     "summary": "",
-     "url": "https://commercialobserver.com/2026/11/nuveen-green-capital-c-pace-record-texas/",
+     "title": "RXR Acquires Minority Stake in Silverstein’s 55 Broad Street",
+     "summary": "RXR acquired a minority interest in 55 Broad Street in Downtown Manhattan, which is valued at roughly $500 million.",
+     "url": "https://commercialobserver.com/2026/11/rxr-55-broad-street-wells-macuarie-newmark-metro-loft/",
      "source": "Commercial Observer"
     },
     {
-     "title": "NY Developer MAG Partners Expanding to South Florida",
-     "summary": "",
-     "url": "https://commercialobserver.com/2026/11/mag-partners-kevin-davenport-maryanne-gilmartin-miami-florida/",
+     "title": "Miami-Area Multifamily Project Trades for $54M",
+     "summary": "A 50-year-old apartment complex in the Miami suburb of Kendall has changed hands for $53.5 million, or $200,000 per unit.",
+     "url": "https://commercialobserver.com/2026/11/miami-multifamily-merco-group-belinda-meruelo-ralgo/",
      "source": "Commercial Observer"
     },
     {
-     "title": "Metis Equities Buys Luxury Brooklyn Apartment Building for $52M",
-     "summary": "",
-     "url": "https://commercialobserver.com/2026/11/doron-greenberg-buys-100-lenox-road-brooklyn/",
+     "title": "Irvine Company Signs Nearly 2.5M SF of Office Leases in Q3",
+     "summary": "Irvine Company signed nearly 2.5 million square feet of office leases in the third quarter, driven by demand for Orange County space.",
+     "url": "https://commercialobserver.com/2026/11/calif-irvine-co-office-leases/",
+     "source": "Commercial Observer"
+    },
+    {
+     "title": "Ytech Lands $42M Loan for Second Brickell Condo Tower",
+     "summary": "Development firm Ytech secured a $42 million pre-development loan from Linkvest Capital for a 52-story condo tower in Miami.",
+     "url": "https://commercialobserver.com/2026/11/ytech-brickell-miami-condo-75-broadway/",
      "source": "Commercial Observer"
     }
    ]
@@ -60,21 +66,27 @@
    "title": "San Francisco",
    "items": [
     {
-     "title": "Video: SFPD officer lunged at scooter-rider seconds before fatal crash",
-     "summary": "",
-     "url": "https://missionlocal.org/2026/11/video-sfpd-death-tackle-pursuit/",
-     "source": "Mission Local"
-    },
-    {
-     "title": "New video shows officer appearing to make contact with man before fatal scooter crash",
-     "summary": "",
-     "url": "https://sfstandard.com/2026/11/12/surveillance-footage-contradicts-sfpd-story-scooter-chase-death/",
+     "title": "Presidio won’t be sold off, Interior secretary says",
+     "summary": "Interior Secretary Doug Burgum met privately with the Presidio Trust’s board, confirming that the Presidio will not be sold off.",
+     "url": "https://sfstandard.com/2026/11/13/presidio-trust-trump-burgum-interior-secretary/",
      "source": "SF Standard"
     },
     {
-     "title": "New hours",
-     "summary": "",
-     "url": "https://missionlocal.org/2026/11/new-hours/",
+     "title": "Can San Francisco fix its schools? Lessons from two California success stories",
+     "summary": "Education experts say San Francisco can improve its schools by following California success stories rather than seeking quick wins.",
+     "url": "https://sfstandard.com/2026/11/13/two-veteran-superintendents-have-advice-sf-give-maria-su-time/",
+     "source": "SF Standard"
+    },
+    {
+     "title": "Other billionaires may be fleeing SF — but Brian Chesky is doubling down",
+     "summary": "Tech billionaire Brian Chesky is doubling down on San Francisco with a $68M mansion, a secret AI startup, and a $100M parks donation.",
+     "url": "https://sfstandard.com/2026/11/13/brian-chesky-airbnb-settling-down-sf/",
+     "source": "SF Standard"
+    },
+    {
+     "title": "S.F. sheriff admits to recording confidential jail calls, sharing them with DA",
+     "summary": "The San Francisco sheriff admitted to recording confidential attorney-client jail calls and sharing at least 20 of them with the district attorney.",
+     "url": "https://missionlocal.org/2026/11/confidential-jail-phone-calls-were-recorded-by-s-f-sheriffs-and-improperly-given-to-prosecutors/",
      "source": "Mission Local"
     }
    ]
@@ -84,51 +96,57 @@
    "title": "Hawaii",
    "items": [
     {
-     "title": "Hawaiʻi’s Green Party Finally Lodges Big Win After Decades",
-     "summary": "",
-     "url": "https://www.civilbeat.org/2026/11/hawaii-green-party-finally-lodges-win-after-decades/",
+     "title": "Fraud Or Incompetence? Lawmakers Probe Homeless Housing Program",
+     "summary": "Lawmakers probed the state’s homeless housing program, HomeAid, over questionable expenditures including office space, laptops, and an oceanview condo.",
+     "url": "https://www.civilbeat.org/2026/11/fraud-or-incompetence-lawmakers-probe-homeless-housing-program/",
      "source": "Civil Beat"
     },
     {
-     "title": "Hawaii election tally is finalized",
-     "summary": "",
-     "url": "https://www.staradvertiser.com/2026/11/12/hawaii-news/hawaii-election-tally-is-finalized/",
+     "title": "Outside Fisheries Group Poised To Manage Millions Of Hawaiʻi’s Green Fee",
+     "summary": "A regional fisheries agency based outside the islands is poised to manage marine conservation projects benefiting from Hawaii's green fee program.",
+     "url": "https://www.civilbeat.org/2026/11/outside-fisheries-group-poised-to-manage-millions-of-hawai%ca%bbis-green-fee/",
+     "source": "Civil Beat"
+    },
+    {
+     "title": "Hawaii Elections Commission restarts work after breakdown",
+     "summary": "The Hawaii Elections Commission restarted its work after five months of inaction caused by polarized members failing to elect a chairperson.",
+     "url": "https://www.staradvertiser.com/2026/11/13/hawaii-news/hawaii-elections-commission-restarts-work-after-breakdown/",
      "source": "Star-Advertiser"
     },
     {
-     "title": "Computer Science Is In More Hawaiʻi Schools. Not All Kids Are Taking It",
-     "summary": "",
-     "url": "https://www.civilbeat.org/2026/11/computer-science-is-in-more-hawaii-schools-not-all-kids-are-taking-it/",
+     "title": "Pay Raise: Hawaiʻi Schools Superintendent To Make $315K",
+     "summary": "Hawaii schools superintendent Keith Hayashi received a 7% raise during his annual evaluation, bringing his salary to more than $315,000.",
+     "url": "https://www.civilbeat.org/2026/11/pay-raise-hawaii-schools-superintendent-to-make-315k/",
      "source": "Civil Beat"
     }
    ]
   }
  ],
  "sports": {
-  "date": "20261112",
+  "date": "20261113",
   "nba": {
-   "count": 4,
-   "warriors": [],
-   "national": []
-  },
-  "nfl": {
-   "count": 1,
-   "primetime": [
+   "count": 9,
+   "warriors": [
     {
-     "matchup": "Commanders at Giants",
-     "time": "5:15 PM",
-     "network": "Prime Video",
+     "matchup": "Warriors at Spurs",
+     "time": "6:30 PM",
+     "network": "Prime Video, ERADM",
      "state": "pre"
     }
    ],
-   "all": [
+   "national": [
     {
-     "matchup": "Commanders at Giants",
-     "time": "5:15 PM",
+     "matchup": "Knicks at Pacers",
+     "time": "4:00 PM",
      "network": "Prime Video",
      "state": "pre"
     }
    ]
+  },
+  "nfl": {
+   "count": 0,
+   "primetime": [],
+   "all": []
   },
   "golf": {
    "none": false,
@@ -138,34 +156,34 @@
    "start": "Wed Nov 11",
    "leaders": [
     {
-     "name": "Trace Crowe",
-     "score": "-10"
+     "name": "Brian Harman",
+     "score": "-11"
+    },
+    {
+     "name": "Kristoffer Ventura",
+     "score": "-11"
     },
     {
      "name": "Erik van Rooyen",
-     "score": "-8"
-    },
-    {
-     "name": "Blades Brown",
-     "score": "-7"
+     "score": "-11"
     }
    ]
   }
  },
  "wiki": {
-  "title": "Royal Gloucestershire Hussars",
-  "url": "https://en.wikipedia.org/wiki/Royal_Gloucestershire_Hussars",
-  "extract": "The Royal Gloucestershire Hussars was a volunteer yeomanry regiment which, in the 20th century, became part of the British Army Reserve. It traced its origins to the First or Cheltenham Troop of Gloucestershire Gentleman and Yeomanry raised in 1795, although a break in the lineage means that its formation is dated to the Marshfield and Dodington Troop raised in 1830. Six further troops – officered by nobility and gentry, and recruited largely from among landholders and tenant farmers – were subsequently raised in Gloucestershire, and in 1834 they came together to form the Gloucestershire Yeomanry Cavalry. In 1847, the regiment adopted a hussar uniform and the name Royal Gloucestershire Hussars. Originally intended to counter insurrection and a French invasion that never materialised, the yeomanry's first deployments were ceremonial and as mounted police during times of civil unrest. Three Gloucestershire troops were deployed to Bristol on two separate occasions in the 1830s in support of the civil authorities.",
+  "title": "2022–23 Notts County F.C. season",
+  "url": "https://en.wikipedia.org/wiki/2022%E2%80%9323_Notts_County_F.C._season",
+  "extract": "During the 2022–23 English football season, Notts County competed in the National League, the fifth tier of the English football league system; this was their fourth season at this level following their relegation from EFL League Two in 2019. The team was involved in an intense race with Wrexham for the league title and the solitary automatic promotion place, with the two clubs dominating the 2022–23 National League season, together surpassing previous divisional records for points, wins and goals scored. Though Notts earned 107 points over the campaign, Wrexham claimed the title by a four-point margin, requiring the former to enter a six-team play-off to determine the second promoted club. Here, the team overturned a 0–2 deficit to defeat Boreham Wood 3–2 in extra time in the semi-final. It then gained a place in the English Football League (EFL) by beating Chesterfield 4–3 on penalties in the 2023 National League play-off final following a 2–2 draw at Wembley Stadium. The team fared less well in cup competitions, losing to Coalville Town in the fourth qualifying round of the FA Cup and to Maidstone United on penalties in the fourth round of the FA Trophy.",
   "otd": [
    {
-    "year": 2014,
-    "text": "The European Space Agency's lander Philae touched down on 67P/Churyumov–Gerasimenko, becoming the first spacecraft to land on a comet.",
-    "url": "https://en.wikipedia.org/wiki/European_Space_Agency"
+    "year": 2015,
+    "text": "Coordinated terrorist attacks in Paris perpetrated by the Islamic State killed 130 people and injured 413 others.",
+    "url": "https://en.wikipedia.org/wiki/November_2015_Paris_attacks"
    },
    {
-    "year": 2011,
-    "text": "An explosion in the Shahid Modarres missile base led to the deaths of 17 members of the Revolutionary Guards, including Hassan Tehrani Moghaddam, a key figure in Iran's missile program.",
-    "url": "https://en.wikipedia.org/wiki/Bid_Kaneh_explosion"
+    "year": 1992,
+    "text": "In Dietrich v The Queen, the High Court of Australia ruled that, although there is no absolute right to have publicly funded counsel, a judge should grant any request for an adjournment or stay in most circumstances in which an accused is unrepresented.",
+    "url": "https://en.wikipedia.org/wiki/Dietrich_v_The_Queen"
    }
   ]
  },
