@@ -1,56 +1,69 @@
 {
- "generated": "2026-11-14T10:41:27.475183-08:00",
- "ai": true,
+ "generated": "2026-11-15T11:19:00.254891-08:00",
+ "ai": false,
  "ai_status": {
-  "state": "ok",
-  "detail": "gemini-3.5-flash-lite"
+  "state": "failed",
+  "detail": "gemini-3.5-flash-lite: HTTP 503 {   \"error\": {     \"code\": 503,     \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",     \"status\": \"UNAVAILABLE\"   } }  | gemini-2.5-flash: HTTP 404 {   \"error\": {     \"code\": 404,     \"message\": \"This model models/gemini-2.5-flash is no longer available to new users. Please update your c"
  },
- "overview": "A nationwide air traffic system ground stop caused by a telecoms network upgrade highlighted chronic infrastructure vulnerabilities. In San Francisco, ongoing fallout from the Nvidia scandal tests political alliances and shines a light on AI industry intelligence risks, while Marina Safeway litigation moves forward. In Hawaii, Kali Watson is stepping down as the director of the Department of Hawaiian Home Lands.",
+ "overview": "",
  "sections": [
   {
    "key": "general",
    "title": "Top news",
    "items": [
     {
-     "title": "FAA blames Friday's ground stop on 'equipment issue' during telecoms network upgrade",
-     "summary": "The FAA blamed Friday's ground stop on an equipment issue during a telecoms network upgrade by contractor L3Harris.",
-     "url": "https://www.npr.org/2026/11/14/nx-s1-6040952/faa-ground-stop-airplane-travel",
-     "source": "NPR"
+     "title": "Chris Van Hollen Says His Majority Leader Challenge to Chuck Schumer Is Gaining Support",
+     "summary": "",
+     "url": "https://www.nytimes.com/2026/11/15/us/politics/van-hollen-schumer-democrats-majority-leader.html",
+     "source": "NYT"
     },
     {
-     "title": "Ground Stop Highlights Chronic Vulnerabilities in Air Traffic System",
-     "summary": "A nationwide ground stop highlighted chronic vulnerabilities in the Federal Aviation Administration’s aging air traffic control infrastructure.",
-     "url": "https://www.nytimes.com/2026/11/14/us/politics/ground-stop-air-traffic-faa.html",
-     "source": "NYT"
+     "title": "Zelensky urges US and Musk to lift Starlink restrictions and be on 'right side of history'",
+     "summary": "",
+     "url": "https://www.bbc.co.uk/news/articles/c6m25zg88k45o?at_medium=RSS&at_campaign=rss",
+     "source": "BBC"
+    },
+    {
+     "title": "New Orleans port sues owners of tanker involved in Mississippi crash",
+     "summary": "",
+     "url": "https://www.npr.org/2026/11/15/nx-s1-6041677/new-orleans-port-sues-miracle-mississippi-cruise-ship",
+     "source": "NPR"
     }
    ]
   },
   {
    "key": "cre",
    "title": "Commercial real estate",
-   "items": []
+   "items": [
+    {
+     "title": "Sunday Summary: Can Nithya Raman Save L.A. Real Estate?",
+     "summary": "",
+     "url": "https://commercialobserver.com/2026/11/sunday-summary-can-nithya-raman-save-l-a-real-estate/",
+     "source": "Commercial Observer"
+    }
+   ]
   },
   {
    "key": "sf",
    "title": "San Francisco",
    "items": [
     {
-     "title": "Is the Nvidia scandal souring Washington’s Silicon Valley love affair?",
-     "summary": "The Nvidia scandal is testing Trump’s Silicon Valley alliance, though meaningful changes to AI policy appear unlikely.",
-     "url": "https://sfstandard.com/2026/11/14/nvidia-scandal-souring-washington-s-silicon-valley-love-affair/",
+     "title": "Rainbow over city hall",
+     "summary": "",
+     "url": "https://missionlocal.org/2026/11/rainbow-over-city-hall/",
+     "source": "Mission Local"
+    },
+    {
+     "title": "Rental scams are exploding. The city has a plan, but not much manpower",
+     "summary": "",
+     "url": "https://sfstandard.com/2026/11/15/rental-scams-hearing-treasurer-sauter/",
      "source": "SF Standard"
     },
     {
-     "title": "Jensen Huang’s spy scandal isn’t a one-off",
-     "summary": "Chinese intelligence is working the AI industry's top floors, revealing that tech companies and federal agents are unprepared.",
-     "url": "https://sfstandard.com/2026/11/14/jensen-huang-scandal-tech-security-china-fbi/",
-     "source": "SF Standard"
-    },
-    {
-     "title": "Neighbors remove Marina Safeway developer from lawsuit, setting off a game of chicken",
-     "summary": "Neighbors removed the Marina Safeway developer from a lawsuit, continuing a legal challenge to cancel Align Real Estate's approval.",
-     "url": "https://sfstandard.com/2026/11/13/marina-safeway-lawsuit-drops-align-real-estate/",
-     "source": "SF Standard"
+     "title": "Martinis in the dark: Russian Hill restaurant is 2 weeks into ‘endless’ power outage",
+     "summary": "",
+     "url": "https://missionlocal.org/2026/11/martinis-in-the-dark/",
+     "source": "Mission Local"
     }
    ]
   },
@@ -59,24 +72,43 @@
    "title": "Hawaii",
    "items": [
     {
-     "title": "Kali Watson Is Stepping Down As Hawaiian Home Lands Director",
-     "summary": "Kali Watson will step down as director of the Department of Hawaiian Home Lands and chair of the Hawaiian Homes Commission at year's end.",
-     "url": "https://www.civilbeat.org/2026/11/kali-watson-is-stepping-down-as-hawaiian-home-lands-director/",
+     "title": "Gov. Josh Green: ‘Will I Do Better? Always’",
+     "summary": "",
+     "url": "https://www.civilbeat.org/2026/11/gov-josh-green-interview-trump-democrats/",
+     "source": "Civil Beat"
+    },
+    {
+     "title": "Hawaii falls to 3-7 on the season after 21-13 loss to North Dakota State",
+     "summary": "",
+     "url": "https://www.staradvertiser.com/2026/11/15/sports/hawaii-falls-to-3-7-on-the-season-after-21-13-loss-to-north-dakota-state-2/",
+     "source": "Star-Advertiser"
+    },
+    {
+     "title": "Maui Police Commission’s Secret Agenda To Deal With Its Outspoken Chief",
+     "summary": "",
+     "url": "https://www.civilbeat.org/2026/11/the-maui-police-commissions-secret-agenda-to-deal-with-its-outspoken-chief/",
      "source": "Civil Beat"
     }
    ]
   }
  ],
  "sports": {
-  "date": "20261114",
+  "date": "20261115",
   "nba": {
-   "count": 5,
+   "count": 9,
    "warriors": [],
    "national": []
   },
   "nfl": {
-   "count": 0,
-   "primetime": [],
+   "count": 12,
+   "primetime": [
+    {
+     "matchup": "Steelers at Bengals",
+     "time": "5:20 PM",
+     "network": "NBC",
+     "state": "pre"
+    }
+   ],
    "all": []
   },
   "golf": {
@@ -87,34 +119,34 @@
    "start": "Wed Nov 11",
    "leaders": [
     {
-     "name": "Erik van Rooyen",
+     "name": "Trace Crowe",
      "score": "-14"
     },
     {
-     "name": "Brian Harman",
+     "name": "Chad Ramey",
      "score": "-13"
     },
     {
-     "name": "Kevin Yu",
+     "name": "Erik van Rooyen",
      "score": "-13"
     }
    ]
   }
  },
  "wiki": {
-  "title": "Aucanquilcha",
-  "url": "https://en.wikipedia.org/wiki/Aucanquilcha",
-  "extract": "Aucanquilcha is a large compound volcano in the Antofagasta Region of northern Chile, within the Central Volcanic Zone of the Andes. The volcano has the form of a ridge reaching an altitude of 6,176 metres (20,262 ft) above sea level, formed between 1.04 and 0.23 million years ago; there is ongoing fumarolic activity. The volcano is part of a larger cluster of volcanoes sometimes known as the \"Aucanquilcha cluster\" or \"Aucanquilcha complex\". This cluster includes lava domes and lava flows that have formed in several stages over 11 million years of activity with varying magma output. During the ice ages, Aucanquilcha was covered in an ice cap that left moraines and cirques.",
+  "title": "Can't Let Go (Mariah Carey song)",
+  "url": "https://en.wikipedia.org/wiki/Can't_Let_Go_(Mariah_Carey_song)",
+  "extract": "\"Can't Let Go\" is a song recorded by American singer-songwriter Mariah Carey for her second studio album, Emotions (1991). Columbia Records released it as the album's second single in November 1991. Featuring synthesizers and drum programming, \"Can't Let Go\" is a breakup song in the form of an R&B and pop slow jam. The lyrics, written by Carey, are about post-breakup sadness. She composed the music and produced the song with Walter Afanasieff, who had previously worked on her 1990 single \"Love Takes Time\". Carey's vocal range spans more than three octaves; her delivery is predominately breathy and in a low register, with whistle notes in the song's introduction and ending.",
   "otd": [
    {
-    "year": 2010,
-    "text": "Red Bull Racing's Sebastian Vettel won the Drivers' Championship after winning the final race of the season, becoming the youngest Formula One champion.",
-    "url": "https://en.wikipedia.org/wiki/Red_Bull_Racing"
+    "year": 2012,
+    "text": "Xi Jinping replaced Hu Jintao as General Secretary of the Chinese Communist Party, succeeding as the paramount leader of China.",
+    "url": "https://en.wikipedia.org/wiki/Xi_Jinping"
    },
    {
-    "year": 2003,
-    "text": "Astronomers Michael E. Brown, Chad Trujillo, and David L. Rabinowitz discovered the trans-Neptunian object Sedna.",
-    "url": "https://en.wikipedia.org/wiki/Michael_E._Brown"
+    "year": 2000,
+    "text": "Edoardo Agnelli, son of the industrialist patriarch Gianni Agnelli, was found dead under a bridge on the outskirts of Turin, Italy.",
+    "url": "https://en.wikipedia.org/wiki/Edoardo_Agnelli"
    }
   ]
  },
