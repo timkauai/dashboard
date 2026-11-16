@@ -1,32 +1,38 @@
 {
- "generated": "2026-11-15T11:19:00.254891-08:00",
- "ai": false,
+ "generated": "2026-11-16T14:48:58.923618-08:00",
+ "ai": true,
  "ai_status": {
-  "state": "failed",
-  "detail": "gemini-3.5-flash-lite: HTTP 503 {   \"error\": {     \"code\": 503,     \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",     \"status\": \"UNAVAILABLE\"   } }  | gemini-2.5-flash: HTTP 404 {   \"error\": {     \"code\": 404,     \"message\": \"This model models/gemini-2.5-flash is no longer available to new users. Please update your c"
+  "state": "ok",
+  "detail": "gemini-3.5-flash-lite"
  },
- "overview": "",
+ "overview": "Recent national and regional developments highlight shifting economic policies and localized infrastructure pressures across major markets. In commercial real estate, major debt investments and institutional joint ventures continue to shape portfolio strategies. San Francisco addresses municipal transit funding and local electrical grid constraints, while developments in Hawaii focus on mayoral transitions concerning key island properties and public health metrics. Meanwhile, broader technology and regulatory headlines underscore ongoing scrutiny of artificial intelligence and cybersecurity.",
  "sections": [
   {
    "key": "general",
    "title": "Top news",
    "items": [
     {
-     "title": "Chris Van Hollen Says His Majority Leader Challenge to Chuck Schumer Is Gaining Support",
-     "summary": "",
-     "url": "https://www.nytimes.com/2026/11/15/us/politics/van-hollen-schumer-democrats-majority-leader.html",
+     "title": "Bessent Takes Hawkish Turn in White House Debate on China",
+     "summary": "The Treasury secretary taking a tougher approach to sensitive U.S. technology exports marks a hawkish turn in White House China policy debates.",
+     "url": "https://www.nytimes.com/2026/11/16/us/politics/bessent-lutnick-china.html",
      "source": "NYT"
     },
     {
-     "title": "Zelensky urges US and Musk to lift Starlink restrictions and be on 'right side of history'",
-     "summary": "",
-     "url": "https://www.bbc.co.uk/news/articles/c6m25zg88k45o?at_medium=RSS&at_campaign=rss",
-     "source": "BBC"
+     "title": "United Halts Flights as It Addresses ‘Widespread System Outage’",
+     "summary": "United Airlines halted flights due to a widespread system outage, compounding air travel concerns ahead of the busy Thanksgiving period.",
+     "url": "https://www.nytimes.com/2026/11/16/business/united-airlines-outage-flights.html",
+     "source": "NYT"
     },
     {
-     "title": "New Orleans port sues owners of tanker involved in Mississippi crash",
-     "summary": "",
-     "url": "https://www.npr.org/2026/11/15/nx-s1-6041677/new-orleans-port-sues-miracle-mississippi-cruise-ship",
+     "title": "California sues OpenAI over hacking risks",
+     "summary": "California sued OpenAI over hacking risks, alleging that security practices made a recent attack entirely foreseeable.",
+     "url": "https://www.npr.org/2026/11/16/nx-s1-6042920/california-sues-openai-hugging-face-hacking-incident",
+     "source": "NPR"
+    },
+    {
+     "title": "U.S. tightens controls on remote access to AI technology amid Nvidia fallout",
+     "summary": "The U.S. tightened controls on remote access to AI technology to close loopholes allowing Chinese companies to reach advanced chips.",
+     "url": "https://www.npr.org/2026/11/16/nx-s1-6042883/nvidia-jensen-huang-commerce-department",
      "source": "NPR"
     }
    ]
@@ -36,9 +42,15 @@
    "title": "Commercial real estate",
    "items": [
     {
-     "title": "Sunday Summary: Can Nithya Raman Save L.A. Real Estate?",
-     "summary": "",
-     "url": "https://commercialobserver.com/2026/11/sunday-summary-can-nithya-raman-save-l-a-real-estate/",
+     "title": "Blackstone Digital Infrastructure Trust, AWS Form $5B Data Center Joint Venture",
+     "summary": "Blackstone’s data center REIT formed a five billion dollar joint venture with Amazon Web Services.",
+     "url": "https://commercialobserver.com/2026/11/blackstone-digital-infrastructure-trust-aws-data-center-joint-venture/",
+     "source": "Commercial Observer"
+    },
+    {
+     "title": "Mesa West Capital Provides $59M Refi for Phoenix-Area Industrial Portfolio",
+     "summary": "Mesa West Capital provided a fifty-nine million dollar refinancing package for an Arizona industrial portfolio.",
+     "url": "https://commercialobserver.com/2026/11/mesa-west-capital-59m-refi-phoenix-industrial-portfolio/",
      "source": "Commercial Observer"
     }
    ]
@@ -48,22 +60,16 @@
    "title": "San Francisco",
    "items": [
     {
-     "title": "Rainbow over city hall",
-     "summary": "",
-     "url": "https://missionlocal.org/2026/11/rainbow-over-city-hall/",
-     "source": "Mission Local"
-    },
-    {
-     "title": "Rental scams are exploding. The city has a plan, but not much manpower",
-     "summary": "",
-     "url": "https://sfstandard.com/2026/11/15/rental-scams-hearing-treasurer-sauter/",
+     "title": "More buses, shorter waits: Muni adds trips on busy lines after transit taxes pass",
+     "summary": "San Francisco will add Muni bus trips and shorten wait times starting January 30 after voters approved new transit taxes.",
+     "url": "https://sfstandard.com/2026/11/16/muni-service-increase-prop-h-rtm-lurie/",
      "source": "SF Standard"
     },
     {
-     "title": "Martinis in the dark: Russian Hill restaurant is 2 weeks into ‘endless’ power outage",
-     "summary": "",
-     "url": "https://missionlocal.org/2026/11/martinis-in-the-dark/",
-     "source": "Mission Local"
+     "title": "San Francisco’s power grid is nearly maxed out. Will data centers push it over the edge?",
+     "summary": "A recent report warns that San Francisco's peak electricity transmission capacity is nearly maxed out even without new data centers.",
+     "url": "https://sfstandard.com/2026/11/16/data-center-moratorium-power-grid/",
+     "source": "SF Standard"
     }
    ]
   },
@@ -72,81 +78,96 @@
    "title": "Hawaii",
    "items": [
     {
-     "title": "Gov. Josh Green: ‘Will I Do Better? Always’",
-     "summary": "",
-     "url": "https://www.civilbeat.org/2026/11/gov-josh-green-interview-trump-democrats/",
+     "title": "Kaua‘i’s Mayor-Elect: ‘I Don’t Want To See Coco Palms Rebuilt’",
+     "summary": "Kaua‘i’s mayor-elect stated he does not want to see Coco Palms rebuilt and plans to investigate its permits.",
+     "url": "https://www.civilbeat.org/2026/11/kauais-mayor-elect-i-dont-want-to-see-coco-palms-rebuilt/",
      "source": "Civil Beat"
     },
     {
-     "title": "Hawaii falls to 3-7 on the season after 21-13 loss to North Dakota State",
-     "summary": "",
-     "url": "https://www.staradvertiser.com/2026/11/15/sports/hawaii-falls-to-3-7-on-the-season-after-21-13-loss-to-north-dakota-state-2/",
+     "title": "Hawaii losing critical visitor data after digital shift",
+     "summary": "Hawaii's shift to a digital arrival system resulted in a sharp drop in survey participation, forcing a suspension of visitor statistics.",
+     "url": "https://www.staradvertiser.com/2026/11/16/hawaii-news/hawaii-losing-critical-visitor-data-after-digital-shift/",
      "source": "Star-Advertiser"
-    },
-    {
-     "title": "Maui Police Commission’s Secret Agenda To Deal With Its Outspoken Chief",
-     "summary": "",
-     "url": "https://www.civilbeat.org/2026/11/the-maui-police-commissions-secret-agenda-to-deal-with-its-outspoken-chief/",
-     "source": "Civil Beat"
     }
    ]
   }
  ],
  "sports": {
-  "date": "20261115",
+  "date": "20261116",
   "nba": {
-   "count": 9,
-   "warriors": [],
-   "national": []
-  },
-  "nfl": {
-   "count": 12,
-   "primetime": [
+   "count": 8,
+   "warriors": [
     {
-     "matchup": "Steelers at Bengals",
-     "time": "5:20 PM",
-     "network": "NBC",
+     "matchup": "Warriors at Pelicans",
+     "time": "5:00 PM",
+     "network": "GCSEN, Pelicans.com",
      "state": "pre"
     }
    ],
-   "all": []
+   "national": [
+    {
+     "matchup": "Magic at Celtics",
+     "time": "4:00 PM",
+     "network": "NBCSN",
+     "state": "pre"
+    }
+   ]
+  },
+  "nfl": {
+   "count": 1,
+   "primetime": [
+    {
+     "matchup": "Chargers at Ravens",
+     "time": "5:15 PM",
+     "network": "ESPN",
+     "state": "pre"
+    }
+   ],
+   "all": [
+    {
+     "matchup": "Chargers at Ravens",
+     "time": "5:15 PM",
+     "network": "ESPN",
+     "state": "pre"
+    }
+   ]
   },
   "golf": {
    "none": false,
    "name": "Austin Championship pres. by Compliance Solutions",
-   "state": "in",
+   "state": "post",
    "detail": "",
    "start": "Wed Nov 11",
    "leaders": [
     {
-     "name": "Trace Crowe",
-     "score": "-14"
-    },
-    {
      "name": "Chad Ramey",
-     "score": "-13"
+     "score": "-20"
     },
     {
-     "name": "Erik van Rooyen",
-     "score": "-13"
+     "name": "Ben Kohles",
+     "score": "-18"
+    },
+    {
+     "name": "Trace Crowe",
+     "score": "-17"
     }
    ]
   }
  },
  "wiki": {
-  "title": "Can't Let Go (Mariah Carey song)",
-  "url": "https://en.wikipedia.org/wiki/Can't_Let_Go_(Mariah_Carey_song)",
-  "extract": "\"Can't Let Go\" is a song recorded by American singer-songwriter Mariah Carey for her second studio album, Emotions (1991). Columbia Records released it as the album's second single in November 1991. Featuring synthesizers and drum programming, \"Can't Let Go\" is a breakup song in the form of an R&B and pop slow jam. The lyrics, written by Carey, are about post-breakup sadness. She composed the music and produced the song with Walter Afanasieff, who had previously worked on her 1990 single \"Love Takes Time\". Carey's vocal range spans more than three octaves; her delivery is predominately breathy and in a low register, with whistle notes in the song's introduction and ending.",
+  "title": "Mark Satin",
+  "url": "https://en.wikipedia.org/wiki/Mark_Satin",
+  "extract": "Mark Ivor Satin is an American political theorist, writer, and newsletter publisher. He contributed to the development and dissemination of three political perspectives – neopacifism in the 1960s, New Age politics in the 1970s and 1980s, and radical centrism from the 1990s into the 2020s. Satin's work is sometimes seen as building toward a new political ideology, and then it is often labeled \"transformational\", \"post-liberal\", or \"post-Marxist\". One historian calls Satin's writing \"post-hip\".",
   "otd": [
    {
-    "year": 2012,
-    "text": "Xi Jinping replaced Hu Jintao as General Secretary of the Chinese Communist Party, succeeding as the paramount leader of China.",
-    "url": "https://en.wikipedia.org/wiki/Xi_Jinping"
+    "year": 2020,
+    "text": "The El Dorado Fire in California, United States, was extinguished after 71 days, having destroyed 20 structures and killed one firefighter.",
+    "url": "https://en.wikipedia.org/wiki/El_Dorado_Fire"
    },
    {
-    "year": 2000,
-    "text": "Edoardo Agnelli, son of the industrialist patriarch Gianni Agnelli, was found dead under a bridge on the outskirts of Turin, Italy.",
-    "url": "https://en.wikipedia.org/wiki/Edoardo_Agnelli"
+    "year": 2002,
+    "text": "The first case of SARS, a zoonotic respiratory coronavirus disease, was recorded in Guangdong, China.",
+    "url": "https://en.wikipedia.org/wiki/2002%E2%80%932004_SARS_outbreak"
    }
   ]
  },
