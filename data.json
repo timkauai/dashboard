@@ -1,39 +1,33 @@
 {
- "generated": "2026-11-16T14:48:58.923618-08:00",
+ "generated": "2026-11-17T13:38:38.810695-08:00",
  "ai": true,
  "ai_status": {
   "state": "ok",
   "detail": "gemini-3.5-flash-lite"
  },
- "overview": "Recent national and regional developments highlight shifting economic policies and localized infrastructure pressures across major markets. In commercial real estate, major debt investments and institutional joint ventures continue to shape portfolio strategies. San Francisco addresses municipal transit funding and local electrical grid constraints, while developments in Hawaii focus on mayoral transitions concerning key island properties and public health metrics. Meanwhile, broader technology and regulatory headlines underscore ongoing scrutiny of artificial intelligence and cybersecurity.",
+ "overview": "Global technological and geopolitical updates lead the morning headlines, highlighted by new artificial intelligence security discoveries and strategic bridge damage in Crimea. In commercial real estate markets, significant capital continues flowing into digital infrastructure and retail assets through large-scale acquisitions. Locally in San Francisco, municipal policy shifts include the collapse of a controversial historic preservation bill following housing pushback. Meanwhile, economic challenges and literary developments shape regional discourse across Hawaii.",
  "sections": [
   {
    "key": "general",
    "title": "Top news",
    "items": [
     {
-     "title": "Bessent Takes Hawkish Turn in White House Debate on China",
-     "summary": "The Treasury secretary taking a tougher approach to sensitive U.S. technology exports marks a hawkish turn in White House China policy debates.",
-     "url": "https://www.nytimes.com/2026/11/16/us/politics/bessent-lutnick-china.html",
+     "title": "A.I. Helps Find Major Security Bug in Java, a Software Platform Vital to the Internet",
+     "summary": "Security researchers discovered a major A.I.-detected flaw in Java that could impact systems used by nearly all Fortune 500 companies.",
+     "url": "https://www.nytimes.com/2026/11/17/us/politics/ai-security-bug-java.html",
      "source": "NYT"
     },
     {
-     "title": "United Halts Flights as It Addresses ‘Widespread System Outage’",
-     "summary": "United Airlines halted flights due to a widespread system outage, compounding air travel concerns ahead of the busy Thanksgiving period.",
-     "url": "https://www.nytimes.com/2026/11/16/business/united-airlines-outage-flights.html",
+     "title": "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
+     "summary": "The Crimean Bridge partly collapsed following an attack by Ukraine that officials described as unprecedented.",
+     "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
+     "source": "BBC"
+    },
+    {
+     "title": "Trump’s New A.I. Chip Rules Rattle Southeast Asia",
+     "summary": "New U.S. restrictions on artificial intelligence chips could jeopardize billions in investment and strain diplomatic balances in Southeast Asia.",
+     "url": "https://www.nytimes.com/2026/11/17/business/southeast-asia-china-ai-chips.html",
      "source": "NYT"
-    },
-    {
-     "title": "California sues OpenAI over hacking risks",
-     "summary": "California sued OpenAI over hacking risks, alleging that security practices made a recent attack entirely foreseeable.",
-     "url": "https://www.npr.org/2026/11/16/nx-s1-6042920/california-sues-openai-hugging-face-hacking-incident",
-     "source": "NPR"
-    },
-    {
-     "title": "U.S. tightens controls on remote access to AI technology amid Nvidia fallout",
-     "summary": "The U.S. tightened controls on remote access to AI technology to close loopholes allowing Chinese companies to reach advanced chips.",
-     "url": "https://www.npr.org/2026/11/16/nx-s1-6042883/nvidia-jensen-huang-commerce-department",
-     "source": "NPR"
     }
    ]
   },
@@ -42,15 +36,21 @@
    "title": "Commercial real estate",
    "items": [
     {
-     "title": "Blackstone Digital Infrastructure Trust, AWS Form $5B Data Center Joint Venture",
-     "summary": "Blackstone’s data center REIT formed a five billion dollar joint venture with Amazon Web Services.",
-     "url": "https://commercialobserver.com/2026/11/blackstone-digital-infrastructure-trust-aws-data-center-joint-venture/",
+     "title": "Blue Owl Acquires Northern Virginia Data Center for $780M",
+     "summary": "Blue Owl Capital acquired a 54-megawatt data center in Northern Virginia for nearly $780 million to expand its digital infrastructure portfolio.",
+     "url": "https://commercialobserver.com/2026/11/blue-owl-virginia-data-center-gainesville-crossing/",
      "source": "Commercial Observer"
     },
     {
-     "title": "Mesa West Capital Provides $59M Refi for Phoenix-Area Industrial Portfolio",
-     "summary": "Mesa West Capital provided a fifty-nine million dollar refinancing package for an Arizona industrial portfolio.",
-     "url": "https://commercialobserver.com/2026/11/mesa-west-capital-59m-refi-phoenix-industrial-portfolio/",
+     "title": "Cubline Properties Seals $889M of Convenience Retail Acquisitions in 2026",
+     "summary": "Curbline Properties amassed $889 million in convenience retail acquisitions throughout 2026 as the nation's largest convenience retail owner.",
+     "url": "https://commercialobserver.com/2026/11/cubline-properties-889m-retail-acquisitions-2026/",
+     "source": "Commercial Observer"
+    },
+    {
+     "title": "Vornado Buys Medical Office Building Near Grand Central for $28M",
+     "summary": "Vornado Realty Trust purchased a 13-story medical office building near Grand Central Terminal for $28 million.",
+     "url": "https://commercialobserver.com/2026/11/vornado-buys-office-30-east-40th-street/",
      "source": "Commercial Observer"
     }
    ]
@@ -60,15 +60,21 @@
    "title": "San Francisco",
    "items": [
     {
-     "title": "More buses, shorter waits: Muni adds trips on busy lines after transit taxes pass",
-     "summary": "San Francisco will add Muni bus trips and shorten wait times starting January 30 after voters approved new transit taxes.",
-     "url": "https://sfstandard.com/2026/11/16/muni-service-increase-prop-h-rtm-lurie/",
+     "title": "DMV kicks Waymo off California freeways",
+     "summary": "California regulators removed Waymo autonomous vehicles from state freeways following incidents involving construction zones and police interference.",
+     "url": "https://sfstandard.com/2026/11/17/california-dmv-bans-waymo-from-freeways/",
      "source": "SF Standard"
     },
     {
-     "title": "San Francisco’s power grid is nearly maxed out. Will data centers push it over the edge?",
-     "summary": "A recent report warns that San Francisco's peak electricity transmission capacity is nearly maxed out even without new data centers.",
-     "url": "https://sfstandard.com/2026/11/16/data-center-moratorium-power-grid/",
+     "title": "The pandemic forced a reinvention at China Basin. Then Sierra AI moved in",
+     "summary": "McCarthy Cook transformed the China Basin waterfront complex into a tech boom destination after initial tenant departures during the pandemic.",
+     "url": "https://sfstandard.com/2026/11/17/china-basin-mccarthy-cook-transformation-sierra/",
+     "source": "SF Standard"
+    },
+    {
+     "title": "SF historic preservation bill collapses under housing pushback",
+     "summary": "Board President Rafael Mandelman withdrew a San Francisco historic preservation bill following pushback over housing development.",
+     "url": "https://sfstandard.com/2026/11/16/historic-preservation-sf-supervisors-housing-feud/",
      "source": "SF Standard"
     }
    ]
@@ -78,96 +84,74 @@
    "title": "Hawaii",
    "items": [
     {
-     "title": "Kaua‘i’s Mayor-Elect: ‘I Don’t Want To See Coco Palms Rebuilt’",
-     "summary": "Kaua‘i’s mayor-elect stated he does not want to see Coco Palms rebuilt and plans to investigate its permits.",
-     "url": "https://www.civilbeat.org/2026/11/kauais-mayor-elect-i-dont-want-to-see-coco-palms-rebuilt/",
+     "title": "More Than Half Of Hawaiʻi Households Living On Financial Brink",
+     "summary": "More than half of Hawaii households report living on the financial brink, struggling with daily stress and workplace focus.",
+     "url": "https://www.civilbeat.org/2026/11/more-than-half-of-hawai%ca%bbi-households-living-on-financial-brink/",
      "source": "Civil Beat"
     },
     {
-     "title": "Hawaii losing critical visitor data after digital shift",
-     "summary": "Hawaii's shift to a digital arrival system resulted in a sharp drop in survey participation, forcing a suspension of visitor statistics.",
-     "url": "https://www.staradvertiser.com/2026/11/16/hawaii-news/hawaii-losing-critical-visitor-data-after-digital-shift/",
-     "source": "Star-Advertiser"
+     "title": "Does Waikīkī Need An Economic Rescue?",
+     "summary": "State officials are exploring federal tax break programs to boost development and attract investors to parts of the Waikiki tourist zone.",
+     "url": "https://www.civilbeat.org/2026/11/does-waikiki-need-an-economic-rescue/",
+     "source": "Civil Beat"
+    },
+    {
+     "title": "Makana Eyre: Hawaiʻi’s Literary Boom Gains Momentum On Kauaʻi",
+     "summary": "Hawaii's literary momentum is expanding on Kauai through homegrown cultural events like the Kauai Writers Garden.",
+     "url": "https://www.civilbeat.org/2026/11/hawaii-literary-boom-gains-momentum-on-kauai/",
+     "source": "Civil Beat"
     }
    ]
   }
  ],
  "sports": {
-  "date": "20261116",
+  "date": "20261117",
   "nba": {
-   "count": 8,
-   "warriors": [
-    {
-     "matchup": "Warriors at Pelicans",
-     "time": "5:00 PM",
-     "network": "GCSEN, Pelicans.com",
-     "state": "pre"
-    }
-   ],
+   "count": 5,
+   "warriors": [],
    "national": [
     {
-     "matchup": "Magic at Celtics",
-     "time": "4:00 PM",
-     "network": "NBCSN",
+     "matchup": "Pistons at Spurs",
+     "time": "5:00 PM",
+     "network": "NBC",
+     "state": "pre"
+    },
+    {
+     "matchup": "Hornets at Lakers",
+     "time": "8:00 PM",
+     "network": "Spectrum Sports Net, Spectrum Sports Net +, NBC",
      "state": "pre"
     }
    ]
   },
   "nfl": {
-   "count": 1,
-   "primetime": [
-    {
-     "matchup": "Chargers at Ravens",
-     "time": "5:15 PM",
-     "network": "ESPN",
-     "state": "pre"
-    }
-   ],
-   "all": [
-    {
-     "matchup": "Chargers at Ravens",
-     "time": "5:15 PM",
-     "network": "ESPN",
-     "state": "pre"
-    }
-   ]
+   "count": 0,
+   "primetime": [],
+   "all": []
   },
   "golf": {
    "none": false,
-   "name": "Austin Championship pres. by Compliance Solutions",
-   "state": "post",
+   "name": "The RSM Classic",
+   "state": "pre",
    "detail": "",
-   "start": "Wed Nov 11",
-   "leaders": [
-    {
-     "name": "Chad Ramey",
-     "score": "-20"
-    },
-    {
-     "name": "Ben Kohles",
-     "score": "-18"
-    },
-    {
-     "name": "Trace Crowe",
-     "score": "-17"
-    }
-   ]
+   "start": "Wed Nov 18",
+   "leaders": []
   }
  },
  "wiki": {
-  "title": "Mark Satin",
-  "url": "https://en.wikipedia.org/wiki/Mark_Satin",
-  "extract": "Mark Ivor Satin is an American political theorist, writer, and newsletter publisher. He contributed to the development and dissemination of three political perspectives – neopacifism in the 1960s, New Age politics in the 1970s and 1980s, and radical centrism from the 1990s into the 2020s. Satin's work is sometimes seen as building toward a new political ideology, and then it is often labeled \"transformational\", \"post-liberal\", or \"post-Marxist\". One historian calls Satin's writing \"post-hip\".",
+  "title": "Islands: Non-Places",
+  "url": "https://en.wikipedia.org/wiki/Islands%3A_Non-Places",
+  "extract": "Islands: Non-Places is a 2016 abstract art game developed and published independently by artist and animator Carl Burton, who is best known for the animated GIF illustrations he created for season two of the Serial podcast. The game was released on November 17, 2016, on iOS, Windows, Mac, and Linux, and consists of a series of anonymous, liminal environments – the eponymous \"non-places\". These scenes appear mundane at first, but become increasingly surreal as the player interacts with the objects within.",
   "otd": [
    {
-    "year": 2020,
-    "text": "The El Dorado Fire in California, United States, was extinguished after 71 days, having destroyed 20 structures and killed one firefighter.",
-    "url": "https://en.wikipedia.org/wiki/El_Dorado_Fire"
+    "year": 2013,
+    "text": "Tatarstan Airlines Flight 363 crashed during an aborted landing at Kazan International Airport, Russia, killing all 50 people on board and leading to the revocation of the airline's operating certificate.",
+    "url": "https://en.wikipedia.org/wiki/Tatarstan_Airlines_Flight_363"
    },
    {
-    "year": 2002,
-    "text": "The first case of SARS, a zoonotic respiratory coronavirus disease, was recorded in Guangdong, China.",
-    "url": "https://en.wikipedia.org/wiki/2002%E2%80%932004_SARS_outbreak"
+    "year": 2013,
+    "text": "An outbreak of 77 confirmed tornadoes occurred in seven U.S. states; it became the largest November tornado outbreak in Illinois and Indiana.",
+    "url": "https://en.wikipedia.org/wiki/Tornado_outbreak_of_November_17%2C_2013"
    }
   ]
  },
