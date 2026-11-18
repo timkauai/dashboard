@@ -1,33 +1,21 @@
 {
- "generated": "2026-11-17T13:38:38.810695-08:00",
+ "generated": "2026-11-18T13:17:04.670116-08:00",
  "ai": true,
  "ai_status": {
   "state": "ok",
   "detail": "gemini-3.5-flash-lite"
  },
- "overview": "Global technological and geopolitical updates lead the morning headlines, highlighted by new artificial intelligence security discoveries and strategic bridge damage in Crimea. In commercial real estate markets, significant capital continues flowing into digital infrastructure and retail assets through large-scale acquisitions. Locally in San Francisco, municipal policy shifts include the collapse of a controversial historic preservation bill following housing pushback. Meanwhile, economic challenges and literary developments shape regional discourse across Hawaii.",
+ "overview": "Recent political developments include Democrats nominating Hakeem Jeffries to be U.S. Speaker of the House, while international and regional updates highlight various diplomatic and security events. In commercial real estate, industry leadership updates feature WestCap's Kevin Marcus taking over as CEO of Green Street. San Francisco news covers Mayor Lurie's actions to combine the planning and building inspection departments under voter-approved Prop. F to speed up permitting. Meanwhile, Hawaii headlines include a federal judge in Hawaii ruling against a seabed mining plan and local reports examining financial pressures facing households.",
  "sections": [
   {
    "key": "general",
    "title": "Top news",
    "items": [
     {
-     "title": "A.I. Helps Find Major Security Bug in Java, a Software Platform Vital to the Internet",
-     "summary": "Security researchers discovered a major A.I.-detected flaw in Java that could impact systems used by nearly all Fortune 500 companies.",
-     "url": "https://www.nytimes.com/2026/11/17/us/politics/ai-security-bug-java.html",
-     "source": "NYT"
-    },
-    {
-     "title": "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
-     "summary": "The Crimean Bridge partly collapsed following an attack by Ukraine that officials described as unprecedented.",
-     "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
+     "title": "Democrats nominate Hakeem Jeffries to be US Speaker of the House",
+     "summary": "Democrats nominated Hakeem Jeffries to be U.S. Speaker of the House, setting him up to be the first Black lawmaker to lead the chamber.",
+     "url": "https://www.bbc.co.uk/news/articles/cmy49873dn95o?at_medium=RSS&at_campaign=rss",
      "source": "BBC"
-    },
-    {
-     "title": "Trump’s New A.I. Chip Rules Rattle Southeast Asia",
-     "summary": "New U.S. restrictions on artificial intelligence chips could jeopardize billions in investment and strain diplomatic balances in Southeast Asia.",
-     "url": "https://www.nytimes.com/2026/11/17/business/southeast-asia-china-ai-chips.html",
-     "source": "NYT"
     }
    ]
   },
@@ -36,21 +24,9 @@
    "title": "Commercial real estate",
    "items": [
     {
-     "title": "Blue Owl Acquires Northern Virginia Data Center for $780M",
-     "summary": "Blue Owl Capital acquired a 54-megawatt data center in Northern Virginia for nearly $780 million to expand its digital infrastructure portfolio.",
-     "url": "https://commercialobserver.com/2026/11/blue-owl-virginia-data-center-gainesville-crossing/",
-     "source": "Commercial Observer"
-    },
-    {
-     "title": "Cubline Properties Seals $889M of Convenience Retail Acquisitions in 2026",
-     "summary": "Curbline Properties amassed $889 million in convenience retail acquisitions throughout 2026 as the nation's largest convenience retail owner.",
-     "url": "https://commercialobserver.com/2026/11/cubline-properties-889m-retail-acquisitions-2026/",
-     "source": "Commercial Observer"
-    },
-    {
-     "title": "Vornado Buys Medical Office Building Near Grand Central for $28M",
-     "summary": "Vornado Realty Trust purchased a 13-story medical office building near Grand Central Terminal for $28 million.",
-     "url": "https://commercialobserver.com/2026/11/vornado-buys-office-30-east-40th-street/",
+     "title": "WestCap’s Kevin Marcus Takes Over as CEO of Green Street",
+     "summary": "Kevin Marcus has been appointed CEO of Green Street in its New York City office, succeeding Jeff Stuek as he moves to executive chairman.",
+     "url": "https://commercialobserver.com/2026/11/westcap-kevin-marcus-ceo-green-street/",
      "source": "Commercial Observer"
     }
    ]
@@ -60,21 +36,21 @@
    "title": "San Francisco",
    "items": [
     {
-     "title": "DMV kicks Waymo off California freeways",
-     "summary": "California regulators removed Waymo autonomous vehicles from state freeways following incidents involving construction zones and police interference.",
-     "url": "https://sfstandard.com/2026/11/17/california-dmv-bans-waymo-from-freeways/",
+     "title": "Mayor Lurie uses new power to merge S.F. planning, building inspection departments",
+     "summary": "Mayor Lurie is using new power granted by Prop. F to merge San Francisco's planning and building inspection departments.",
+     "url": "https://missionlocal.org/2026/11/san-francisco-planning-building-department-mayor-daniel-lurie/",
+     "source": "Mission Local"
+    },
+    {
+     "title": "Storm chaos: Atmospheric river causes flooding across San Francisco",
+     "summary": "An atmospheric river caused widespread flooding across San Francisco, stopping flights at SFO and disrupting mass transit and streets.",
+     "url": "https://sfstandard.com/2026/11/18/atmospheric-river-drenches-sf-bringing-flood-threat-damaging-winds/",
      "source": "SF Standard"
     },
     {
-     "title": "The pandemic forced a reinvention at China Basin. Then Sierra AI moved in",
-     "summary": "McCarthy Cook transformed the China Basin waterfront complex into a tech boom destination after initial tenant departures during the pandemic.",
-     "url": "https://sfstandard.com/2026/11/17/china-basin-mccarthy-cook-transformation-sierra/",
-     "source": "SF Standard"
-    },
-    {
-     "title": "SF historic preservation bill collapses under housing pushback",
-     "summary": "Board President Rafael Mandelman withdrew a San Francisco historic preservation bill following pushback over housing development.",
-     "url": "https://sfstandard.com/2026/11/16/historic-preservation-sf-supervisors-housing-feud/",
+     "title": "In win for hotel workers union, San Francisco extends COVID-era cleaning rules",
+     "summary": "San Francisco extended COVID-era cleaning rules in a win for the hotel workers union, requiring extra room and elevator cleanings.",
+     "url": "https://sfstandard.com/2026/11/18/hotel-workers-cleaning-ordinance-expansion/",
      "source": "SF Standard"
     }
    ]
@@ -84,42 +60,43 @@
    "title": "Hawaii",
    "items": [
     {
+     "title": "Trump plan for Pacific seabed mining violates law, federal judge in Hawaii rules",
+     "summary": "A federal judge in Hawaii ruled that a Trump administration plan for Pacific seabed mining violates the law following a conservation lawsuit.",
+     "url": "https://www.staradvertiser.com/2026/11/18/hawaii-news/trump-plan-for-pacific-seabed-mining-violates-law-federal-judge-in-hawaii-rules/",
+     "source": "Star-Advertiser"
+    },
+    {
      "title": "More Than Half Of Hawaiʻi Households Living On Financial Brink",
-     "summary": "More than half of Hawaii households report living on the financial brink, struggling with daily stress and workplace focus.",
+     "summary": "More than half of Hawaii households are reported to be living on the financial brink, struggling with basic economic pressures.",
      "url": "https://www.civilbeat.org/2026/11/more-than-half-of-hawai%ca%bbi-households-living-on-financial-brink/",
-     "source": "Civil Beat"
-    },
-    {
-     "title": "Does Waikīkī Need An Economic Rescue?",
-     "summary": "State officials are exploring federal tax break programs to boost development and attract investors to parts of the Waikiki tourist zone.",
-     "url": "https://www.civilbeat.org/2026/11/does-waikiki-need-an-economic-rescue/",
-     "source": "Civil Beat"
-    },
-    {
-     "title": "Makana Eyre: Hawaiʻi’s Literary Boom Gains Momentum On Kauaʻi",
-     "summary": "Hawaii's literary momentum is expanding on Kauai through homegrown cultural events like the Kauai Writers Garden.",
-     "url": "https://www.civilbeat.org/2026/11/hawaii-literary-boom-gains-momentum-on-kauai/",
      "source": "Civil Beat"
     }
    ]
   }
  ],
  "sports": {
-  "date": "20261117",
+  "date": "20261118",
   "nba": {
-   "count": 5,
-   "warriors": [],
+   "count": 12,
+   "warriors": [
+    {
+     "matchup": "Warriors at Mavericks",
+     "time": "5:00 PM",
+     "network": "KFAA-TV, MavsTV",
+     "state": "pre"
+    }
+   ],
    "national": [
     {
-     "matchup": "Pistons at Spurs",
-     "time": "5:00 PM",
-     "network": "NBC",
+     "matchup": "Bucks at Heat",
+     "time": "4:00 PM",
+     "network": "ESPN, MyMi, Bucks App",
      "state": "pre"
     },
     {
-     "matchup": "Hornets at Lakers",
-     "time": "8:00 PM",
-     "network": "Spectrum Sports Net, Spectrum Sports Net +, NBC",
+     "matchup": "Celtics at Nuggets",
+     "time": "6:30 PM",
+     "network": "ESPN",
      "state": "pre"
     }
    ]
@@ -139,19 +116,19 @@
   }
  },
  "wiki": {
-  "title": "Islands: Non-Places",
-  "url": "https://en.wikipedia.org/wiki/Islands%3A_Non-Places",
-  "extract": "Islands: Non-Places is a 2016 abstract art game developed and published independently by artist and animator Carl Burton, who is best known for the animated GIF illustrations he created for season two of the Serial podcast. The game was released on November 17, 2016, on iOS, Windows, Mac, and Linux, and consists of a series of anonymous, liminal environments – the eponymous \"non-places\". These scenes appear mundane at first, but become increasingly surreal as the player interacts with the objects within.",
+  "title": "W. S. Gilbert",
+  "url": "https://en.wikipedia.org/wiki/W._S._Gilbert",
+  "extract": "Sir William Schwenck Gilbert was an English dramatist, librettist, poet and illustrator best known for his collaboration with the composer Arthur Sullivan that produced fourteen comic operas. The most famous of these include H.M.S. Pinafore, The Pirates of Penzance and one of the most frequently performed works in the history of musical theatre, The Mikado. The popularity of these works was supported for over a century by year-round performances of them, in Britain and abroad, by the repertory company that Gilbert, Sullivan and their producer Richard D'Oyly Carte founded, the D'Oyly Carte Opera Company. These Savoy operas are still frequently performed in the English-speaking world and beyond.",
   "otd": [
    {
-    "year": 2013,
-    "text": "Tatarstan Airlines Flight 363 crashed during an aborted landing at Kazan International Airport, Russia, killing all 50 people on board and leading to the revocation of the airline's operating certificate.",
-    "url": "https://en.wikipedia.org/wiki/Tatarstan_Airlines_Flight_363"
+    "year": 2017,
+    "text": "Cyclone Numa, a rare \"medicane\", made landfall in Greece to become the worst weather event that the country had experienced since 1977.",
+    "url": "https://en.wikipedia.org/wiki/Cyclone_Numa"
    },
    {
-    "year": 2013,
-    "text": "An outbreak of 77 confirmed tornadoes occurred in seven U.S. states; it became the largest November tornado outbreak in Illinois and Indiana.",
-    "url": "https://en.wikipedia.org/wiki/Tornado_outbreak_of_November_17%2C_2013"
+    "year": 2014,
+    "text": "Two Palestinian men attacked the praying congregants of a synagogue in Jerusalem with axes, knives, and a gun, resulting in eight deaths, including the attackers themselves.",
+    "url": "https://en.wikipedia.org/wiki/2014_Jerusalem_synagogue_attack"
    }
   ]
  },
