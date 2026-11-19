@@ -1,20 +1,26 @@
 {
- "generated": "2026-11-18T13:17:04.670116-08:00",
+ "generated": "2026-11-19T13:18:36.710290-08:00",
  "ai": true,
  "ai_status": {
   "state": "ok",
   "detail": "gemini-3.5-flash-lite"
  },
- "overview": "Recent political developments include Democrats nominating Hakeem Jeffries to be U.S. Speaker of the House, while international and regional updates highlight various diplomatic and security events. In commercial real estate, industry leadership updates feature WestCap's Kevin Marcus taking over as CEO of Green Street. San Francisco news covers Mayor Lurie's actions to combine the planning and building inspection departments under voter-approved Prop. F to speed up permitting. Meanwhile, Hawaii headlines include a federal judge in Hawaii ruling against a seabed mining plan and local reports examining financial pressures facing households.",
+ "overview": "Global developments include a historic UN court ruling finding Myanmar committed genocide against the Rohingya minority and a trilateral summit featuring leaders from the US, Russia, and China. In commercial real estate, distress is evident as a major Jersey City office loan enters special servicing and Blue Owl prepares a massive data center deal. San Francisco leaders are reviving the BUILD Act to cut transfer taxes on large real estate sales to unlock stalled housing projects, coinciding with significant local business developments. Meanwhile, in Hawaii, the newly elected Kaua'i County Council has chosen its leadership.",
  "sections": [
   {
    "key": "general",
    "title": "Top news",
    "items": [
     {
-     "title": "Democrats nominate Hakeem Jeffries to be US Speaker of the House",
-     "summary": "Democrats nominated Hakeem Jeffries to be U.S. Speaker of the House, setting him up to be the first Black lawmaker to lead the chamber.",
-     "url": "https://www.bbc.co.uk/news/articles/cmy49873dn95o?at_medium=RSS&at_campaign=rss",
+     "title": "Myanmar committed genocide against Rohingya minority, top UN court rules",
+     "summary": "The International Court of Justice has ruled that Myanmar committed genocide against the Rohingya minority during a 2017 military crackdown.",
+     "url": "https://www.bbc.co.uk/news/articles/c804wzp20ddvo?at_medium=RSS&at_campaign=rss",
+     "source": "BBC"
+    },
+    {
+     "title": "Trump, Putin and Xi release 'peace declaration' after historic meeting",
+     "summary": "Presidents Trump, Putin, and Xi released a peace declaration following their historic first trilateral discussion.",
+     "url": "https://www.bbc.co.uk/news/articles/c623j4ln97x7o?at_medium=RSS&at_campaign=rss",
      "source": "BBC"
     }
    ]
@@ -24,9 +30,9 @@
    "title": "Commercial real estate",
    "items": [
     {
-     "title": "WestCap’s Kevin Marcus Takes Over as CEO of Green Street",
-     "summary": "Kevin Marcus has been appointed CEO of Green Street in its New York City office, succeeding Jeff Stuek as he moves to executive chairman.",
-     "url": "https://commercialobserver.com/2026/11/westcap-kevin-marcus-ceo-green-street/",
+     "title": "$250M CMBS Loan Backed by Jersey City’s 101 Hudson Street Sent to Special Servicing",
+     "summary": "A $250 million CMBS loan backed by Jersey City's 101 Hudson Street office building was sent to special servicing after missing its maturity date.",
+     "url": "https://commercialobserver.com/2026/11/250m-cmbs-loan-jersey-city-101-hudson-street-special-servicing/",
      "source": "Commercial Observer"
     }
    ]
@@ -36,21 +42,15 @@
    "title": "San Francisco",
    "items": [
     {
-     "title": "Mayor Lurie uses new power to merge S.F. planning, building inspection departments",
-     "summary": "Mayor Lurie is using new power granted by Prop. F to merge San Francisco's planning and building inspection departments.",
-     "url": "https://missionlocal.org/2026/11/san-francisco-planning-building-department-mayor-daniel-lurie/",
+     "title": "Mayor Lurie, Supervisor Mahmood revive plan to cut taxes on big S.F. real estate sales",
+     "summary": "Mayor Daniel Lurie and Supervisor Bilal Mahmood have revived a plan to cut taxes on large San Francisco real estate sales.",
+     "url": "https://missionlocal.org/2026/11/san-francisco-transfer-tax-cut-housing-real-estate-mayor-lurie/",
      "source": "Mission Local"
     },
     {
-     "title": "Storm chaos: Atmospheric river causes flooding across San Francisco",
-     "summary": "An atmospheric river caused widespread flooding across San Francisco, stopping flights at SFO and disrupting mass transit and streets.",
-     "url": "https://sfstandard.com/2026/11/18/atmospheric-river-drenches-sf-bringing-flood-threat-damaging-winds/",
-     "source": "SF Standard"
-    },
-    {
-     "title": "In win for hotel workers union, San Francisco extends COVID-era cleaning rules",
-     "summary": "San Francisco extended COVID-era cleaning rules in a win for the hotel workers union, requiring extra room and elevator cleanings.",
-     "url": "https://sfstandard.com/2026/11/18/hotel-workers-cleaning-ordinance-expansion/",
+     "title": "SF leaders revive plan to unlock stalled housing projects. Here’s how it would work",
+     "summary": "San Francisco leaders are bringing back the BUILD Act to cut transfer taxes on large real estate transactions and unlock stalled housing.",
+     "url": "https://sfstandard.com/2026/11/19/sf-leaders-revive-transfer-tax-unlock-housing-projects/",
      "source": "SF Standard"
     }
    ]
@@ -60,75 +60,89 @@
    "title": "Hawaii",
    "items": [
     {
-     "title": "Trump plan for Pacific seabed mining violates law, federal judge in Hawaii rules",
-     "summary": "A federal judge in Hawaii ruled that a Trump administration plan for Pacific seabed mining violates the law following a conservation lawsuit.",
-     "url": "https://www.staradvertiser.com/2026/11/18/hawaii-news/trump-plan-for-pacific-seabed-mining-violates-law-federal-judge-in-hawaii-rules/",
-     "source": "Star-Advertiser"
+     "title": "Newly Elected Kaua‘i County Council Chooses Leadership",
+     "summary": "The newly elected Kaua'i County Council selected incumbents Arryl Kaneshiro and Fern Holland to lead the council.",
+     "url": "https://www.civilbeat.org/2026/11/newly-elected-kauai-county-council-chooses-leadership/",
+     "source": "Civil Beat"
     },
     {
-     "title": "More Than Half Of Hawaiʻi Households Living On Financial Brink",
-     "summary": "More than half of Hawaii households are reported to be living on the financial brink, struggling with basic economic pressures.",
-     "url": "https://www.civilbeat.org/2026/11/more-than-half-of-hawai%ca%bbi-households-living-on-financial-brink/",
+     "title": "Commission Keeps Maui Police Chief On Leave Amid Corruption Probe",
+     "summary": "The Maui Police Commission declined to reinstate Maui Police Chief John Pelletier while an investigation into a department unit continues.",
+     "url": "https://www.civilbeat.org/2026/11/commission-keeps-maui-police-chief-on-leave-amid-corruption-probe/",
      "source": "Civil Beat"
     }
    ]
   }
  ],
  "sports": {
-  "date": "20261118",
+  "date": "20261119",
   "nba": {
-   "count": 12,
+   "count": 4,
    "warriors": [
     {
-     "matchup": "Warriors at Mavericks",
+     "matchup": "Warriors at Grizzlies",
      "time": "5:00 PM",
-     "network": "KFAA-TV, MavsTV",
+     "network": "DAZN MEM",
      "state": "pre"
     }
    ],
-   "national": [
+   "national": []
+  },
+  "nfl": {
+   "count": 1,
+   "primetime": [
     {
-     "matchup": "Bucks at Heat",
-     "time": "4:00 PM",
-     "network": "ESPN, MyMi, Bucks App",
+     "matchup": "Colts at Texans",
+     "time": "5:15 PM",
+     "network": "Prime Video",
      "state": "pre"
-    },
+    }
+   ],
+   "all": [
     {
-     "matchup": "Celtics at Nuggets",
-     "time": "6:30 PM",
-     "network": "ESPN",
+     "matchup": "Colts at Texans",
+     "time": "5:15 PM",
+     "network": "Prime Video",
      "state": "pre"
     }
    ]
   },
-  "nfl": {
-   "count": 0,
-   "primetime": [],
-   "all": []
-  },
   "golf": {
    "none": false,
    "name": "The RSM Classic",
-   "state": "pre",
+   "state": "in",
    "detail": "",
    "start": "Wed Nov 18",
-   "leaders": []
+   "leaders": [
+    {
+     "name": "Jesper Svensson",
+     "score": "-8"
+    },
+    {
+     "name": "Max Greyserman",
+     "score": "-7"
+    },
+    {
+     "name": "Garrick Higgo",
+     "score": "-7"
+    }
+   ]
   }
  },
  "wiki": {
-  "title": "W. S. Gilbert",
-  "url": "https://en.wikipedia.org/wiki/W._S._Gilbert",
-  "extract": "Sir William Schwenck Gilbert was an English dramatist, librettist, poet and illustrator best known for his collaboration with the composer Arthur Sullivan that produced fourteen comic operas. The most famous of these include H.M.S. Pinafore, The Pirates of Penzance and one of the most frequently performed works in the history of musical theatre, The Mikado. The popularity of these works was supported for over a century by year-round performances of them, in Britain and abroad, by the repertory company that Gilbert, Sullivan and their producer Richard D'Oyly Carte founded, the D'Oyly Carte Opera Company. These Savoy operas are still frequently performed in the English-speaking world and beyond.",
+  "title": "Iron Gate (Antioch)",
+  "url": "https://en.wikipedia.org/wiki/Iron_Gate_(Antioch)",
+  "extract": "The Iron Gate is a sixth-century dam located in the mountains to the east of Antakya in Turkey. It is one of the earliest known arch dams and is the oldest to survive. It was built in the mid–sixth century on the order of the Byzantine emperor Justinian I to impound and slow the waters of the Parmenios stream, which in the rainy season could cause torrential floods endangering Antioch's city centre. Previous attempts to channel the floodwaters into underground passageways had not fully solved the problem.",
   "otd": [
    {
-    "year": 2017,
-    "text": "Cyclone Numa, a rare \"medicane\", made landfall in Greece to become the worst weather event that the country had experienced since 1977.",
-    "url": "https://en.wikipedia.org/wiki/Cyclone_Numa"
+    "year": 2013,
+    "text": "A double suicide bombing at the Iranian embassy in Beirut, Lebanon, killed 23 people and injured at least 160 others.",
+    "url": "https://en.wikipedia.org/wiki/2013_Iranian_embassy_bombing_in_Beirut"
    },
    {
-    "year": 2014,
-    "text": "Two Palestinian men attacked the praying congregants of a synagogue in Jerusalem with axes, knives, and a gun, resulting in eight deaths, including the attackers themselves.",
-    "url": "https://en.wikipedia.org/wiki/2014_Jerusalem_synagogue_attack"
+    "year": 2010,
+    "text": "The first of four explosions occurred at the Pike River Mine in the West Coast in New Zealand's worst mining disaster in nearly a century.",
+    "url": "https://en.wikipedia.org/wiki/Pike_River_Mine_disaster"
    }
   ]
  },
