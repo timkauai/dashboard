@@ -1,27 +1,21 @@
 {
- "generated": "2026-11-19T13:18:36.710290-08:00",
+ "generated": "2026-11-20T12:59:13.924660-08:00",
  "ai": true,
  "ai_status": {
   "state": "ok",
   "detail": "gemini-3.5-flash-lite"
  },
- "overview": "Global developments include a historic UN court ruling finding Myanmar committed genocide against the Rohingya minority and a trilateral summit featuring leaders from the US, Russia, and China. In commercial real estate, distress is evident as a major Jersey City office loan enters special servicing and Blue Owl prepares a massive data center deal. San Francisco leaders are reviving the BUILD Act to cut transfer taxes on large real estate sales to unlock stalled housing projects, coinciding with significant local business developments. Meanwhile, in Hawaii, the newly elected Kaua'i County Council has chosen its leadership.",
+ "overview": "Global markets face ongoing volatility with continued tech sector sell-offs and new policy threats affecting data centers and artificial intelligence. Commercial real estate professionals are monitoring debt markets and evaluating how the industry can withstand shifting interest rate environments. In San Francisco, major tech company developments and IPO activities are intersecting with local housing market dynamics and downtown conditions. Meanwhile, Hawaii developments focus on state governance, university policy changes, and ongoing environmental and infrastructure oversight.",
  "sections": [
   {
    "key": "general",
    "title": "Top news",
    "items": [
     {
-     "title": "Myanmar committed genocide against Rohingya minority, top UN court rules",
-     "summary": "The International Court of Justice has ruled that Myanmar committed genocide against the Rohingya minority during a 2017 military crackdown.",
-     "url": "https://www.bbc.co.uk/news/articles/c804wzp20ddvo?at_medium=RSS&at_campaign=rss",
-     "source": "BBC"
-    },
-    {
-     "title": "Trump, Putin and Xi release 'peace declaration' after historic meeting",
-     "summary": "Presidents Trump, Putin, and Xi released a peace declaration following their historic first trilateral discussion.",
-     "url": "https://www.bbc.co.uk/news/articles/c623j4ln97x7o?at_medium=RSS&at_campaign=rss",
-     "source": "BBC"
+     "title": "Anthropic Shares Slip as AI and Tech Stock Sell-Off Continues",
+     "summary": "Anthropic shares slipped as the S&P 500 neared a market correction amid a broader AI and tech stock sell-off.",
+     "url": "https://www.nytimes.com/2026/11/20/business/anthropic-ai-stocks-sp500.html",
+     "source": "NYT"
     }
    ]
   },
@@ -30,9 +24,9 @@
    "title": "Commercial real estate",
    "items": [
     {
-     "title": "$250M CMBS Loan Backed by Jersey City’s 101 Hudson Street Sent to Special Servicing",
-     "summary": "A $250 million CMBS loan backed by Jersey City's 101 Hudson Street office building was sent to special servicing after missing its maturity date.",
-     "url": "https://commercialobserver.com/2026/11/250m-cmbs-loan-jersey-city-101-hudson-street-special-servicing/",
+     "title": "CRE Positioned to Withstand 2022 Repeat Amid Rising Rates: NYU Schack Panelists",
+     "summary": "Debt investors at an NYU Schack panel noted that commercial real estate is better equipped today to avoid the market dislocation seen in 2022.",
+     "url": "https://commercialobserver.com/2026/11/cre-interest-rates-capital-markets-nyu/",
      "source": "Commercial Observer"
     }
    ]
@@ -42,16 +36,16 @@
    "title": "San Francisco",
    "items": [
     {
-     "title": "Mayor Lurie, Supervisor Mahmood revive plan to cut taxes on big S.F. real estate sales",
-     "summary": "Mayor Daniel Lurie and Supervisor Bilal Mahmood have revived a plan to cut taxes on large San Francisco real estate sales.",
-     "url": "https://missionlocal.org/2026/11/san-francisco-transfer-tax-cut-housing-real-estate-mayor-lurie/",
-     "source": "Mission Local"
+     "title": "Anthropic’s IPO is here. Is San Francisco’s housing market about to pop?",
+     "summary": "Anthropic's public offering has raised questions among observers about whether San Francisco's housing market is poised for significant changes.",
+     "url": "https://sfstandard.com/2026/11/20/housing-market-post-anthropic-ipo/",
+     "source": "SF Standard"
     },
     {
-     "title": "SF leaders revive plan to unlock stalled housing projects. Here’s how it would work",
-     "summary": "San Francisco leaders are bringing back the BUILD Act to cut transfer taxes on large real estate transactions and unlock stalled housing.",
-     "url": "https://sfstandard.com/2026/11/19/sf-leaders-revive-transfer-tax-unlock-housing-projects/",
-     "source": "SF Standard"
+     "title": "S.F. protesters arrested at Anthropic HQ during IPO day",
+     "summary": "Demonstrators were arrested outside of Anthropic's San Francisco headquarters during the company's IPO day.",
+     "url": "https://missionlocal.org/2026/11/anthropic-public-protest-arrests/",
+     "source": "Mission Local"
     }
    ]
   },
@@ -60,52 +54,44 @@
    "title": "Hawaii",
    "items": [
     {
-     "title": "Newly Elected Kaua‘i County Council Chooses Leadership",
-     "summary": "The newly elected Kaua'i County Council selected incumbents Arryl Kaneshiro and Fern Holland to lead the council.",
-     "url": "https://www.civilbeat.org/2026/11/newly-elected-kauai-county-council-chooses-leadership/",
+     "title": "Thirty Meter Telescope Gets New Life With Hawaiʻi Regents’ Vote",
+     "summary": "The Thirty Meter Telescope received a fresh path forward following a recent vote by the Hawaii Regents.",
+     "url": "https://www.civilbeat.org/2026/11/hawaii-regents-vote-opens-new-path-for-thirty-meter-telescope/",
      "source": "Civil Beat"
     },
     {
-     "title": "Commission Keeps Maui Police Chief On Leave Amid Corruption Probe",
-     "summary": "The Maui Police Commission declined to reinstate Maui Police Chief John Pelletier while an investigation into a department unit continues.",
-     "url": "https://www.civilbeat.org/2026/11/commission-keeps-maui-police-chief-on-leave-amid-corruption-probe/",
+     "title": "University of Hawaiʻi Regents Approve Tuition Hikes For 2029 — And Beyond",
+     "summary": "University of Hawaii Regents approved undergraduate resident tuition hikes for 2029 and beyond, with Mānoa approaching $13,000.",
+     "url": "https://www.civilbeat.org/2026/11/university-of-hawaii-regents-approve-tuition-hikes-beginning-in-2029/",
      "source": "Civil Beat"
     }
    ]
   }
  ],
  "sports": {
-  "date": "20261119",
+  "date": "20261120",
   "nba": {
-   "count": 4,
-   "warriors": [
+   "count": 9,
+   "warriors": [],
+   "national": [
     {
-     "matchup": "Warriors at Grizzlies",
-     "time": "5:00 PM",
-     "network": "DAZN MEM",
-     "state": "pre"
-    }
-   ],
-   "national": []
-  },
-  "nfl": {
-   "count": 1,
-   "primetime": [
-    {
-     "matchup": "Colts at Texans",
-     "time": "5:15 PM",
+     "matchup": "Raptors at Pistons",
+     "time": "4:30 PM",
      "network": "Prime Video",
      "state": "pre"
-    }
-   ],
-   "all": [
+    },
     {
-     "matchup": "Colts at Texans",
-     "time": "5:15 PM",
-     "network": "Prime Video",
+     "matchup": "Rockets at Nuggets",
+     "time": "7:00 PM",
+     "network": "Prime Video, ERADM",
      "state": "pre"
     }
    ]
+  },
+  "nfl": {
+   "count": 0,
+   "primetime": [],
+   "all": []
   },
   "golf": {
    "none": false,
@@ -115,34 +101,34 @@
    "start": "Wed Nov 18",
    "leaders": [
     {
-     "name": "Jesper Svensson",
-     "score": "-8"
+     "name": "Rasmus Neergaard-Petersen",
+     "score": "-9"
     },
     {
-     "name": "Max Greyserman",
-     "score": "-7"
+     "name": "Marco Penge",
+     "score": "-9"
     },
     {
-     "name": "Garrick Higgo",
-     "score": "-7"
+     "name": "Michael Thorbjornsen",
+     "score": "-9"
     }
    ]
   }
  },
  "wiki": {
-  "title": "Iron Gate (Antioch)",
-  "url": "https://en.wikipedia.org/wiki/Iron_Gate_(Antioch)",
-  "extract": "The Iron Gate is a sixth-century dam located in the mountains to the east of Antakya in Turkey. It is one of the earliest known arch dams and is the oldest to survive. It was built in the mid–sixth century on the order of the Byzantine emperor Justinian I to impound and slow the waters of the Parmenios stream, which in the rainy season could cause torrential floods endangering Antioch's city centre. Previous attempts to channel the floodwaters into underground passageways had not fully solved the problem.",
+  "title": "Tôn Thất Đính",
+  "url": "https://en.wikipedia.org/wiki/T%C3%B4n_Th%E1%BA%A5t_%C4%90%C3%ADnh",
+  "extract": "Lieutenant General Tôn Thất Đính was an officer who served in the Army of the Republic of Vietnam (ARVN). He was one of the key figures in the November 1963 coup that led to the arrest and assassination of Ngô Đình Diệm, the first president of the Republic of Vietnam, commonly known as South Vietnam.",
   "otd": [
    {
-    "year": 2013,
-    "text": "A double suicide bombing at the Iranian embassy in Beirut, Lebanon, killed 23 people and injured at least 160 others.",
-    "url": "https://en.wikipedia.org/wiki/2013_Iranian_embassy_bombing_in_Beirut"
+    "year": 2003,
+    "text": "Suicide bombers blew up the British consulate and the headquarters of HSBC Bank in Istanbul, killing 31 people, including consul general Roger Short and actor Kerem Yılmazer.",
+    "url": "https://en.wikipedia.org/wiki/2003_Istanbul_bombings"
    },
    {
-    "year": 2010,
-    "text": "The first of four explosions occurred at the Pike River Mine in the West Coast in New Zealand's worst mining disaster in nearly a century.",
-    "url": "https://en.wikipedia.org/wiki/Pike_River_Mine_disaster"
+    "year": 1994,
+    "text": "In accordance with the Lusaka Protocol, the Angolan government signed a ceasefire with UNITA rebels in a failed attempt to end the Angolan Civil War.",
+    "url": "https://en.wikipedia.org/wiki/Lusaka_Protocol"
    }
   ]
  },
