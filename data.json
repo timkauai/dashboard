@@ -1,21 +1,39 @@
 {
- "generated": "2026-11-20T12:59:13.924660-08:00",
+ "generated": "2026-11-21T11:59:57.437097-08:00",
  "ai": true,
  "ai_status": {
   "state": "ok",
   "detail": "gemini-3.5-flash-lite"
  },
- "overview": "Global markets face ongoing volatility with continued tech sector sell-offs and new policy threats affecting data centers and artificial intelligence. Commercial real estate professionals are monitoring debt markets and evaluating how the industry can withstand shifting interest rate environments. In San Francisco, major tech company developments and IPO activities are intersecting with local housing market dynamics and downtown conditions. Meanwhile, Hawaii developments focus on state governance, university policy changes, and ongoing environmental and infrastructure oversight.",
+ "overview": "Global climate talks face deadlocks over fossil fuels while international conflicts and major security developments unfold. Commercial real estate industry participants note that the sector is better positioned to withstand future interest rate hikes compared to past market dislocations. San Francisco officials and residents prepare for severe storms and heavy rain ahead of the Thanksgiving holiday, while the city's supervisors eye moving the downtown courthouse. Meanwhile, major developments in Hawaii include a fuel spill threatening Oahu's coastline and a fresh path for the Thirty Meter Telescope following a university regents' vote.",
  "sections": [
   {
    "key": "general",
    "title": "Top news",
    "items": [
     {
-     "title": "Anthropic Shares Slip as AI and Tech Stock Sell-Off Continues",
-     "summary": "Anthropic shares slipped as the S&P 500 neared a market correction amid a broader AI and tech stock sell-off.",
-     "url": "https://www.nytimes.com/2026/11/20/business/anthropic-ai-stocks-sp500.html",
+     "title": "Fight over fossil fuels leaves COP31 climate talks in deadlock",
+     "summary": "Delegates from nearly 200 countries are stuck in a deadlock at COP31 climate talks over the future of fossil fuels.",
+     "url": "https://www.bbc.co.uk/news/articles/c6ly5w40eg07o?at_medium=RSS&at_campaign=rss",
+     "source": "BBC"
+    },
+    {
+     "title": "Russia-bound ship attacked in Gulf of Finland",
+     "summary": "Finnish defense forces stated that Ukraine was likely behind a drone attack targeting a Russia-bound ship in the Gulf of Finland.",
+     "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
+     "source": "BBC"
+    },
+    {
+     "title": "Top Drug Kingpin Is Captured by Mexican Army as Gunfire Erupts",
+     "summary": "The Mexican army captured Fausto Isidro Meza Flores, a top drug kingpin and one of the FBI's most wanted fugitives, during an operation that sparked regional gunfire.",
+     "url": "https://www.nytimes.com/2026/11/21/world/americas/mexico-el-chapo-isidro-captured-drugs.html",
      "source": "NYT"
+    },
+    {
+     "title": "Killer robots: U.N. talks fall short of hopes for legally binding rules",
+     "summary": "United Nations talks in Geneva failed to establish legally binding rules on autonomous weapons as military artificial intelligence advances.",
+     "url": "https://www.npr.org/2026/11/21/nx-s1-6047916/killer-robots-un-drones",
+     "source": "NPR"
     }
    ]
   },
@@ -25,7 +43,7 @@
    "items": [
     {
      "title": "CRE Positioned to Withstand 2022 Repeat Amid Rising Rates: NYU Schack Panelists",
-     "summary": "Debt investors at an NYU Schack panel noted that commercial real estate is better equipped today to avoid the market dislocation seen in 2022.",
+     "summary": "Debt investors at an NYU Schack panel indicated that commercial real estate is better equipped today to avoid the market dislocation seen in 2022.",
      "url": "https://commercialobserver.com/2026/11/cre-interest-rates-capital-markets-nyu/",
      "source": "Commercial Observer"
     }
@@ -36,16 +54,16 @@
    "title": "San Francisco",
    "items": [
     {
-     "title": "Anthropic’s IPO is here. Is San Francisco’s housing market about to pop?",
-     "summary": "Anthropic's public offering has raised questions among observers about whether San Francisco's housing market is poised for significant changes.",
-     "url": "https://sfstandard.com/2026/11/20/housing-market-post-anthropic-ipo/",
+     "title": "Mall of Justice? Supes eye moving courthouse downtown",
+     "summary": "San Francisco supervisors are exploring the possibility of moving the downtown courthouse after the Hall of Justice was deemed seismically unsound.",
+     "url": "https://sfstandard.com/2026/11/21/hall-of-justice-seismically-unsound-hearing-dorsey/",
      "source": "SF Standard"
     },
     {
-     "title": "S.F. protesters arrested at Anthropic HQ during IPO day",
-     "summary": "Demonstrators were arrested outside of Anthropic's San Francisco headquarters during the company's IPO day.",
-     "url": "https://missionlocal.org/2026/11/anthropic-public-protest-arrests/",
-     "source": "Mission Local"
+     "title": "Inside San Francisco’s great flood, and why next week may be even worse",
+     "summary": "A UC Berkeley expert explains the recent flooding in San Francisco and warns that upcoming storms could worsen conditions ahead of Thanksgiving.",
+     "url": "https://sfstandard.com/2026/11/21/san-francisco-flooding-uc-berkeley-expert/",
+     "source": "SF Standard"
     }
    ]
   },
@@ -54,39 +72,26 @@
    "title": "Hawaii",
    "items": [
     {
-     "title": "Thirty Meter Telescope Gets New Life With Hawaiʻi Regents’ Vote",
-     "summary": "The Thirty Meter Telescope received a fresh path forward following a recent vote by the Hawaii Regents.",
-     "url": "https://www.civilbeat.org/2026/11/hawaii-regents-vote-opens-new-path-for-thirty-meter-telescope/",
+     "title": "Experts: Fuel Spill Could Swiftly Reach Oʻahu’s Fragile Coast",
+     "summary": "Experts warn that a fuel spill has already spread to a sanctuary for endangered native plants and could swiftly reach Oahu's coastline.",
+     "url": "https://www.civilbeat.org/2026/11/fuel-spill-could-swiftly-reach-oahus-fragile-coast/",
      "source": "Civil Beat"
     },
     {
-     "title": "University of Hawaiʻi Regents Approve Tuition Hikes For 2029 — And Beyond",
-     "summary": "University of Hawaii Regents approved undergraduate resident tuition hikes for 2029 and beyond, with Mānoa approaching $13,000.",
-     "url": "https://www.civilbeat.org/2026/11/university-of-hawaii-regents-approve-tuition-hikes-beginning-in-2029/",
+     "title": "Thirty Meter Telescope Gets New Life With Hawaiʻi Regents’ Vote",
+     "summary": "The Thirty Meter Telescope received a new path forward following a vote by Hawaii regents, though funding hurdles and potential protests remain.",
+     "url": "https://www.civilbeat.org/2026/11/hawaii-regents-vote-opens-new-path-for-thirty-meter-telescope/",
      "source": "Civil Beat"
     }
    ]
   }
  ],
  "sports": {
-  "date": "20261120",
+  "date": "20261121",
   "nba": {
-   "count": 9,
+   "count": 6,
    "warriors": [],
-   "national": [
-    {
-     "matchup": "Raptors at Pistons",
-     "time": "4:30 PM",
-     "network": "Prime Video",
-     "state": "pre"
-    },
-    {
-     "matchup": "Rockets at Nuggets",
-     "time": "7:00 PM",
-     "network": "Prime Video, ERADM",
-     "state": "pre"
-    }
-   ]
+   "national": []
   },
   "nfl": {
    "count": 0,
@@ -101,11 +106,11 @@
    "start": "Wed Nov 18",
    "leaders": [
     {
-     "name": "Rasmus Neergaard-Petersen",
+     "name": "Marco Penge",
      "score": "-9"
     },
     {
-     "name": "Marco Penge",
+     "name": "Rasmus Neergaard-Petersen",
      "score": "-9"
     },
     {
@@ -116,19 +121,19 @@
   }
  },
  "wiki": {
-  "title": "Tôn Thất Đính",
-  "url": "https://en.wikipedia.org/wiki/T%C3%B4n_Th%E1%BA%A5t_%C4%90%C3%ADnh",
-  "extract": "Lieutenant General Tôn Thất Đính was an officer who served in the Army of the Republic of Vietnam (ARVN). He was one of the key figures in the November 1963 coup that led to the arrest and assassination of Ngô Đình Diệm, the first president of the Republic of Vietnam, commonly known as South Vietnam.",
+  "title": "Talking to Yourself",
+  "url": "https://en.wikipedia.org/wiki/Talking_to_Yourself",
+  "extract": "\"Talking to Yourself\" is a song by Carly Rae Jepsen from her sixth studio album, The Loneliest Time (2022). Jepsen wrote it with songwriter Simon Wilcox and its producers, Benjamin Berger and Ryan Rabin from the production team Captain Cuts. School Boy and Interscope Records released it as the album's third single on September 16, 2022. \"Talking to Yourself\" is a dance-pop and synth-pop song, in which Jepsen recalls a relationship with an ex-lover and wonders if he still has feelings for her.",
   "otd": [
    {
-    "year": 2003,
-    "text": "Suicide bombers blew up the British consulate and the headquarters of HSBC Bank in Istanbul, killing 31 people, including consul general Roger Short and actor Kerem Yılmazer.",
-    "url": "https://en.wikipedia.org/wiki/2003_Istanbul_bombings"
+    "year": 2015,
+    "text": "The Belgian government imposed a four-day security lockdown in Brussels based on information about potential terrorist attacks.",
+    "url": "https://en.wikipedia.org/wiki/2015_Brussels_lockdown"
    },
    {
-    "year": 1994,
-    "text": "In accordance with the Lusaka Protocol, the Angolan government signed a ceasefire with UNITA rebels in a failed attempt to end the Angolan Civil War.",
-    "url": "https://en.wikipedia.org/wiki/Lusaka_Protocol"
+    "year": 2012,
+    "text": "A remote-controlled bomb exploded on a bus in Tel Aviv, Israel, injuring at least 28 people on board.",
+    "url": "https://en.wikipedia.org/wiki/2012_Tel_Aviv_bus_bombing"
    }
   ]
  },
