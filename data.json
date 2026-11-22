@@ -1,53 +1,40 @@
 {
- "generated": "2026-11-21T11:59:57.437097-08:00",
+ "generated": "2026-11-22T12:15:22.395183-08:00",
  "ai": true,
  "ai_status": {
   "state": "ok",
   "detail": "gemini-3.5-flash-lite"
  },
- "overview": "Global climate talks face deadlocks over fossil fuels while international conflicts and major security developments unfold. Commercial real estate industry participants note that the sector is better positioned to withstand future interest rate hikes compared to past market dislocations. San Francisco officials and residents prepare for severe storms and heavy rain ahead of the Thanksgiving holiday, while the city's supervisors eye moving the downtown courthouse. Meanwhile, major developments in Hawaii include a fuel spill threatening Oahu's coastline and a fresh path for the Thirty Meter Telescope following a university regents' vote.",
+ "overview": "Democrats have secured a historic House majority by clinching 258 seats, while international climate talks at COP31 in Turkey collapsed after countries failed to reach an agreement over fossil fuel phase-outs. In national business news, Treasury Secretary Scott Bessent called on Nvidia to provide answers regarding chip sales to China. Locally in San Francisco, city officials are considering moving a courthouse downtown due to seismic concerns at the Hall of Justice. Meanwhile, Hawaii news features ongoing scrutiny over the state's homeless policy and kauhale tiny house initiatives following a critical assessment by the state auditor.",
  "sections": [
   {
    "key": "general",
    "title": "Top news",
    "items": [
     {
-     "title": "Fight over fossil fuels leaves COP31 climate talks in deadlock",
-     "summary": "Delegates from nearly 200 countries are stuck in a deadlock at COP31 climate talks over the future of fossil fuels.",
-     "url": "https://www.bbc.co.uk/news/articles/c6ly5w40eg07o?at_medium=RSS&at_campaign=rss",
-     "source": "BBC"
-    },
-    {
-     "title": "Russia-bound ship attacked in Gulf of Finland",
-     "summary": "Finnish defense forces stated that Ukraine was likely behind a drone attack targeting a Russia-bound ship in the Gulf of Finland.",
-     "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
-     "source": "BBC"
-    },
-    {
-     "title": "Top Drug Kingpin Is Captured by Mexican Army as Gunfire Erupts",
-     "summary": "The Mexican army captured Fausto Isidro Meza Flores, a top drug kingpin and one of the FBI's most wanted fugitives, during an operation that sparked regional gunfire.",
-     "url": "https://www.nytimes.com/2026/11/21/world/americas/mexico-el-chapo-isidro-captured-drugs.html",
+     "title": "Democrats Clinch 258 House Seats, an Election-Year Record This Century",
+     "summary": "After sweeping midterm wins, Democrats have secured the largest House majority in a national election for either party in three decades.",
+     "url": "https://www.nytimes.com/2026/11/22/us/politics/democrats-midterm-house-majority-record.html",
      "source": "NYT"
     },
     {
-     "title": "Killer robots: U.N. talks fall short of hopes for legally binding rules",
-     "summary": "United Nations talks in Geneva failed to establish legally binding rules on autonomous weapons as military artificial intelligence advances.",
-     "url": "https://www.npr.org/2026/11/21/nx-s1-6047916/killer-robots-un-drones",
-     "source": "NPR"
+     "title": "COP31 Talks Collapse in Turkey in a Clash Over Fossil Fuels",
+     "summary": "The COP31 climate summit in Turkey collapsed after Saudi Arabia and other oil producers blocked any mention of phasing out fossil fuels.",
+     "url": "https://www.nytimes.com/2026/11/22/climate/cop31-climate-summit-ends-climate.html",
+     "source": "NYT"
+    },
+    {
+     "title": "Scott Bessent Calls on Nvidia to Provide Answers on Chip Sales to China",
+     "summary": "Treasury Secretary Scott Bessent called on Nvidia to provide answers regarding its chip sales to China.",
+     "url": "https://www.nytimes.com/2026/11/22/business/scott-bessent-jensen-huang-nvidia.html",
+     "source": "NYT"
     }
    ]
   },
   {
    "key": "cre",
    "title": "Commercial real estate",
-   "items": [
-    {
-     "title": "CRE Positioned to Withstand 2022 Repeat Amid Rising Rates: NYU Schack Panelists",
-     "summary": "Debt investors at an NYU Schack panel indicated that commercial real estate is better equipped today to avoid the market dislocation seen in 2022.",
-     "url": "https://commercialobserver.com/2026/11/cre-interest-rates-capital-markets-nyu/",
-     "source": "Commercial Observer"
-    }
-   ]
+   "items": []
   },
   {
    "key": "sf",
@@ -55,14 +42,8 @@
    "items": [
     {
      "title": "Mall of Justice? Supes eye moving courthouse downtown",
-     "summary": "San Francisco supervisors are exploring the possibility of moving the downtown courthouse after the Hall of Justice was deemed seismically unsound.",
+     "summary": "San Francisco supervisors are evaluating a proposal to move a courthouse downtown because the Hall of Justice on Bryant Street is seismically unsound.",
      "url": "https://sfstandard.com/2026/11/21/hall-of-justice-seismically-unsound-hearing-dorsey/",
-     "source": "SF Standard"
-    },
-    {
-     "title": "Inside San Francisco’s great flood, and why next week may be even worse",
-     "summary": "A UC Berkeley expert explains the recent flooding in San Francisco and warns that upcoming storms could worsen conditions ahead of Thanksgiving.",
-     "url": "https://sfstandard.com/2026/11/21/san-francisco-flooding-uc-berkeley-expert/",
      "source": "SF Standard"
     }
    ]
@@ -72,30 +53,38 @@
    "title": "Hawaii",
    "items": [
     {
-     "title": "Experts: Fuel Spill Could Swiftly Reach Oʻahu’s Fragile Coast",
-     "summary": "Experts warn that a fuel spill has already spread to a sanctuary for endangered native plants and could swiftly reach Oahu's coastline.",
-     "url": "https://www.civilbeat.org/2026/11/fuel-spill-could-swiftly-reach-oahus-fragile-coast/",
-     "source": "Civil Beat"
-    },
-    {
-     "title": "Thirty Meter Telescope Gets New Life With Hawaiʻi Regents’ Vote",
-     "summary": "The Thirty Meter Telescope received a new path forward following a vote by Hawaii regents, though funding hurdles and potential protests remain.",
-     "url": "https://www.civilbeat.org/2026/11/hawaii-regents-vote-opens-new-path-for-thirty-meter-telescope/",
+     "title": "Neal Milner: Green Should Idle His Indignation Machine, Look Hard At Kauhale",
+     "summary": "A columnist examines the state's homeless policy and Gov. Josh Green's kauhale tiny house initiative following a critical assessment by the state auditor.",
+     "url": "https://www.civilbeat.org/2026/11/green-should-idle-indignation-machine-look-hard-at-kauhale/",
      "source": "Civil Beat"
     }
    ]
   }
  ],
  "sports": {
-  "date": "20261121",
+  "date": "20261122",
   "nba": {
-   "count": 6,
-   "warriors": [],
+   "count": 7,
+   "warriors": [
+    {
+     "matchup": "Celtics at Warriors",
+     "time": "5:30 PM",
+     "network": "",
+     "state": "pre"
+    }
+   ],
    "national": []
   },
   "nfl": {
-   "count": 0,
-   "primetime": [],
+   "count": 11,
+   "primetime": [
+    {
+     "matchup": "Vikings at 49ers",
+     "time": "5:20 PM",
+     "network": "NBC",
+     "state": "pre"
+    }
+   ],
    "all": []
   },
   "golf": {
@@ -106,34 +95,34 @@
    "start": "Wed Nov 18",
    "leaders": [
     {
-     "name": "Marco Penge",
-     "score": "-9"
-    },
-    {
-     "name": "Rasmus Neergaard-Petersen",
-     "score": "-9"
+     "name": "Max Greyserman",
+     "score": "-13"
     },
     {
      "name": "Michael Thorbjornsen",
-     "score": "-9"
+     "score": "-12"
+    },
+    {
+     "name": "Rasmus Højgaard",
+     "score": "-11"
     }
    ]
   }
  },
  "wiki": {
-  "title": "Talking to Yourself",
-  "url": "https://en.wikipedia.org/wiki/Talking_to_Yourself",
-  "extract": "\"Talking to Yourself\" is a song by Carly Rae Jepsen from her sixth studio album, The Loneliest Time (2022). Jepsen wrote it with songwriter Simon Wilcox and its producers, Benjamin Berger and Ryan Rabin from the production team Captain Cuts. School Boy and Interscope Records released it as the album's third single on September 16, 2022. \"Talking to Yourself\" is a dance-pop and synth-pop song, in which Jepsen recalls a relationship with an ex-lover and wonders if he still has feelings for her.",
+  "title": "Mairzy Doates",
+  "url": "https://en.wikipedia.org/wiki/Mairzy_Doates",
+  "extract": "Mairzy Doates was an American Thoroughbred racehorse and multiple graded stakes winner, most remembered for her victory at the inaugural Japan Cup in 1981. Owned by New York City art dealer Arno D. Schefler and trained primarily by future U.S. Racing Hall of Fame inductee Horatio Luro, she competed successfully across the United States from 1978 to 1981, including winning the Yerba Buena Handicap twice.",
   "otd": [
    {
-    "year": 2015,
-    "text": "The Belgian government imposed a four-day security lockdown in Brussels based on information about potential terrorist attacks.",
-    "url": "https://en.wikipedia.org/wiki/2015_Brussels_lockdown"
+    "year": 2013,
+    "text": "Norwegian chess grandmaster Magnus Carlsen (pictured) defeated India's Viswanathan Anand to become world chess champion.",
+    "url": "https://en.wikipedia.org/wiki/Magnus_Carlsen"
    },
    {
-    "year": 2012,
-    "text": "A remote-controlled bomb exploded on a bus in Tel Aviv, Israel, injuring at least 28 people on board.",
-    "url": "https://en.wikipedia.org/wiki/2012_Tel_Aviv_bus_bombing"
+    "year": 2005,
+    "text": "Elected by delegates in the newly assembled Bundestag four days after a federal election, Angela Merkel became the first female chancellor of Germany.",
+    "url": "https://en.wikipedia.org/wiki/Bundestag"
    }
   ]
  },
