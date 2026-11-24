@@ -1,50 +1,81 @@
 {
- "generated": "2026-11-22T12:15:22.395183-08:00",
- "ai": true,
+ "generated": "2026-11-23T16:41:38.369649-08:00",
+ "ai": false,
  "ai_status": {
-  "state": "ok",
-  "detail": "gemini-3.5-flash-lite"
+  "state": "failed",
+  "detail": "gemini-3.5-flash-lite: HTTP 503 {   \"error\": {     \"code\": 503,     \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",     \"status\": \"UNAVAILABLE\"   } }  | gemini-2.5-flash: HTTP 404 {   \"error\": {     \"code\": 404,     \"message\": \"This model models/gemini-2.5-flash is no longer available to new users. Please update your c"
  },
- "overview": "Democrats have secured a historic House majority by clinching 258 seats, while international climate talks at COP31 in Turkey collapsed after countries failed to reach an agreement over fossil fuel phase-outs. In national business news, Treasury Secretary Scott Bessent called on Nvidia to provide answers regarding chip sales to China. Locally in San Francisco, city officials are considering moving a courthouse downtown due to seismic concerns at the Hall of Justice. Meanwhile, Hawaii news features ongoing scrutiny over the state's homeless policy and kauhale tiny house initiatives following a critical assessment by the state auditor.",
+ "overview": "",
  "sections": [
   {
    "key": "general",
    "title": "Top news",
    "items": [
     {
-     "title": "Democrats Clinch 258 House Seats, an Election-Year Record This Century",
-     "summary": "After sweeping midterm wins, Democrats have secured the largest House majority in a national election for either party in three decades.",
-     "url": "https://www.nytimes.com/2026/11/22/us/politics/democrats-midterm-house-majority-record.html",
+     "title": "Why I’m Not Surprised Jensen Huang Is Back",
+     "summary": "",
+     "url": "https://www.nytimes.com/2026/11/23/opinion/jensen-huang-nvidia-economy-ai.html",
      "source": "NYT"
     },
     {
-     "title": "COP31 Talks Collapse in Turkey in a Clash Over Fossil Fuels",
-     "summary": "The COP31 climate summit in Turkey collapsed after Saudi Arabia and other oil producers blocked any mention of phasing out fossil fuels.",
-     "url": "https://www.nytimes.com/2026/11/22/climate/cop31-climate-summit-ends-climate.html",
-     "source": "NYT"
+     "title": "US to blacklist Asian AI firm Megaspeed after Nvidia scandal",
+     "summary": "",
+     "url": "https://www.bbc.co.uk/news/articles/cv98xpg5dg5zo?at_medium=RSS&at_campaign=rss",
+     "source": "BBC"
     },
     {
-     "title": "Scott Bessent Calls on Nvidia to Provide Answers on Chip Sales to China",
-     "summary": "Treasury Secretary Scott Bessent called on Nvidia to provide answers regarding its chip sales to China.",
-     "url": "https://www.nytimes.com/2026/11/22/business/scott-bessent-jensen-huang-nvidia.html",
-     "source": "NYT"
+     "title": "California Democrat Rep. Gomez resigns following ethics report on sexual misconduct allegations",
+     "summary": "",
+     "url": "https://www.npr.org/2026/11/23/g-s1-155142/california-democrat-rep-gomez-resigns-following-ethics-report-on-sexual-misconduct-allegations",
+     "source": "NPR"
     }
    ]
   },
   {
    "key": "cre",
    "title": "Commercial real estate",
-   "items": []
+   "items": [
+    {
+     "title": "Blackfin, JSB Capital Buy Northern Virginia Apartments for $69M",
+     "summary": "",
+     "url": "https://commercialobserver.com/2026/11/blackfin-jsb-capital-northern-virginia-multifamily-udr/",
+     "source": "Commercial Observer"
+    },
+    {
+     "title": "Fort Partners Nabs $99M Loan for West Palm Condo Near Trump’s Mar-a-Lago",
+     "summary": "",
+     "url": "https://commercialobserver.com/2026/11/fort-partners-west-palm-beach-harbor-towers-marina-florida-madison-realty-trump-mar-a-lago/",
+     "source": "Commercial Observer"
+    },
+    {
+     "title": "Moinian Group Modifies 2 Washington Street’s $131M CMBS Loan, Secures New Tenant",
+     "summary": "",
+     "url": "https://commercialobserver.com/2026/11/moinian-group-2-washington-mod-prism/",
+     "source": "Commercial Observer"
+    }
+   ]
   },
   {
    "key": "sf",
    "title": "San Francisco",
    "items": [
     {
-     "title": "Mall of Justice? Supes eye moving courthouse downtown",
-     "summary": "San Francisco supervisors are evaluating a proposal to move a courthouse downtown because the Hall of Justice on Bryant Street is seismically unsound.",
-     "url": "https://sfstandard.com/2026/11/21/hall-of-justice-seismically-unsound-hearing-dorsey/",
+     "title": "Mission Local wins 5 awards from Society of Professional Journalists of Northern California",
+     "summary": "",
+     "url": "https://missionlocal.org/2026/11/mission-local-wins-5-awards-spj-norcal/",
+     "source": "Mission Local"
+    },
+    {
+     "title": "Live updates: San Francisco preps for round two of major flooding",
+     "summary": "",
+     "url": "https://sfstandard.com/2026/11/23/live-blog-san-francisco-floods/",
      "source": "SF Standard"
+    },
+    {
+     "title": "Restricted parking: Butterflies only!",
+     "summary": "",
+     "url": "https://missionlocal.org/2026/11/restricted-parking-butterflies-only/",
+     "source": "Mission Local"
     }
    ]
   },
@@ -53,76 +84,95 @@
    "title": "Hawaii",
    "items": [
     {
-     "title": "Neal Milner: Green Should Idle His Indignation Machine, Look Hard At Kauhale",
-     "summary": "A columnist examines the state's homeless policy and Gov. Josh Green's kauhale tiny house initiative following a critical assessment by the state auditor.",
-     "url": "https://www.civilbeat.org/2026/11/green-should-idle-indignation-machine-look-hard-at-kauhale/",
+     "title": "Makana Eyre: New Owners Add To The Mystery Of Historic Kona Hotel",
+     "summary": "",
+     "url": "https://www.civilbeat.org/2026/11/makana-eyre-new-owners-add-to-the-mystery-of-historic-kona-hotel/",
+     "source": "Civil Beat"
+    },
+    {
+     "title": "Building On Hawaiʻi’s Investment In Wildfire Resilience",
+     "summary": "",
+     "url": "https://www.civilbeat.org/2026/11/building-on-hawai%ca%bbis-investment-in-wildfire-resilience/",
+     "source": "Civil Beat"
+    },
+    {
+     "title": "HMSA Creates New Obstacle To Mainland Care For 17k Patients",
+     "summary": "",
+     "url": "https://www.civilbeat.org/2026/11/hmsa-creates-new-obstacle-to-mainland-care-for-17k-patients/",
      "source": "Civil Beat"
     }
    ]
   }
  ],
  "sports": {
-  "date": "20261122",
+  "date": "20261123",
   "nba": {
-   "count": 7,
-   "warriors": [
+   "count": 10,
+   "warriors": [],
+   "national": [
     {
-     "matchup": "Celtics at Warriors",
-     "time": "5:30 PM",
-     "network": "",
-     "state": "pre"
+     "matchup": "Nets at Timberwolves",
+     "time": "4:30 PM",
+     "network": "NBCSN, DAZN MIN",
+     "state": "in"
     }
-   ],
-   "national": []
+   ]
   },
   "nfl": {
-   "count": 11,
+   "count": 1,
    "primetime": [
     {
-     "matchup": "Vikings at 49ers",
-     "time": "5:20 PM",
-     "network": "NBC",
+     "matchup": "Bengals at Commanders",
+     "time": "5:15 PM",
+     "network": "ESPN",
      "state": "pre"
     }
    ],
-   "all": []
+   "all": [
+    {
+     "matchup": "Bengals at Commanders",
+     "time": "5:15 PM",
+     "network": "ESPN",
+     "state": "pre"
+    }
+   ]
   },
   "golf": {
    "none": false,
    "name": "The RSM Classic",
-   "state": "in",
+   "state": "post",
    "detail": "",
    "start": "Wed Nov 18",
    "leaders": [
     {
-     "name": "Max Greyserman",
-     "score": "-13"
+     "name": "Marco Penge",
+     "score": "-17"
     },
     {
      "name": "Michael Thorbjornsen",
-     "score": "-12"
+     "score": "-16"
     },
     {
-     "name": "Rasmus Højgaard",
-     "score": "-11"
+     "name": "Haotong Li",
+     "score": "-16"
     }
    ]
   }
  },
  "wiki": {
-  "title": "Mairzy Doates",
-  "url": "https://en.wikipedia.org/wiki/Mairzy_Doates",
-  "extract": "Mairzy Doates was an American Thoroughbred racehorse and multiple graded stakes winner, most remembered for her victory at the inaugural Japan Cup in 1981. Owned by New York City art dealer Arno D. Schefler and trained primarily by future U.S. Racing Hall of Fame inductee Horatio Luro, she competed successfully across the United States from 1978 to 1981, including winning the Yerba Buena Handicap twice.",
+  "title": "Great white shark",
+  "url": "https://en.wikipedia.org/wiki/Great_white_shark",
+  "extract": "The great white shark, also known as the white shark, white pointer, or great white, is a large shark. It is closely related to the mako sharks, the porbeagle, and the salmon shark. It is a robustly built species with a grayish upperside and a white underside. The white shark is one of the largest living shark and fish species, though it is still smaller than the whale shark and basking shark. It has about three hundred triangular, serrated teeth that are continuously replaced. Its massive, fatty liver can reach over a quarter of its body weight, providing buoyancy and storing energy. The species is partially warm-blooded, an adaptation that allows it to remain active in colder waters.",
   "otd": [
    {
-    "year": 2013,
-    "text": "Norwegian chess grandmaster Magnus Carlsen (pictured) defeated India's Viswanathan Anand to become world chess champion.",
-    "url": "https://en.wikipedia.org/wiki/Magnus_Carlsen"
+    "year": 2023,
+    "text": "Hibiscus Rising (pictured), a sculpture commemorating the life of David Oluwale, was unveiled in Leeds.",
+    "url": "https://en.wikipedia.org/wiki/Hibiscus_Rising"
    },
    {
-    "year": 2005,
-    "text": "Elected by delegates in the newly assembled Bundestag four days after a federal election, Angela Merkel became the first female chancellor of Germany.",
-    "url": "https://en.wikipedia.org/wiki/Bundestag"
+    "year": 2009,
+    "text": "The Avdhela Project, an Aromanian digital library and cultural initiative, was launched in Bucharest, Romania.",
+    "url": "https://en.wikipedia.org/wiki/Avdhela_Project"
    }
   ]
  },
