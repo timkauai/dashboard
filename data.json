@@ -1,32 +1,32 @@
 {
- "generated": "2026-11-23T16:41:38.369649-08:00",
- "ai": false,
+ "generated": "2026-11-24T14:57:55.249961-08:00",
+ "ai": true,
  "ai_status": {
-  "state": "failed",
-  "detail": "gemini-3.5-flash-lite: HTTP 503 {   \"error\": {     \"code\": 503,     \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",     \"status\": \"UNAVAILABLE\"   } }  | gemini-2.5-flash: HTTP 404 {   \"error\": {     \"code\": 404,     \"message\": \"This model models/gemini-2.5-flash is no longer available to new users. Please update your c"
+  "state": "ok",
+  "detail": "gemini-3.5-flash-lite"
  },
- "overview": "",
+ "overview": "Today's briefing covers key national, commercial real estate, San Francisco, and Hawaii updates. In commercial real estate, major law firms and trading companies are expanding their office footprints while significant financing deals close across the country. San Francisco has enacted a temporary ban on new data centers due to electrical capacity concerns. Meanwhile, Hawaii state budget developments reveal that funding for new Kauai and Oahu jails was omitted from the governor's plan.",
  "sections": [
   {
    "key": "general",
    "title": "Top news",
    "items": [
     {
-     "title": "Why I’m Not Surprised Jensen Huang Is Back",
-     "summary": "",
-     "url": "https://www.nytimes.com/2026/11/23/opinion/jensen-huang-nvidia-economy-ai.html",
-     "source": "NYT"
-    },
-    {
-     "title": "US to blacklist Asian AI firm Megaspeed after Nvidia scandal",
-     "summary": "",
-     "url": "https://www.bbc.co.uk/news/articles/cv98xpg5dg5zo?at_medium=RSS&at_campaign=rss",
+     "title": "Huawei found guilty of stealing trade secrets but acquitted of racketeering",
+     "summary": "Huawei was found guilty of stealing trade secrets following a months-long trial in New York, though it was acquitted of racketeering.",
+     "url": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss",
      "source": "BBC"
     },
     {
-     "title": "California Democrat Rep. Gomez resigns following ethics report on sexual misconduct allegations",
-     "summary": "",
-     "url": "https://www.npr.org/2026/11/23/g-s1-155142/california-democrat-rep-gomez-resigns-following-ethics-report-on-sexual-misconduct-allegations",
+     "title": "How tariffs, fuel and fertilizer costs are squeezing the U.S.'s biggest apple region",
+     "summary": "Washington apple farmers are being squeezed by high fuel and fertilizer costs, tariffs, and a strong dollar that reduces foreign purchasing power.",
+     "url": "https://www.npr.org/sections/the-picture-show/2026/11/24/g-s1-154620/how-high-costs-are-squeezing-apple-producers",
+     "source": "NPR"
+    },
+    {
+     "title": "The U.S. government is investigating Iranian ties to as many as 50 hacked commercial vessels",
+     "summary": "The U.S. government is investigating potential Iranian cyberattacks and ties to as many as 50 hacked commercial vessels.",
+     "url": "https://www.npr.org/2026/11/24/nx-s1-6052994/hack-commercial-vessels-iran",
      "source": "NPR"
     }
    ]
@@ -36,21 +36,27 @@
    "title": "Commercial real estate",
    "items": [
     {
-     "title": "Blackfin, JSB Capital Buy Northern Virginia Apartments for $69M",
-     "summary": "",
-     "url": "https://commercialobserver.com/2026/11/blackfin-jsb-capital-northern-virginia-multifamily-udr/",
+     "title": "Netflix Buys Historic Radford Studio Center in L.A. for $380M",
+     "summary": "Netflix has acquired the historic Radford Studio Center in Los Angeles for a discounted price of $380 million amid regional market struggles.",
+     "url": "https://commercialobserver.com/2026/11/netflix-radford-studio-center-la-hackman-hollywood/",
      "source": "Commercial Observer"
     },
     {
-     "title": "Fort Partners Nabs $99M Loan for West Palm Condo Near Trump’s Mar-a-Lago",
-     "summary": "",
-     "url": "https://commercialobserver.com/2026/11/fort-partners-west-palm-beach-harbor-towers-marina-florida-madison-realty-trump-mar-a-lago/",
+     "title": "Law Firms Expand Office Footprints as Leasing Nears Annual Record",
+     "summary": "U.S. law firms are on pace for a second straight record year of office leasing, adding nearly 5 million square feet in the third quarter.",
+     "url": "https://commercialobserver.com/2026/11/law-firms-office-leasing-q3/",
      "source": "Commercial Observer"
     },
     {
-     "title": "Moinian Group Modifies 2 Washington Street’s $131M CMBS Loan, Secures New Tenant",
-     "summary": "",
-     "url": "https://commercialobserver.com/2026/11/moinian-group-2-washington-mod-prism/",
+     "title": "Hudson River Trading Expands to 551K SF at 3 World Trade Center",
+     "summary": "Hudson River Trading expanded its global headquarters by adding a large block of office space at 3 World Trade Center.",
+     "url": "https://commercialobserver.com/2026/11/hudson-river-trading-lease-expansion-3-world-trade-center/",
+     "source": "Commercial Observer"
+    },
+    {
+     "title": "Affinius Provides $135M Construction Loan for Brooklyn Multifamily",
+     "summary": "Goose Property Management secured a $135 million construction loan to build a 280-unit multifamily complex in Brooklyn.",
+     "url": "https://commercialobserver.com/2026/11/affinius-135m-construction-gowanus-172-third-avenue/",
      "source": "Commercial Observer"
     }
    ]
@@ -60,22 +66,22 @@
    "title": "San Francisco",
    "items": [
     {
-     "title": "Mission Local wins 5 awards from Society of Professional Journalists of Northern California",
-     "summary": "",
-     "url": "https://missionlocal.org/2026/11/mission-local-wins-5-awards-spj-norcal/",
-     "source": "Mission Local"
-    },
-    {
-     "title": "Live updates: San Francisco preps for round two of major flooding",
-     "summary": "",
-     "url": "https://sfstandard.com/2026/11/23/live-blog-san-francisco-floods/",
+     "title": "San Francisco blocks new data centers until next fall",
+     "summary": "San Francisco has blocked new data centers until next fall due to concerns over high electricity consumption.",
+     "url": "https://sfstandard.com/2026/11/24/san-francisco-blocks-new-data-centers/",
      "source": "SF Standard"
     },
     {
-     "title": "Restricted parking: Butterflies only!",
-     "summary": "",
-     "url": "https://missionlocal.org/2026/11/restricted-parking-butterflies-only/",
-     "source": "Mission Local"
+     "title": "AI defense startup returns to Bay Area",
+     "summary": "AI defense startup Hadrian opened a 1-million-square-foot outpost in the Bay Area to colocate software engineers with machines.",
+     "url": "https://sfstandard.com/2026/11/24/hadrian-south-san-francisco-robotics-factory/",
+     "source": "SF Standard"
+    },
+    {
+     "title": "Complaint alleges $75K donation to Lurie Muni committee violated ethics rules",
+     "summary": "A complaint alleges that a $75,000 donation to a committee supporting Mayor Lurie violated city ethics rules following a lease approval.",
+     "url": "https://sfstandard.com/2026/11/24/daniel-lurie-autodesk-75k-donation-prop-h-ethics-complaint/",
+     "source": "SF Standard"
     }
    ]
   },
@@ -84,79 +90,58 @@
    "title": "Hawaii",
    "items": [
     {
-     "title": "Makana Eyre: New Owners Add To The Mystery Of Historic Kona Hotel",
-     "summary": "",
-     "url": "https://www.civilbeat.org/2026/11/makana-eyre-new-owners-add-to-the-mystery-of-historic-kona-hotel/",
+     "title": "High surf warning in effect as large swell builds across Hawaii",
+     "summary": "A high surf warning is in effect as large waves build across the north and west shores of most Hawaiian islands.",
+     "url": "https://www.staradvertiser.com/2026/11/24/breaking-news/high-surf-warning-in-effect-as-large-swell-builds-across-hawaii/",
+     "source": "Star-Advertiser"
+    },
+    {
+     "title": "Funding For New Oʻahu And Kauaʻi Jails Absent From Governor’s Budget Plan",
+     "summary": "Governor Green's budget plan includes only $12 million of the over $750 million requested for major new jail construction on Oahu and Kauai.",
+     "url": "https://www.civilbeat.org/2026/11/funding-new-oahu-kauai-jails-absent-governor-budget-plan/",
      "source": "Civil Beat"
     },
     {
-     "title": "Building On Hawaiʻi’s Investment In Wildfire Resilience",
-     "summary": "",
-     "url": "https://www.civilbeat.org/2026/11/building-on-hawai%ca%bbis-investment-in-wildfire-resilience/",
-     "source": "Civil Beat"
-    },
-    {
-     "title": "HMSA Creates New Obstacle To Mainland Care For 17k Patients",
-     "summary": "",
-     "url": "https://www.civilbeat.org/2026/11/hmsa-creates-new-obstacle-to-mainland-care-for-17k-patients/",
-     "source": "Civil Beat"
+     "title": "As U.S. pushes deep-sea mining, Hawaii faces limits of its authority",
+     "summary": "While Hawaii's government opposes deep-sea mining, state leaders hold little authority over the practice across much of the Pacific Ocean.",
+     "url": "https://www.staradvertiser.com/2026/11/24/hawaii-news/as-u-s-pushes-deep-sea-mining-hawaii-faces-limits-of-its-authority/",
+     "source": "Star-Advertiser"
     }
    ]
   }
  ],
  "sports": {
-  "date": "20261123",
+  "date": "20261124",
   "nba": {
-   "count": 10,
+   "count": 3,
    "warriors": [],
    "national": [
     {
-     "matchup": "Nets at Timberwolves",
-     "time": "4:30 PM",
-     "network": "NBCSN, DAZN MIN",
-     "state": "in"
+     "matchup": "Celtics at Wizards",
+     "time": "5:00 PM",
+     "network": "NBC",
+     "state": "pre"
+    },
+    {
+     "matchup": "Mavericks at Nuggets",
+     "time": "7:00 PM",
+     "network": "NBC, KFAA-TV, MavsTV",
+     "state": "pre"
     }
    ]
   },
   "nfl": {
-   "count": 1,
-   "primetime": [
-    {
-     "matchup": "Bengals at Commanders",
-     "time": "5:15 PM",
-     "network": "ESPN",
-     "state": "pre"
-    }
-   ],
-   "all": [
-    {
-     "matchup": "Bengals at Commanders",
-     "time": "5:15 PM",
-     "network": "ESPN",
-     "state": "pre"
-    }
-   ]
+   "count": 0,
+   "primetime": [],
+   "all": []
   },
   "golf": {
    "none": false,
-   "name": "The RSM Classic",
-   "state": "post",
+   "name": "Hero World Challenge",
+   "state": "pre",
    "detail": "",
-   "start": "Wed Nov 18",
-   "leaders": [
-    {
-     "name": "Marco Penge",
-     "score": "-17"
-    },
-    {
-     "name": "Michael Thorbjornsen",
-     "score": "-16"
-    },
-    {
-     "name": "Haotong Li",
-     "score": "-16"
-    }
-   ]
+   "start": "Wed Dec 2",
+   "leaders": []
   }
  },
  "wiki": {
