@@ -1,33 +1,27 @@
 {
- "generated": "2026-11-25T14:19:31.024495-08:00",
+ "generated": "2026-11-26T14:13:06.470870-08:00",
  "ai": true,
  "ai_status": {
   "state": "ok",
   "detail": "gemini-3.5-flash-lite"
  },
- "overview": "Global markets face continued pressure as U.S. stocks slump amid escalating concerns over artificial intelligence, tariffs, and interest rates, while severe weather disrupts the East Coast and California's tides reach unprecedented levels. In commercial real estate, major market dynamics are highlighted by transactions such as Netflix acquiring a historic Los Angeles studio at a discount and ongoing shifts in national office vacancy rates. Locally in San Francisco, the state is poised to enforce drastic measures to boost housing production as the city struggles to meet permit goals, even as Google prepares to open its first store in Union Square. Meanwhile, Hawaii governance sees Governor Josh Green elevating deputy directors to lead state departments and demanding rapid oil spill notifications following significant environmental concerns surrounding the H-Power plant.",
+ "overview": "Global headlines cover environmental damage following a capsized tanker near Ibiza and an explosion at a Bangkok oil refinery. In commercial real estate, tight supply and higher interest rates continue to shape project financing and market dynamics. San Francisco news features the resignation of a city department head amid a conflict of interest probe. Meanwhile, Hawaii faces extreme weather with high surf warnings and potential vog levels from volcanic activity.",
  "sections": [
   {
    "key": "general",
    "title": "Top news",
    "items": [
     {
-     "title": "US stocks fall further as fears over AI intensify",
-     "summary": "All three main US indexes were down in early trading, with the tech-dominated Nasdaq down almost 4% as AI fears intensified.",
-     "url": "https://www.bbc.co.uk/news/articles/cq0md8g14zryo?at_medium=RSS&at_campaign=rss",
+     "title": "Diesel tanker carrying up to 7,000 tonnes capsizes near Ibiza, killing one",
+     "summary": "A diesel tanker carrying up to 7,000 tonnes capsized near Ibiza, leaving one person dead as Spain's sea rescue service assesses potential environmental damage.",
+     "url": "https://www.bbc.co.uk/news/articles/c9gklryvj24do?at_medium=RSS&at_campaign=rss",
      "source": "BBC"
     },
     {
-     "title": "California’s Tides Are in ‘Uncharted Territory’ as Water Surges Higher",
-     "summary": "A section of a pier collapsed and tide records were broken in San Diego, Santa Barbara, and Monterey as California's tides reached uncharted territory.",
-     "url": "https://www.nytimes.com/2026/11/25/weather/california-king-tides-sf-la.html",
-     "source": "NYT"
-    },
-    {
-     "title": "Stocks Slump Again as Investors Fret About A.I., Tariffs and Inflation",
-     "summary": "Nvidia and other tech companies fell as investors weighed developments in global trade and the path of interest rates.",
-     "url": "https://www.nytimes.com/2026/11/25/business/stocks-sp500-nvidia-ai.html",
-     "source": "NYT"
+     "title": "Nine injured, three critically, after Bangkok oil refinery explosion",
+     "summary": "An explosion at a Bangkok oil refinery left nine people injured, three critically, and sent black smoke billowing across the city skyline.",
+     "url": "https://www.bbc.co.uk/news/articles/crx209kwk4kzo?at_medium=RSS&at_campaign=rss",
+     "source": "BBC"
     }
    ]
   },
@@ -36,27 +30,15 @@
    "title": "Commercial real estate",
    "items": [
     {
+     "title": "In Long Island Real Estate in 2027, Tight Supply Will Be a Key Driver",
+     "summary": "As 2027 approaches, tighter lending standards and higher interest rates are placing additional pressure on real estate development and project financing on Long Island.",
+     "url": "https://commercialobserver.com/2026/11/long-island-real-estate-2027-drivers/",
+     "source": "Commercial Observer"
+    },
+    {
      "title": "Flight to Quality Deepens Divide Among Major U.S. Office Markets",
-     "summary": "The national office vacancy rate declined 140 basis points annually to 17.2 percent in October, though the recovery remains uneven across major U.S. cities.",
+     "summary": "The national office vacancy rate declined 140 basis points annually to 17.2 percent in October as a flight to quality deepens the divide among major U.S. cities.",
      "url": "https://commercialobserver.com/2026/11/us-office-investment-sales-rent/",
-     "source": "Commercial Observer"
-    },
-    {
-     "title": "Vornado Sells 49% Stake in 90 Park Avenue to Sixth Street, DivcoWest",
-     "summary": "Vornado Realty Trust sold a 49 percent stake in its 41-year-old Class A office building at 90 Park Avenue to Sixth Street and DivcoWest.",
-     "url": "https://commercialobserver.com/2026/11/vornado-90-park-avenue-sixth-street-divco/",
-     "source": "Commercial Observer"
-    },
-    {
-     "title": "Netflix Buys Historic Radford Studio Center in L.A. for $380M",
-     "summary": "Netflix has acquired one of Los Angeles’ landmark film and television studios, the Radford Studio Center, for $380 million at a steep discount.",
-     "url": "https://commercialobserver.com/2026/11/netflix-radford-studio-center-la-hackman-hollywood/",
-     "source": "Commercial Observer"
-    },
-    {
-     "title": "Law Firms Expand Office Footprints as Leasing Nears Annual Record",
-     "summary": "U.S. law firms are on pace for a second straight record year of office leasing, with many continuing to expand their footprints.",
-     "url": "https://commercialobserver.com/2026/11/law-firms-office-leasing-q3/",
      "source": "Commercial Observer"
     }
    ]
@@ -66,21 +48,15 @@
    "title": "San Francisco",
    "items": [
     {
-     "title": "In a city getting richer by the day, hunger is worse than at the height of the pandemic",
-     "summary": "Federal cuts are squeezing working families in San Francisco, leaving hunger worse than at the height of the pandemic as tech money pours in.",
-     "url": "https://sfstandard.com/2026/11/25/san-francisco-marin-food-bank-record-food-insecurity-policy-philanthropy/",
-     "source": "SF Standard"
-    },
-    {
-     "title": "State set to force S.F. to pass ‘drastic measures’ to boost housing production",
-     "summary": "San Francisco is unlikely to meet a state-imposed deadline to issue 29,000 building permits by January 2027, prompting the state to force drastic measures.",
-     "url": "https://missionlocal.org/2026/11/san-francisco-housing-circuit-breaker-mayor-lurie-yimby-upzoning/",
+     "title": "Kate Sofis resigns as head of San Francisco War Memorial amid city probe",
+     "summary": "Kate Sofis resigned as head of the San Francisco War Memorial following a special board meeting and an ongoing investigation into her performance.",
+     "url": "https://missionlocal.org/2026/11/kate-sofis-resigns-san-francisco-war-memorial/",
      "source": "Mission Local"
     },
     {
-     "title": "Google to open first SF store as tech companies flock to Union Square",
-     "summary": "Google is set to open its first San Francisco store as tech companies and younger tenants flock back to fill spaces in Union Square.",
-     "url": "https://sfstandard.com/2026/11/24/google-open-first-sf-store-as-as-tech-companies-flock-union-square/",
+     "title": "SF city department head resigns amidst conflict of interest probe",
+     "summary": "The resignation of Kate Sofis marks the latest controversy involving a city official connected to former Mayor London Breed's administration.",
+     "url": "https://sfstandard.com/2026/11/25/san-francisco-kate-sofis-war-memorial-grant-partner/",
      "source": "SF Standard"
     }
    ]
@@ -90,74 +66,54 @@
    "title": "Hawaii",
    "items": [
     {
-     "title": "Green elevates 6 deputy directors to lead Hawaii departments",
-     "summary": "Gov. Josh Green appointed six deputy directors to lead state departments as he assembles his second-term Cabinet.",
-     "url": "https://www.staradvertiser.com/2026/11/25/breaking-news/green-elevates-6-deputy-directors-to-lead-hawaii-departments/",
+     "title": "High surf warning extended as waves up to 45 feet pound Hawaii’s north shores",
+     "summary": "An extended high surf warning brings waves up to 45 feet to Hawaii's north shores alongside summit winds reaching up to 115 mph.",
+     "url": "https://www.staradvertiser.com/2026/11/26/breaking-news/high-surf-warning-extended-as-waves-up-to-45-feet-pound-hawaiis-north-shores/",
      "source": "Star-Advertiser"
     },
     {
-     "title": "H-Power Operator’s National Track Record: Sued, Cited And Fired",
-     "summary": "Honolulu is joining jurisdictions aiming to sever ties with Reworld, the operator of the H-Power plant, following a 400,000-gallon leak.",
-     "url": "https://www.civilbeat.org/2026/11/h-power-operators-national-track-record-sued-cited-and-fired/",
-     "source": "Civil Beat"
-    },
-    {
-     "title": "Green Demands Rapid Notice Of Oil Spills After ‘Outrageous’ Delays",
-     "summary": "Gov. Green demanded rapid notice of oil spills and expressed outrage over the delayed reporting of the H-power incident, calling it immoral.",
-     "url": "https://www.civilbeat.org/2026/11/green-demands-rapid-notice-of-oil-spills-after-outrageous-delays/",
-     "source": "Civil Beat"
-    },
-    {
-     "title": "H-Power Spill Calls For Transparency, Accountability And Prevention",
-     "summary": "The H-Power spill has prompted calls for an independent investigation, accessible testing results, and enforceable prevention standards in Hawaii.",
-     "url": "https://www.civilbeat.org/2026/11/h-power-spill-calls-for-transparency-accountability-and-prevention/",
-     "source": "Civil Beat"
+     "title": "Hawaii health officials warn of possible elevated vog levels",
+     "summary": "Hawaii health officials warn the public to take precautions regarding elevated vog levels driven by the ongoing Kilauea volcano eruption.",
+     "url": "https://www.staradvertiser.com/2026/11/26/breaking-news/hawaii-health-officials-warn-of-possible-elevated-vog-levels/",
+     "source": "Star-Advertiser"
     }
    ]
   }
  ],
  "sports": {
-  "date": "20261125",
+  "date": "20261126",
   "nba": {
-   "count": 9,
-   "warriors": [
-    {
-     "matchup": "Kings at Warriors",
-     "time": "7:00 PM",
-     "network": "",
-     "state": "pre"
-    }
-   ],
-   "national": [
-    {
-     "matchup": "Heat at 76ers",
-     "time": "2:00 PM",
-     "network": "ESPN",
-     "state": "in"
-    },
-    {
-     "matchup": "Spurs at Trail Blazers",
-     "time": "7:00 PM",
-     "network": "ESPN, KUNP 16, BlazerVision",
-     "state": "pre"
-    }
-   ]
+   "count": 0,
+   "warriors": [],
+   "national": []
   },
   "nfl": {
-   "count": 1,
+   "count": 3,
    "primetime": [
     {
-     "matchup": "Packers at Rams",
-     "time": "5:00 PM",
-     "network": "Netflix",
+     "matchup": "Chiefs at Bills",
+     "time": "5:20 PM",
+     "network": "NBC",
      "state": "pre"
     }
    ],
    "all": [
     {
-     "matchup": "Packers at Rams",
-     "time": "5:00 PM",
-     "network": "Netflix",
+     "matchup": "Bears at Lions",
+     "time": "10:00 AM",
+     "network": "CBS",
+     "state": "post"
+    },
+    {
+     "matchup": "Eagles at Cowboys",
+     "time": "1:30 PM",
+     "network": "Fox",
+     "state": "in"
+    },
+    {
+     "matchup": "Chiefs at Bills",
+     "time": "5:20 PM",
+     "network": "NBC",
      "state": "pre"
     }
    ]
@@ -172,19 +128,19 @@
   }
  },
  "wiki": {
-  "title": "Infancy Gospel of Thomas",
-  "url": "https://en.wikipedia.org/wiki/Infancy_Gospel_of_Thomas",
-  "extract": "The Infancy Gospel of Thomas is an apocryphal gospel about the childhood of Jesus. Together with the Gospel of James, it is one of the earliest and most influential sources detailing the activities and life of the young Jesus, although neither text is included in the New Testament canon. Its creation is generally dated to the second century. The oldest extant fragmentary writing is in Koine Greek and dates to the fourth or fifth century; Latin and Syriac attestations to a short form exist from the fifth or sixth century; and an 11th-century manuscript in Greek contains the earliest extant long form of the work. Variants flourished that expanded the infancy gospel by combining it with other stories in larger works and anthologies; the Gospel of Pseudo-Matthew is one example that proved popular in the Latin-speaking Western Church during the Middle Ages.",
+  "title": "Tabancale language",
+  "url": "https://en.wikipedia.org/wiki/Tabancale_language",
+  "extract": "Tabancale is an extinct language formerly spoken in the village of Aconipa, located along the Chinchipe River in the Department of Cajamarca, Peru, as well as in neighboring Ecuador, by the Tabancale people. Only five words were collected in the 16th century and they are not demonstrably related to those in other languages. As a result, it has been categorized as a language isolate by some and left unclassified by others; a connection has been proposed with the Chicham languages, spoken in Peru and Ecuador. The Tabancale people are thought to have switched to Quechua after they were conquered in 1549.",
   "otd": [
    {
-    "year": 2013,
-    "text": "English-Irish boy band One Direction released their third studio album Midnight Memories which debuted at number one on the Billboard 200 and became the best-selling album of 2013.",
-    "url": "https://en.wikipedia.org/wiki/One_Direction"
+    "year": 2011,
+    "text": "In a friendly-fire incident, a skirmish occurred between U.S.-led NATO forces and Pakistani security forces at two military checkposts along the Afghanistan–Pakistan border.",
+    "url": "https://en.wikipedia.org/wiki/Friendly_fire"
    },
    {
-    "year": 1984,
-    "text": "Band Aid, a supergroup consisting of more than 30 leading British and Irish pop musicians, recorded the song \"Do They Know It's Christmas?\" to raise money for famine relief in Ethiopia.",
-    "url": "https://en.wikipedia.org/wiki/Do_They_Know_It's_Christmas%3F"
+    "year": 2011,
+    "text": "Mars Science Laboratory, a NASA mission carrying the rover Curiosity (pictured) on board, was launched from Cape Canaveral.",
+    "url": "https://en.wikipedia.org/wiki/Mars_Science_Laboratory"
    }
   ]
  },
