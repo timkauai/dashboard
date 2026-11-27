@@ -1,26 +1,26 @@
 {
- "generated": "2026-11-26T14:13:06.470870-08:00",
+ "generated": "2026-11-27T13:53:02.744833-08:00",
  "ai": true,
  "ai_status": {
   "state": "ok",
   "detail": "gemini-3.5-flash-lite"
  },
- "overview": "Global headlines cover environmental damage following a capsized tanker near Ibiza and an explosion at a Bangkok oil refinery. In commercial real estate, tight supply and higher interest rates continue to shape project financing and market dynamics. San Francisco news features the resignation of a city department head amid a conflict of interest probe. Meanwhile, Hawaii faces extreme weather with high surf warnings and potential vog levels from volcanic activity.",
+ "overview": "Today's briefing covers key national and international developments, including Supreme Court rulings and ongoing conflicts, alongside regional updates that impact local communities. In commercial real estate, tight supply and rising interest rates remain primary drivers shaping project financing and development challenges. Meanwhile, local developments highlight important transparency measures for county government in Kauai and community efforts regarding housing and travel adjustments. Readers can review specific updates across the general, commercial real estate, San Francisco, and Hawaii sections below.",
  "sections": [
   {
    "key": "general",
    "title": "Top news",
    "items": [
     {
-     "title": "Diesel tanker carrying up to 7,000 tonnes capsizes near Ibiza, killing one",
-     "summary": "A diesel tanker carrying up to 7,000 tonnes capsized near Ibiza, leaving one person dead as Spain's sea rescue service assesses potential environmental damage.",
-     "url": "https://www.bbc.co.uk/news/articles/c9gklryvj24do?at_medium=RSS&at_campaign=rss",
-     "source": "BBC"
+     "title": "Quebec Can Keep Its Ban on Religious Symbols, Canada’s Top Court Rules",
+     "summary": "Canada's Supreme Court upheld Quebec's ban on religious symbols for public servants, backing the province's use of a constitutional override.",
+     "url": "https://www.nytimes.com/2026/11/27/world/canada/canada-supreme-court-quebec-religion-bill-21.html",
+     "source": "NYT"
     },
     {
-     "title": "Nine injured, three critically, after Bangkok oil refinery explosion",
-     "summary": "An explosion at a Bangkok oil refinery left nine people injured, three critically, and sent black smoke billowing across the city skyline.",
-     "url": "https://www.bbc.co.uk/news/articles/crx209kwk4kzo?at_medium=RSS&at_campaign=rss",
+     "title": "Weary of war but with no sign of backing down, Kyiv faces another punishing winter",
+     "summary": "Ukraine faces another punishing and weary winter of war with no clear sign of an end in sight.",
+     "url": "https://www.bbc.co.uk/news/articles/c3pw4yrr8kz9o?at_medium=RSS&at_campaign=rss",
      "source": "BBC"
     }
    ]
@@ -31,14 +31,8 @@
    "items": [
     {
      "title": "In Long Island Real Estate in 2027, Tight Supply Will Be a Key Driver",
-     "summary": "As 2027 approaches, tighter lending standards and higher interest rates are placing additional pressure on real estate development and project financing on Long Island.",
+     "summary": "As 2027 approaches, tight supply, higher interest rates, and tighter lending standards will be key drivers and pressures for Long Island real estate development.",
      "url": "https://commercialobserver.com/2026/11/long-island-real-estate-2027-drivers/",
-     "source": "Commercial Observer"
-    },
-    {
-     "title": "Flight to Quality Deepens Divide Among Major U.S. Office Markets",
-     "summary": "The national office vacancy rate declined 140 basis points annually to 17.2 percent in October as a flight to quality deepens the divide among major U.S. cities.",
-     "url": "https://commercialobserver.com/2026/11/us-office-investment-sales-rent/",
      "source": "Commercial Observer"
     }
    ]
@@ -46,75 +40,63 @@
   {
    "key": "sf",
    "title": "San Francisco",
-   "items": [
-    {
-     "title": "Kate Sofis resigns as head of San Francisco War Memorial amid city probe",
-     "summary": "Kate Sofis resigned as head of the San Francisco War Memorial following a special board meeting and an ongoing investigation into her performance.",
-     "url": "https://missionlocal.org/2026/11/kate-sofis-resigns-san-francisco-war-memorial/",
-     "source": "Mission Local"
-    },
-    {
-     "title": "SF city department head resigns amidst conflict of interest probe",
-     "summary": "The resignation of Kate Sofis marks the latest controversy involving a city official connected to former Mayor London Breed's administration.",
-     "url": "https://sfstandard.com/2026/11/25/san-francisco-kate-sofis-war-memorial-grant-partner/",
-     "source": "SF Standard"
-    }
-   ]
+   "items": []
   },
   {
    "key": "hawaii",
    "title": "Hawaii",
    "items": [
     {
-     "title": "High surf warning extended as waves up to 45 feet pound Hawaii’s north shores",
-     "summary": "An extended high surf warning brings waves up to 45 feet to Hawaii's north shores alongside summit winds reaching up to 115 mph.",
-     "url": "https://www.staradvertiser.com/2026/11/26/breaking-news/high-surf-warning-extended-as-waves-up-to-45-feet-pound-hawaiis-north-shores/",
-     "source": "Star-Advertiser"
+     "title": "Kaua‘i County Council Now Posts Written Testimony Online",
+     "summary": "The Kaua‘i County Council now posts written testimony online so the public can view records without submitting requests.",
+     "url": "https://www.civilbeat.org/2026/11/kauai-county-council-now-posts-written-testimony-online/",
+     "source": "Civil Beat"
     },
     {
-     "title": "Hawaii health officials warn of possible elevated vog levels",
-     "summary": "Hawaii health officials warn the public to take precautions regarding elevated vog levels driven by the ongoing Kilauea volcano eruption.",
-     "url": "https://www.staradvertiser.com/2026/11/26/breaking-news/hawaii-health-officials-warn-of-possible-elevated-vog-levels/",
+     "title": "The show will go on for Hawaii marching band at Macy’s parade",
+     "summary": "The Na Koa Alii Hawaii All-State Marching Band overcame unexpected parade delays with heavy donations and airline support to cover costs.",
+     "url": "https://www.staradvertiser.com/2026/11/27/hawaii-news/the-show-will-go-on-for-hawaii-marching-band-at-macys-parade/",
      "source": "Star-Advertiser"
     }
    ]
   }
  ],
  "sports": {
-  "date": "20261126",
+  "date": "20261127",
   "nba": {
-   "count": 0,
-   "warriors": [],
-   "national": []
-  },
-  "nfl": {
-   "count": 3,
-   "primetime": [
+   "count": 11,
+   "warriors": [
     {
-     "matchup": "Chiefs at Bills",
-     "time": "5:20 PM",
-     "network": "NBC",
+     "matchup": "Warriors at Trail Blazers",
+     "time": "6:30 PM",
+     "network": "KUNP 16, BlazerVision",
      "state": "pre"
     }
    ],
+   "national": [
+    {
+     "matchup": "Heat at Knicks",
+     "time": "4:00 PM",
+     "network": "Prime Video",
+     "state": "pre"
+    },
+    {
+     "matchup": "Lakers at Spurs",
+     "time": "6:30 PM",
+     "network": "Prime Video",
+     "state": "pre"
+    }
+   ]
+  },
+  "nfl": {
+   "count": 1,
+   "primetime": [],
    "all": [
     {
-     "matchup": "Bears at Lions",
-     "time": "10:00 AM",
-     "network": "CBS",
-     "state": "post"
-    },
-    {
-     "matchup": "Eagles at Cowboys",
-     "time": "1:30 PM",
-     "network": "Fox",
+     "matchup": "Broncos at Steelers",
+     "time": "12:00 PM",
+     "network": "Prime Video",
      "state": "in"
-    },
-    {
-     "matchup": "Chiefs at Bills",
-     "time": "5:20 PM",
-     "network": "NBC",
-     "state": "pre"
     }
    ]
   },
@@ -128,19 +110,19 @@
   }
  },
  "wiki": {
-  "title": "Tabancale language",
-  "url": "https://en.wikipedia.org/wiki/Tabancale_language",
-  "extract": "Tabancale is an extinct language formerly spoken in the village of Aconipa, located along the Chinchipe River in the Department of Cajamarca, Peru, as well as in neighboring Ecuador, by the Tabancale people. Only five words were collected in the 16th century and they are not demonstrably related to those in other languages. As a result, it has been categorized as a language isolate by some and left unclassified by others; a connection has been proposed with the Chicham languages, spoken in Peru and Ecuador. The Tabancale people are thought to have switched to Quechua after they were conquered in 1549.",
+  "title": "1909 Chinese provincial elections",
+  "url": "https://en.wikipedia.org/wiki/1909_Chinese_provincial_elections",
+  "extract": "The Qing dynasty held its first set of provincial assembly elections from February to June 1909. Following a lengthy period of political turmoil which included the failure of the 1898 Hundred Days' Reform and the 1899–1901 Boxer Rebellion, the constitutionalist movement gained approval from the imperial court and Empress Dowager Cixi. Seeing local self-governance as a first step towards constitutionalism, in 1907, the Qing Government approved the creation of provincial assemblies. The following year, an indirect election system was outlined to fill these assemblies. They were held in 21 of the country's 22 provinces; Xinjiang elections were postponed due to low rates of literacy in Chinese. Suffrage and candidacy were limited to a small population of wealthy men, most of whom were members of the scholar-gentry. Public attitudes towards the elections were generally apathetic, and corruption, fraud, and vote buying were common across the country. Turnout greatly varied between provinces and regions, but was generally low.",
   "otd": [
    {
-    "year": 2011,
-    "text": "In a friendly-fire incident, a skirmish occurred between U.S.-led NATO forces and Pakistani security forces at two military checkposts along the Afghanistan–Pakistan border.",
-    "url": "https://en.wikipedia.org/wiki/Friendly_fire"
+    "year": 2020,
+    "text": "Nuclear physicist Mohsen Fakhrizadeh, regarded as the chief of Iran's nuclear program, was assassinated, allegedly by Mossad.",
+    "url": "https://en.wikipedia.org/wiki/Mohsen_Fakhrizadeh"
    },
    {
-    "year": 2011,
-    "text": "Mars Science Laboratory, a NASA mission carrying the rover Curiosity (pictured) on board, was launched from Cape Canaveral.",
-    "url": "https://en.wikipedia.org/wiki/Mars_Science_Laboratory"
+    "year": 2009,
+    "text": "A bomb exploded under, and derailed, a Russian high-speed train travelling between Moscow and Saint Petersburg, killing 28 passengers.",
+    "url": "https://en.wikipedia.org/wiki/2009_Nevsky_Express_bombing"
    }
   ]
  },
